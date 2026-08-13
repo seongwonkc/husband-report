@@ -1,0 +1,121 @@
+# 남편은 오늘 뭐 했어?
+
+`D:/GitHub` 아래 모든 저장소의 그날 커밋을 긁어서, **기술을 전혀 모르는 사람이 읽을 수 있는
+한국어 하루 요약 웹페이지**로 만듭니다. GitHub Pages 로 그대로 배포됩니다.
+
+---
+
+## ⚠️ 먼저 읽어야 할 것 — 저장소를 Private 으로 두세요
+
+이 사이트에 들어가는 내용은 **사업상 민감합니다.** 지금 들어 있는 것만 해도:
+
+- 실사용자 수와 이탈률 (`진단을 끝낸 42명 중 21명이 이탈`, `가입 29명 중 20명`)
+- 가격 정책과 그 모순 (`무료 vs 자리당 $30`)
+- 내부에서 철회한 통계 수치
+- 보안 구멍을 언제 어디서 막았는지
+
+**GitHub Pages 를 Public 저장소에서 켜면 이 내용이 전부 인터넷에 공개됩니다.**
+검색에도 잡히고, 경쟁사도 읽을 수 있습니다.
+
+권장 설정:
+
+| 방법 | 설명 |
+|---|---|
+| **Private 저장소 + Pages** (권장) | GitHub Pro 이상이면 Private 저장소에서도 Pages 를 켤 수 있고, 로그인한 본인·초대한 사람만 볼 수 있습니다 |
+| Public 저장소 | 편하지만 위 내용이 전부 공개됩니다. 요약 문구에서 숫자를 빼고 쓰는 걸 전제로만 |
+
+`raw/` 폴더(커밋 원문 그대로)는 `.gitignore` 로 이미 제외해 뒀습니다.
+하지만 `days/` 와 `docs/data.js` 에도 지표가 들어가므로, 그것만으로는 충분하지 않습니다.
+
+---
+
+## 매일 하는 일
+
+```bash
+cd d:/GitHub/husband-report
+
+python report.py collect      # 1. 오늘 커밋 긁어오기 → raw/2026-08-13.json
+                              # 2. Claude 에게 "오늘 것 정리해줘" → days/2026-08-13.json 작성
+python report.py build        # 3. 사이트 데이터 만들기 → docs/data.js
+
+git add -A && git commit -m "2026-08-13" && git push
+```
+
+특정 날짜를 다시 만들려면 `python report.py collect 2026-08-11` 처럼 날짜를 붙입니다.
+
+### Claude 에게 시킬 때
+
+> 오늘 작업 정리해서 `days/` 에 넣어줘
+
+Claude 가 `raw/<날짜>.json` 을 읽고 한국어 설명을 써서 `days/<날짜>.json` 을 만듭니다.
+
+---
+
+## 폴더 구조
+
+```
+report.py            수집기 + 빌더 (표준 라이브러리만 사용, 설치할 것 없음)
+repos.json           저장소 → 아내가 읽을 한국어 이름
+raw/<날짜>.json      ① 자동 수집된 원본 (숫자·시각·커밋 원문)   ※ git 제외
+days/<날짜>.json     ② 사람이 쓴 한국어 설명만
+docs/index.html      ③ 사이트 본체
+docs/data.js         ①+② 를 합친 결과. build 가 만듭니다
+```
+
+**숫자는 손으로 옮겨 적지 않습니다.** `days/` 에는 글만 쓰고, 커밋 수·시각·파일 수는
+`build` 가 `raw/` 에서 자동으로 가져옵니다. 그래서 요약과 숫자가 어긋날 일이 없습니다.
+
+### `days/<날짜>.json` 형식
+
+```json
+{
+  "date": "2026-08-13",
+  "headline": "그날 하루를 두세 문장으로. 제일 중요한 것 하나를 앞에.",
+  "note": "(선택) 덧붙이고 싶은 한마디",
+  "projects": {
+    "seneca_maro": {
+      "summary": "이 프로젝트에서 뭘 했고 그게 왜 중요한지, 사람 말로.",
+      "bullets": ["짧게 끊어 읽을 항목", "없어도 됩니다"]
+    }
+  }
+}
+```
+
+`projects` 의 열쇠(`seneca_maro`)는 `raw/` 파일에 있는 `repo` 값과 같아야 합니다.
+설명을 빠뜨린 프로젝트가 있으면 `build` 가 경고해 주고, 사이트에는 커밋 원문이 그대로 보입니다.
+
+---
+
+## 처음 한 번만 하는 설정
+
+```bash
+cd d:/GitHub/husband-report
+git init -b main
+git add -A
+git commit -m "첫 커밋"
+gh repo create husband-report --private --source=. --push
+```
+
+그다음 GitHub 저장소에서 **Settings → Pages → Source: `main` 브랜치의 `/docs` 폴더** 로 지정합니다.
+1~2분 뒤 `https://<아이디>.github.io/husband-report/` 에서 열립니다.
+
+---
+
+## 동작 방식에서 알아 둘 것
+
+- **남편 커밋만 셉니다.** `report.py` 의 `AUTHOR_EMAILS` 에 있는 이메일
+  (`seongwonkc@gmail.com`) 만 집계합니다. Sungwon 등 다른 사람 커밋은 빠집니다.
+- **같은 저장소를 여러 번 세지 않습니다.** `seneca_maro-aptitude` 나
+  `daniellabsat-main-audit` 같은 워크트리는 부모 저장소와 하나로 묶입니다.
+- **브랜치가 갈라져도 한 번만 셉니다.** `main` 과 `demo` 양쪽에 같은 작업이 올라가 있으면
+  (daniellabsat 이 그렇습니다) 제목+시각으로 묶어 한 건으로 봅니다.
+- **stash 는 작업이 아닙니다.** `refs/stash` 는 제외합니다.
+- **GitHub 에 안 올린 커밋도 표시됩니다.** 로컬에만 있는 커밋은 `아직 안 올림` 으로 나옵니다.
+- **git 저장소가 아닌 폴더는 안 잡힙니다.** `D:/GitHub/ForgeSAT` 처럼 `.git` 이 없는 폴더의
+  작업은 기록에 남지 않습니다.
+- 사이트는 인터넷 연결 없이도 열립니다. `docs/index.html` 을 그냥 더블클릭해도 됩니다.
+
+## 저장소 이름 바꾸기
+
+`repos.json` 의 `names` 를 고치면 됩니다. 몇 개는 추측으로 채워 넣었으니 확인해 주세요.
+`_exclude` 에 넣은 것(남의 코드)은 아예 집계에서 빠집니다.

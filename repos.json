@@ -1,0 +1,27 @@
+{
+  "_comment": "레포 이름 -> 아내가 읽을 한국어 이름. 여기 없는 레포는 폴더 이름 그대로 나옵니다. 추측으로 채운 것들이 있으니 틀린 건 고치세요.",
+  "_exclude": [
+    "hugo-PaperMod",
+    "telegram-cache-decryption"
+  ],
+  "names": {
+    "seneca_maro":              { "ko": "세네카 학습 앱",            "note": "인적성 · 토익스피킹 · 글쓰기" },
+    "seneca_ai":                { "ko": "세네카 본체",              "note": "학습 분석 엔진" },
+    "seneca_wiki":              { "ko": "세네카 기록실",            "note": "사내 문서 · 위키" },
+    "seneca_sdk":               { "ko": "세네카 개발 도구",          "note": "다른 앱들이 갖다 쓰는 공용 부품" },
+    "daniellabsat":             { "ko": "다니엘랩 SAT",            "note": "학원 학생들이 쓰는 학습 사이트" },
+    "daniellabconsulting":      { "ko": "다니엘랩 컨설팅",          "note": "홈페이지" },
+    "cato-ds":                  { "ko": "CATO",                   "note": "학원 운영 관리 시스템" },
+    "coya-poc":                 { "ko": "코야",                    "note": "인생 시뮬레이션 게임 (개인 실험작)" },
+    "ocean_vector":             { "ko": "포지 SAT",                "note": "학생용 무료 SAT 사이트 · forgesat.com" },
+    "ocean":                    { "ko": "오션",                    "note": "" },
+    "theargosy":                { "ko": "아르고시",                "note": "" },
+    "argosyfinal":              { "ko": "아르고시 (최종본)",         "note": "" },
+    "joyinads":                 { "ko": "조이인애즈",              "note": "블로그 · 홈페이지" },
+    "princess-maker-guide":     { "ko": "프린세스 메이커 공략집",     "note": "아내 선물 🎀" },
+    "invasive-urchin-tracker":  { "ko": "성게 추적기",              "note": "" },
+    "jellyfishtracker":         { "ko": "해파리 추적기",            "note": "" },
+    "sleep-scroll":             { "ko": "슬립 스크롤",              "note": "" },
+    "state_standards_corpus":   { "ko": "미국 교육과정 자료 정리",    "note": "" }
+  }
+}
