@@ -4,195 +4,262 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<title>남편은 오늘 뭐 했어?</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💼</text></svg>">
+<meta name="robots" content="noindex, nofollow">
+<title>공주님, 오늘 남편은요…</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👑</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&family=Gaegu:wght@700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --bg:#faf7f2; --card:#fffdfa; --ink:#2a2521; --muted:#7b7168; --faint:#a99f95;
-    --line:#e9e0d5; --accent:#a9793f; --accent-soft:#f3e7d6; --good:#4f7a52; --warn:#b06a3b;
-    --shadow:0 1px 2px rgba(60,45,25,.05), 0 6px 20px rgba(60,45,25,.05);
-    --radius:16px;
+    --bg:#fff6fa; --bg2:#fdeaf3; --card:#ffffff;
+    --ink:#4b3a52; --ink2:#6d5a75; --muted:#9b87a5; --faint:#c3b0cb;
+    --pink:#f48fb1; --pink-deep:#e56d99; --pink-soft:#ffe4ef;
+    --lav:#b193e4; --lav-soft:#f0e8fd;
+    --mint:#7fd3bd; --mint-soft:#dff6f0;
+    --gold:#efbe4c;
+    --line:#f7dce8;
+    --shadow:0 2px 4px rgba(226,140,180,.10), 0 10px 28px rgba(200,130,180,.13);
+    --radius:22px;
   }
   @media (prefers-color-scheme:dark){
     :root{
-      --bg:#17161a; --card:#1e1d22; --ink:#eee9e2; --muted:#a29a91; --faint:#736c65;
-      --line:#302e35; --accent:#d9a86a; --accent-soft:#332a1e; --good:#84b189; --warn:#d69a6a;
-      --shadow:0 1px 2px rgba(0,0,0,.3), 0 6px 20px rgba(0,0,0,.25);
+      --bg:#1e1726; --bg2:#271e33; --card:#2a2135;
+      --ink:#f6ebf7; --ink2:#dcc9e2; --muted:#a794b0; --faint:#7c6a86;
+      --pink:#f79dbc; --pink-deep:#ffb3cd; --pink-soft:#3d2a37;
+      --lav:#c4aaf2; --lav-soft:#332948;
+      --mint:#8fdcc7; --mint-soft:#223b36;
+      --gold:#f5cd6b;
+      --line:#3b2f47;
+      --shadow:0 2px 4px rgba(0,0,0,.25), 0 10px 28px rgba(0,0,0,.3);
     }
   }
+  :root[data-theme="dark"]{
+    --bg:#1e1726; --bg2:#271e33; --card:#2a2135;
+    --ink:#f6ebf7; --ink2:#dcc9e2; --muted:#a794b0; --faint:#7c6a86;
+    --pink:#f79dbc; --pink-deep:#ffb3cd; --pink-soft:#3d2a37;
+    --lav:#c4aaf2; --lav-soft:#332948; --mint:#8fdcc7; --mint-soft:#223b36;
+    --gold:#f5cd6b; --line:#3b2f47;
+    --shadow:0 2px 4px rgba(0,0,0,.25), 0 10px 28px rgba(0,0,0,.3);
+  }
+
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%}
   body{
-    margin:0; background:var(--bg); color:var(--ink);
+    margin:0; color:var(--ink);
+    background:
+      radial-gradient(1100px 460px at 50% -8%, var(--bg2) 0%, transparent 62%),
+      var(--bg);
+    background-attachment:fixed;
     font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",
                 "맑은 고딕","Noto Sans KR","Segoe UI",Roboto,sans-serif;
-    line-height:1.75; letter-spacing:-.01em;
-    padding:0 20px 80px; word-break:keep-all; overflow-wrap:anywhere;
+    line-height:1.78; letter-spacing:-.01em;
+    padding:0 18px 70px; word-break:keep-all; overflow-wrap:anywhere;
   }
-  .wrap{max-width:680px; margin:0 auto}
+  .wrap{max-width:640px; margin:0 auto; position:relative; z-index:1}
+  .cute{font-family:"Jua","Malgun Gothic",sans-serif; font-weight:400; letter-spacing:0}
+  img.px{image-rendering:pixelated; image-rendering:crisp-edges}
+
+  /* ── 떠다니는 하트 ─────────────────────── */
+  .sky{position:fixed; inset:0; pointer-events:none; overflow:hidden; z-index:0}
+  .sky i{
+    position:absolute; font-size:15px; opacity:.30;
+    animation:float linear infinite;
+  }
+  @keyframes float{
+    0%{transform:translateY(102vh) scale(.7) rotate(0deg)}
+    100%{transform:translateY(-12vh) scale(1.05) rotate(22deg)}
+  }
+  @media (prefers-reduced-motion:reduce){ .sky{display:none} }
 
   /* ── 머리말 ───────────────────────────── */
-  header{padding:44px 0 8px; text-align:center}
+  header{padding:34px 0 6px; text-align:center}
+  .crown{width:52px; height:52px; margin-bottom:2px; filter:drop-shadow(0 3px 5px rgba(220,150,80,.32))}
   h1{
-    margin:0; font-size:clamp(26px,6.4vw,36px); font-weight:800; letter-spacing:-.035em;
+    margin:0; font-size:clamp(23px,5.8vw,31px); color:var(--ink);
+    font-family:"Jua","Malgun Gothic",sans-serif; font-weight:400; letter-spacing:-.01em;
   }
-  h1 .em{color:var(--accent)}
-  .tagline{margin:8px 0 0; color:var(--muted); font-size:14px}
+  h1 em{font-style:normal; color:var(--pink-deep)}
+  .tagline{
+    margin:7px 0 0; color:var(--muted); font-size:13.5px;
+    font-family:"Gaegu","Malgun Gothic",cursive; font-size:16px;
+  }
 
   /* ── 날짜 이동 ─────────────────────────── */
-  .datebar{
-    display:flex; align-items:center; gap:8px; justify-content:center;
-    margin:26px 0 22px;
-  }
+  .datebar{display:flex; align-items:center; gap:9px; justify-content:center; margin:24px 0 18px}
   .nav{
-    flex:0 0 auto; width:42px; height:42px; border-radius:12px; cursor:pointer;
-    border:1px solid var(--line); background:var(--card); color:var(--ink);
-    font-size:17px; line-height:1; display:grid; place-items:center;
-    transition:background .15s, border-color .15s, transform .1s;
+    flex:0 0 auto; width:44px; height:44px; border-radius:50%; cursor:pointer;
+    border:2px solid var(--line); background:var(--card); color:var(--pink-deep);
+    font-size:17px; display:grid; place-items:center; box-shadow:var(--shadow);
+    transition:transform .14s, background .14s, border-color .14s;
   }
-  .nav:hover:not(:disabled){background:var(--accent-soft); border-color:var(--accent)}
-  .nav:active:not(:disabled){transform:scale(.94)}
-  .nav:disabled{opacity:.28; cursor:default}
+  .nav:hover:not(:disabled){background:var(--pink-soft); border-color:var(--pink); transform:scale(1.08)}
+  .nav:active:not(:disabled){transform:scale(.92)}
+  .nav:disabled{opacity:.3; cursor:default}
   .today{
-    flex:1 1 auto; text-align:center; border:1px solid var(--line); background:var(--card);
-    border-radius:12px; padding:7px 12px; min-width:0; box-shadow:var(--shadow);
+    position:relative; flex:1 1 auto; text-align:center; min-width:0;
+    background:var(--card); border:2px solid var(--line); border-radius:18px;
+    padding:8px 12px; box-shadow:var(--shadow);
   }
-  .today .d{font-size:17px; font-weight:700; letter-spacing:-.02em}
-  .today .w{font-size:12px; color:var(--muted); margin-top:-2px}
-  .today select{
-    position:absolute; opacity:0; inset:0; width:100%; height:100%; cursor:pointer;
-  }
-  .today{position:relative}
+  .today .d{font-size:17.5px; color:var(--ink); font-family:"Jua",sans-serif}
+  .today .w{font-size:12px; color:var(--pink-deep); margin-top:-3px}
+  .today select{position:absolute; inset:0; width:100%; height:100%; opacity:0; cursor:pointer}
 
-  /* ── 요약 카드 ─────────────────────────── */
+  /* ── 오늘 카드 ─────────────────────────── */
   .hero{
-    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    box-shadow:var(--shadow); padding:26px 24px 20px; margin-bottom:16px;
+    background:var(--card); border:2px solid var(--line); border-radius:var(--radius);
+    box-shadow:var(--shadow); padding:22px 22px 18px; margin-bottom:16px; position:relative;
   }
-  .hero p{
-    margin:0; font-size:clamp(17px,4.2vw,20px); font-weight:600; line-height:1.7;
-    letter-spacing:-.02em;
+  .hero::before{
+    content:""; position:absolute; inset:5px; border-radius:16px;
+    border:1.5px dashed var(--pink-soft); pointer-events:none;
   }
-  .hero .sub{
-    margin-top:10px; font-size:14.5px; font-weight:400; color:var(--muted); line-height:1.7;
+  .heroTop{display:flex; align-items:center; gap:14px; margin-bottom:14px}
+  .avatar{
+    width:104px; height:104px; flex:0 0 auto; border-radius:20px;
+    background:linear-gradient(160deg,var(--lav-soft),var(--pink-soft));
+    display:grid; place-items:center; border:2px solid var(--line);
   }
+  .avatar img{width:88px; height:88px}
+  .heroWho{flex:1 1 auto; min-width:0}
+  .lvName{
+    font-family:"Jua",sans-serif; font-size:20px; color:var(--pink-deep); line-height:1.3;
+  }
+  .lvBlurb{font-size:13px; color:var(--muted); margin-top:1px}
+  .hours{
+    margin-top:8px; display:inline-flex; align-items:baseline; gap:5px;
+    background:var(--pink-soft); border-radius:999px; padding:4px 13px;
+  }
+  .hours b{font-family:"Jua",sans-serif; font-size:21px; color:var(--pink-deep)}
+  .hours span{font-size:12px; color:var(--ink2)}
+  .est{margin-top:7px; border:0; padding:0}
+  .est summary{font-size:11.5px; color:var(--muted)}
+  .est summary::before{content:"?"; font-size:9px; width:13px; height:13px; border-radius:50%;
+    background:var(--lav-soft); color:var(--lav); display:grid; place-items:center; transform:none}
+  .est[open] summary::before{transform:none}
+  .est p{
+    margin:7px 0 0; font-size:11.5px; line-height:1.7; color:var(--muted);
+    background:var(--lav-soft); border-radius:11px; padding:8px 11px;
+  }
+
+  /* 온도계 */
+  .thermo{flex:0 0 auto; width:44px; height:132px}
+
+  .headline{
+    margin:0; font-size:16.5px; line-height:1.85; color:var(--ink); font-weight:600;
+    padding-top:14px; border-top:2px dotted var(--line);
+  }
+  .subnote{margin:9px 0 0; font-size:13.5px; color:var(--muted); font-weight:400}
 
   /* 하루 시간 띠 */
-  .clock{margin:22px 0 4px}
-  .track{
-    position:relative; height:9px; border-radius:99px; background:var(--accent-soft);
-    overflow:hidden;
-  }
-  .track .span{
-    position:absolute; top:0; bottom:0; background:var(--accent); opacity:.32; border-radius:99px;
-  }
-  .track .tick{
-    position:absolute; top:-3px; width:3px; height:15px; border-radius:99px;
-    background:var(--accent); transform:translateX(-1.5px);
-  }
-  .clock .labels{
-    display:flex; justify-content:space-between; font-size:11px; color:var(--faint);
-    margin-top:6px; font-variant-numeric:tabular-nums;
-  }
+  .clock{margin:16px 0 2px}
+  .track{position:relative; height:11px; border-radius:999px; background:var(--lav-soft); overflow:hidden}
+  .track .span{position:absolute; top:0; bottom:0; border-radius:999px;
+    background:linear-gradient(90deg,var(--lav),var(--pink)); opacity:.5}
+  .track .tick{position:absolute; top:-2px; width:4px; height:15px; border-radius:999px;
+    background:var(--pink-deep); transform:translateX(-2px)}
+  .clock .labels{display:flex; justify-content:space-between; font-size:10.5px;
+    color:var(--faint); margin-top:5px}
 
-  .stats{
-    display:flex; flex-wrap:wrap; gap:8px; margin-top:18px;
-    padding-top:16px; border-top:1px solid var(--line);
-  }
+  .stats{display:flex; flex-wrap:wrap; gap:7px; margin-top:15px}
   .stat{
-    background:var(--bg); border:1px solid var(--line); border-radius:10px;
-    padding:6px 11px; font-size:13px; color:var(--muted); white-space:nowrap;
+    background:var(--lav-soft); border-radius:999px; padding:5px 12px;
+    font-size:12.5px; color:var(--ink2); white-space:nowrap;
   }
-  .stat b{color:var(--ink); font-weight:700; font-variant-numeric:tabular-nums}
+  .stat b{color:var(--pink-deep); font-family:"Jua",sans-serif; font-size:14px}
 
   /* ── 프로젝트 카드 ──────────────────────── */
   .sec{
-    margin:30px 0 12px; font-size:12.5px; font-weight:700; color:var(--faint);
-    letter-spacing:.06em;
+    margin:28px 0 12px; text-align:center; font-family:"Jua",sans-serif;
+    font-size:15px; color:var(--pink-deep);
   }
+  .sec::before,.sec::after{content:" ♡ "; color:var(--faint)}
   .proj{
-    background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    box-shadow:var(--shadow); padding:22px 24px; margin-bottom:12px;
+    background:var(--card); border:2px solid var(--line); border-radius:var(--radius);
+    box-shadow:var(--shadow); padding:20px 21px; margin-bottom:13px;
   }
   .proj h2{
-    margin:0; font-size:17.5px; font-weight:750; letter-spacing:-.025em;
-    display:flex; align-items:baseline; gap:9px; flex-wrap:wrap;
+    margin:0; font-family:"Jua",sans-serif; font-size:17.5px; color:var(--ink);
+    display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; font-weight:400;
   }
-  .proj h2 .note{font-size:12.5px; font-weight:500; color:var(--faint); letter-spacing:0}
-  .proj .body{margin:11px 0 0; font-size:15.5px; line-height:1.8}
-  .proj ul{margin:12px 0 0; padding-left:0; list-style:none}
+  .proj h2 .note{font-family:inherit; font-size:12px; color:var(--faint); font-weight:400}
+  .proj .body{margin:10px 0 0; font-size:15px; line-height:1.85; color:var(--ink2)}
+  .proj ul{margin:12px 0 0; padding:0; list-style:none}
   .proj li{
-    position:relative; padding-left:19px; font-size:14.5px; line-height:1.72;
-    color:var(--muted); margin-bottom:5px;
+    position:relative; padding-left:21px; font-size:14px; line-height:1.75;
+    color:var(--ink2); margin-bottom:6px;
   }
-  .proj li::before{
-    content:""; position:absolute; left:3px; top:.72em; width:5px; height:5px;
-    border-radius:99px; background:var(--accent); opacity:.55;
-  }
-  .meta{
-    display:flex; flex-wrap:wrap; gap:7px; align-items:center;
-    margin-top:15px; font-size:12.5px; color:var(--faint);
-  }
+  .proj li::before{content:"♡"; position:absolute; left:2px; top:0; color:var(--pink); font-size:12px}
+  .meta{display:flex; flex-wrap:wrap; gap:6px; margin-top:14px}
   .chip{
-    background:var(--bg); border:1px solid var(--line); border-radius:99px;
-    padding:2.5px 10px; font-variant-numeric:tabular-nums;
+    background:var(--mint-soft); border-radius:999px; padding:3px 11px;
+    font-size:11.5px; color:var(--ink2);
   }
-  .chip.up{color:var(--warn); border-color:currentColor; opacity:.9}
+  .chip.up{background:var(--pink-soft); color:var(--pink-deep)}
 
-  details{margin-top:14px; border-top:1px solid var(--line); padding-top:11px}
+  details{margin-top:13px; border-top:2px dotted var(--line); padding-top:10px}
   summary{
-    cursor:pointer; font-size:12.5px; color:var(--faint); list-style:none;
-    display:inline-flex; align-items:center; gap:6px; user-select:none;
+    cursor:pointer; font-size:12px; color:var(--faint); list-style:none;
+    display:inline-flex; align-items:center; gap:5px; user-select:none;
   }
   summary::-webkit-details-marker{display:none}
-  summary::before{content:"▸"; font-size:10px; transition:transform .15s}
+  summary::before{content:"▸"; font-size:9px; transition:transform .15s}
   details[open] summary::before{transform:rotate(90deg)}
-  summary:hover{color:var(--accent)}
-  .tech{margin-top:11px; font-size:12.5px}
+  summary:hover{color:var(--pink-deep)}
+  .tech{margin-top:9px}
   .tech .row{
-    display:grid; grid-template-columns:46px 1fr; gap:9px; padding:6px 0;
+    display:grid; grid-template-columns:44px 1fr; gap:8px; padding:6px 0;
     border-bottom:1px dashed var(--line); align-items:baseline;
   }
   .tech .row:last-child{border-bottom:0}
-  .tech time{color:var(--faint); font-variant-numeric:tabular-nums}
+  .tech time{color:var(--faint); font-size:11px}
   .tech .s{
-    font-family:ui-monospace,SFMono-Regular,"Cascadia Mono",Consolas,monospace;
-    font-size:11.5px; line-height:1.6; color:var(--muted); word-break:break-word;
+    font-family:ui-monospace,SFMono-Regular,Consolas,monospace;
+    font-size:11px; line-height:1.6; color:var(--muted); word-break:break-word;
   }
-  .tech .n{color:var(--faint); font-size:11px; white-space:nowrap}
+  .tech .n{color:var(--faint); font-size:10px; margin-top:1px}
 
-  /* ── 빈 날 / 안내 ──────────────────────── */
+  /* ── 쉬는 날 ───────────────────────────── */
   .empty{
-    background:var(--card); border:1px dashed var(--line); border-radius:var(--radius);
-    padding:52px 24px; text-align:center; color:var(--muted);
+    background:var(--card); border:2px dashed var(--line); border-radius:var(--radius);
+    padding:34px 24px 30px; text-align:center; box-shadow:var(--shadow);
   }
-  .empty .big{font-size:40px; margin-bottom:12px}
-  .empty p{margin:0; font-size:15.5px}
+  .empty img{width:110px; height:110px; margin-bottom:6px}
+  .empty p{margin:0; font-size:15.5px; color:var(--ink2); line-height:1.85}
   .pending{
-    font-size:13.5px; color:var(--warn); background:var(--accent-soft);
-    border-radius:9px; padding:9px 12px; margin-top:11px;
+    font-size:13px; color:var(--pink-deep); background:var(--pink-soft);
+    border-radius:12px; padding:9px 12px; margin-top:10px;
   }
   footer{
-    text-align:center; margin-top:40px; font-size:11.5px; color:var(--faint); line-height:1.9;
+    text-align:center; margin-top:34px; font-size:12px; color:var(--faint); line-height:1.9;
   }
-  @media (max-width:520px){
-    body{padding:0 14px 60px}
-    .hero,.proj{padding:20px 18px}
+  footer .love{
+    font-family:"Gaegu","Malgun Gothic",cursive; font-size:16px; color:var(--pink-deep);
+    display:block; margin-bottom:5px;
+  }
+  footer img{width:40px; height:40px; display:block; margin:0 auto 4px}
+  @media (max-width:400px){
+    body{padding:0 12px 60px}
+    .hero,.proj{padding:18px 16px}
+    .avatar{width:88px; height:88px} .avatar img{width:74px; height:74px}
+    .thermo{width:38px; height:118px}
   }
 </style>
 </head>
 <body>
+<div class="sky" id="sky" aria-hidden="true"></div>
 <div class="wrap">
 
   <header>
-    <h1>남편은 오늘 <span class="em">뭐 했어?</span></h1>
-    <p class="tagline">컴퓨터 앞에서 하루 종일 뭘 했는지, 사람 말로 정리한 기록</p>
+    <img class="px crown" src="img/crown.png" alt="">
+    <h1>공주님, 오늘 남편은 <em>이런 일</em>을 했어요</h1>
+    <p class="tagline">오늘도 공주님 생각하면서 열심히 했답니다 ♡</p>
   </header>
 
   <div class="datebar">
     <button class="nav" id="prev" aria-label="이전 날">←</button>
     <div class="today">
-      <div class="d" id="dLabel">—</div>
+      <div class="d cute" id="dLabel">—</div>
       <div class="w" id="wLabel"></div>
       <select id="picker" aria-label="날짜 고르기"></select>
     </div>
@@ -209,15 +276,17 @@
 (function(){
   "use strict";
 
-  var DATA  = (window.REPORT && window.REPORT.days) || [];
-  var GEN   = (window.REPORT && window.REPORT.generated) || "";
-  var main  = document.getElementById("main");
-  var idx   = DATA.length - 1;
+  var DATA = (window.REPORT && window.REPORT.days) || [];
+  var GEN  = (window.REPORT && window.REPORT.generated) || "";
+  var main = document.getElementById("main");
+  var idx  = DATA.length - 1;
+
+  var ART = ["lv-rest","lv-light","lv-normal","lv-heavy","lv-max"];
+  var MAX_HOURS = 10;   // 온도계 꼭대기
 
   function esc(s){
     return String(s == null ? "" : s)
-      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
-      .replace(/"/g,"&quot;");
+      .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
   }
   function fmtDate(iso){
     var p = iso.split("-");
@@ -227,90 +296,99 @@
     var p = iso.split("-");
     return (+p[1]) + "월 " + (+p[2]) + "일";
   }
-  function mins(hhmm){
-    var p = hhmm.split(":");
-    return (+p[0]) * 60 + (+p[1]);
+  function mins(hhmm){ var p = hhmm.split(":"); return (+p[0]) * 60 + (+p[1]); }
+
+  /* 온도계 — 아래 알에서 위로 분홍색이 차오릅니다 */
+  function thermo(hours){
+    var TOP = 12, BOT = 92;                       // 관 안쪽 (y)
+    var pct = Math.max(0, Math.min(1, hours / MAX_HOURS));
+    var y   = BOT - (BOT - TOP) * pct;
+    var h   = (BOT - y) + 14;                     // 알까지 이어지게
+    var ticks = [2,5,8].map(function(hh){
+      var ty = BOT - (BOT - TOP) * (hh / MAX_HOURS);
+      return '<line x1="7" y1="'+ty.toFixed(1)+'" x2="12" y2="'+ty.toFixed(1)+
+             '" stroke="var(--faint)" stroke-width="1.6" stroke-linecap="round"/>';
+    }).join("");
+    return '' +
+    '<svg class="thermo" viewBox="0 0 44 132" role="img" aria-label="오늘 일한 양 ' + hours + '시간">' +
+      '<defs><linearGradient id="tg" x1="0" y1="1" x2="0" y2="0">' +
+        '<stop offset="0%" stop-color="var(--mint)"/>' +
+        '<stop offset="50%" stop-color="var(--gold)"/>' +
+        '<stop offset="100%" stop-color="var(--pink-deep)"/>' +
+      '</linearGradient></defs>' +
+      ticks +
+      '<rect x="14" y="6" width="16" height="92" rx="8" fill="var(--card)" ' +
+            'stroke="var(--line)" stroke-width="2.5"/>' +
+      '<circle cx="22" cy="108" r="15" fill="var(--card)" stroke="var(--line)" stroke-width="2.5"/>' +
+      (pct > 0
+        ? '<rect x="18" y="' + y.toFixed(1) + '" width="8" height="' + h.toFixed(1) +
+              '" rx="4" fill="url(#tg)"/>' +
+          '<circle cx="22" cy="108" r="10.5" fill="url(#tg)"/>'
+        : '<circle cx="22" cy="108" r="10.5" fill="var(--line)"/>') +
+      '<circle cx="18.5" cy="104" r="2.6" fill="#fff" opacity=".45"/>' +
+    '</svg>';
   }
 
-  /* 하루 동안 언제 일했는지 보여 주는 띠 (오전 6시 ~ 새벽 2시) */
   function clock(times){
     if(!times || !times.length) return "";
-    var START = 6 * 60, END = 26 * 60;              // 06:00 → 다음날 02:00
-    function pos(m){
-      if(m < START) m += 24 * 60;                   // 새벽은 뒤쪽으로
-      return Math.max(0, Math.min(100, (m - START) / (END - START) * 100));
-    }
+    var START = 6 * 60, END = 26 * 60;
+    function pos(m){ if(m < START) m += 24 * 60;
+      return Math.max(0, Math.min(100, (m - START) / (END - START) * 100)); }
     var ps = times.map(function(t){ return pos(mins(t)); });
     var lo = Math.min.apply(null, ps), hi = Math.max.apply(null, ps);
-    var ticks = ps.map(function(p){
-      return '<i class="tick" style="left:' + p.toFixed(2) + '%"></i>';
-    }).join("");
-    return '<div class="clock">' +
-             '<div class="track">' +
-               '<i class="span" style="left:' + lo.toFixed(2) + '%;width:' +
-                  Math.max(0.6, hi - lo).toFixed(2) + '%"></i>' + ticks +
-             '</div>' +
-             '<div class="labels"><span>아침 6시</span><span>낮 12시</span>' +
-             '<span>저녁 6시</span><span>밤 12시</span></div>' +
-           '</div>';
+    return '<div class="clock"><div class="track">' +
+      '<i class="span" style="left:' + lo.toFixed(2) + '%;width:' +
+        Math.max(0.8, hi - lo).toFixed(2) + '%"></i>' +
+      ps.map(function(p){ return '<i class="tick" style="left:' + p.toFixed(2) + '%"></i>'; }).join("") +
+      '</div><div class="labels"><span>아침 6시</span><span>낮 12시</span>' +
+      '<span>저녁 6시</span><span>밤 12시</span></div></div>';
   }
 
   function statChips(s){
-    var out = [];
-    out.push('<span class="stat">작업 <b>' + s.commits + '</b>건</span>');
-    out.push('<span class="stat">프로젝트 <b>' + s.projects + '</b>개</span>');
+    var out = ['<span class="stat">작업 <b>' + s.commits + '</b>건</span>',
+               '<span class="stat">프로젝트 <b>' + s.projects + '</b>개</span>'];
     if(s.first) out.push('<span class="stat"><b>' + s.first + '</b> ~ <b>' + s.last + '</b></span>');
     if(s.files) out.push('<span class="stat">고친 파일 <b>' + s.files + '</b>개</span>');
-    if(s.unpushed) out.push('<span class="stat">아직 안 올린 작업 <b>' + s.unpushed + '</b>건</span>');
+    if(s.unpushed) out.push('<span class="stat">아직 안 올린 것 <b>' + s.unpushed + '</b>건</span>');
     return '<div class="stats">' + out.join("") + '</div>';
   }
 
   function projectCard(p){
     var h = '<article class="proj">';
     h += '<h2>' + esc(p.ko) + (p.note ? '<span class="note">' + esc(p.note) + '</span>' : '') + '</h2>';
-
-    if(p.summary){
-      h += '<p class="body">' + esc(p.summary) + '</p>';
-    } else {
-      h += '<p class="pending">아직 사람 말로 정리하지 않은 작업이에요. ' +
-           '아래 &lsquo;기술적인 내용&rsquo;에 원본이 그대로 들어 있습니다.</p>';
-    }
-
+    h += p.summary
+      ? '<p class="body">' + esc(p.summary) + '</p>'
+      : '<p class="pending">아직 사람 말로 정리하지 못했어요. 아래에 원본이 들어 있습니다.</p>';
     if(p.bullets && p.bullets.length){
-      h += '<ul>' + p.bullets.map(function(b){
-        return '<li>' + esc(b) + '</li>';
-      }).join("") + '</ul>';
+      h += '<ul>' + p.bullets.map(function(b){ return '<li>' + esc(b) + '</li>'; }).join("") + '</ul>';
     }
-
-    h += '<div class="meta">';
-    h += '<span class="chip">' + p.from + ' ~ ' + p.to + '</span>';
-    h += '<span class="chip">작업 ' + p.count + '건</span>';
-    if(p.files) h += '<span class="chip">파일 ' + p.files + '개</span>';
-    if(p.unpushed) h += '<span class="chip up">아직 안 올림 ' + p.unpushed + '건</span>';
-    h += '</div>';
-
+    h += '<div class="meta"><span class="chip">' + p.from + ' ~ ' + p.to + '</span>' +
+         '<span class="chip">작업 ' + p.count + '건</span>' +
+         (p.files ? '<span class="chip">파일 ' + p.files + '개</span>' : '') +
+         (p.unpushed ? '<span class="chip up">아직 안 올림 ' + p.unpushed + '건</span>' : '') +
+         '</div>';
     if(p.tech && p.tech.length){
-      h += '<details><summary>기술적인 내용 보기 (' + p.tech.length + '건)</summary><div class="tech">';
-      h += p.tech.map(function(c){
-        return '<div class="row"><time>' + c.t + '</time>' +
-               '<div><div class="s">' + esc(c.s) + '</div>' +
-               '<div class="n">파일 ' + c.f + '개 · +' + c.a + ' / −' + c.r +
-               (c.p ? '' : ' · 아직 GitHub 에 안 올림') + '</div></div></div>';
-      }).join("");
-      h += '</div></details>';
+      h += '<details><summary>기술적인 내용 보기 (' + p.tech.length + '건)</summary><div class="tech">' +
+        p.tech.map(function(c){
+          return '<div class="row"><time>' + c.t + '</time><div>' +
+                 '<div class="s">' + esc(c.s) + '</div>' +
+                 '<div class="n">파일 ' + c.f + '개 · +' + c.a + ' / −' + c.r +
+                 (c.p ? '' : ' · 아직 안 올림') + '</div></div></div>';
+        }).join("") + '</div></details>';
     }
     return h + '</article>';
   }
 
   function render(){
     if(!DATA.length){
-      main.innerHTML = '<div class="empty"><div class="big">🌱</div>' +
-        '<p>아직 기록이 없어요.<br><code>python report.py collect</code> 부터 실행해 보세요.</p></div>';
+      main.innerHTML = '<div class="empty"><img class="px" src="img/lv-rest.png" alt="">' +
+        '<p>아직 기록이 없어요.</p></div>';
       document.getElementById("dLabel").textContent = "기록 없음";
       return;
     }
-
     var d = DATA[idx];
+    var e = d.effort || {hours:0, level:0, name:"쉬는 날", blurb:""};
+
     document.getElementById("dLabel").textContent = fmtDate(d.date);
     document.getElementById("wLabel").textContent = d.weekday;
     document.getElementById("picker").value = d.date;
@@ -318,16 +396,28 @@
     document.getElementById("next").disabled = (idx >= DATA.length - 1);
 
     if(!d.stats.commits){
-      main.innerHTML = '<div class="empty"><div class="big">☕</div>' +
-        '<p>' + esc(d.headline || "이 날은 코딩 기록이 없네요. 쉬었거나, 컴퓨터 밖에서 일한 날이에요.") +
-        '</p></div>';
+      main.innerHTML = '<div class="empty"><img class="px" src="img/lv-rest.png" alt="">' +
+        '<p>' + esc(d.headline || "오늘은 컴퓨터를 쉬었어요. 공주님이랑 놀았나 봐요 ♡") + '</p></div>';
       return;
     }
 
     var h = '<section class="hero">';
-    h += '<p>' + esc(d.headline || (d.stats.projects + "개 프로젝트에서 " +
-                                    d.stats.commits + "건을 작업했어요.")) + '</p>';
-    if(d.note) h += '<p class="sub">' + esc(d.note) + '</p>';
+    h += '<div class="heroTop">';
+    h +=   '<div class="avatar"><img class="px" src="img/' + ART[e.level] + '.png" alt=""></div>';
+    h +=   '<div class="heroWho">';
+    h +=     '<div class="lvName">' + esc(e.name) + '</div>';
+    h +=     '<div class="lvBlurb">' + esc(e.blurb) + '</div>';
+    h +=     '<div class="hours"><b>' + e.hours + '</b><span>시간쯤 일했어요</span></div>';
+    h +=     '<details class="est"><summary>이 시간은 어떻게 계산했나요?</summary>' +
+             '<p>남편이 작업을 저장한 시각들을 이어 붙여서 계산했어요. ' +
+             '저장 기록이 없는 시간은 세지 않기 때문에, 실제로는 더 오래 일했을 수도 있어요. ' +
+             '(오늘은 ' + (e.sessions || 1) + '번에 나눠서 앉았네요)</p></details>';
+    h +=   '</div>';
+    h +=   thermo(e.hours);
+    h += '</div>';
+
+    h += '<p class="headline">' + esc(d.headline) + '</p>';
+    if(d.note) h += '<p class="subnote">' + esc(d.note) + '</p>';
     h += clock(d.times);
     h += statChips(d.stats);
     h += '</section>';
@@ -337,7 +427,6 @@
     main.innerHTML = h;
   }
 
-  /* 주소창에 날짜를 남겨 특정 날짜를 즐겨찾기 할 수 있게 (#2026-08-13) */
   function show(i, push){
     idx = Math.max(0, Math.min(DATA.length - 1, i));
     render();
@@ -352,18 +441,16 @@
     return DATA.length - 1;
   }
 
-  /* 날짜 고르기 목록 */
   var picker = document.getElementById("picker");
   picker.innerHTML = DATA.map(function(d){
-    return '<option value="' + d.date + '">' + shortDate(d.date) + " " +
-           d.weekday + " · 작업 " + d.stats.commits + "건</option>";
+    return '<option value="' + d.date + '">' + shortDate(d.date) + " " + d.weekday +
+           " · " + (d.effort ? d.effort.hours : 0) + "시간</option>";
   }).join("");
   picker.addEventListener("change", function(){
     for(var i = 0; i < DATA.length; i++){
       if(DATA[i].date === picker.value){ show(i, true); return; }
     }
   });
-
   document.getElementById("prev").addEventListener("click", function(){ show(idx - 1, true); });
   document.getElementById("next").addEventListener("click", function(){ show(idx + 1, true); });
   document.addEventListener("keydown", function(e){
@@ -372,9 +459,24 @@
   });
   window.addEventListener("hashchange", function(){ show(fromHash(), false); });
 
+  /* 떠다니는 하트 */
+  (function(){
+    var sky = document.getElementById("sky"), marks = ["♡","✿","♥","˚","✦"];
+    for(var i = 0; i < 11; i++){
+      var s = document.createElement("i");
+      s.textContent = marks[i % marks.length];
+      s.style.left = (5 + Math.random() * 90).toFixed(1) + "%";
+      s.style.color = i % 2 ? "var(--lav)" : "var(--pink)";
+      s.style.animationDuration = (17 + Math.random() * 16).toFixed(1) + "s";
+      s.style.animationDelay = (-Math.random() * 26).toFixed(1) + "s";
+      sky.appendChild(s);
+    }
+  })();
+
   document.getElementById("foot").innerHTML =
-    "이 페이지는 남편 컴퓨터의 작업 기록에서 자동으로 만들어집니다." +
-    (GEN ? "<br>마지막 업데이트 " + esc(GEN) : "");
+    '<img class="px" src="img/princess.png" alt="">' +
+    '<span class="love">우리 공주님, 오늘도 사랑해요 ♡</span>' +
+    (GEN ? "마지막 업데이트 " + esc(GEN) : "");
 
   show(fromHash(), false);
 })();

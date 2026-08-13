@@ -243,6 +243,49 @@ def cmd_collect(argv):
     return out
 
 
+# ── 일한 시간 추정 ────────────────────────────────────────────────
+# 커밋 시각만 보고 "실제로 몰입한 시간"을 되짚습니다. git-hours 방식과 같습니다.
+#   · 커밋 사이 간격이 SESSION_GAP 이하면 같은 작업 묶음(세션)으로 봅니다
+#   · 세션의 첫 커밋 앞에도 준비 시간이 있었을 테니 LEAD_IN 을 더합니다
+# 어디까지나 추정입니다. 부풀리지 않습니다 — 커밋이 없는 시간은 세지 않습니다.
+SESSION_GAP = 120   # 분. 이보다 오래 비면 다른 세션
+LEAD_IN = 60        # 분. 세션 첫 커밋 이전에 쓴 시간
+
+EFFORT_LEVELS = [
+    (0.01, 0, "쉬는 날",   "오늘은 푹 쉬었어요"),
+    (2.0,  1, "살짝",      "짬짬이 조금"),
+    (5.0,  2, "열심히",    "제대로 붙잡고"),
+    (8.0,  3, "아주 많이",  "하루를 통째로"),
+    (99.0, 4, "폭주",      "이건 좀 너무했어요"),
+]
+
+
+def estimate_effort(iso_times):
+    """커밋 시각 목록 → (분, 레벨, 이름, 한마디)."""
+    ts = sorted(datetime.fromisoformat(t) for t in iso_times)
+    if not ts:
+        return {"minutes": 0, "hours": 0.0, "level": 0,
+                "name": EFFORT_LEVELS[0][2], "blurb": EFFORT_LEVELS[0][3], "sessions": 0}
+
+    total, sessions = 0.0, 1
+    start = prev = ts[0]
+    for t in ts[1:]:
+        gap = (t - prev).total_seconds() / 60
+        if gap > SESSION_GAP:
+            total += (prev - start).total_seconds() / 60 + LEAD_IN
+            sessions += 1
+            start = t
+        prev = t
+    total += (prev - start).total_seconds() / 60 + LEAD_IN
+
+    hours = total / 60
+    for cutoff, lvl, name, blurb in EFFORT_LEVELS:
+        if hours < cutoff:
+            break
+    return {"minutes": int(round(total)), "hours": round(hours, 1), "level": lvl,
+            "name": name, "blurb": blurb, "sessions": sessions}
+
+
 def cmd_build(argv):
     """raw/(숫자) + days/(사람이 쓴 한국어 설명) 을 합쳐 docs/data.js 를 만듭니다.
 
@@ -251,6 +294,10 @@ def cmd_build(argv):
     """
     os.makedirs(DAYS_DIR, exist_ok=True)
     os.makedirs(DOCS_DIR, exist_ok=True)
+
+    # 한국어 이름은 빌드할 때 다시 읽습니다. repos.json 만 고치고 build 하면
+    # 예전에 수집해 둔 날짜까지 전부 새 이름으로 바뀝니다 (재수집 불필요).
+    names = load_config().get("names", {})
 
     prose_by_date = {}
     for fn in sorted(os.listdir(DAYS_DIR)):
@@ -278,10 +325,11 @@ def cmd_build(argv):
             w = pp.get(rp["repo"], {})
             if not w.get("summary"):
                 missing.append(f"{d}/{rp['repo']}")
+            meta = names.get(rp["repo"], {})
             projects.append({
                 "repo": rp["repo"],
-                "ko": rp["ko"],
-                "note": rp["note"],
+                "ko": meta.get("ko", rp["ko"]),
+                "note": meta.get("note", rp["note"]),
                 "summary": w.get("summary", ""),
                 "bullets": w.get("bullets", []),
                 "count": rp["count"],
@@ -303,6 +351,7 @@ def cmd_build(argv):
             "headline": prose.get("headline", ""),
             "note": prose.get("note", ""),
             "stats": raw["totals"],
+            "effort": estimate_effort([c["iso"] for p in raw["projects"] for c in p["commits"]]),
             "times": sorted(c["time"] for p in raw["projects"] for c in p["commits"]),
             "projects": projects,
         })
