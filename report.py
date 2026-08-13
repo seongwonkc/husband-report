@@ -102,7 +102,8 @@ def collect_repo(path, day):
     fmt = RS + FS.join(["%H", "%ae", "%an", "%aI", "%s", "%b"])
     # --all 대신 --branches/--remotes/--tags: --all 은 refs/stash 까지 끌어와서
     # "index on demo: ..." 같은 stash 항목이 진짜 작업으로 잡힙니다.
-    out = git(path, "log", "--branches", "--remotes", "--tags", "--no-merges",
+    # 머지 커밋도 셉니다 — 브랜치를 합치는 것도 그날 한 일입니다.
+    out = git(path, "log", "--branches", "--remotes", "--tags",
               f"--since={lo}", f"--until={hi}",
               f"--pretty=format:{fmt}", "--numstat")
     if not out.strip():
@@ -163,6 +164,60 @@ def collect_repo(path, day):
     return commits
 
 
+def scan_file_work(day, exclude_names):
+    """git 레포가 아닌 폴더의 파일 작업을 훑습니다.
+
+    문제집 제작·리포트·자료 정리처럼 커밋으로 남지 않는 일이 많습니다.
+    그런 폴더에서 그날 수정된 파일을 찾아 '작업'으로 셉니다.
+    (레포 안은 커밋으로 이미 세므로, 중첩된 git 레포는 건너뜁니다.)
+    """
+    out = []
+    for name in sorted(os.listdir(SCAN_ROOT)):
+        path = os.path.join(SCAN_ROOT, name)
+        if not os.path.isdir(path) or name in SKIP_DIRS:
+            continue
+        if name.startswith(".") or name.startswith("_tmp"):
+            continue          # 숨김·임시 폴더는 작업이 아닙니다
+        if os.path.abspath(path) == ROOT or name in exclude_names:
+            continue
+        if os.path.exists(os.path.join(path, ".git")):
+            continue          # git 레포는 커밋으로 집계
+
+        hits = []
+        for dirpath, dirnames, filenames in os.walk(path):
+            dirnames[:] = [d for d in dirnames
+                           if d not in SKIP_DIRS and not d.startswith(".")
+                           and not os.path.exists(os.path.join(dirpath, d, ".git"))]
+            for fn in filenames:
+                fp = os.path.join(dirpath, fn)
+                try:
+                    mt = os.path.getmtime(fp)
+                except OSError:
+                    continue
+                dt = datetime.fromtimestamp(mt)
+                if dt.date() == day:
+                    hits.append((dt, os.path.relpath(fp, path).replace("\\", "/")))
+        if not hits:
+            continue
+        hits.sort(key=lambda h: h[0])
+
+        exts = {}
+        for _, rel in hits:
+            e = (os.path.splitext(rel)[1] or "(없음)").lower()
+            exts[e] = exts.get(e, 0) + 1
+        out.append({
+            "dir": name,
+            "count": len(hits),
+            "from": hits[0][0].strftime("%H:%M"),
+            "to": hits[-1][0].strftime("%H:%M"),
+            "iso": [h[0].isoformat() for h in hits],
+            "samples": [r for _, r in hits[:10]],
+            "types": sorted(exts.items(), key=lambda kv: -kv[1])[:6],
+        })
+    out.sort(key=lambda x: (-x["count"], x["from"]))
+    return out
+
+
 def cmd_collect(argv):
     day = date.fromisoformat(argv[0]) if argv else date.today()
     cfg = load_config()
@@ -206,8 +261,13 @@ def cmd_collect(argv):
         })
     projects.sort(key=lambda p: (-p["count"], p["from"]))
 
+    # 커밋으로 남지 않는 작업(문제집·리포트·자료 제작)도 함께 봅니다
+    repo_dirs = {p.split("/")[0] for g in groups.values() for p in g["paths"]}
+    file_work = scan_file_work(day, repo_dirs)
+
     all_c = [c for p in projects for c in p["commits"]]
     all_c.sort(key=lambda c: c["iso"])
+    stamps = sorted([c["iso"] for c in all_c] + [t for f in file_work for t in f["iso"]])
     raw = {
         "date": day.isoformat(),
         "weekday": WEEKDAY_KO[day.weekday()],
@@ -215,15 +275,18 @@ def cmd_collect(argv):
         "repos_scanned": len(groups),
         "totals": {
             "commits": len(all_c),
-            "projects": len(projects),
-            "files": len({f for p in projects for f in p["files"]}),
+            "projects": len(projects) + len(file_work),
+            "files": len({f for p in projects for f in p["files"]})
+                     + sum(f["count"] for f in file_work),
+            "file_work_dirs": len(file_work),
             "added": sum(p["added"] for p in projects),
             "removed": sum(p["removed"] for p in projects),
-            "first": all_c[0]["time"] if all_c else None,
-            "last": all_c[-1]["time"] if all_c else None,
+            "first": stamps[0][11:16] if stamps else None,
+            "last": stamps[-1][11:16] if stamps else None,
             "unpushed": sum(p["unpushed"] for p in projects),
         },
         "projects": projects,
+        "file_work": file_work,
     }
 
     os.makedirs(RAW_DIR, exist_ok=True)
@@ -239,6 +302,9 @@ def cmd_collect(argv):
         print(f"  ⚠ 아직 GitHub 에 안 올라간 커밋 {t['unpushed']}건")
     for p in projects:
         print(f"    - {p['ko']:<20} {p['count']}건  {p['from']}~{p['to']}  ({p['repo']})")
+    for f in file_work:
+        ko = names.get(f["dir"], {}).get("ko", f["dir"])
+        print(f"    · {ko:<20} 파일 {f['count']}개  {f['from']}~{f['to']}  ({f['dir']})")
     print(f"→ {os.path.relpath(out, ROOT)}")
     return out
 
@@ -262,7 +328,13 @@ EFFORT_LEVELS = [
 
 def estimate_effort(iso_times):
     """커밋 시각 목록 → (분, 레벨, 이름, 한마디)."""
-    ts = sorted(datetime.fromisoformat(t) for t in iso_times)
+    def naive(s):
+        # 커밋 시각은 +09:00 이 붙어 있고 파일 시각은 안 붙어 있어 그대로는 비교가 안 됩니다.
+        # 둘 다 '그 컴퓨터의 벽시계 시각'으로 맞춥니다.
+        dt = datetime.fromisoformat(s)
+        return dt.astimezone().replace(tzinfo=None) if dt.tzinfo else dt
+
+    ts = sorted(naive(t) for t in iso_times)
     if not ts:
         return {"minutes": 0, "hours": 0.0, "level": 0,
                 "name": EFFORT_LEVELS[0][2], "blurb": EFFORT_LEVELS[0][3], "sessions": 0}
@@ -327,6 +399,7 @@ def cmd_build(argv):
                 missing.append(f"{d}/{rp['repo']}")
             meta = names.get(rp["repo"], {})
             projects.append({
+                "kind": "git",
                 "repo": rp["repo"],
                 "ko": meta.get("ko", rp["ko"]),
                 "note": meta.get("note", rp["note"]),
@@ -342,17 +415,41 @@ def cmd_build(argv):
                          for c in rp["commits"]],
             })
 
+        # 커밋 없이 파일만 만진 작업도 같은 카드로 보여 줍니다
+        for fw in raw.get("file_work", []):
+            w = pp.get(fw["dir"], {})
+            if not w.get("summary"):
+                missing.append(f"{d}/{fw['dir']} (파일 작업)")
+            meta = names.get(fw["dir"], {})
+            projects.append({
+                "kind": "files",
+                "repo": fw["dir"],
+                "ko": meta.get("ko", fw["dir"]),
+                "note": meta.get("note", ""),
+                "summary": w.get("summary", ""),
+                "bullets": w.get("bullets", []),
+                "count": fw["count"],
+                "from": fw["from"], "to": fw["to"],
+                "files": fw["count"],
+                # 🚨 samples 는 절대 사이트로 내보내지 않습니다.
+                # 파일명에 학생 실명이 들어갑니다 (DanielLab_MT16_02_Olivia.pdf).
+                # 사이트는 공개되어 있으므로 개수와 확장자만 내보냅니다.
+                "types": fw["types"],
+            })
+
         if d not in prose_by_date and raw["totals"]["commits"]:
             missing.append(f"{d} (헤드라인 없음)")
 
+        stamps = ([c["iso"] for p in raw["projects"] for c in p["commits"]]
+                  + [t for f in raw.get("file_work", []) for t in f["iso"]])
         days.append({
             "date": d,
             "weekday": raw["weekday"],
             "headline": prose.get("headline", ""),
             "note": prose.get("note", ""),
             "stats": raw["totals"],
-            "effort": estimate_effort([c["iso"] for p in raw["projects"] for c in p["commits"]]),
-            "times": sorted(c["time"] for p in raw["projects"] for c in p["commits"]),
+            "effort": estimate_effort(stamps),
+            "times": sorted(s[11:16] for s in stamps),
             "projects": projects,
         })
 

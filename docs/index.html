@@ -183,6 +183,10 @@
     display:flex; align-items:baseline; gap:8px; flex-wrap:wrap; font-weight:400;
   }
   .proj h2 .note{font-family:inherit; font-size:12px; color:var(--faint); font-weight:400}
+  .proj h2 .tag{
+    font-family:inherit; font-size:10.5px; font-weight:400; color:var(--mint);
+    background:var(--mint-soft); border-radius:999px; padding:2px 9px; letter-spacing:0;
+  }
   .proj .body{margin:10px 0 0; font-size:15px; line-height:1.85; color:var(--ink2)}
   .proj ul{margin:12px 0 0; padding:0; list-style:none}
   .proj li{
@@ -355,7 +359,9 @@
 
   function projectCard(p){
     var h = '<article class="proj">';
-    h += '<h2>' + esc(p.ko) + (p.note ? '<span class="note">' + esc(p.note) + '</span>' : '') + '</h2>';
+    h += '<h2>' + esc(p.ko) +
+         (p.kind === "files" ? '<span class="tag">코드 밖의 일</span>' : '') +
+         (p.note ? '<span class="note">' + esc(p.note) + '</span>' : '') + '</h2>';
     h += p.summary
       ? '<p class="body">' + esc(p.summary) + '</p>'
       : '<p class="pending">아직 사람 말로 정리하지 못했어요. 아래에 원본이 들어 있습니다.</p>';
@@ -363,9 +369,14 @@
       h += '<ul>' + p.bullets.map(function(b){ return '<li>' + esc(b) + '</li>'; }).join("") + '</ul>';
     }
     h += '<div class="meta"><span class="chip">' + p.from + ' ~ ' + p.to + '</span>' +
-         '<span class="chip">작업 ' + p.count + '건</span>' +
-         (p.files ? '<span class="chip">파일 ' + p.files + '개</span>' : '') +
-         (p.unpushed ? '<span class="chip up">아직 안 올림 ' + p.unpushed + '건</span>' : '') +
+         (p.kind === "files"
+            ? '<span class="chip">파일 ' + p.files + '개</span>' +
+              (p.types || []).slice(0, 3).map(function(t){
+                return '<span class="chip">' + esc(t[0]) + ' ' + t[1] + '</span>';
+              }).join("")
+            : '<span class="chip">작업 ' + p.count + '건</span>' +
+              (p.files ? '<span class="chip">파일 ' + p.files + '개</span>' : '') +
+              (p.unpushed ? '<span class="chip up">아직 안 올림 ' + p.unpushed + '건</span>' : '')) +
          '</div>';
     if(p.tech && p.tech.length){
       h += '<details><summary>기술적인 내용 보기 (' + p.tech.length + '건)</summary><div class="tech">' +
