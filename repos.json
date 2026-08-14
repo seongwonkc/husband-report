@@ -40,6 +40,7 @@
     "reports_mt14":             { "ko": "학생 리포트 (14회)",       "note": "" },
     "reports_mt15":             { "ko": "학생 리포트 (15회)",       "note": "" },
     "reports_mt16":             { "ko": "학생 리포트 (16회)",       "note": "" },
+    "reports_mt17":             { "ko": "학생 리포트 (17회)",       "note": "" },
     "reports_weekly_mt10":      { "ko": "주간 리포트 (10회)",       "note": "" },
     "reports_weekly_mt12":      { "ko": "주간 리포트 (12회)",       "note": "" },
     "workbooks":                { "ko": "워크북 제작",             "note": "" },
