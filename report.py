@@ -79,9 +79,31 @@ def normalize_remote(url):
     return url.rstrip("/").lower()
 
 
+def resolve_remote(url, depth=0):
+    """origin 이 로컬 경로면(예: 다른 폴더를 복제한 테스트용 사본) 그 폴더의 origin 을 따라갑니다.
+
+    이걸 안 하면 `seneca_maro_gate_test` 처럼 로컬 복제본이 별개 레포로 잡혀
+    같은 커밋이 두 번 세어집니다.
+    """
+    if not url:
+        return None
+    u = url.strip()
+    if depth > 3:
+        return normalize_remote(u)
+    is_url = "://" in u or re.match(r"^[^/\\]+@[^:]+:", u)
+    if not is_url:
+        p = os.path.abspath(u)
+        if os.path.exists(os.path.join(p, ".git")):
+            inner = git(p, "remote", "get-url", "origin").strip()
+            if inner:
+                return resolve_remote(inner, depth + 1)
+            return p.replace("\\", "/").lower()
+    return normalize_remote(u)
+
+
 def repo_identity(path):
     """같은 레포(워크트리/복제본)를 하나로 묶기 위한 키와 표시용 이름."""
-    remote = normalize_remote(git(path, "remote", "get-url", "origin"))
+    remote = resolve_remote(git(path, "remote", "get-url", "origin"))
     common = git(path, "rev-parse", "--git-common-dir").strip()
     if common:
         common = os.path.abspath(os.path.join(path, common)) if not os.path.isabs(common) else common

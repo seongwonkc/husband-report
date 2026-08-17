@@ -5,58 +5,218 @@
     "telegram-cache-decryption"
   ],
   "names": {
-    "seneca_maro":              { "ko": "세네카 학습 앱",            "note": "인적성 · 토익스피킹 · 글쓰기" },
-    "seneca_ai":                { "ko": "세네카 본체",              "note": "학습 분석 엔진" },
-    "seneca_wiki":              { "ko": "세네카 기록실",            "note": "사내 문서 · 위키" },
-    "seneca_sdk":               { "ko": "세네카 개발 도구",          "note": "다른 앱들이 갖다 쓰는 공용 부품" },
-    "daniellabsat":             { "ko": "다니엘랩 SAT",            "note": "학원 학생들이 쓰는 학습 사이트" },
-    "daniellabconsulting":      { "ko": "다니엘랩 컨설팅",          "note": "홈페이지" },
-    "cato-ds":                  { "ko": "CATO",                   "note": "학원 운영 관리 시스템" },
-    "coya-poc":                 { "ko": "코야",                    "note": "인생 시뮬레이션 게임 (개인 실험작)" },
-    "ocean_vector":             { "ko": "포지 SAT",                "note": "학생용 무료 SAT 사이트 · forgesat.com" },
-    "ocean":                    { "ko": "오션",                    "note": "" },
-    "theargosy":                { "ko": "아르고시",                "note": "" },
-    "argosyfinal":              { "ko": "아르고시 (최종본)",         "note": "" },
-    "joyinads":                 { "ko": "조이인애즈",              "note": "블로그 · 홈페이지" },
-    "princess-maker-guide":     { "ko": "프린세스 메이커 공략집",     "note": "아내 선물 🎀" },
-    "invasive-urchin-tracker":  { "ko": "성게 추적기",              "note": "" },
-    "jellyfishtracker":         { "ko": "해파리 추적기",            "note": "" },
-    "sleep-scroll":             { "ko": "슬립 스크롤",              "note": "" },
-    "state_standards_corpus":   { "ko": "미국 교육과정 자료 정리",    "note": "" },
-
+    "seneca_maro": {
+      "ko": "세네카 학습 앱",
+      "note": "인적성 · 토익스피킹 · 글쓰기"
+    },
+    "seneca_ai": {
+      "ko": "세네카 본체",
+      "note": "학습 분석 엔진"
+    },
+    "seneca_wiki": {
+      "ko": "세네카 기록실",
+      "note": "사내 문서 · 위키"
+    },
+    "seneca_sdk": {
+      "ko": "세네카 개발 도구",
+      "note": "다른 앱들이 갖다 쓰는 공용 부품"
+    },
+    "daniellabsat": {
+      "ko": "다니엘랩 SAT",
+      "note": "학원 학생들이 쓰는 학습 사이트"
+    },
+    "daniellabconsulting": {
+      "ko": "다니엘랩 컨설팅",
+      "note": "홈페이지"
+    },
+    "cato-ds": {
+      "ko": "CATO",
+      "note": "학원 운영 관리 시스템"
+    },
+    "coya-poc": {
+      "ko": "코야",
+      "note": "인생 시뮬레이션 게임 (개인 실험작)"
+    },
+    "ocean_vector": {
+      "ko": "포지 SAT",
+      "note": "학생용 무료 SAT 사이트 · forgesat.com"
+    },
+    "ocean": {
+      "ko": "오션",
+      "note": ""
+    },
+    "theargosy": {
+      "ko": "아르고시",
+      "note": ""
+    },
+    "argosyfinal": {
+      "ko": "아르고시 (최종본)",
+      "note": ""
+    },
+    "joyinads": {
+      "ko": "조이인애즈",
+      "note": "블로그 · 홈페이지"
+    },
+    "princess-maker-guide": {
+      "ko": "프린세스 메이커 공략집",
+      "note": "아내 선물 🎀"
+    },
+    "invasive-urchin-tracker": {
+      "ko": "성게 추적기",
+      "note": ""
+    },
+    "jellyfishtracker": {
+      "ko": "해파리 추적기",
+      "note": ""
+    },
+    "sleep-scroll": {
+      "ko": "슬립 스크롤",
+      "note": ""
+    },
+    "state_standards_corpus": {
+      "ko": "미국 교육과정 자료 정리",
+      "note": ""
+    },
     "_comment2": "여기부터는 git 저장소가 아닌 작업 폴더 — 커밋은 안 남지만 실제로 한 일입니다",
-    "math_pipeline":            { "ko": "수학 문제 제작",           "note": "문제 만들고 그림 검수" },
-    "math_staging":             { "ko": "수학 문제 대기실",          "note": "" },
-    "lit_pipeline":             { "ko": "지문 제작",               "note": "읽기 지문 수집·가공" },
-    "lit_corpus_staging":       { "ko": "지문 자료 정리",           "note": "" },
-    "mock_pipeline":            { "ko": "모의고사 제작",            "note": "" },
-    "mock_build_artifacts":     { "ko": "모의고사 조립 파일",        "note": "" },
-    "mt17_build":               { "ko": "17회 모의고사 제작",        "note": "" },
-    "cb_pipeline":              { "ko": "칼리지보드 자료 처리",       "note": "공식 시험지 변환" },
-    "sample_pipeline":          { "ko": "샘플 문항 작업",           "note": "" },
-    "dsatmocks":                { "ko": "디지털 SAT 모의고사",       "note": "" },
-    "reports":                  { "ko": "학생 리포트",             "note": "" },
-    "reports_mt13":             { "ko": "학생 리포트 (13회)",       "note": "" },
-    "reports_mt14":             { "ko": "학생 리포트 (14회)",       "note": "" },
-    "reports_mt15":             { "ko": "학생 리포트 (15회)",       "note": "" },
-    "reports_mt16":             { "ko": "학생 리포트 (16회)",       "note": "" },
-    "reports_mt17":             { "ko": "학생 리포트 (17회)",       "note": "" },
-    "reports_weekly_mt10":      { "ko": "주간 리포트 (10회)",       "note": "" },
-    "reports_weekly_mt12":      { "ko": "주간 리포트 (12회)",       "note": "" },
-    "workbooks":                { "ko": "워크북 제작",             "note": "" },
-    "workbooks_mt14":           { "ko": "워크북 (14회)",           "note": "" },
-    "workbooks_mt16":           { "ko": "워크북 (16회)",           "note": "" },
-    "minitextbooks":            { "ko": "미니 교재",               "note": "" },
-    "materials":                { "ko": "수업 교재",               "note": "" },
-    "lecture_materials":        { "ko": "수업 자료",               "note": "학생별 워크시트" },
-    "seneca_authoring_guides":  { "ko": "문항 집필 가이드",          "note": "" },
-    "plans_to_testday":         { "ko": "시험일까지 계획",           "note": "" },
-    "vindicaos-gtm":            { "ko": "VindicaOS 영업 준비",      "note": "학원 리스트 조사" },
-    "migrations":               { "ko": "데이터베이스 정리",         "note": "" },
-    "college_essay_calibration_corpus": { "ko": "대학 에세이 기준 자료", "note": "" },
-    "Maro material":            { "ko": "마로 자료",               "note": "" },
-    "blind-test":               { "ko": "블라인드 테스트",          "note": "채점 검증" },
-    "cf-migration":             { "ko": "서버 이전 작업",           "note": "" },
-    "cf-migration-forge":       { "ko": "포지 서버 이전",           "note": "" }
+    "math_pipeline": {
+      "ko": "수학 문제 제작",
+      "note": "문제 만들고 그림 검수"
+    },
+    "math_staging": {
+      "ko": "수학 문제 대기실",
+      "note": ""
+    },
+    "lit_pipeline": {
+      "ko": "지문 제작",
+      "note": "읽기 지문 수집·가공"
+    },
+    "lit_corpus_staging": {
+      "ko": "지문 자료 정리",
+      "note": ""
+    },
+    "mock_pipeline": {
+      "ko": "모의고사 제작",
+      "note": ""
+    },
+    "mock_build_artifacts": {
+      "ko": "모의고사 조립 파일",
+      "note": ""
+    },
+    "mt17_build": {
+      "ko": "17회 모의고사 제작",
+      "note": ""
+    },
+    "cb_pipeline": {
+      "ko": "칼리지보드 자료 처리",
+      "note": "공식 시험지 변환"
+    },
+    "sample_pipeline": {
+      "ko": "샘플 문항 작업",
+      "note": ""
+    },
+    "dsatmocks": {
+      "ko": "디지털 SAT 모의고사",
+      "note": ""
+    },
+    "reports": {
+      "ko": "학생 리포트",
+      "note": ""
+    },
+    "reports_mt13": {
+      "ko": "학생 리포트 (13회)",
+      "note": ""
+    },
+    "reports_mt14": {
+      "ko": "학생 리포트 (14회)",
+      "note": ""
+    },
+    "reports_mt15": {
+      "ko": "학생 리포트 (15회)",
+      "note": ""
+    },
+    "reports_mt16": {
+      "ko": "학생 리포트 (16회)",
+      "note": ""
+    },
+    "reports_mt17": {
+      "ko": "학생 리포트 (17회)",
+      "note": ""
+    },
+    "reports_weekly_mt10": {
+      "ko": "주간 리포트 (10회)",
+      "note": ""
+    },
+    "reports_weekly_mt12": {
+      "ko": "주간 리포트 (12회)",
+      "note": ""
+    },
+    "workbooks": {
+      "ko": "워크북 제작",
+      "note": ""
+    },
+    "workbooks_mt14": {
+      "ko": "워크북 (14회)",
+      "note": ""
+    },
+    "workbooks_mt16": {
+      "ko": "워크북 (16회)",
+      "note": ""
+    },
+    "minitextbooks": {
+      "ko": "미니 교재",
+      "note": ""
+    },
+    "materials": {
+      "ko": "수업 교재",
+      "note": ""
+    },
+    "lecture_materials": {
+      "ko": "수업 자료",
+      "note": "학생별 워크시트"
+    },
+    "seneca_authoring_guides": {
+      "ko": "문항 집필 가이드",
+      "note": ""
+    },
+    "plans_to_testday": {
+      "ko": "시험일까지 계획",
+      "note": ""
+    },
+    "vindicaos-gtm": {
+      "ko": "VindicaOS 영업 준비",
+      "note": "학원 리스트 조사"
+    },
+    "migrations": {
+      "ko": "데이터베이스 정리",
+      "note": ""
+    },
+    "college_essay_calibration_corpus": {
+      "ko": "대학 에세이 기준 자료",
+      "note": ""
+    },
+    "Maro material": {
+      "ko": "마로 자료",
+      "note": ""
+    },
+    "blind-test": {
+      "ko": "블라인드 테스트",
+      "note": "채점 검증"
+    },
+    "cf-migration": {
+      "ko": "서버 이전 작업",
+      "note": ""
+    },
+    "cf-migration-forge": {
+      "ko": "포지 서버 이전",
+      "note": ""
+    },
+    "mt18_build": {
+      "ko": "18회 모의고사 제작",
+      "note": ""
+    },
+    "reports_mt18": {
+      "ko": "학생 리포트 (18회)",
+      "note": ""
+    }
   }
 }

@@ -364,7 +364,7 @@
          (p.note ? '<span class="note">' + esc(p.note) + '</span>' : '') + '</h2>';
     h += p.summary
       ? '<p class="body">' + esc(p.summary) + '</p>'
-      : '<p class="pending">아직 사람 말로 정리하지 못했어요. 아래에 원본이 들어 있습니다.</p>';
+      : '<p class="pending">여기는 아직 정리 중이에요. 곧 채워 놓을게요 ♡</p>';
     if(p.bullets && p.bullets.length){
       h += '<ul>' + p.bullets.map(function(b){ return '<li>' + esc(b) + '</li>'; }).join("") + '</ul>';
     }
