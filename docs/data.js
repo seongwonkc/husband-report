@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-08-17 23:31",
+ "generated": "2026-08-18 20:07",
  "days": [
   {
    "date": "2026-08-07",
@@ -3697,23 +3697,23 @@ window.REPORT = {
    "headline": "아침 8시부터 오후 3시 반까지. 어제 시작한 토익 앱 이사를 실제 서버에 처음으로 올려 확인했고, 학원 이용료를 자리당 30달러에서 15달러로 내렸어요.",
    "note": "새 앱을 올리기 전에 '올렸을 때 뭐가 새어 나가는지'부터 시험한 하루였어요.",
    "stats": {
-    "commits": 22,
-    "projects": 8,
-    "files": 94,
-    "file_work_dirs": 4,
-    "added": 1873,
-    "removed": 119,
+    "commits": 26,
+    "projects": 9,
+    "files": 104,
+    "file_work_dirs": 5,
+    "added": 2943,
+    "removed": 129,
     "first": "08:08",
-    "last": "15:41",
-    "unpushed": 6
+    "last": "23:51",
+    "unpushed": 2
    },
    "effort": {
-    "minutes": 513,
-    "hours": 8.6,
+    "minutes": 587,
+    "hours": 9.8,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
-    "sessions": 1
+    "sessions": 2
    },
    "times": [
     "08:08",
@@ -3779,7 +3779,12 @@ window.REPORT = {
     "14:50",
     "14:52",
     "15:38",
-    "15:41"
+    "15:41",
+    "23:36",
+    "23:44",
+    "23:46",
+    "23:49",
+    "23:51"
    ],
    "projects": [
     {
@@ -3795,13 +3800,13 @@ window.REPORT = {
       "토익 읽기 시험은 확인이 끝날 때까지 기본 잠금",
       "카카오 로그인이 가끔 실패하던 것 수정"
      ],
-     "count": 19,
+     "count": 23,
      "from": "09:34",
-     "to": "14:52",
-     "files": 43,
-     "added": 1695,
-     "removed": 94,
-     "unpushed": 6,
+     "to": "23:51",
+     "files": 52,
+     "added": 2765,
+     "removed": 104,
+     "unpushed": 2,
      "tech": [
       {
        "t": "09:34",
@@ -3929,7 +3934,7 @@ window.REPORT = {
        "f": 11,
        "a": 120,
        "r": 16,
-       "p": false
+       "p": true
       },
       {
        "t": "12:55",
@@ -3937,7 +3942,7 @@ window.REPORT = {
        "f": 13,
        "a": 56,
        "r": 3,
-       "p": false
+       "p": true
       },
       {
        "t": "14:46",
@@ -3945,7 +3950,7 @@ window.REPORT = {
        "f": 2,
        "a": 375,
        "r": 0,
-       "p": false
+       "p": true
       },
       {
        "t": "14:52",
@@ -3953,7 +3958,39 @@ window.REPORT = {
        "f": 3,
        "a": 429,
        "r": 0,
-       "p": false
+       "p": true
+      },
+      {
+       "t": "23:36",
+       "s": "feat(tos): 오디오 기반 발화 영수증을 기록한다 [skip]",
+       "f": 8,
+       "a": 549,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "23:44",
+       "s": "feat(tos): 학습자가 읽는 요약은 세 줄로 고정한다 [skip]",
+       "f": 2,
+       "a": 258,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:49",
+       "s": "docs(tos): 야간 조사 결과를 남긴다 — 읽기 게이트와 브레인 연결 [skip]",
+       "f": 1,
+       "a": 164,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:51",
+       "s": "docs(tos): OPIc 애드온 탐색 — 저울은 이미 맞고, 막힌 곳은 IH 위다 [skip]",
+       "f": 1,
+       "a": 99,
+       "r": 0,
+       "p": true
       }
      ]
     },
@@ -4118,6 +4155,202 @@ window.REPORT = {
      "to": "10:21",
      "files": 1,
      "types": [
+      [
+       ".txt",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "lit_pipeline",
+     "ko": "지문 제작",
+     "note": "읽기 지문 수집·가공",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "23:46",
+     "to": "23:46",
+     "files": 1,
+     "types": [
+      [
+       ".json",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-08-18",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 9,
+    "projects": 3,
+    "files": 18,
+    "file_work_dirs": 1,
+    "added": 1122,
+    "removed": 35,
+    "first": "08:32",
+    "last": "20:07",
+    "unpushed": 6
+   },
+   "effort": {
+    "minutes": 455,
+    "hours": 7.6,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 4
+   },
+   "times": [
+    "08:32",
+    "08:45",
+    "11:20",
+    "13:16",
+    "15:27",
+    "16:30",
+    "16:45",
+    "16:47",
+    "16:53",
+    "16:53",
+    "20:06",
+    "20:07",
+    "20:07"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_maro",
+     "ko": "세네카 학습 앱",
+     "note": "인적성 · 토익스피킹 · 글쓰기",
+     "summary": "",
+     "bullets": [],
+     "count": 8,
+     "from": "08:45",
+     "to": "16:53",
+     "files": 12,
+     "added": 1081,
+     "removed": 29,
+     "unpushed": 6,
+     "tech": [
+      {
+       "t": "08:45",
+       "s": "feat(tos): 채점 결과에 관찰 영수증을 붙인다",
+       "f": 4,
+       "a": 47,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:20",
+       "s": "chore(netlify): TOS 변경이 maroai를 다시 빌드하지 않게 한다 [skip]",
+       "f": 1,
+       "a": 25,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "13:16",
+       "s": "feat(tos): 모범 낭독을 붙인다 — 측정 다음은 교육이다 [skip]",
+       "f": 6,
+       "a": 247,
+       "r": 2,
+       "p": false
+      },
+      {
+       "t": "15:27",
+       "s": "feat(tos): 지문의 TOEIC 단어를 붙인다 — 어휘까지 가르친다 [skip]",
+       "f": 6,
+       "a": 181,
+       "r": 2,
+       "p": false
+      },
+      {
+       "t": "16:30",
+       "s": "docs(tos): 파트별 답변 프레임 초안 — 시험에 맞춰 가르친다 [skip]",
+       "f": 1,
+       "a": 154,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "16:45",
+       "s": "feat(tos): 완성된 답변의 모양을 가르친다 — 프레임은 검토 전까지 잠근다 [skip]",
+       "f": 6,
+       "a": 300,
+       "r": 1,
+       "p": false
+      },
+      {
+       "t": "16:47",
+       "s": "feat(tos): 만능문장을 쓴다 — 연결어만, 내용은 절대 넣지 않는다 [skip]",
+       "f": 5,
+       "a": 97,
+       "r": 22,
+       "p": false
+      },
+      {
+       "t": "16:53",
+       "s": "docs(tos): 한국 웹 자료는 형식 정보가 낡았다 — 방법은 배우되 사실은 믿지 말 것 [skip]",
+       "f": 1,
+       "a": 30,
+       "r": 0,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "08:32",
+     "to": "08:32",
+     "files": 2,
+     "added": 41,
+     "removed": 6,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "08:32",
+       "s": "Deploy: show grid-in questions in diagnostic review",
+       "f": 2,
+       "a": 41,
+       "r": 6,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "mt19_build",
+     "ko": "mt19_build",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "16:53",
+     "to": "20:07",
+     "files": 4,
+     "types": [
+      [
+       ".md",
+       1
+      ],
+      [
+       ".docx",
+       1
+      ],
+      [
+       ".py",
+       1
+      ],
       [
        ".txt",
        1
