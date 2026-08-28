@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-08-25 21:46",
+ "generated": "2026-08-28 20:26",
  "days": [
   {
    "date": "2026-08-07",
@@ -7955,6 +7955,533 @@ window.REPORT = {
       ],
       [
        ".log",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-08-27",
+   "weekday": "목요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 16,
+    "projects": 3,
+    "files": 35,
+    "file_work_dirs": 0,
+    "added": 952,
+    "removed": 104,
+    "first": "09:06",
+    "last": "23:06",
+    "unpushed": 2
+   },
+   "effort": {
+    "minutes": 323,
+    "hours": 5.4,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 4
+   },
+   "times": [
+    "09:06",
+    "09:12",
+    "11:37",
+    "11:38",
+    "15:03",
+    "15:04",
+    "15:05",
+    "15:06",
+    "15:13",
+    "15:58",
+    "22:45",
+    "22:47",
+    "22:48",
+    "22:55",
+    "22:58",
+    "23:06"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_maro",
+     "ko": "세네카 학습 앱",
+     "note": "인적성 · 토익스피킹 · 글쓰기",
+     "summary": "",
+     "bullets": [],
+     "count": 12,
+     "from": "09:06",
+     "to": "22:58",
+     "files": 27,
+     "added": 688,
+     "removed": 90,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:06",
+       "s": "Add --ids to the stimulus voicer, so a text fix can actually reach the audio",
+       "f": 1,
+       "a": 21,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "09:12",
+       "s": "duration_sec means the recording, not the attempt",
+       "f": 2,
+       "a": 64,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:37",
+       "s": "seo: one canonical host, and a homepage a crawler can actually read",
+       "f": 3,
+       "a": 55,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "11:38",
+       "s": "seo: IndexNow key file, so new pages can be pushed to engines instead of waited on",
+       "f": 2,
+       "a": 2,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "15:03",
+       "s": "seo: the product name is the subdomain now, maro.vindicaseneca.com",
+       "f": 14,
+       "a": 95,
+       "r": 65,
+       "p": true
+      },
+      {
+       "t": "15:04",
+       "s": "copy(college-essay): the demo was the exact slop the product exists to catch",
+       "f": 1,
+       "a": 13,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "15:13",
+       "s": "copy(college-essay): reword the demo note, which read as innuendo",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "15:58",
+       "s": "The extra notes were never reaching the database",
+       "f": 2,
+       "a": 108,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "22:45",
+       "s": "feat(aptitude): 전환 누수 3건 — 인성 로그인 벽·구글 로그인·체험 첫화면 프레이밍",
+       "f": 3,
+       "a": 71,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "22:47",
+       "s": "[skip] docs(aptitude): 체험 첫문항 이탈 원인 절반 규명 — 로드 실패는 아니다",
+       "f": 1,
+       "a": 8,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:55",
+       "s": "Trial groundwork: two questions before signing in",
+       "f": 2,
+       "a": 216,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:58",
+       "s": "A 로그인 button in the header, for people who are not",
+       "f": 2,
+       "a": 34,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "15:05",
+     "to": "23:06",
+     "files": 3,
+     "added": 2,
+     "removed": 10,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:05",
+       "s": "chore(cross-limb): Maro moved to maro.vindicaseneca.com",
+       "f": 2,
+       "a": 2,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "23:06",
+       "s": "Landing: remove orphaned section comments that rendered a stray >",
+       "f": 1,
+       "a": 0,
+       "r": 8,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "15:06",
+     "to": "22:48",
+     "files": 6,
+     "added": 262,
+     "removed": 4,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "15:06",
+       "s": "[skip] fix(oauth): gate partner grants on a confirmed adult age",
+       "f": 5,
+       "a": 255,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "22:48",
+       "s": "copy(hub): import and connect read as independent paths",
+       "f": 1,
+       "a": 7,
+       "r": 4,
+       "p": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-08-28",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 18,
+    "projects": 5,
+    "files": 65,
+    "file_work_dirs": 1,
+    "added": 5430,
+    "removed": 620,
+    "first": "01:17",
+    "last": "18:04",
+    "unpushed": 5
+   },
+   "effort": {
+    "minutes": 292,
+    "hours": 4.9,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "01:17",
+    "01:19",
+    "01:20",
+    "01:34",
+    "01:40",
+    "02:58",
+    "02:58",
+    "03:00",
+    "03:03",
+    "16:57",
+    "16:58",
+    "16:58",
+    "17:00",
+    "17:03",
+    "17:04",
+    "17:06",
+    "17:07",
+    "17:16",
+    "17:52",
+    "17:56",
+    "17:57",
+    "18:01",
+    "18:01",
+    "18:02",
+    "18:03",
+    "18:04",
+    "18:04",
+    "18:04"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_maro",
+     "ko": "세네카 학습 앱",
+     "note": "인적성 · 토익스피킹 · 글쓰기",
+     "summary": "",
+     "bullets": [],
+     "count": 11,
+     "from": "01:19",
+     "to": "17:16",
+     "files": 30,
+     "added": 1807,
+     "removed": 325,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:19",
+       "s": "Trial endpoints: two questions, no account, then keep them",
+       "f": 10,
+       "a": 200,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "01:34",
+       "s": "Two questions without an account, and they keep them",
+       "f": 3,
+       "a": 113,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "01:40",
+       "s": "A trial still has to ask before it records you",
+       "f": 10,
+       "a": 252,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "02:58",
+       "s": "One account, both sites — said where it is true",
+       "f": 4,
+       "a": 63,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "03:00",
+       "s": "feat(aptitude): 인적성 ↔ TOEIC Speaking 교차 배너 — '계정 하나' 명시",
+       "f": 6,
+       "a": 231,
+       "r": 18,
+       "p": true
+      },
+      {
+       "t": "03:03",
+       "s": "revert(tos): main에서 tori 작업 중 파일 3건 되돌림 — 실수로 함께 커밋됨",
+       "f": 3,
+       "a": 18,
+       "r": 172,
+       "p": true
+      },
+      {
+       "t": "16:58",
+       "s": "Re-pin the friends, re-roll the penguin, and make the pin checkable",
+       "f": 2,
+       "a": 571,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "16:58",
+       "s": "One wardrobe, nine bodies: gear hangs off a rig, not a hardcoded grid",
+       "f": 3,
+       "a": 172,
+       "r": 18,
+       "p": true
+      },
+      {
+       "t": "17:00",
+       "s": "Close the fifth door: a closed tab no longer loses the answer",
+       "f": 5,
+       "a": 61,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "17:03",
+       "s": "feat(aptitude): 랜딩 가치 제안 — '문제집 사면 되지 않나?'에 정면으로 답하기",
+       "f": 2,
+       "a": 86,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "17:16",
+       "s": "copy(aptitude): 랜딩 가치 섹션 톤 교정 — 광고조 제거, 유료/무료 대비를 구조로",
+       "f": 2,
+       "a": 40,
+       "r": 43,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "16:57",
+     "to": "17:07",
+     "files": 23,
+     "added": 3422,
+     "removed": 291,
+     "unpushed": 4,
+     "tech": [
+      {
+       "t": "16:57",
+       "s": "fix(brain): Policy 1 override windows are bounded, not permanent",
+       "f": 6,
+       "a": 311,
+       "r": 15,
+       "p": false
+      },
+      {
+       "t": "17:04",
+       "s": "Revert \"[skip] fix(oauth): gate partner grants on a confirmed adult age\"",
+       "f": 5,
+       "a": 0,
+       "r": 255,
+       "p": false
+      },
+      {
+       "t": "17:06",
+       "s": "feat(portability): xAPI export, partner integration docs, and a closed calibration bypass",
+       "f": 15,
+       "a": 2856,
+       "r": 21,
+       "p": false
+      },
+      {
+       "t": "17:07",
+       "s": "Revert \"Revert \"[skip] fix(oauth): gate partner grants on a confirmed adult age\"\"",
+       "f": 5,
+       "a": 255,
+       "r": 0,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "01:20",
+     "to": "02:58",
+     "files": 1,
+     "added": 113,
+     "removed": 4,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "01:20",
+       "s": "Game Mode demos on the landing, no account required",
+       "f": 1,
+       "a": 111,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "02:58",
+       "s": "[skip] Hero: stop \"Less wondering.\" breaking after the first word",
+       "f": 1,
+       "a": 2,
+       "r": 2,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "01:17",
+     "to": "01:17",
+     "files": 1,
+     "added": 88,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:17",
+       "s": "wiki(aptitude): 9/5 제1회 회차 결정 브리프 — 강행/연기 (주말 Kevin+Sungwon)",
+       "f": 1,
+       "a": 88,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "pitch-eval",
+     "ko": "pitch-eval",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 10,
+     "from": "17:52",
+     "to": "18:04",
+     "files": 10,
+     "types": [
+      [
+       ".mjs",
+       4
+      ],
+      [
+       ".md",
+       3
+      ],
+      [
+       ".json",
+       1
+      ],
+      [
+       ".jsonl",
+       1
+      ],
+      [
+       ".txt",
        1
       ]
      ]
