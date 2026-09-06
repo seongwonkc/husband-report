@@ -2,7 +2,8 @@
   "_comment": "레포 이름 -> 아내가 읽을 한국어 이름. 여기 없는 레포는 폴더 이름 그대로 나옵니다. 추측으로 채운 것들이 있으니 틀린 건 고치세요.",
   "_exclude": [
     "hugo-PaperMod",
-    "telegram-cache-decryption"
+    "telegram-cache-decryption",
+    "tracelink"
   ],
   "names": {
     "seneca_maro": {
@@ -224,6 +225,74 @@
     },
     "reports_mt19": {
       "ko": "학생 리포트 (19회)",
+      "note": ""
+    },
+    "tools": {
+      "ko": "문제은행 진단 도구",
+      "note": "문제 품질을 자동으로 검사하는 도구 모음"
+    },
+    "reddit_watch": {
+      "ko": "업계 소식 모니터링",
+      "note": "교육 관련 커뮤니티 자동 요약"
+    },
+    "_retired_pitches": {
+      "ko": "지난 발표 자료 보관",
+      "note": ""
+    },
+    "mt20_build": {
+      "ko": "20회 모의고사 제작",
+      "note": ""
+    },
+    "reports_mt20": {
+      "ko": "학생 리포트 (20회)",
+      "note": ""
+    },
+    "mt21_build": {
+      "ko": "21회 모의고사 제작",
+      "note": ""
+    },
+    "reports_mt21": {
+      "ko": "학생 리포트 (21회)",
+      "note": ""
+    },
+    "prek_math": {
+      "ko": "유아 수학",
+      "note": "미취학 아이용 수학·파닉스"
+    },
+    "suneung_lab": {
+      "ko": "수능 연구소",
+      "note": "수능 대비 사이트"
+    },
+    "suneung_corpus": {
+      "ko": "수능 기출 자료",
+      "note": ""
+    },
+    "New Face": {
+      "ko": "영어 음성 데이터셋",
+      "note": "아동·한국인 영어 발음 자료"
+    },
+    "pitch-eval": {
+      "ko": "발표 자료 점검",
+      "note": ""
+    },
+    "docs": {
+      "ko": "문서 정리",
+      "note": ""
+    },
+    "evidence": {
+      "ko": "근거 자료 정리",
+      "note": ""
+    },
+    "phone-check": {
+      "ko": "휴대폰 화면 점검",
+      "note": ""
+    },
+    "marolab": {
+      "ko": "마로랩 브랜드 작업",
+      "note": ""
+    },
+    "sat_analysis_results_2026-08-23": {
+      "ko": "SAT 분석 결과",
       "note": ""
     }
   }

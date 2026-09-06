@@ -28,7 +28,16 @@ CONFIG = os.path.join(ROOT, "repos.json")
 AUTHOR_EMAILS = {"seongwonkc@gmail.com"}
 
 MAX_DEPTH = 4
-SKIP_DIRS = {"node_modules", ".venv", "venv", "__pycache__", "dist", "build", ".next"}
+SKIP_DIRS = {"node_modules", ".venv", "venv", "__pycache__", "dist", "build", ".next",
+             "site-packages", "_internal", ".pytest_cache", ".mypy_cache", ".ruff_cache"}
+
+# 캐시·산출물 폴더는 "한 일"이 아닙니다. tools/bank_structure/cache_ladder 처럼
+# 기계가 찍어 낸 json 이 3만 개씩 쌓여 하루가 "파일 19,316개" 로 잡히던 것을 막습니다.
+CACHE_DIR_RE = re.compile(r"^(.*cache.*|out|outputs?|artifacts?|tmp|temp|logs?|\.git)$", re.I)
+
+# 한 폴더가 하루를 통째로 삼키지 않도록 세는 개수를 제한합니다.
+# (넘으면 사이트에 "500+" 로 표시)
+MAX_FILES_PER_DIR = 500
 
 WEEKDAY_KO = ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]
 
@@ -198,8 +207,8 @@ def scan_file_work(day, exclude_names):
         path = os.path.join(SCAN_ROOT, name)
         if not os.path.isdir(path) or name in SKIP_DIRS:
             continue
-        if name.startswith(".") or name.startswith("_tmp"):
-            continue          # 숨김·임시 폴더는 작업이 아닙니다
+        if name.startswith(".") or name.startswith("_tmp") or CACHE_DIR_RE.match(name):
+            continue          # 숨김·임시·캐시 폴더는 작업이 아닙니다
         if os.path.abspath(path) == ROOT or name in exclude_names:
             continue
         if os.path.exists(os.path.join(path, ".git")):
@@ -209,7 +218,10 @@ def scan_file_work(day, exclude_names):
         for dirpath, dirnames, filenames in os.walk(path):
             dirnames[:] = [d for d in dirnames
                            if d not in SKIP_DIRS and not d.startswith(".")
+                           and not CACHE_DIR_RE.match(d)
                            and not os.path.exists(os.path.join(dirpath, d, ".git"))]
+            if len(hits) > MAX_FILES_PER_DIR * 4:
+                break          # 이미 충분히 많다 — 더 훑어봐야 숫자만 커집니다
             for fn in filenames:
                 fp = os.path.join(dirpath, fn)
                 try:
@@ -222,6 +234,13 @@ def scan_file_work(day, exclude_names):
         if not hits:
             continue
         hits.sort(key=lambda h: h[0])
+        capped = len(hits) > MAX_FILES_PER_DIR
+        if capped:
+            # 시간 범위는 전체에서 잡고, 목록만 자릅니다.
+            first_dt, last_dt = hits[0][0], hits[-1][0]
+            hits = hits[:MAX_FILES_PER_DIR]
+            hits[0] = (first_dt, hits[0][1])
+            hits[-1] = (last_dt, hits[-1][1])
 
         exts = {}
         for _, rel in hits:
@@ -229,6 +248,7 @@ def scan_file_work(day, exclude_names):
             exts[e] = exts.get(e, 0) + 1
         out.append({
             "dir": name,
+            "capped": capped,
             "count": len(hits),
             "from": hits[0][0].strftime("%H:%M"),
             "to": hits[-1][0].strftime("%H:%M"),
@@ -285,7 +305,7 @@ def cmd_collect(argv):
 
     # 커밋으로 남지 않는 작업(문제집·리포트·자료 제작)도 함께 봅니다
     repo_dirs = {p.split("/")[0] for g in groups.values() for p in g["paths"]}
-    file_work = scan_file_work(day, repo_dirs)
+    file_work = scan_file_work(day, repo_dirs | exclude)
 
     all_c = [c for p in projects for c in p["commits"]]
     all_c.sort(key=lambda c: c["iso"])
