@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-07 02:51",
+ "generated": "2026-09-07 20:10",
  "days": [
   {
    "date": "2026-08-07",
@@ -13556,28 +13556,109 @@ window.REPORT = {
    "headline": "새벽에 잠깐. 다른 서비스와 안전하게 연결하는 통로를 마무리했어요.",
    "note": "",
    "stats": {
-    "commits": 3,
-    "projects": 1,
-    "files": 16,
-    "file_work_dirs": 0,
-    "added": 10761,
-    "removed": 9,
+    "commits": 19,
+    "projects": 2,
+    "files": 114,
+    "file_work_dirs": 1,
+    "added": 27089,
+    "removed": 631,
     "first": "00:30",
-    "last": "02:42",
-    "unpushed": 0
+    "last": "16:50",
+    "unpushed": 2
    },
    "effort": {
-    "minutes": 192,
-    "hours": 3.2,
-    "level": 2,
-    "name": "열심히",
-    "blurb": "제대로 붙잡고",
-    "sessions": 1
+    "minutes": 630,
+    "hours": 10.5,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 4
    },
    "times": [
     "00:30",
     "00:49",
-    "02:42"
+    "02:42",
+    "02:52",
+    "03:27",
+    "09:05",
+    "09:08",
+    "09:18",
+    "10:45",
+    "10:45",
+    "10:45",
+    "10:46",
+    "10:46",
+    "10:51",
+    "10:51",
+    "10:51",
+    "10:52",
+    "10:52",
+    "10:58",
+    "11:05",
+    "11:17",
+    "11:19",
+    "11:23",
+    "11:24",
+    "11:26",
+    "11:26",
+    "11:26",
+    "13:27",
+    "13:28",
+    "13:28",
+    "13:29",
+    "13:30",
+    "13:31",
+    "13:32",
+    "13:33",
+    "13:34",
+    "13:34",
+    "13:35",
+    "13:36",
+    "13:38",
+    "13:39",
+    "13:50",
+    "13:50",
+    "13:51",
+    "13:58",
+    "13:59",
+    "13:59",
+    "13:59",
+    "13:59",
+    "14:03",
+    "14:04",
+    "14:05",
+    "14:05",
+    "14:05",
+    "14:06",
+    "14:07",
+    "14:08",
+    "14:09",
+    "14:14",
+    "14:18",
+    "14:19",
+    "14:19",
+    "14:21",
+    "14:21",
+    "14:22",
+    "14:28",
+    "14:28",
+    "14:28",
+    "14:28",
+    "14:30",
+    "14:34",
+    "14:34",
+    "14:34",
+    "14:34",
+    "14:35",
+    "14:38",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50"
    ],
    "projects": [
     {
@@ -13587,13 +13668,13 @@ window.REPORT = {
      "note": "학습 분석 엔진",
      "summary": "외부 서비스와 학습 기록을 주고받는 연결 통로를 정리했어요. 켤지 말지를 선택할 수 있게 만들어서, 준비가 되기 전에는 켜지지 않도록 했습니다. 특정 회사에 종속되지 않게 중립적으로 만든 것도 함께 정리했어요.",
      "bullets": [],
-     "count": 3,
+     "count": 19,
      "from": "00:30",
-     "to": "02:42",
-     "files": 16,
-     "added": 10761,
-     "removed": 9,
-     "unpushed": 0,
+     "to": "16:50",
+     "files": 49,
+     "added": 27089,
+     "removed": 631,
+     "unpushed": 2,
      "tech": [
       {
        "t": "00:30",
@@ -13618,7 +13699,173 @@ window.REPORT = {
        "a": 26,
        "r": 0,
        "p": true
+      },
+      {
+       "t": "02:52",
+       "s": "Record branch Gmail lifecycle verification",
+       "f": 1,
+       "a": 7,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "03:27",
+       "s": "Prepare Partner Path and Gmail connector for production",
+       "f": 32,
+       "a": 1104,
+       "r": 71,
+       "p": true
+      },
+      {
+       "t": "09:05",
+       "s": "Make disposable PostgreSQL gate portable on CI",
+       "f": 1,
+       "a": 6,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "09:08",
+       "s": "Index Partner Path integrity relationships",
+       "f": 1,
+       "a": 22,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:18",
+       "s": "Include Aptitude nudge in partner preview",
+       "f": 1,
+       "a": 101,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:45",
+       "s": "Redesign learner record around next actions",
+       "f": 4,
+       "a": 560,
+       "r": 36,
+       "p": false
+      },
+      {
+       "t": "11:05",
+       "s": "Make the Learning Record explain itself",
+       "f": 4,
+       "a": 350,
+       "r": 175,
+       "p": false
+      },
+      {
+       "t": "13:34",
+       "s": "Add learner-owned classroom and paper evidence intake",
+       "f": 26,
+       "a": 4606,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "13:36",
+       "s": "Add learner-owned classroom and paper evidence intake (#1)",
+       "f": 26,
+       "a": 4606,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "14:21",
+       "s": "Add learning studio with grounded paper practice and linked attempts",
+       "f": 28,
+       "a": 2450,
+       "r": 140,
+       "p": true
+      },
+      {
+       "t": "14:22",
+       "s": "Add learning studio with grounded paper practice and linked attempts (#2)",
+       "f": 28,
+       "a": 2450,
+       "r": 140,
+       "p": true
+      },
+      {
+       "t": "14:28",
+       "s": "Allow retry after an AI reading fails validation",
+       "f": 3,
+       "a": 5,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "14:30",
+       "s": "Allow retry after an AI reading fails validation (#3)",
+       "f": 3,
+       "a": 5,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "14:34",
+       "s": "Keep studio readings about visible work rather than capability",
+       "f": 2,
+       "a": 23,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "14:35",
+       "s": "Keep studio readings about visible work rather than capability (#4)",
+       "f": 2,
+       "a": 23,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "16:50",
+       "s": "Restore the previous homepage and simplify team introduction",
+       "f": 1,
+       "a": 10,
+       "r": 31,
+       "p": true
       }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_classroom_adapter",
+     "ko": "seneca_classroom_adapter",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 65,
+     "from": "10:45",
+     "to": "16:50",
+     "files": 65,
+     "types": [
+      [
+       ".log",
+       24
+      ],
+      [
+       ".md",
+       12
+      ],
+      [
+       ".json",
+       11
+      ],
+      [
+       ".png",
+       7
+      ],
+      [
+       ".mjs",
+       5
+      ],
+      [
+       ".cjs",
+       3
+      ]
      ]
     }
    ]
