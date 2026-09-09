@@ -17,6 +17,12 @@ setlocal
 set PYTHONIOENCODING=utf-8
 set PYTHONUTF8=1
 
+REM Never wait on a credential dialog. A scheduled task has no desktop to show
+REM one on, so git would hang until the 30-min limit killed it (exit -1073741510).
+REM With these, a bad credential fails immediately and the next run retries.
+set GIT_TERMINAL_PROMPT=0
+set GCM_INTERACTIVE=never
+
 cd /d "%~dp0"
 if errorlevel 1 exit /b 1
 if not exist logs mkdir logs
