@@ -42,7 +42,11 @@ git diff --cached --quiet
 if errorlevel 1 (
   git commit -m "auto: report update %TODAY%" >> logs\daily.log 2>&1
   git push origin main >> logs\daily.log 2>&1
-  echo PUSHED >> logs\daily.log
+  if errorlevel 1 (
+    echo PUSH FAILED - committed locally, will retry next run >> logs\daily.log
+  ) else (
+    echo PUSHED >> logs\daily.log
+  )
 ) else (
   echo no changes >> logs\daily.log
 )

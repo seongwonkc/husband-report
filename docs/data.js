@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-07 20:10",
+ "generated": "2026-09-09 15:57",
  "days": [
   {
    "date": "2026-08-07",
@@ -13553,26 +13553,26 @@ window.REPORT = {
   {
    "date": "2026-09-07",
    "weekday": "월요일",
-   "headline": "새벽에 잠깐. 다른 서비스와 안전하게 연결하는 통로를 마무리했어요.",
-   "note": "",
+   "headline": "자정 넘어서부터 밤 10시 반까지. 학습 기록 화면을 '뭐가 쌓였는지' 대신 '이제 뭘 하면 되는지' 중심으로 다시 짰어요.",
+   "note": "종이에 푼 문제와 교실에서 받은 자료도 학습자 본인 기록으로 들어오게 만든 날이에요.",
    "stats": {
-    "commits": 19,
+    "commits": 26,
     "projects": 2,
-    "files": 114,
+    "files": 122,
     "file_work_dirs": 1,
-    "added": 27089,
-    "removed": 631,
+    "added": 27849,
+    "removed": 780,
     "first": "00:30",
-    "last": "16:50",
+    "last": "22:31",
     "unpushed": 2
    },
    "effort": {
-    "minutes": 630,
-    "hours": 10.5,
+    "minutes": 742,
+    "hours": 12.4,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
-    "sessions": 4
+    "sessions": 5
    },
    "times": [
     "00:30",
@@ -13658,7 +13658,14 @@ window.REPORT = {
     "16:50",
     "16:50",
     "16:50",
-    "16:50"
+    "16:50",
+    "16:51",
+    "17:09",
+    "21:57",
+    "22:00",
+    "22:06",
+    "22:18",
+    "22:31"
    ],
    "projects": [
     {
@@ -13666,14 +13673,20 @@ window.REPORT = {
      "repo": "seneca_ai",
      "ko": "세네카 본체",
      "note": "학습 분석 엔진",
-     "summary": "외부 서비스와 학습 기록을 주고받는 연결 통로를 정리했어요. 켤지 말지를 선택할 수 있게 만들어서, 준비가 되기 전에는 켜지지 않도록 했습니다. 특정 회사에 종속되지 않게 중립적으로 만든 것도 함께 정리했어요.",
-     "bullets": [],
-     "count": 19,
+     "summary": "학습 기록 화면을 크게 다시 만들었어요. 그동안은 '무엇이 얼마나 쌓였는지'를 보여 줬는데, 보고 나서 할 일이 없었습니다. 이제 '그래서 다음에 뭘 하면 되는지'를 앞에 놓고, 화면이 스스로 자기를 설명하도록 바꿨어요.\n\n그리고 교실에서 받은 유인물이나 종이에 푼 문제를 학습자 본인 기록으로 가져올 수 있게 했습니다. 학원이나 학교가 갖는 게 아니라 배우는 사람이 갖는 거예요. 그 자료로 바로 연습할 수 있는 공간도 만들었고, 서로 어떤 시도가 어떤 자료에서 나왔는지 연결해 뒀습니다.\n\nAI가 자료를 잘못 읽었을 때 그냥 실패로 끝나지 않고 다시 시도할 수 있게도 했어요. 그리고 메일 연동은 '켤 수 있게 준비만' 해 두고 기본은 꺼 두었습니다.",
+     "bullets": [
+      "기록 화면을 '쌓인 것'에서 '다음에 할 일' 중심으로 재설계",
+      "교실 유인물·종이 문제를 학습자 본인 기록으로 수집",
+      "그 자료로 바로 연습하는 공간 + 시도 기록 연결",
+      "AI가 잘못 읽었을 때 재시도 가능하게",
+      "메일 연동은 준비만 하고 기본은 꺼 둠"
+     ],
+     "count": 26,
      "from": "00:30",
-     "to": "16:50",
-     "files": 49,
-     "added": 27089,
-     "removed": 631,
+     "to": "22:31",
+     "files": 57,
+     "added": 27849,
+     "removed": 780,
      "unpushed": 2,
      "tech": [
       {
@@ -13827,15 +13840,71 @@ window.REPORT = {
        "a": 10,
        "r": 31,
        "p": true
+      },
+      {
+       "t": "16:51",
+       "s": "Restore the previous homepage and simplify team introduction (#5)",
+       "f": 1,
+       "a": 10,
+       "r": 31,
+       "p": true
+      },
+      {
+       "t": "17:09",
+       "s": "Make the landing-page traction counters live and scoreboard-style",
+       "f": 2,
+       "a": 359,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "21:57",
+       "s": "Add student experience overview and college waitlist",
+       "f": 4,
+       "a": 99,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:00",
+       "s": "Add student experience overview and college waitlist (#6)",
+       "f": 4,
+       "a": 99,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:06",
+       "s": "Name ChatGPT Claude and Gemini in student integration plan",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "22:18",
+       "s": "Lead student page with useful study context and interactive example",
+       "f": 3,
+       "a": 94,
+       "r": 54,
+       "p": true
+      },
+      {
+       "t": "22:31",
+       "s": "Show student-specific guidance evolving with learning records",
+       "f": 3,
+       "a": 98,
+       "r": 54,
+       "p": true
       }
      ]
     },
     {
      "kind": "files",
      "repo": "seneca_classroom_adapter",
-     "ko": "seneca_classroom_adapter",
+     "ko": "교실 자료 연결 도구",
      "note": "",
-     "summary": "",
+     "summary": "교실에서 나온 자료를 학습 기록으로 옮기는 연결 부품을 만들었어요.",
      "bullets": [],
      "count": 65,
      "from": "10:45",
@@ -13865,6 +13934,819 @@ window.REPORT = {
       [
        ".cjs",
        3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-08",
+   "weekday": "화요일",
+   "headline": "아침 9시부터 밤 11시 반까지. 고등학교 때 쓴 글을 대학 과제와 이어 주는 '다리'를 만들었고, 저녁엔 게임 하나를 공개했어요.",
+   "note": "교지 사이트에 1년치 글 57편도 되살렸어요.",
+   "stats": {
+    "commits": 31,
+    "projects": 4,
+    "files": 121,
+    "file_work_dirs": 0,
+    "added": 23403,
+    "removed": 2432,
+    "first": "09:11",
+    "last": "23:35",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 501,
+    "hours": 8.3,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 3
+   },
+   "times": [
+    "09:11",
+    "09:13",
+    "15:59",
+    "17:05",
+    "19:21",
+    "19:37",
+    "19:41",
+    "19:44",
+    "20:16",
+    "20:25",
+    "20:27",
+    "20:30",
+    "21:16",
+    "21:26",
+    "21:28",
+    "21:32",
+    "21:37",
+    "21:47",
+    "21:53",
+    "22:03",
+    "22:03",
+    "22:04",
+    "22:10",
+    "22:15",
+    "22:51",
+    "23:04",
+    "23:08",
+    "23:17",
+    "23:19",
+    "23:33",
+    "23:35"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "고등학교 때 쓴 글과 지금 받은 대학 과제를 이어 주는 '다리'를 만들었어요. 예전에 자기가 쓴 글에서 실제 문장을 가져와 보여 주고, 그걸 발판 삼아 지금 과제를 시작할 수 있게 하는 방식입니다.\n\n중요하게 지킨 선이 있어요. 이 다리는 읽기만 가능하고, 공유할 때도 학습자가 고른 것만, 정해진 범위 안에서만 나갑니다. 화면을 이동하는 도중에 공유 설정이 슬쩍 바뀌는 일이 없도록도 막았어요.\n\n그리고 저장해 둔 과제물을 골라서 기록 대화에 넣을 수 있게 했습니다. 저장 → 읽기 → 목록 → 대화까지 전 과정을 실제 데이터베이스로 한 번 통과시켜 증명했어요. AI가 자료를 잘못 읽었으면 고칠 수 있고, 고친 이력도 남습니다.",
+     "bullets": [
+      "고교 시절 글 → 대학 과제로 잇는 '다리' 제작",
+      "읽기 전용 · 고른 것만 · 정해진 범위만 공유",
+      "저장한 과제물을 기록 대화에 골라 넣기",
+      "저장부터 대화까지 전 과정을 실제 DB로 검증",
+      "잘못된 읽기를 고치고 이력을 남길 수 있게"
+     ],
+     "count": 23,
+     "from": "17:05",
+     "to": "23:35",
+     "files": 78,
+     "added": 10659,
+     "removed": 1280,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "17:05",
+       "s": "Make free learner access explicit across student and learning pages",
+       "f": 4,
+       "a": 27,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "19:37",
+       "s": "Build college bridge from high-school work to current assignments",
+       "f": 18,
+       "a": 582,
+       "r": 46,
+       "p": true
+      },
+      {
+       "t": "19:41",
+       "s": "Keep college bridge readings artifact-scoped with bounded corrective retry",
+       "f": 2,
+       "a": 16,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "19:44",
+       "s": "Keep college bridge concise and distinguish feedback requests from attempts",
+       "f": 1,
+       "a": 5,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "20:16",
+       "s": "College bridge: read-only native sharing into a connected AI",
+       "f": 15,
+       "a": 1220,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "20:25",
+       "s": "Limit bridge connection consent and guard sharing controls during navigation",
+       "f": 6,
+       "a": 101,
+       "r": 46,
+       "p": true
+      },
+      {
+       "t": "20:30",
+       "s": "Record live bridge sharing verification and correct ChatGPT setup link",
+       "f": 2,
+       "a": 22,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "21:16",
+       "s": "Map student continuity into the existing architecture (Phase 0)",
+       "f": 4,
+       "a": 555,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:26",
+       "s": "Make ordinary Study-chat extraction durable: claim, detect once, deliver with stable ids",
+       "f": 8,
+       "a": 1116,
+       "r": 111,
+       "p": true
+      },
+      {
+       "t": "21:28",
+       "s": "Repair Hub export and align connection copy with the real scopes and limits",
+       "f": 3,
+       "a": 106,
+       "r": 18,
+       "p": true
+      },
+      {
+       "t": "21:32",
+       "s": "Add the learner coursework inventory as a versioned query-layer read",
+       "f": 4,
+       "a": 374,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "21:37",
+       "s": "Let record chat answer about explicitly selected saved coursework",
+       "f": 4,
+       "a": 309,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "21:47",
+       "s": "Show saved coursework on the Hub, tickable into the record chat",
+       "f": 5,
+       "a": 580,
+       "r": 23,
+       "p": true
+      },
+      {
+       "t": "21:53",
+       "s": "Prove the save → read → inventory → grounded-chat chain against a real database",
+       "f": 1,
+       "a": 268,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:04",
+       "s": "Let a bridge reuse saved work, and let a wrong reading be corrected with history",
+       "f": 7,
+       "a": 454,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "22:10",
+       "s": "Surface reuse, the next attempt, and reading correction on the bridge and Studio pages",
+       "f": 4,
+       "a": 144,
+       "r": 14,
+       "p": true
+      },
+      {
+       "t": "22:15",
+       "s": "Close the continuity arc: rollout plan, evidence table, live boundary result, reflection",
+       "f": 4,
+       "a": 2272,
+       "r": 220,
+       "p": true
+      },
+      {
+       "t": "23:04",
+       "s": "Correct the SDK-coverage claim and the atomic-RPC rollout facts",
+       "f": 2,
+       "a": 20,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "23:08",
+       "s": "One documented in-process gateway transport; drain and MCP ride it",
+       "f": 4,
+       "a": 358,
+       "r": 52,
+       "p": true
+      },
+      {
+       "t": "23:17",
+       "s": "Centralize record-chat retrieval in the core query layer, reached as the learner",
+       "f": 11,
+       "a": 905,
+       "r": 528,
+       "p": true
+      },
+      {
+       "t": "23:19",
+       "s": "Hub reads go through a thin product endpoint; frontend loses gateway wire knowledge",
+       "f": 5,
+       "a": 228,
+       "r": 14,
+       "p": true
+      },
+      {
+       "t": "23:33",
+       "s": "Boundary manifest + checks against the actual pinned SDK, wired into CI",
+       "f": 11,
+       "a": 910,
+       "r": 143,
+       "p": true
+      },
+      {
+       "t": "23:35",
+       "s": "Close the boundary arc: rollout addendum, lessons, manifest",
+       "f": 3,
+       "a": 87,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "연습 중에 정답을 확인하면 맞았는지 틀렸는지 바로 보이게 했어요. 답을 바꾸면 그 표시도 함께 지워집니다. 로그인 코드 길이가 달라져도 받아들이도록 고쳤고요.",
+     "bullets": [],
+     "count": 3,
+     "from": "09:11",
+     "to": "22:03",
+     "files": 6,
+     "added": 94,
+     "removed": 13,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:11",
+       "s": "Show an immediate right/wrong verdict when practice reveals an answer",
+       "f": 4,
+       "a": 70,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "09:13",
+       "s": "Clear the choice verdict colors when an answer change re-opens the question",
+       "f": 1,
+       "a": 5,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:03",
+       "s": "Accept the sign-in code at whatever length Supabase issues",
+       "f": 2,
+       "a": 19,
+       "r": 12,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "sprocket-works",
+     "ko": "스프로킷 웍스",
+     "note": "직접 만든 게임",
+     "summary": "직접 만든 게임을 처음으로 공개했어요. 휴대폰에서 화면 크기가 어긋나던 것을 고치고, 아이콘도 붙였습니다.\n\n그리고 재미있는 버그를 하나 잡았어요. 특정 지형이 만들어지면 발판이 스프링을 막아 버려서 더 이상 진행할 수 없게 되는 경우가 있었는데, 확인해 보니 열한 번에 한 번꼴로 생기고 있었습니다.",
+     "bullets": [
+      "게임 첫 공개 (v0.1)",
+      "휴대폰 화면 크기 어긋남 수정",
+      "11번에 1번꼴로 진행 불가가 되던 지형 문제 해결"
+     ],
+     "count": 3,
+     "from": "15:59",
+     "to": "20:27",
+     "files": 17,
+     "added": 8325,
+     "removed": 10,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:59",
+       "s": "Sprocket Works: playable v0.1",
+       "f": 96,
+       "a": 8252,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:21",
+       "s": "Fix phone-DPR canvas scaling, drop dead crateOpen entry, add favicon",
+       "f": 4,
+       "a": 22,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "20:27",
+       "s": "Never let a ledge cap a spring: 11% of seeds soft-locked the run",
+       "f": 3,
+       "a": 51,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "argosyfinal",
+     "ko": "아르고시 (최종본)",
+     "note": "",
+     "summary": "학교 교지 사이트에 1년치 글 57편을 되살려 넣었어요. 편집진이 바뀐 과정과 졸업생 페이지도 함께 정리했습니다. 그리고 사이트 전체를 '배의 잉크와 신호기' 느낌으로 새로 디자인하고, 사람마다 픽셀 아바타를 붙였어요.",
+     "bullets": [],
+     "count": 2,
+     "from": "22:03",
+     "to": "22:51",
+     "files": 24,
+     "added": 4325,
+     "removed": 1129,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "22:03",
+       "s": "Backfill Sept 2025 - Sept 2026: 57 posts, masthead transition, alumni page, dedupe",
+       "f": 136,
+       "a": 2990,
+       "r": 197,
+       "p": true
+      },
+      {
+       "t": "22:51",
+       "s": "Redesign: 'ship's ink and signal flags' design system + pixel avatars",
+       "f": 41,
+       "a": 1335,
+       "r": 932,
+       "p": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-09",
+   "weekday": "수요일",
+   "headline": "새벽부터 오후까지. 만들어 둔 안전장치가 진짜로 작동하는지 스스로 의심하고 다시 검증한 날이에요.",
+   "note": "'검사를 통과했다'가 아니라 '검사가 실제로 무엇을 잡는지'를 확인했어요.",
+   "stats": {
+    "commits": 23,
+    "projects": 6,
+    "files": 122,
+    "file_work_dirs": 2,
+    "added": 5934,
+    "removed": 1579,
+    "first": "00:01",
+    "last": "15:52",
+    "unpushed": 1
+   },
+   "effort": {
+    "minutes": 557,
+    "hours": 9.3,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 2
+   },
+   "times": [
+    "00:01",
+    "00:10",
+    "00:11",
+    "01:56",
+    "01:56",
+    "02:40",
+    "02:46",
+    "02:48",
+    "02:50",
+    "03:21",
+    "03:47",
+    "03:47",
+    "03:48",
+    "03:54",
+    "03:59",
+    "04:21",
+    "04:28",
+    "04:29",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:51",
+    "04:57",
+    "04:57",
+    "04:57",
+    "04:57",
+    "04:57",
+    "04:57",
+    "04:57",
+    "04:57",
+    "04:57",
+    "04:58",
+    "05:01",
+    "05:01",
+    "05:02",
+    "05:02",
+    "05:02",
+    "05:03",
+    "05:04",
+    "05:04",
+    "05:04",
+    "05:04",
+    "05:04",
+    "05:04",
+    "05:04",
+    "05:06",
+    "05:06",
+    "05:10",
+    "05:10",
+    "13:44",
+    "13:44",
+    "13:58",
+    "13:59",
+    "14:36",
+    "14:36",
+    "14:36",
+    "14:36",
+    "14:36",
+    "14:36",
+    "14:36",
+    "14:36",
+    "14:37",
+    "14:37",
+    "14:47",
+    "14:56",
+    "15:00",
+    "15:24",
+    "15:27",
+    "15:38",
+    "15:52"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "경계 검사기를 다시 봤어요. 서로 접근하면 안 되는 부분들이 실제로 막혀 있는지 확인하는 장치인데, 확인해 보니 검사를 우회하는 지름길 네 가지가 그대로 통과되고 있었습니다. 실제 구조를 제대로 따라가도록 고쳐서 이제는 그 넷이 전부 걸립니다.\n\n더 중요한 게 하나 있었어요. '다른 사람 기록은 못 본다'를 확인하는 검사가 사실은 아무것도 확인하지 않는 빈 검사였습니다. 통과해도 의미가 없는 상태였어요. 실제로 추적기를 붙여 살아 있는 환경에서 확인했고, 검사가 무엇을 보장하는지 설명도 실제에 맞게 고쳐 썼습니다.\n\n그리고 공용 부품을 2.1 버전으로 올리고, 투자자용 발표 자료도 새 버전을 냈어요. 오후에는 로그인한 사용자가 자기 기록을 읽고 내보내는 기능을 실제 서비스에서 복구했습니다.",
+     "bullets": [
+      "검사를 우회하던 지름길 4가지 발견 → 이제 전부 걸림",
+      "'남의 기록 못 본다' 검사가 사실 빈 검사였던 것 발견·수정",
+      "보장 범위를 실제에 맞게 다시 설명",
+      "공용 부품 2.1 버전 · 투자 발표 자료 새 버전",
+      "로그인 사용자의 기록 읽기·내보내기 복구"
+     ],
+     "count": 15,
+     "from": "00:01",
+     "to": "15:38",
+     "files": 29,
+     "added": 1759,
+     "removed": 590,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "00:01",
+       "s": "Boundary checker resolves the real module graph; the four demonstrated shortcuts now fail",
+       "f": 4,
+       "a": 543,
+       "r": 150,
+       "p": true
+      },
+      {
+       "t": "00:10",
+       "s": "Runtime transport verification: SDK and bridge against the real gateway over a disposable database",
+       "f": 2,
+       "a": 516,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:11",
+       "s": "Revise the enforcement claim to what the hardened checks actually verify",
+       "f": 3,
+       "a": 57,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "01:56",
+       "s": "Fix the vacuous cross-user assertion; prove it live with a tracer",
+       "f": 1,
+       "a": 24,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:56",
+       "s": "Check in the boundary review the last two arcs answer to",
+       "f": 1,
+       "a": 104,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:46",
+       "s": "Adopt SDK v2.1.0: pin bump, both pending consumers on typed clients, exceptions retired",
+       "f": 7,
+       "a": 175,
+       "r": 153,
+       "p": true
+      },
+      {
+       "t": "02:50",
+       "s": "Record the v2.1.0 release package: prepared commits, preflight results, ordered external actions",
+       "f": 1,
+       "a": 68,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "03:47",
+       "s": "Use SDK read credentials consistently in CI installs",
+       "f": 2,
+       "a": 8,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "04:21",
+       "s": "Publish Seneca investor deck v3.8",
+       "f": 4,
+       "a": 14,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "04:28",
+       "s": "Run required gate for investor deck updates",
+       "f": 1,
+       "a": 4,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "04:29",
+       "s": "Publish Seneca investor deck v3.8 (#7)",
+       "f": 5,
+       "a": 18,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "14:56",
+       "s": "Restore authenticated record reads and exports in production",
+       "f": 4,
+       "a": 60,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "15:24",
+       "s": "Use learner approval for external connections",
+       "f": 6,
+       "a": 51,
+       "r": 236,
+       "p": true
+      },
+      {
+       "t": "15:27",
+       "s": "Run required database gate on every candidate",
+       "f": 1,
+       "a": 3,
+       "r": 14,
+       "p": true
+      },
+      {
+       "t": "15:38",
+       "s": "Record signed-in rollout evidence and remaining live checks",
+       "f": 2,
+       "a": 114,
+       "r": 0,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "argosyfinal",
+     "ko": "아르고시 (최종본)",
+     "note": "",
+     "summary": "교지 사이트를 더 다듬었어요. 필자마다 글투가 구분되게 하고, 여럿이 대화하는 형식의 꼭지를 넣고, 새 편집진 네 명을 추가했습니다. 사람 얼굴 그림도 잘 보이도록 크게 키웠어요. 이름 철자 하나도 바로잡았고, 연락 메일 주소를 편집부 주소로 바꿨습니다.",
+     "bullets": [],
+     "count": 6,
+     "from": "02:48",
+     "to": "03:59",
+     "files": 26,
+     "added": 1663,
+     "removed": 905,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "02:48",
+       "s": "Voice differentiation, chatroom roundtables, four new staff",
+       "f": 88,
+       "a": 1615,
+       "r": 861,
+       "p": true
+      },
+      {
+       "t": "03:21",
+       "s": "Fix Isaac Kim spelling; stop tracking .env",
+       "f": 9,
+       "a": 14,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "03:47",
+       "s": "Enlarge author avatars: 48px article bylines, 40px chat, 36px lead",
+       "f": 4,
+       "a": 15,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "03:48",
+       "s": "Chat avatars up to 56px (44px mobile)",
+       "f": 2,
+       "a": 5,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "03:54",
+       "s": "Avatars larger still: 72px chat, 56px article byline, 44px lead",
+       "f": 4,
+       "a": 10,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "03:59",
+       "s": "Contact email -> editors@theargosy.org (forwarding live via DNS)",
+       "f": 3,
+       "a": 4,
+       "r": 4,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "여러 앱이 공통으로 쓰는 부품을 2.1 버전으로 올렸어요.",
+     "bullets": [],
+     "count": 1,
+     "from": "02:40",
+     "to": "02:40",
+     "files": 12,
+     "added": 2494,
+     "removed": 81,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "02:40",
+       "s": "v2.1.0: partner path + student-continuity reads + injectable transport",
+       "f": 136,
+       "a": 2494,
+       "r": 81,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "sprocket-works",
+     "ko": "스프로킷 웍스",
+     "note": "직접 만든 게임",
+     "summary": "느린 기기에서 클릭이 전부 씹히던 문제를 고쳤어요.",
+     "bullets": [],
+     "count": 1,
+     "from": "15:52",
+     "to": "15:52",
+     "files": 2,
+     "added": 18,
+     "removed": 3,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:52",
+       "s": "Latch pointer edges per frame: slow machines ate every click",
+       "f": 2,
+       "a": 18,
+       "r": 3,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "세네카를 알리는 SNS 문구와 이미지를 만들었어요. 브랜드가 어떤 목소리로 말해야 하는지 기준도 함께 정리했습니다.",
+     "bullets": [],
+     "count": 36,
+     "from": "04:57",
+     "to": "15:00",
+     "files": 36,
+     "types": [
+      [
+       ".png",
+       29
+      ],
+      [
+       ".md",
+       6
+      ],
+      [
+       ".html",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "RideRelay",
+     "ko": "라이드릴레이",
+     "note": "택시 앱 여러 개를 한 번에 (안드로이드 실험작)",
+     "summary": "택시·모빌리티 앱 여러 개를 오가며 목적지를 매번 다시 입력하지 않아도 되게 해 주는 안드로이드 앱을 만들어 보고 있어요. 회사 일이 아니라 불편해서 직접 만든 것입니다.",
+     "bullets": [],
+     "count": 17,
+     "from": "04:51",
+     "to": "05:02",
+     "files": 17,
+     "types": [
+      [
+       ".xml",
+       4
+      ],
+      [
+       ".ps1",
+       4
+      ],
+      [
+       ".gradle",
+       3
+      ],
+      [
+       ".properties",
+       2
+      ],
+      [
+       "(없음)",
+       1
+      ],
+      [
+       ".pro",
+       1
       ]
      ]
     }

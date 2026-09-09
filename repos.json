@@ -294,6 +294,22 @@
     "sat_analysis_results_2026-08-23": {
       "ko": "SAT 분석 결과",
       "note": ""
+    },
+    "seneca_classroom_adapter": {
+      "ko": "교실 자료 연결 도구",
+      "note": ""
+    },
+    "sprocket-works": {
+      "ko": "스프로킷 웍스",
+      "note": "직접 만든 게임"
+    },
+    "seneca_marketing_x": {
+      "ko": "세네카 홍보 자료",
+      "note": "SNS 문구·이미지"
+    },
+    "RideRelay": {
+      "ko": "라이드릴레이",
+      "note": "택시 앱 여러 개를 한 번에 (안드로이드 실험작)"
     }
   }
 }
