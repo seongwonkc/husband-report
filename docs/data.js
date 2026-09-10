@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-09 15:57",
+ "generated": "2026-09-10 19:57",
  "days": [
   {
    "date": "2026-08-07",
@@ -14331,23 +14331,23 @@ window.REPORT = {
    "headline": "새벽부터 오후까지. 만들어 둔 안전장치가 진짜로 작동하는지 스스로 의심하고 다시 검증한 날이에요.",
    "note": "'검사를 통과했다'가 아니라 '검사가 실제로 무엇을 잡는지'를 확인했어요.",
    "stats": {
-    "commits": 23,
-    "projects": 6,
-    "files": 122,
+    "commits": 36,
+    "projects": 8,
+    "files": 199,
     "file_work_dirs": 2,
-    "added": 5934,
-    "removed": 1579,
+    "added": 19002,
+    "removed": 2063,
     "first": "00:01",
-    "last": "15:52",
-    "unpushed": 1
+    "last": "23:57",
+    "unpushed": 0
    },
    "effort": {
-    "minutes": 557,
-    "hours": 9.3,
+    "minutes": 811,
+    "hours": 13.5,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
-    "sessions": 2
+    "sessions": 3
    },
    "times": [
     "00:01",
@@ -14425,7 +14425,20 @@ window.REPORT = {
     "15:24",
     "15:27",
     "15:38",
-    "15:52"
+    "15:52",
+    "15:57",
+    "16:16",
+    "16:29",
+    "17:43",
+    "22:34",
+    "22:35",
+    "22:35",
+    "22:40",
+    "22:49",
+    "23:52",
+    "23:57",
+    "23:57",
+    "23:57"
    ],
    "projects": [
     {
@@ -14441,13 +14454,13 @@ window.REPORT = {
       "공용 부품 2.1 버전 · 투자 발표 자료 새 버전",
       "로그인 사용자의 기록 읽기·내보내기 복구"
      ],
-     "count": 15,
+     "count": 23,
      "from": "00:01",
-     "to": "15:38",
-     "files": 29,
-     "added": 1759,
-     "removed": 590,
-     "unpushed": 1,
+     "to": "23:57",
+     "files": 72,
+     "added": 10483,
+     "removed": 969,
+     "unpushed": 0,
      "tech": [
       {
        "t": "00:01",
@@ -14567,7 +14580,71 @@ window.REPORT = {
        "f": 2,
        "a": 114,
        "r": 0,
-       "p": false
+       "p": true
+      },
+      {
+       "t": "16:29",
+       "s": "Add fail-closed K-12 privacy readiness boundary",
+       "f": 27,
+       "a": 658,
+       "r": 31,
+       "p": true
+      },
+      {
+       "t": "17:43",
+       "s": "Complete K-12 technical readiness controls",
+       "f": 30,
+       "a": 3224,
+       "r": 276,
+       "p": true
+      },
+      {
+       "t": "22:34",
+       "s": "Complete VindicaOS and TOEFL privacy follow-through",
+       "f": 16,
+       "a": 134,
+       "r": 23,
+       "p": true
+      },
+      {
+       "t": "22:40",
+       "s": "Render verified file and page citations for selected saved work",
+       "f": 14,
+       "a": 408,
+       "r": 25,
+       "p": true
+      },
+      {
+       "t": "22:49",
+       "s": "Record live citation and Claude revocation verification",
+       "f": 3,
+       "a": 43,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "23:52",
+       "s": "Merge pull request #8 from vindicainc/codex/k12-data-readiness",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:57",
+       "s": "Record ChatGPT bridge retrieval and revocation verification",
+       "f": 2,
+       "a": 36,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "23:57",
+       "s": "Add tested standards host learner controls and staging acceptance",
+       "f": 48,
+       "a": 4221,
+       "r": 6,
+       "p": true
       }
      ]
     },
@@ -14638,16 +14715,57 @@ window.REPORT = {
     },
     {
      "kind": "git",
+     "repo": "sprocket-works",
+     "ko": "스프로킷 웍스",
+     "note": "직접 만든 게임",
+     "summary": "느린 기기에서 클릭이 전부 씹히던 문제를 고쳤어요.",
+     "bullets": [],
+     "count": 3,
+     "from": "15:52",
+     "to": "16:16",
+     "files": 7,
+     "added": 111,
+     "removed": 25,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:52",
+       "s": "Latch pointer edges per frame: slow machines ate every click",
+       "f": 2,
+       "a": 18,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "15:57",
+       "s": "Clear a spawn safety box: 1.9% of seeds embedded the player in a ledge",
+       "f": 2,
+       "a": 33,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:16",
+       "s": "Springs never fired: probe read the slab below the feet, not the spring",
+       "f": 5,
+       "a": 60,
+       "r": 22,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
      "repo": "seneca_sdk",
      "ko": "세네카 개발 도구",
      "note": "다른 앱들이 갖다 쓰는 공용 부품",
      "summary": "여러 앱이 공통으로 쓰는 부품을 2.1 버전으로 올렸어요.",
      "bullets": [],
-     "count": 1,
+     "count": 2,
      "from": "02:40",
-     "to": "02:40",
-     "files": 12,
-     "added": 2494,
+     "to": "23:57",
+     "files": 23,
+     "added": 6369,
      "removed": 81,
      "unpushed": 0,
      "tech": [
@@ -14658,30 +14776,63 @@ window.REPORT = {
        "a": 2494,
        "r": 81,
        "p": true
+      },
+      {
+       "t": "23:57",
+       "s": "Add scoped xAPI and Caliper standards evidence adapters",
+       "f": 92,
+       "a": 3875,
+       "r": 0,
+       "p": true
       }
      ]
     },
     {
      "kind": "git",
-     "repo": "sprocket-works",
-     "ko": "스프로킷 웍스",
-     "note": "직접 만든 게임",
-     "summary": "느린 기기에서 클릭이 전부 씹히던 문제를 고쳤어요.",
+     "repo": "daniellabsat",
+     "ko": "다니엘랩 SAT",
+     "note": "학원 학생들이 쓰는 학습 사이트",
+     "summary": "",
      "bullets": [],
      "count": 1,
-     "from": "15:52",
-     "to": "15:52",
-     "files": 2,
-     "added": 18,
-     "removed": 3,
+     "from": "22:35",
+     "to": "22:35",
+     "files": 12,
+     "added": 193,
+     "removed": 81,
      "unpushed": 0,
      "tech": [
       {
-       "t": "15:52",
-       "s": "Latch pointer edges per frame: slow machines ate every click",
-       "f": 2,
-       "a": 18,
-       "r": 3,
+       "t": "22:35",
+       "s": "Use VindicaOS across production-facing surfaces",
+       "f": 26,
+       "a": 193,
+       "r": 81,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_maro",
+     "ko": "세네카 학습 앱",
+     "note": "인적성 · 토익스피킹 · 글쓰기",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "22:35",
+     "to": "22:35",
+     "files": 6,
+     "added": 183,
+     "removed": 2,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "22:35",
+       "s": "Authenticate and scope legacy TOEFL audio uploads",
+       "f": 6,
+       "a": 183,
+       "r": 2,
        "p": true
       }
      ]
@@ -14746,6 +14897,540 @@ window.REPORT = {
       ],
       [
        ".pro",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "weekday": "목요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 36,
+    "projects": 5,
+    "files": 157,
+    "file_work_dirs": 2,
+    "added": 4151,
+    "removed": 284,
+    "first": "00:03",
+    "last": "14:19",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 358,
+    "hours": 6.0,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 3
+   },
+   "times": [
+    "00:03",
+    "00:04",
+    "00:17",
+    "00:17",
+    "00:20",
+    "00:21",
+    "00:23",
+    "00:49",
+    "01:04",
+    "01:05",
+    "01:07",
+    "01:07",
+    "01:10",
+    "01:13",
+    "01:14",
+    "01:14",
+    "01:15",
+    "01:16",
+    "01:18",
+    "01:19",
+    "01:20",
+    "01:21",
+    "09:09",
+    "09:14",
+    "09:17",
+    "09:49",
+    "09:49",
+    "10:07",
+    "10:09",
+    "10:10",
+    "13:40",
+    "13:41",
+    "13:42",
+    "13:42",
+    "13:46",
+    "13:47",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:49",
+    "13:49",
+    "13:51",
+    "13:57",
+    "13:57",
+    "13:57",
+    "13:57",
+    "13:57",
+    "13:57",
+    "13:57",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:09",
+    "14:10",
+    "14:10",
+    "14:10",
+    "14:10",
+    "14:10",
+    "14:10",
+    "14:10",
+    "14:16",
+    "14:19"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 31,
+     "from": "00:03",
+     "to": "13:51",
+     "files": 50,
+     "added": 2491,
+     "removed": 194,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:03",
+       "s": "Prepare gated production routes and Aptitude response pilot",
+       "f": 14,
+       "a": 173,
+       "r": 13,
+       "p": true
+      },
+      {
+       "t": "00:04",
+       "s": "Merge commit '706e530' into codex/standards-main-integration",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:17",
+       "s": "Merge remote-tracking branch 'origin/main' into codex/standards-main-integration",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:17",
+       "s": "Add durable rights journal retention controls and real Aptitude pilot evidence",
+       "f": 11,
+       "a": 332,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "00:20",
+       "s": "docs: record K12 production rollout evidence",
+       "f": 2,
+       "a": 64,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "00:21",
+       "s": "Merge pull request #9 from vindicainc/codex/k12-rollout-evidence",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:23",
+       "s": "Record offsite recovery evidence and narrow service grants",
+       "f": 2,
+       "a": 46,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "00:49",
+       "s": "Merge remote-tracking branch 'origin/main' into codex/standards-main-integration",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:04",
+       "s": "Make reviewed bridge copy the primary AI handoff",
+       "f": 8,
+       "a": 227,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "01:05",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/college-bridge",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:07",
+       "s": "Merge pull request #10 from vindicainc/feat/college-bridge",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:10",
+       "s": "Automate encrypted rights journal backups with verified checkpoints",
+       "f": 15,
+       "a": 904,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "01:13",
+       "s": "Merge remote-tracking branch 'origin/main' into codex/standards-main-integration",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:14",
+       "s": "Support Gemini secret-based automatic OAuth registration",
+       "f": 4,
+       "a": 92,
+       "r": 65,
+       "p": true
+      },
+      {
+       "t": "01:14",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/college-bridge",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:15",
+       "s": "Enforce service-only RPC grants and run standards DB checks in CI",
+       "f": 7,
+       "a": 80,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "01:16",
+       "s": "Merge pull request #12 from vindicainc/feat/college-bridge",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:18",
+       "s": "Keep Linux test database sockets inside the disposable directory",
+       "f": 2,
+       "a": 18,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "01:19",
+       "s": "Merge remote-tracking branch 'origin/main' into codex/standards-main-integration",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:20",
+       "s": "Document hosted schedule verification and provider permission checks",
+       "f": 3,
+       "a": 14,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "01:21",
+       "s": "Record copy-flow deployment and live Gemini registration evidence",
+       "f": 1,
+       "a": 23,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:09",
+       "s": "Merge pull request #11 from vindicainc/codex/standards-main-integration",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:14",
+       "s": "Publish learner evidence assets through the public allowlist",
+       "f": 5,
+       "a": 79,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "09:17",
+       "s": "Merge pull request #13 from vindicainc/codex/standards-public-assets",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:49",
+       "s": "Interpret scoped Aptitude evidence through governed standards query",
+       "f": 20,
+       "a": 381,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "13:40",
+       "s": "Compare only reported attempt and score components",
+       "f": 2,
+       "a": 17,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "13:41",
+       "s": "Record reviewed assessment release validation",
+       "f": 1,
+       "a": 4,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "13:42",
+       "s": "Pin standards fixtures to merged SDK 2.2.0 release",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "13:46",
+       "s": "Merge pull request #14 from vindicainc/codex/aptitude-interpretation",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:49",
+       "s": "Record verified assessment production release and safeguards",
+       "f": 1,
+       "a": 36,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "13:51",
+       "s": "Merge pull request #15 from vindicainc/codex/aptitude-interpretation",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "01:07",
+     "to": "13:42",
+     "files": 12,
+     "added": 822,
+     "removed": 80,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:07",
+       "s": "Merge pull request #1 from seongwonkc/codex/standards-reviewed",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:49",
+       "s": "Add versioned assessment evidence context and governed query SDK",
+       "f": 71,
+       "a": 822,
+       "r": 80,
+       "p": true
+      },
+      {
+       "t": "13:42",
+       "s": "Merge pull request #2 from seongwonkc/codex/aptitude-interpretation",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "14:16",
+     "to": "14:19",
+     "files": 17,
+     "added": 838,
+     "removed": 10,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "14:16",
+       "s": "docs: summarize assessment interpretation release in Korean",
+       "f": 12,
+       "a": 300,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "14:19",
+       "s": "Document Caliper xAPI foundation and Seneca release in English and Korean",
+       "f": 15,
+       "a": 538,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "suneung_corpus",
+     "ko": "수능 기출 자료",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 42,
+     "from": "13:57",
+     "to": "14:10",
+     "files": 42,
+     "types": [
+      [
+       ".json",
+       35
+      ],
+      [
+       ".pdf",
+       7
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 36,
+     "from": "10:07",
+     "to": "13:49",
+     "files": 36,
+     "types": [
+      [
+       ".png",
+       31
+      ],
+      [
+       ".html",
+       3
+      ],
+      [
+       ".mjs",
+       1
+      ],
+      [
+       ".md",
        1
       ]
      ]
