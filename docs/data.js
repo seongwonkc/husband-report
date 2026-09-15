@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-10 19:57",
+ "generated": "2026-09-15 19:57",
  "days": [
   {
    "date": "2026-08-07",
@@ -15431,6 +15431,417 @@ window.REPORT = {
       ],
       [
        ".md",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-11",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 2,
+    "projects": 4,
+    "files": 27,
+    "file_work_dirs": 2,
+    "added": 1571,
+    "removed": 8,
+    "first": "00:30",
+    "last": "22:29",
+    "unpushed": 2
+   },
+   "effort": {
+    "minutes": 165,
+    "hours": 2.7,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "00:30",
+    "00:32",
+    "00:44",
+    "01:11",
+    "01:14",
+    "01:15",
+    "22:29",
+    "22:29"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "01:14",
+     "to": "01:14",
+     "files": 12,
+     "added": 1071,
+     "removed": 7,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "01:14",
+       "s": "Add optional policy-checked xAPI LRS client and projection",
+       "f": 31,
+       "a": 1071,
+       "r": 7,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "01:15",
+     "to": "01:15",
+     "files": 9,
+     "added": 500,
+     "removed": 1,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "01:15",
+       "s": "Add Supabase-first synthetic SAT and Apt Lab LRS experiment",
+       "f": 9,
+       "a": 500,
+       "r": 1,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_competitive_review_2026-09-11",
+     "ko": "seneca_competitive_review_2026-09-11",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "00:30",
+     "to": "01:11",
+     "files": 4,
+     "types": [
+      [
+       ".md",
+       4
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "22:29",
+     "to": "22:29",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-14",
+   "weekday": "월요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 8,
+    "projects": 3,
+    "files": 21,
+    "file_work_dirs": 1,
+    "added": 585,
+    "removed": 68,
+    "first": "00:13",
+    "last": "21:26",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 197,
+    "hours": 3.3,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "00:13",
+    "00:16",
+    "00:17",
+    "00:23",
+    "00:23",
+    "00:25",
+    "20:22",
+    "20:23",
+    "20:23",
+    "21:22",
+    "21:26"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "herbartkita",
+     "ko": "herbartkita",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 5,
+     "from": "00:23",
+     "to": "21:26",
+     "files": 15,
+     "added": 572,
+     "removed": 68,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:23",
+       "s": "Add catalog, Books page, founder bios, business info",
+       "f": 23,
+       "a": 511,
+       "r": 59,
+       "p": true
+      },
+      {
+       "t": "00:23",
+       "s": "README: data files wording",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:25",
+       "s": "Add contact email",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "21:22",
+       "s": "Internships: unpaid, remote or hybrid, 10+ hours a week",
+       "f": 2,
+       "a": 12,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "21:26",
+       "s": "Publish terms (free, author keeps copyright, 3-year exclusive print+ebook license, reversion) and 상호",
+       "f": 4,
+       "a": 47,
+       "r": 4,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "00:13",
+     "to": "00:17",
+     "files": 3,
+     "added": 13,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:13",
+       "s": "Publish distinct 10-slide Seneca deck",
+       "f": 2,
+       "a": 12,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:16",
+       "s": "Include 10-slide deck in public build",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:17",
+       "s": "Merge pull request #17 from vindicainc/codex/deck-10-slide",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "20:22",
+     "to": "20:23",
+     "files": 3,
+     "types": [
+      [
+       ".md",
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-15",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 2,
+    "projects": 3,
+    "files": 15,
+    "file_work_dirs": 2,
+    "added": 13,
+    "removed": 0,
+    "first": "09:41",
+    "last": "19:57",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 128,
+    "hours": 2.1,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "09:41",
+    "09:43",
+    "19:50",
+    "19:51",
+    "19:55",
+    "19:55",
+    "19:56",
+    "19:56",
+    "19:56",
+    "19:56",
+    "19:57",
+    "19:57",
+    "19:57",
+    "19:57"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "09:41",
+     "to": "09:43",
+     "files": 3,
+     "added": 13,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:41",
+       "s": "Publish Seneca GESA product video",
+       "f": 3,
+       "a": 13,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:43",
+       "s": "Merge pull request #18 from vindicainc/codex/gesa-video",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "19:50",
+     "to": "19:57",
+     "files": 6,
+     "types": [
+      [
+       ".md",
+       4
+      ],
+      [
+       ".csv",
+       1
+      ],
+      [
+       ".py",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "19:56",
+     "to": "19:57",
+     "files": 6,
+     "types": [
+      [
+       ".html",
+       2
+      ],
+      [
+       ".png",
+       2
+      ],
+      [
+       ".md",
+       1
+      ],
+      [
+       ".mjs",
        1
       ]
      ]
