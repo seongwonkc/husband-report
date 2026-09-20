@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-15 19:57",
+ "generated": "2026-09-20 22:40",
  "days": [
   {
    "date": "2026-08-07",
@@ -15842,6 +15842,882 @@ window.REPORT = {
       ],
       [
        ".mjs",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-18",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 0,
+    "projects": 2,
+    "files": 30,
+    "file_work_dirs": 2,
+    "added": 0,
+    "removed": 0,
+    "first": "08:01",
+    "last": "10:16",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 195,
+    "hours": 3.2,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 1
+   },
+   "times": [
+    "08:01",
+    "08:03",
+    "08:16",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:33",
+    "08:34",
+    "08:42",
+    "08:44",
+    "08:44",
+    "09:11",
+    "09:11",
+    "09:11",
+    "09:11",
+    "09:11",
+    "10:09",
+    "10:09",
+    "10:10",
+    "10:10",
+    "10:16",
+    "10:16",
+    "10:16",
+    "10:16"
+   ],
+   "projects": [
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 29,
+     "from": "08:01",
+     "to": "10:16",
+     "files": 29,
+     "types": [
+      [
+       ".docx",
+       14
+      ],
+      [
+       ".pdf",
+       6
+      ],
+      [
+       ".png",
+       5
+      ],
+      [
+       ".pptx",
+       3
+      ],
+      [
+       ".md",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "08:03",
+     "to": "08:03",
+     "files": 1,
+     "types": [
+      [
+       ".md",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "weekday": "토요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 0,
+    "projects": 2,
+    "files": 21,
+    "file_work_dirs": 2,
+    "added": 0,
+    "removed": 0,
+    "first": "12:52",
+    "last": "16:51",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 299,
+    "hours": 5.0,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 1
+   },
+   "times": [
+    "12:52",
+    "12:52",
+    "12:53",
+    "12:54",
+    "12:54",
+    "12:55",
+    "13:09",
+    "15:07",
+    "15:08",
+    "15:09",
+    "15:10",
+    "15:14",
+    "15:14",
+    "15:15",
+    "15:16",
+    "15:17",
+    "15:18",
+    "16:25",
+    "16:50",
+    "16:51",
+    "16:51"
+   ],
+   "projects": [
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 15,
+     "from": "13:09",
+     "to": "16:51",
+     "files": 15,
+     "types": [
+      [
+       ".md",
+       15
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "research_notes",
+     "ko": "research_notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "12:52",
+     "to": "12:55",
+     "files": 6,
+     "types": [
+      [
+       ".md",
+       6
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "weekday": "일요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 35,
+    "projects": 10,
+    "files": 263,
+    "file_work_dirs": 5,
+    "added": 14262,
+    "removed": 1002,
+    "first": "00:10",
+    "last": "22:35",
+    "unpushed": 5
+   },
+   "effort": {
+    "minutes": 630,
+    "hours": 10.5,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 4
+   },
+   "times": [
+    "00:10",
+    "00:11",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:12",
+    "00:25",
+    "00:26",
+    "00:36",
+    "00:38",
+    "00:39",
+    "00:40",
+    "00:40",
+    "00:40",
+    "00:40",
+    "00:40",
+    "00:40",
+    "00:40",
+    "00:40",
+    "00:42",
+    "00:47",
+    "00:48",
+    "00:50",
+    "00:51",
+    "00:53",
+    "00:57",
+    "00:58",
+    "01:31",
+    "01:42",
+    "01:53",
+    "01:53",
+    "01:56",
+    "02:55",
+    "03:01",
+    "03:04",
+    "03:08",
+    "03:09",
+    "03:11",
+    "12:00",
+    "12:52",
+    "13:42",
+    "16:35",
+    "16:40",
+    "16:44",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:52",
+    "16:53",
+    "16:55",
+    "16:57",
+    "17:07",
+    "17:10",
+    "17:10",
+    "17:12",
+    "17:12",
+    "17:16",
+    "17:16",
+    "17:16",
+    "17:16",
+    "17:16",
+    "17:17",
+    "17:17",
+    "17:17",
+    "17:17",
+    "17:17",
+    "17:18",
+    "17:18",
+    "17:18",
+    "17:18",
+    "17:18",
+    "17:18",
+    "17:19",
+    "17:20",
+    "17:20",
+    "17:20",
+    "17:26",
+    "17:26",
+    "17:26",
+    "17:26",
+    "17:27",
+    "17:27",
+    "17:27",
+    "17:27",
+    "17:29",
+    "17:30",
+    "17:30",
+    "17:30",
+    "17:30",
+    "17:30",
+    "17:31",
+    "17:31",
+    "17:31",
+    "17:31",
+    "17:31",
+    "17:31",
+    "17:31",
+    "17:33",
+    "17:33",
+    "17:34",
+    "17:37",
+    "17:37",
+    "17:37",
+    "17:38",
+    "17:39",
+    "17:39",
+    "17:40",
+    "17:47",
+    "17:48",
+    "17:49",
+    "17:51",
+    "17:52",
+    "17:54",
+    "17:54",
+    "17:54",
+    "17:56",
+    "17:56",
+    "17:57",
+    "17:57",
+    "17:57",
+    "17:57",
+    "17:57",
+    "17:57",
+    "17:57",
+    "17:57",
+    "18:00",
+    "18:23",
+    "22:35",
+    "22:35"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 21,
+     "from": "00:42",
+     "to": "17:19",
+     "files": 62,
+     "added": 6200,
+     "removed": 558,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:42",
+       "s": "Rate-limit and lock out the OAuth token, authorize and Naver endpoints",
+       "f": 8,
+       "a": 571,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "00:47",
+       "s": "Refuse reader grants for learners under 14 (PIPA 22-2)",
+       "f": 10,
+       "a": 696,
+       "r": 13,
+       "p": true
+      },
+      {
+       "t": "00:48",
+       "s": "Send the Gemini API key in a header, not the URL",
+       "f": 2,
+       "a": 25,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "00:50",
+       "s": "Remove the dormant Anthropic processor paths",
+       "f": 5,
+       "a": 75,
+       "r": 299,
+       "p": true
+      },
+      {
+       "t": "00:51",
+       "s": "Add site-wide security headers",
+       "f": 2,
+       "a": 24,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "00:53",
+       "s": "Stop sending the internal learner id to connected apps; per-app subject instead [skip]",
+       "f": 16,
+       "a": 257,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "00:57",
+       "s": "Merge pull request #22 from vindicainc/security/auth-hardening-minors-gate",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:31",
+       "s": "Merge main into fix/pairwise-subject [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:42",
+       "s": "Consent age by country: a policy layer behind the under-14 gate [skip]",
+       "f": 14,
+       "a": 959,
+       "r": 94,
+       "p": true
+      },
+      {
+       "t": "01:56",
+       "s": "Add nightly encrypted audit-log export and monthly review (PIPC 고시 제8조)",
+       "f": 10,
+       "a": 2472,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:55",
+       "s": "Partner contract v1.1: declared alignment to a public standard; silent receipts [skip]",
+       "f": 11,
+       "a": 557,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "03:04",
+       "s": "Amendment draft rev 2: make third_party_derived signable [skip]",
+       "f": 1,
+       "a": 158,
+       "r": 54,
+       "p": true
+      },
+      {
+       "t": "03:08",
+       "s": "REST read surface for operators that are not AI agents: /api/v1/me [skip]",
+       "f": 5,
+       "a": 395,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "03:11",
+       "s": "Classify the REST read function in the boundary manifest; record the triggered route review [skip]",
+       "f": 1,
+       "a": 5,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "17:18",
+       "s": "Merge main into fix/pairwise-subject (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:18",
+       "s": "Merge updated fix/pairwise-subject into feat/policy-layer [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:18",
+       "s": "Merge updated fix/pairwise-subject into feat/rest-read-api [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:18",
+       "s": "Merge main into feat/contract-v1-1-alignment (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:18",
+       "s": "Merge main into docs/v1-1-3-amendment-revision (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:18",
+       "s": "Amendment draft: cite the commit that shipped the FORGE nudge [skip]",
+       "f": 1,
+       "a": 2,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "17:19",
+       "s": "Contract doc: status line said nothing is served; the partner API is live [skip]",
+       "f": 1,
+       "a": 4,
+       "r": 3,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "prek_math",
+     "ko": "유아 수학",
+     "note": "미취학 아이용 수학·파닉스",
+     "summary": "",
+     "bullets": [],
+     "count": 5,
+     "from": "16:40",
+     "to": "17:54",
+     "files": 30,
+     "added": 546,
+     "removed": 56,
+     "unpushed": 5,
+     "tech": [
+      {
+       "t": "16:40",
+       "s": "feat: printable Hangul writing sheets, reachable from the subject switch",
+       "f": 7,
+       "a": 221,
+       "r": 4,
+       "p": false
+      },
+      {
+       "t": "16:44",
+       "s": "test: cover /writing in the smoke run; --env-file needs an absolute path",
+       "f": 2,
+       "a": 6,
+       "r": 4,
+       "p": false
+      },
+      {
+       "t": "16:52",
+       "s": "fix: make the phone web app work on iPhone and Android, no store needed",
+       "f": 9,
+       "a": 44,
+       "r": 9,
+       "p": false
+      },
+      {
+       "t": "17:17",
+       "s": "feat: extend the ladder to grade 3, add 영재 수학 depth tasks",
+       "f": 12,
+       "a": 190,
+       "r": 18,
+       "p": false
+      },
+      {
+       "t": "17:54",
+       "s": "feat: one OCR and grading path for 쓰기 too, no second pipeline",
+       "f": 12,
+       "a": 85,
+       "r": 21,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "00:10",
+     "to": "17:54",
+     "files": 19,
+     "added": 1552,
+     "removed": 19,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:10",
+       "s": "ingest: Korean legal map (09-19) and Art. 35 agent-request flow (09-20)",
+       "f": 7,
+       "a": 812,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "17:51",
+       "s": "docs: map learning-benefit milestone and inference validation directions",
+       "f": 14,
+       "a": 642,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "17:54",
+       "s": "ingest: Korean safety-measure hardening applied 2026-09-20",
+       "f": 3,
+       "a": 88,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "17:54",
+       "s": "ingest: index + log entries for the 09-20 security hardening",
+       "f": 2,
+       "a": 10,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "17:34",
+     "to": "18:23",
+     "files": 22,
+     "added": 5103,
+     "removed": 20,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "17:34",
+       "s": "Build Seneca lecture workspace and hybrid review prototype",
+       "f": 24,
+       "a": 4085,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:49",
+       "s": "Add optional seat context and during-lecture study sessions",
+       "f": 12,
+       "a": 1002,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "18:23",
+       "s": "Name the study app Nakseo and document Vindica repository",
+       "f": 7,
+       "a": 16,
+       "r": 12,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "03:01",
+     "to": "03:09",
+     "files": 23,
+     "added": 861,
+     "removed": 349,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "03:01",
+       "s": "Partner client speaks the deployed contract; interpretations release no rows",
+       "f": 11,
+       "a": 357,
+       "r": 125,
+       "p": true
+      },
+      {
+       "t": "03:09",
+       "s": "Rebuild dist for the partner client and interpretation allowlist changes",
+       "f": 46,
+       "a": 504,
+       "r": 224,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 45,
+     "from": "16:48",
+     "to": "17:33",
+     "files": 45,
+     "types": [
+      [
+       ".png",
+       13
+      ],
+      [
+       ".mjs",
+       10
+      ],
+      [
+       ".wav",
+       7
+      ],
+      [
+       ".tsx",
+       6
+      ],
+      [
+       ".mp4",
+       5
+      ],
+      [
+       ".py",
+       2
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 35,
+     "from": "00:12",
+     "to": "22:35",
+     "files": 35,
+     "types": [
+      [
+       ".png",
+       21
+      ],
+      [
+       ".html",
+       6
+      ],
+      [
+       ".md",
+       5
+      ],
+      [
+       ".mjs",
+       3
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "research_notes",
+     "ko": "research_notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 16,
+     "from": "16:35",
+     "to": "17:48",
+     "files": 16,
+     "types": [
+      [
+       ".txt",
+       8
+      ],
+      [
+       ".md",
+       5
+      ],
+      [
+       ".before",
+       2
+      ],
+      [
+       ".json",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 10,
+     "from": "00:11",
+     "to": "17:52",
+     "files": 10,
+     "types": [
+      [
+       ".md",
+       9
+      ],
+      [
+       ".docx",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "vindicaos-gtm",
+     "ko": "VindicaOS 영업 준비",
+     "note": "학원 리스트 조사",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "12:00",
+     "to": "17:20",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       1
+      ],
+      [
+       ".csv",
        1
       ]
      ]
