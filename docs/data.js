@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-20 22:40",
+ "generated": "2026-09-21 23:00",
  "days": [
   {
    "date": "2026-08-07",
@@ -16051,19 +16051,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 35,
+    "commits": 41,
     "projects": 10,
-    "files": 263,
+    "files": 279,
     "file_work_dirs": 5,
-    "added": 14262,
-    "removed": 1002,
+    "added": 16890,
+    "removed": 1055,
     "first": "00:10",
-    "last": "22:35",
-    "unpushed": 5
+    "last": "23:43",
+    "unpushed": 0
    },
    "effort": {
-    "minutes": 630,
-    "hours": 10.5,
+    "minutes": 648,
+    "hours": 10.8,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
@@ -16116,7 +16116,6 @@ window.REPORT = {
     "03:11",
     "12:00",
     "12:52",
-    "13:42",
     "16:35",
     "16:40",
     "16:44",
@@ -16212,7 +16211,13 @@ window.REPORT = {
     "18:00",
     "18:23",
     "22:35",
-    "22:35"
+    "22:35",
+    "22:51",
+    "22:52",
+    "23:16",
+    "23:25",
+    "23:39",
+    "23:43"
    ],
    "projects": [
     {
@@ -16402,18 +16407,18 @@ window.REPORT = {
     },
     {
      "kind": "git",
-     "repo": "prek_math",
-     "ko": "유아 수학",
-     "note": "미취학 아이용 수학·파닉스",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
      "summary": "",
      "bullets": [],
-     "count": 5,
+     "count": 7,
      "from": "16:40",
-     "to": "17:54",
-     "files": 30,
-     "added": 546,
-     "removed": 56,
-     "unpushed": 5,
+     "to": "23:43",
+     "files": 39,
+     "added": 588,
+     "removed": 74,
+     "unpushed": 0,
      "tech": [
       {
        "t": "16:40",
@@ -16421,7 +16426,7 @@ window.REPORT = {
        "f": 7,
        "a": 221,
        "r": 4,
-       "p": false
+       "p": true
       },
       {
        "t": "16:44",
@@ -16429,7 +16434,7 @@ window.REPORT = {
        "f": 2,
        "a": 6,
        "r": 4,
-       "p": false
+       "p": true
       },
       {
        "t": "16:52",
@@ -16437,7 +16442,7 @@ window.REPORT = {
        "f": 9,
        "a": 44,
        "r": 9,
-       "p": false
+       "p": true
       },
       {
        "t": "17:17",
@@ -16445,7 +16450,7 @@ window.REPORT = {
        "f": 12,
        "a": 190,
        "r": 18,
-       "p": false
+       "p": true
       },
       {
        "t": "17:54",
@@ -16453,7 +16458,96 @@ window.REPORT = {
        "f": 12,
        "a": 85,
        "r": 21,
-       "p": false
+       "p": true
+      },
+      {
+       "t": "22:51",
+       "s": "feat: lead with the no-screen claim; make the sheet printable without a printer",
+       "f": 6,
+       "a": 30,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "23:43",
+       "s": "feat: name the product 나이테 (naite)",
+       "f": 9,
+       "a": 12,
+       "r": 11,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 7,
+     "from": "17:34",
+     "to": "23:39",
+     "files": 32,
+     "added": 7689,
+     "removed": 55,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "17:34",
+       "s": "Build Seneca lecture workspace and hybrid review prototype",
+       "f": 24,
+       "a": 4085,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:49",
+       "s": "Add optional seat context and during-lecture study sessions",
+       "f": 12,
+       "a": 1002,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "18:23",
+       "s": "Name the study app Nakseo and document Vindica repository",
+       "f": 7,
+       "a": 16,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "22:52",
+       "s": "Add Claude continuation handoff and control-tower workflow",
+       "f": 3,
+       "a": 188,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:16",
+       "s": "Brief Fable on bounded hybrid transcription pipeline",
+       "f": 1,
+       "a": 177,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:25",
+       "s": "Add opt-in local lecture recording with honest marker/audio alignment (M1)",
+       "f": 8,
+       "a": 1757,
+       "r": 25,
+       "p": true
+      },
+      {
+       "t": "23:39",
+       "s": "M1: browser evidence run, end-of-media edge, docs",
+       "f": 7,
+       "a": 464,
+       "r": 10,
+       "p": true
       }
      ]
     },
@@ -16502,47 +16596,6 @@ window.REPORT = {
        "f": 2,
        "a": 10,
        "r": 1,
-       "p": true
-      }
-     ]
-    },
-    {
-     "kind": "git",
-     "repo": "nakseo",
-     "ko": "nakseo",
-     "note": "",
-     "summary": "",
-     "bullets": [],
-     "count": 3,
-     "from": "17:34",
-     "to": "18:23",
-     "files": 22,
-     "added": 5103,
-     "removed": 20,
-     "unpushed": 0,
-     "tech": [
-      {
-       "t": "17:34",
-       "s": "Build Seneca lecture workspace and hybrid review prototype",
-       "f": 24,
-       "a": 4085,
-       "r": 0,
-       "p": true
-      },
-      {
-       "t": "17:49",
-       "s": "Add optional seat context and during-lecture study sessions",
-       "f": 12,
-       "a": 1002,
-       "r": 8,
-       "p": true
-      },
-      {
-       "t": "18:23",
-       "s": "Name the study app Nakseo and document Vindica repository",
-       "f": 7,
-       "a": 16,
-       "r": 12,
        "p": true
       }
      ]
@@ -16685,18 +16738,14 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 10,
+     "count": 9,
      "from": "00:11",
      "to": "17:52",
-     "files": 10,
+     "files": 9,
      "types": [
       [
        ".md",
        9
-      ],
-      [
-       ".docx",
-       1
       ]
      ]
     },
@@ -16719,6 +16768,528 @@ window.REPORT = {
       [
        ".csv",
        1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "weekday": "월요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 46,
+    "projects": 4,
+    "files": 129,
+    "file_work_dirs": 1,
+    "added": 15198,
+    "removed": 3365,
+    "first": "00:08",
+    "last": "16:53",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 607,
+    "hours": 10.1,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 2
+   },
+   "times": [
+    "00:08",
+    "00:30",
+    "00:32",
+    "00:37",
+    "00:37",
+    "00:39",
+    "00:41",
+    "00:44",
+    "00:48",
+    "00:50",
+    "00:51",
+    "02:07",
+    "02:19",
+    "02:24",
+    "02:26",
+    "02:27",
+    "02:42",
+    "02:56",
+    "02:56",
+    "03:05",
+    "03:08",
+    "03:08",
+    "03:09",
+    "03:09",
+    "03:10",
+    "03:24",
+    "03:32",
+    "03:38",
+    "03:42",
+    "12:21",
+    "12:25",
+    "12:33",
+    "12:37",
+    "12:59",
+    "13:14",
+    "13:15",
+    "14:33",
+    "14:40",
+    "14:48",
+    "14:54",
+    "14:55",
+    "15:10",
+    "15:13",
+    "15:36",
+    "15:37",
+    "15:37",
+    "15:37",
+    "15:40",
+    "15:40",
+    "15:40",
+    "15:42",
+    "16:53"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 26,
+     "from": "00:08",
+     "to": "15:36",
+     "files": 56,
+     "added": 6746,
+     "removed": 677,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:08",
+       "s": "M1 review fixes: pending-permission cancel, exclusive ownership, cross-tab refresh, durable rescue",
+       "f": 8,
+       "a": 549,
+       "r": 92,
+       "p": true
+      },
+      {
+       "t": "00:30",
+       "s": "T1: durable ASR jobs, bounded review selection, single paid-dispatch boundary",
+       "f": 12,
+       "a": 1731,
+       "r": 104,
+       "p": true
+      },
+      {
+       "t": "00:37",
+       "s": "T1: evaluation harness, worker contract tests, job contract fixture, docs",
+       "f": 12,
+       "a": 697,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "00:37",
+       "s": "README: list T1 doc away from the lines M1 edits (avoids a merge conflict)",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:39",
+       "s": "T1 docs: record merged M1+T1 compatibility check",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "02:19",
+       "s": "M1: recovery, verification and delete decide against the durable manifest",
+       "f": 5,
+       "a": 185,
+       "r": 17,
+       "p": true
+      },
+      {
+       "t": "02:24",
+       "s": "T1: paid results cannot be stranded; budget lock survives a crash while quarantining",
+       "f": 4,
+       "a": 310,
+       "r": 43,
+       "p": true
+      },
+      {
+       "t": "02:27",
+       "s": "Integrate M1 recording (3980255) and T1 transcription (60127c6) for the review UI branch",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:42",
+       "s": "Review UI: job recovery, explicit review mode, dry run, candidates, budget and explicit retries",
+       "f": 7,
+       "a": 648,
+       "r": 44,
+       "p": true
+      },
+      {
+       "t": "02:56",
+       "s": "T1 (additive): durable exact retry and source hash in the job list",
+       "f": 5,
+       "a": 104,
+       "r": 13,
+       "p": true
+      },
+      {
+       "t": "02:56",
+       "s": "Merge T1 f9ad50e (durable exact retry, source hash in job list) into the review UI branch",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "03:08",
+       "s": "Review UI: reconnect instead of re-upload, request state kept in state, durable exact retries, deletions stay deleted",
+       "f": 5,
+       "a": 647,
+       "r": 247,
+       "p": true
+      },
+      {
+       "t": "03:08",
+       "s": "Review UI docs: separate bullets, accurate code map and server-change provenance",
+       "f": 1,
+       "a": 4,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "03:24",
+       "s": "Prevent late job polls from restoring deleted lectures",
+       "f": 3,
+       "a": 60,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "03:42",
+       "s": "Marker → transcript navigation through the recording id and media offsets",
+       "f": 8,
+       "a": 288,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "12:25",
+       "s": "Keep marker navigation local when Review is selected",
+       "f": 3,
+       "a": 42,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "12:33",
+       "s": "Real-audio pilot: protocol and a marker-timing measurement script",
+       "f": 4,
+       "a": 274,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:59",
+       "s": "First real-ASR run: opt-in word timestamps, HF cue detector, live link refresh, findings",
+       "f": 10,
+       "a": 260,
+       "r": 32,
+       "p": true
+      },
+      {
+       "t": "13:14",
+       "s": "Real-ASR findings: large-v3-turbo silently dropped the English sentence",
+       "f": 1,
+       "a": 23,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "13:15",
+       "s": "Real-ASR findings doc: order and scope line",
+       "f": 1,
+       "a": 9,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "14:33",
+       "s": "Correct pilot timing summaries and clarify transcript gaps",
+       "f": 9,
+       "a": 104,
+       "r": 20,
+       "p": true
+      },
+      {
+       "t": "14:40",
+       "s": "Coverage diagnostic: speech evidence from the worker, pure interval helper, persisted per job",
+       "f": 9,
+       "a": 340,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "14:48",
+       "s": "Coverage diagnostic in the page: labelled rows, honest summary, local listen",
+       "f": 8,
+       "a": 271,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "14:54",
+       "s": "Docs: possible missing-transcript regions (states, defaults, evidence tiers, limits)",
+       "f": 3,
+       "a": 86,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:13",
+       "s": "Keep coverage claims and learner telemetry grounded in evidence",
+       "f": 10,
+       "a": 110,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "15:36",
+       "s": "Docs: evidence counts after the coverage review fix",
+       "f": 1,
+       "a": 2,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 19,
+     "from": "00:32",
+     "to": "16:53",
+     "files": 63,
+     "added": 8388,
+     "removed": 2686,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:32",
+       "s": "docs: bring the Codex build report current",
+       "f": 1,
+       "a": 173,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "00:41",
+       "s": "fix: every <Link> in the built app was dead — upgrade vinext beta.3 → beta.10",
+       "f": 2,
+       "a": 56,
+       "r": 49,
+       "p": true
+      },
+      {
+       "t": "00:44",
+       "s": "fix: what a first-time parent trips over — one-tap preview, KST dates, a usable ladder",
+       "f": 10,
+       "a": 147,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "00:48",
+       "s": "fix: the upload — strip home GPS from photos, stop holding the parent, remember the workbook",
+       "f": 6,
+       "a": 153,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "00:50",
+       "s": "fix: nav icons that render the same on every phone; restore strand heading size",
+       "f": 2,
+       "a": 20,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "00:51",
+       "s": "docs: end-to-end walkthrough as a first-time parent — findings, fixes, what is still open",
+       "f": 1,
+       "a": 125,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:07",
+       "s": "fix: close the remaining functional holes from the walkthrough",
+       "f": 21,
+       "a": 178,
+       "r": 60,
+       "p": true
+      },
+      {
+       "t": "02:26",
+       "s": "feat: paper on demand — printable practice sheets per rung, digit and name writing sheets",
+       "f": 22,
+       "a": 407,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "03:05",
+       "s": "spike: stock Next.js 16.3.5 + OpenNext on Cloudflare instead of vinext",
+       "f": 16,
+       "a": 6239,
+       "r": 2366,
+       "p": true
+      },
+      {
+       "t": "03:09",
+       "s": "fix: relative redirects and no wasted session refresh — found by the OpenNext spike",
+       "f": 9,
+       "a": 142,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "03:09",
+       "s": "chore: drop imports and params the relative redirects no longer use",
+       "f": 3,
+       "a": 8,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "03:10",
+       "s": "chore: last unused param in demo-logout",
+       "f": 1,
+       "a": 1,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "03:32",
+       "s": "feat: deploy to our own Cloudflare account; missing auth keys mean signed out, not 500",
+       "f": 3,
+       "a": 50,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "03:38",
+       "s": "feat: ask a new parent where they are — the app is useful before the first photo",
+       "f": 20,
+       "a": 301,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "12:21",
+       "s": "tooling: push the four runtime secrets from a local .env to the naite Worker",
+       "f": 1,
+       "a": 54,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:55",
+       "s": "fix: birth month in Korean on every browser — two selects instead of type=\"month\"",
+       "f": 6,
+       "a": 89,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "15:10",
+       "s": "fix: what a signed-in walkthrough on production surfaced; record 0005 as applied",
+       "f": 4,
+       "a": 10,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "15:42",
+       "s": "design: less to read, fewer things to choose between (Hick's Law)",
+       "f": 22,
+       "a": 203,
+       "r": 75,
+       "p": true
+      },
+      {
+       "t": "16:53",
+       "s": "design: the report says what happened and stays silent about what did not",
+       "f": 6,
+       "a": 32,
+       "r": 19,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "12:37",
+     "to": "12:37",
+     "files": 4,
+     "added": 64,
+     "removed": 2,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "12:37",
+       "s": "Add AI EdWiBo mapping handoff for Sungwon",
+       "f": 4,
+       "a": 64,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "research_notes",
+     "ko": "research_notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "15:37",
+     "to": "15:40",
+     "files": 6,
+     "types": [
+      [
+       ".txt",
+       3
+      ],
+      [
+       ".md",
+       3
       ]
      ]
     }
