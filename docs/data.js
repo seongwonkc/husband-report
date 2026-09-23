@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-21 23:00",
+ "generated": "2026-09-23 19:57",
  "days": [
   {
    "date": "2026-08-07",
@@ -17289,6 +17289,1274 @@ window.REPORT = {
       ],
       [
        ".md",
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-22",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 83,
+    "projects": 6,
+    "files": 249,
+    "file_work_dirs": 3,
+    "added": 18225,
+    "removed": 1357,
+    "first": "00:39",
+    "last": "20:24",
+    "unpushed": 1
+   },
+   "effort": {
+    "minutes": 532,
+    "hours": 8.9,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 4
+   },
+   "times": [
+    "00:39",
+    "01:00",
+    "01:00",
+    "01:00",
+    "01:00",
+    "01:01",
+    "01:05",
+    "01:06",
+    "01:10",
+    "01:14",
+    "01:17",
+    "01:19",
+    "01:24",
+    "01:24",
+    "01:27",
+    "01:30",
+    "01:31",
+    "01:31",
+    "01:32",
+    "01:32",
+    "01:32",
+    "01:32",
+    "01:32",
+    "01:33",
+    "01:33",
+    "01:34",
+    "01:35",
+    "01:36",
+    "01:36",
+    "01:36",
+    "01:37",
+    "01:37",
+    "01:38",
+    "01:38",
+    "01:39",
+    "01:40",
+    "01:41",
+    "01:45",
+    "01:46",
+    "01:47",
+    "01:50",
+    "01:51",
+    "01:52",
+    "01:52",
+    "01:52",
+    "01:52",
+    "01:53",
+    "01:53",
+    "01:53",
+    "01:54",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:57",
+    "01:57",
+    "01:57",
+    "01:59",
+    "02:01",
+    "02:03",
+    "02:04",
+    "02:05",
+    "02:06",
+    "02:07",
+    "02:07",
+    "02:08",
+    "02:11",
+    "02:12",
+    "02:13",
+    "02:13",
+    "02:16",
+    "02:18",
+    "02:22",
+    "02:24",
+    "02:29",
+    "02:30",
+    "02:31",
+    "02:33",
+    "02:38",
+    "02:38",
+    "02:38",
+    "02:39",
+    "02:39",
+    "02:45",
+    "02:47",
+    "02:53",
+    "02:53",
+    "02:53",
+    "02:53",
+    "02:55",
+    "02:56",
+    "02:57",
+    "02:57",
+    "02:57",
+    "03:03",
+    "03:05",
+    "03:09",
+    "03:09",
+    "03:09",
+    "03:09",
+    "03:09",
+    "03:09",
+    "03:09",
+    "03:09",
+    "03:11",
+    "03:11",
+    "03:12",
+    "03:12",
+    "03:12",
+    "03:12",
+    "03:17",
+    "03:17",
+    "03:23",
+    "03:28",
+    "03:28",
+    "03:28",
+    "03:28",
+    "03:31",
+    "03:31",
+    "03:32",
+    "03:32",
+    "03:32",
+    "03:32",
+    "03:32",
+    "03:32",
+    "03:32",
+    "03:32",
+    "09:17",
+    "09:17",
+    "09:19",
+    "09:20",
+    "09:21",
+    "09:24",
+    "09:24",
+    "09:25",
+    "09:25",
+    "09:29",
+    "09:29",
+    "09:29",
+    "10:00",
+    "10:02",
+    "15:21",
+    "15:34",
+    "15:35",
+    "15:40",
+    "15:45",
+    "15:53",
+    "15:59",
+    "16:05",
+    "16:07",
+    "16:08",
+    "16:20",
+    "20:10",
+    "20:16",
+    "20:16",
+    "20:16",
+    "20:24"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 45,
+     "from": "01:01",
+     "to": "15:59",
+     "files": 50,
+     "added": 3082,
+     "removed": 107,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:01",
+       "s": "Consent receipts: an append-only record of what each learner agreed to [skip]",
+       "f": 12,
+       "a": 686,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:05",
+       "s": "Participation agreement draft v0 and a record of who accepted it [skip]",
+       "f": 3,
+       "a": 303,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:14",
+       "s": "Korean privacy notice, versioned; receipts record the notice in force [skip]",
+       "f": 9,
+       "a": 321,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "01:17",
+       "s": "wip: server-side disclosure before consent-screen patch [wip]",
+       "f": 5,
+       "a": 207,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "01:24",
+       "s": "wip: consent screen disclosure, transfer consent, notice link [wip]",
+       "f": 4,
+       "a": 184,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "01:24",
+       "s": "Consent screen states the five provision items; separate consent to send abroad [skip]",
+       "f": 2,
+       "a": 107,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "01:32",
+       "s": "Spec: removing an app's evidence (Disconnect vs Remove) [skip]",
+       "f": 1,
+       "a": 132,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:35",
+       "s": "Notice names the representative and the privacy officer with a phone contact [skip]",
+       "f": 3,
+       "a": 16,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:36",
+       "s": "Notices link connected-app management to the hub, where it lives [skip]",
+       "f": 2,
+       "a": 4,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "01:36",
+       "s": "Merge feat/kr-privacy-notice into docs/app-evidence-removal [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:37",
+       "s": "wip checkpoint before guard patch [wip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:37",
+       "s": "wip: write-permission hold + Remove copy [wip]",
+       "f": 5,
+       "a": 76,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:38",
+       "s": "Hold the write permission until Remove exists; Remove warning copy in KO and EN [skip]",
+       "f": 2,
+       "a": 112,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "01:45",
+       "s": "Merge main into fix/pairwise-subject (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:47",
+       "s": "Merge pull request #23 from vindicainc/fix/pairwise-subject",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:51",
+       "s": "Merge main into feat/policy-layer (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:52",
+       "s": "Merge pull request #24 from vindicainc/feat/policy-layer [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:53",
+       "s": "Merge main into feat/contract-v1-1-alignment (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:55",
+       "s": "Merge pull request #26 from vindicainc/feat/contract-v1-1-alignment [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:55",
+       "s": "Merge main into feat/rest-read-api (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:57",
+       "s": "Merge pull request #28 from vindicainc/feat/rest-read-api",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:01",
+       "s": "Merge main into feat/consent-receipts (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:03",
+       "s": "Merge pull request #31 from vindicainc/feat/consent-receipts [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:04",
+       "s": "Merge main into feat/kr-privacy-notice (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:05",
+       "s": "Merge pull request #33 from vindicainc/feat/kr-privacy-notice [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:06",
+       "s": "Merge main into docs/app-evidence-removal (branch must be current to merge) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:08",
+       "s": "Merge pull request #34 from vindicainc/docs/app-evidence-removal",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:30",
+       "s": "wip: refresh grace window + honest ended-connection messages [wip]",
+       "f": 4,
+       "a": 107,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "02:31",
+       "s": "Grace window for a just-rotated refresh token; ended connections say who ended them [skip]",
+       "f": 1,
+       "a": 224,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:33",
+       "s": "Merge pull request #35 from vindicainc/fix/refresh-grace-window",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:45",
+       "s": "Spec: guardian consent for learners under the consent age [skip]",
+       "f": 1,
+       "a": 98,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "03:05",
+       "s": "Guardian consent spec: parked; direction changed to page + text message (method 1) [skip]",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "09:17",
+       "s": "Notices state the verified Gemini tier, 55-day retention, and encryption [skip]",
+       "f": 5,
+       "a": 39,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "09:19",
+       "s": "Merge pull request #37 from vindicainc/docs/ai-processor-verified",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:24",
+       "s": "wip: ai processing gate function + module [wip]",
+       "f": 3,
+       "a": 172,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:25",
+       "s": "wip: gate wired at 7 sites [wip]",
+       "f": 7,
+       "a": 47,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "09:29",
+       "s": "Gate: school-program material goes to Gemini only where the program allows it",
+       "f": 6,
+       "a": 184,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "09:29",
+       "s": "Record the gate in AI_PROCESSING_VERIFIED.md [skip]",
+       "f": 1,
+       "a": 5,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:29",
+       "s": "Merge main into feat/ai-processing-gate [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:00",
+       "s": "db-gate: apply the AI gate migration and route its RPC through the PostgREST shim [skip]",
+       "f": 2,
+       "a": 7,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:02",
+       "s": "Merge pull request #38 from vindicainc/feat/ai-processing-gate",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:34",
+       "s": "Merge main into feat/participation-agreement [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:35",
+       "s": "Participation agreement: Schedule C (fees) written; pilot end date and cap left to Kevin [skip]",
+       "f": 1,
+       "a": 19,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "15:53",
+       "s": "Participation agreement: §14 law (Delaware + local data law) and SIAC arbitration [skip]",
+       "f": 1,
+       "a": 5,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "15:59",
+       "s": "Participation agreement: terms 3-6 settled (liability tiers, no high-stakes use, no training, 30/90-day reads); operating periods fixed [skip]",
+       "f": 1,
+       "a": 26,
+       "r": 24,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 21,
+     "from": "00:39",
+     "to": "20:24",
+     "files": 73,
+     "added": 11160,
+     "removed": 1035,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:39",
+       "s": "feat: read, don't judge — arithmetic is graded in code; tracing is read reliably",
+       "f": 11,
+       "a": 325,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "01:06",
+       "s": "feat: email code login (off until the email carries the code); open-model eval harness",
+       "f": 8,
+       "a": 162,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "01:19",
+       "s": "fix: login code is 8 digits here, not 6; consent 1.2; a real icon; a way on when nothing is read",
+       "f": 17,
+       "a": 112,
+       "r": 35,
+       "p": true
+      },
+      {
+       "t": "01:27",
+       "s": "design: the mark in navy on white; a 나이테 login email, ready to paste (not applied)",
+       "f": 11,
+       "a": 67,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "01:30",
+       "s": "design: a cuddlier mark — chubby rings, a small face, a seedling on top",
+       "f": 7,
+       "a": 18,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "01:31",
+       "s": "design: the mark is a small tree stump — rings on top, a face, a seedling",
+       "f": 7,
+       "a": 14,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "01:34",
+       "s": "design: back to the rings, cut like a children's publisher's stamp",
+       "f": 7,
+       "a": 16,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "01:36",
+       "s": "design: the mark is a slice of a log, not an eye — pale wood, dark rings, bark, a split",
+       "f": 7,
+       "a": 15,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "01:39",
+       "s": "design: a woodier mark — plated bark, fat and lean years, a knot",
+       "f": 7,
+       "a": 19,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "01:40",
+       "s": "design: drop the knot — it read as an eye",
+       "f": 7,
+       "a": 2,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:41",
+       "s": "design: no dot in the middle of the mark",
+       "f": 7,
+       "a": 1,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "01:46",
+       "s": "deploy: email code login on — the email already carries the code",
+       "f": 1,
+       "a": 2,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "02:13",
+       "s": "feat: 한자 — the 8급 set as tracing sheets, quiz sheets, ladder rungs and code-side marking",
+       "f": 24,
+       "a": 1000,
+       "r": 25,
+       "p": true
+      },
+      {
+       "t": "03:11",
+       "s": "feat: 사자성어 — 20 idioms to trace and quiz; and the model's habit of correcting a child, fenced in",
+       "f": 18,
+       "a": 728,
+       "r": 29,
+       "p": true
+      },
+      {
+       "t": "09:21",
+       "s": "feat: 사자소학 — twenty lines of the first 한문 a child reads, traced and quizzed like 사자성어",
+       "f": 17,
+       "a": 645,
+       "r": 29,
+       "p": true
+      },
+      {
+       "t": "15:45",
+       "s": "feat: the whole 사자소학 — 320 lines in 79 단원, from the 동양고전종합DB edition",
+       "f": 8,
+       "a": 5739,
+       "r": 182,
+       "p": true
+      },
+      {
+       "t": "16:08",
+       "s": "content: 한자 verified against the exam body and the national dictionary",
+       "f": 2,
+       "a": 1138,
+       "r": 542,
+       "p": true
+      },
+      {
+       "t": "16:20",
+       "s": "design: the ladder is a map — one track per strand, the child's furthest rung named under it",
+       "f": 4,
+       "a": 68,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "20:10",
+       "s": "feat: every sheet as a real A4 PDF, handed to the phone's share sheet",
+       "f": 13,
+       "a": 438,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "20:16",
+       "s": "feat: 이번 주 묶음 on 다음, and a public address for every sheet with a QR",
+       "f": 12,
+       "a": 459,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "20:24",
+       "s": "feat: the small things a parent hits every day",
+       "f": 24,
+       "a": 192,
+       "r": 54,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 17,
+     "from": "01:57",
+     "to": "16:07",
+     "files": 50,
+     "added": 3983,
+     "removed": 215,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "01:57",
+       "s": "Lecture-day kit: opt-in ASR timeout and passage cap, two-model comparison script, run sheet",
+       "f": 10,
+       "a": 319,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "02:16",
+       "s": "Worker request without fetch's hidden 300 s header deadline; dry-run evidence",
+       "f": 4,
+       "a": 65,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "02:38",
+       "s": "Run sheet: 60-minute turbo dry-run result",
+       "f": 1,
+       "a": 3,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "02:47",
+       "s": "Study pack: grounded summary, key terms, flashcards and quiz from one lecture transcript",
+       "f": 14,
+       "a": 721,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "03:03",
+       "s": "Study pack: mind map view (same stored pack, no request)",
+       "f": 7,
+       "a": 182,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "03:09",
+       "s": "Study material gets its own budget pool; one-shot real-request script (not run)",
+       "f": 7,
+       "a": 163,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "03:17",
+       "s": "Slides: local PDF text reading (vendored pdf.js) and an estimated place in the transcript",
+       "f": 9,
+       "a": 628,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "03:17",
+       "s": "Vendored files: no line-ending conversion",
+       "f": 1,
+       "a": 2,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "03:23",
+       "s": "Study pack can cite slide pages (prompt policy v2)",
+       "f": 6,
+       "a": 89,
+       "r": 29,
+       "p": true
+      },
+      {
+       "t": "03:28",
+       "s": "Slides: explicit per-page vision read for pages without text; docs",
+       "f": 9,
+       "a": 230,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "09:20",
+       "s": "Tutor: lecture-only questions on the cheapest model tier",
+       "f": 14,
+       "a": 563,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "09:24",
+       "s": "Tutor: same-questions model comparison script with a review sheet (not run)",
+       "f": 4,
+       "a": 136,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "09:25",
+       "s": "Docs: fix the comparison command path",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "15:21",
+       "s": "Live captions: opt-in rough notes from 20-second windows to the local worker",
+       "f": 11,
+       "a": 429,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "15:40",
+       "s": "Document reproduced live-caption lifecycle and contention findings",
+       "f": 1,
+       "a": 60,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "16:05",
+       "s": "Live captions: fix opt-out lifecycle, worker admission and overlap loss (review findings 1-3)",
+       "f": 7,
+       "a": 391,
+       "r": 116,
+       "p": true
+      },
+      {
+       "t": "16:07",
+       "s": "Docs: real-worker caption run repeated after the fixes",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "AI Marketing Studio",
+     "ko": "AI Marketing Studio",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 73,
+     "from": "01:00",
+     "to": "03:32",
+     "files": 73,
+     "types": [
+      [
+       ".py",
+       20
+      ],
+      [
+       ".json",
+       20
+      ],
+      [
+       ".md",
+       9
+      ],
+      [
+       ".png",
+       7
+      ],
+      [
+       ".log",
+       5
+      ],
+      [
+       ".txt",
+       3
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "01:38",
+     "to": "09:17",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "20:16",
+     "to": "20:16",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-23",
+   "weekday": "수요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 14,
+    "projects": 4,
+    "files": 95,
+    "file_work_dirs": 1,
+    "added": 1568,
+    "removed": 888,
+    "first": "15:06",
+    "last": "17:53",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 227,
+    "hours": 3.8,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 1
+   },
+   "times": [
+    "15:06",
+    "15:06",
+    "15:11",
+    "15:12",
+    "15:12",
+    "15:15",
+    "15:16",
+    "15:17",
+    "15:17",
+    "15:18",
+    "15:18",
+    "15:18",
+    "15:19",
+    "15:19",
+    "15:19",
+    "15:20",
+    "15:22",
+    "15:24",
+    "15:24",
+    "15:24",
+    "15:26",
+    "15:26",
+    "15:26",
+    "15:27",
+    "15:30",
+    "15:30",
+    "15:30",
+    "15:30",
+    "15:53",
+    "15:53",
+    "15:56",
+    "16:07",
+    "16:23",
+    "16:23",
+    "16:25",
+    "16:33",
+    "16:39",
+    "16:44",
+    "16:45",
+    "16:46",
+    "16:46",
+    "16:46",
+    "16:46",
+    "16:48",
+    "16:52",
+    "16:54",
+    "16:56",
+    "16:57",
+    "16:57",
+    "17:09",
+    "17:18",
+    "17:18",
+    "17:24",
+    "17:24",
+    "17:28",
+    "17:36",
+    "17:36",
+    "17:40",
+    "17:49",
+    "17:53"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 8,
+     "from": "15:16",
+     "to": "17:53",
+     "files": 39,
+     "added": 1236,
+     "removed": 742,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:16",
+       "s": "migrations: record 0006 as applied to production",
+       "f": 1,
+       "a": 3,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "15:56",
+       "s": "content: 사자소학 meanings are our own words now",
+       "f": 2,
+       "a": 319,
+       "r": 639,
+       "p": true
+      },
+      {
+       "t": "16:25",
+       "s": "feat: prints are part of the record; fonts warm up before the tap",
+       "f": 18,
+       "a": 186,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "16:44",
+       "s": "feat: 일기 and 독후감 — the child's own words, read back with feedback instead of a score",
+       "f": 22,
+       "a": 242,
+       "r": 28,
+       "p": true
+      },
+      {
+       "t": "16:46",
+       "s": "migrations: record 0007 and 0008 as applied to production",
+       "f": 2,
+       "a": 2,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "17:40",
+       "s": "docs: the shared login email is Vindica-branded now, one template for every app",
+       "f": 2,
+       "a": 19,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:49",
+       "s": "feat: the record leaves with the parent — album PDF, report PDF, a link for the grandparents",
+       "f": 18,
+       "a": 464,
+       "r": 44,
+       "p": true
+      },
+      {
+       "t": "17:53",
+       "s": "docs: migration 0009 applied to production",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 5,
+     "from": "16:23",
+     "to": "17:36",
+     "files": 4,
+     "added": 162,
+     "removed": 142,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "16:23",
+       "s": "Handoff refresh: main baseline 4453d24, what exists with evidence tiers, open work, caption boundary",
+       "f": 1,
+       "a": 82,
+       "r": 139,
+       "p": true
+      },
+      {
+       "t": "16:23",
+       "s": "README: the during-class paragraph no longer says there is no live transcription",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "17:28",
+       "s": "Live captions: 60-minute soak script and result",
+       "f": 2,
+       "a": 79,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "17:36",
+       "s": "Merge pull request #12 from vindicainc/claude/handoff-refresh",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:36",
+       "s": "Merge pull request #13 from vindicainc/claude/caption-soak",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "16:33",
+     "to": "16:33",
+     "files": 6,
+     "added": 170,
+     "removed": 4,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "16:33",
+       "s": "ingest: 낙서(Nakseo) lecture limb, first four days of build (KR page for Sungwon)",
+       "f": 6,
+       "a": 170,
+       "r": 4,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 46,
+     "from": "15:06",
+     "to": "17:24",
+     "files": 46,
+     "types": [
+      [
+       ".ts",
+       9
+      ],
+      [
+       ".mp3",
+       8
+      ],
+      [
+       ".json",
+       6
+      ],
+      [
+       ".html",
+       5
+      ],
+      [
+       "(없음)",
+       4
+      ],
+      [
+       ".py",
        3
       ]
      ]
