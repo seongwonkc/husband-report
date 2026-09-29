@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-26 19:57",
+ "generated": "2026-09-29 19:58",
  "days": [
   {
    "date": "2026-08-07",
@@ -19800,6 +19800,1388 @@ window.REPORT = {
      "types": [
       [
        ".py",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "weekday": "월요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 19,
+    "projects": 7,
+    "files": 131,
+    "file_work_dirs": 2,
+    "added": 12703,
+    "removed": 244,
+    "first": "00:00",
+    "last": "23:58",
+    "unpushed": 6
+   },
+   "effort": {
+    "minutes": 437,
+    "hours": 7.3,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 4
+   },
+   "times": [
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:00",
+    "00:01",
+    "00:04",
+    "00:04",
+    "00:04",
+    "00:05",
+    "00:07",
+    "00:07",
+    "00:08",
+    "00:08",
+    "00:13",
+    "00:14",
+    "00:16",
+    "00:16",
+    "00:46",
+    "00:47",
+    "00:47",
+    "00:50",
+    "00:51",
+    "00:51",
+    "00:51",
+    "00:51",
+    "00:51",
+    "00:51",
+    "00:51",
+    "00:51",
+    "00:51",
+    "00:56",
+    "00:56",
+    "00:56",
+    "11:33",
+    "11:34",
+    "11:34",
+    "11:34",
+    "11:34",
+    "11:34",
+    "11:34",
+    "11:37",
+    "11:38",
+    "11:39",
+    "11:43",
+    "11:45",
+    "11:48",
+    "11:49",
+    "12:48",
+    "20:02",
+    "20:36",
+    "21:00",
+    "21:00",
+    "21:03",
+    "21:07",
+    "21:08",
+    "21:08",
+    "23:58"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 9,
+     "from": "00:07",
+     "to": "11:43",
+     "files": 30,
+     "added": 9227,
+     "removed": 80,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:07",
+       "s": "Add the Seneca Starter Kit: plain and technical pages, EN and KO",
+       "f": 51,
+       "a": 8226,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "00:08",
+       "s": "Mark is_internal/dl_students fix as applied to production (2026-09-28)",
+       "f": 2,
+       "a": 9,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "00:08",
+       "s": "Merge origin/main into feat/starter-kit [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:14",
+       "s": "Replace literal-email policies with user ids; close sql/ REVOKE drift",
+       "f": 5,
+       "a": 111,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "00:16",
+       "s": "Merge pull request #52 from vindicainc/claude/rls-fix-is-internal-dl-students",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:16",
+       "s": "Merge origin/main into claude/rls-access-tests [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:33",
+       "s": "Merge pull request #51 from vindicainc/claude/rls-access-tests",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:37",
+       "s": "test: normalize CRLF in connectFlowKo's file reader [skip]",
+       "f": 1,
+       "a": 3,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:43",
+       "s": "Starter Kit: map your own CSV, pilot checklist, Python example [skip]",
+       "f": 14,
+       "a": 878,
+       "r": 35,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "maro_interview",
+     "ko": "maro_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "00:07",
+     "to": "23:58",
+     "files": 16,
+     "added": 417,
+     "removed": 100,
+     "unpushed": 6,
+     "tech": [
+      {
+       "t": "00:07",
+       "s": "interview.marolab.kr via a Netlify proxy site; grading moves to the cron trigger",
+       "f": 4,
+       "a": 22,
+       "r": 6,
+       "p": false
+      },
+      {
+       "t": "20:02",
+       "s": "PRODUCT.md, UI/UX critique snapshot, e2e --keep flag",
+       "f": 3,
+       "a": 70,
+       "r": 1,
+       "p": false
+      },
+      {
+       "t": "20:36",
+       "s": "Fix audit P0/P1: keep failed answers, safe exits, mic help, in-app browsers, a11y, grading retry, consent on phones",
+       "f": 8,
+       "a": 181,
+       "r": 27,
+       "p": false
+      },
+      {
+       "t": "21:00",
+       "s": "Fix audit P2: quick-start home, report next step, contrast, time-left warning",
+       "f": 7,
+       "a": 92,
+       "r": 42,
+       "p": false
+      },
+      {
+       "t": "21:00",
+       "s": "Critique snapshot: P0-P2 status",
+       "f": 1,
+       "a": 3,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "23:58",
+       "s": "P3 polish: landing pressure ladder, tinted quotes, plain labels, tap-then-open chart",
+       "f": 4,
+       "a": 49,
+       "r": 24,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "11:45",
+     "to": "12:48",
+     "files": 24,
+     "added": 2667,
+     "removed": 45,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:45",
+       "s": "feat: clocks, shapes, solids and angles to practise on paper; a 가나다 표 in 21 sheets",
+       "f": 12,
+       "a": 261,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "12:48",
+       "s": "feat: twelve more readers — two more per stage, and the shelf is now 15 STEM and 9 Art",
+       "f": 101,
+       "a": 2406,
+       "r": 24,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_maro",
+     "ko": "세네카 학습 앱",
+     "note": "인적성 · 토익스피킹 · 글쓰기",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "11:48",
+     "to": "11:48",
+     "files": 7,
+     "added": 82,
+     "removed": 6,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:48",
+       "s": "feat(maro): 마로 면접 파일럿 배너 — TOS 홈·인적성 새 소식과 패밀리 문",
+       "f": 7,
+       "a": 82,
+       "r": 6,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "11:49",
+     "to": "11:49",
+     "files": 8,
+     "added": 310,
+     "removed": 13,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:49",
+       "s": "Hosted GPU transcription on Modal",
+       "f": 8,
+       "a": 310,
+       "r": 13,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 43,
+     "from": "00:00",
+     "to": "11:39",
+     "files": 43,
+     "types": [
+      [
+       ".png",
+       14
+      ],
+      [
+       ".wav",
+       13
+      ],
+      [
+       ".mjs",
+       9
+      ],
+      [
+       ".tsx",
+       4
+      ],
+      [
+       ".py",
+       3
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "21:03",
+     "to": "21:08",
+     "files": 4,
+     "types": [
+      [
+       ".md",
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-29",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 58,
+    "projects": 13,
+    "files": 400,
+    "file_work_dirs": 3,
+    "added": 21900,
+    "removed": 2627,
+    "first": "01:19",
+    "last": "19:14",
+    "unpushed": 16
+   },
+   "effort": {
+    "minutes": 365,
+    "hours": 6.1,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 3
+   },
+   "times": [
+    "01:19",
+    "01:20",
+    "01:27",
+    "01:31",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:33",
+    "01:34",
+    "01:35",
+    "01:36",
+    "01:36",
+    "01:37",
+    "01:38",
+    "01:38",
+    "01:38",
+    "01:38",
+    "01:38",
+    "01:38",
+    "01:38",
+    "01:40",
+    "01:41",
+    "01:41",
+    "01:42",
+    "01:42",
+    "01:43",
+    "01:44",
+    "01:44",
+    "01:45",
+    "01:46",
+    "01:47",
+    "01:47",
+    "01:48",
+    "01:49",
+    "01:49",
+    "01:54",
+    "01:54",
+    "01:54",
+    "01:56",
+    "01:57",
+    "01:57",
+    "01:59",
+    "02:03",
+    "02:03",
+    "02:03",
+    "02:03",
+    "02:03",
+    "02:03",
+    "02:03",
+    "02:03",
+    "02:06",
+    "02:06",
+    "02:06",
+    "02:06",
+    "02:06",
+    "02:06",
+    "02:07",
+    "02:07",
+    "02:09",
+    "02:10",
+    "02:11",
+    "02:12",
+    "02:12",
+    "02:12",
+    "02:12",
+    "02:13",
+    "02:15",
+    "02:15",
+    "02:15",
+    "02:15",
+    "02:16",
+    "02:17",
+    "02:17",
+    "02:17",
+    "02:17",
+    "02:17",
+    "02:18",
+    "02:18",
+    "02:19",
+    "02:19",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:21",
+    "02:23",
+    "02:24",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:25",
+    "02:26",
+    "02:26",
+    "02:26",
+    "02:26",
+    "02:26",
+    "02:26",
+    "02:28",
+    "02:29",
+    "02:33",
+    "02:33",
+    "02:33",
+    "02:34",
+    "02:36",
+    "02:36",
+    "02:38",
+    "02:40",
+    "02:43",
+    "02:43",
+    "02:53",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:56",
+    "02:57",
+    "02:58",
+    "03:00",
+    "03:02",
+    "03:04",
+    "03:06",
+    "03:06",
+    "03:08",
+    "03:09",
+    "03:11",
+    "03:11",
+    "03:14",
+    "03:14",
+    "03:16",
+    "03:17",
+    "03:19",
+    "03:19",
+    "09:33",
+    "09:34",
+    "09:36",
+    "09:38",
+    "09:38",
+    "09:38",
+    "09:39",
+    "09:39",
+    "09:40",
+    "09:42",
+    "09:42",
+    "09:44",
+    "09:44",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:45",
+    "09:46",
+    "09:47",
+    "09:48",
+    "09:48",
+    "09:50",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:52",
+    "09:53",
+    "09:54",
+    "09:55",
+    "09:55",
+    "09:59",
+    "10:00",
+    "10:00",
+    "10:01",
+    "10:04",
+    "10:05",
+    "10:06",
+    "10:06",
+    "10:11",
+    "10:12",
+    "10:12",
+    "10:13",
+    "10:14",
+    "10:21",
+    "10:23",
+    "10:23",
+    "10:24",
+    "10:25",
+    "10:26",
+    "10:28",
+    "10:30",
+    "10:33",
+    "10:37",
+    "10:38",
+    "10:39",
+    "10:39",
+    "19:14"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 17,
+     "from": "01:19",
+     "to": "10:28",
+     "files": 58,
+     "added": 4036,
+     "removed": 1402,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:19",
+       "s": "Starter Kit: JSON rows, accessibility fixes, print handout, EN/KO parity [skip]",
+       "f": 12,
+       "a": 290,
+       "r": 17,
+       "p": true
+      },
+      {
+       "t": "01:20",
+       "s": "Merge origin/main into feat/starter-kit [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:27",
+       "s": "Starter Kit: anonymous usage counts [skip]",
+       "f": 11,
+       "a": 329,
+       "r": 25,
+       "p": true
+      },
+      {
+       "t": "01:35",
+       "s": "Privacy notice 2026-09-29.1: anonymous Starter Kit usage counts [skip]",
+       "f": 3,
+       "a": 6,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:40",
+       "s": "Starter Kit: link checks, Python parity, structured data, demo links [skip]",
+       "f": 8,
+       "a": 75,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:43",
+       "s": "Starter Kit: sticky contents sidebar, lighter wordmark font [skip]",
+       "f": 7,
+       "a": 45,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "01:57",
+       "s": "Reorganise the public site around EdTech partners, and improve search visibility",
+       "f": 63,
+       "a": 2821,
+       "r": 1153,
+       "p": true
+      },
+      {
+       "t": "02:17",
+       "s": "Lead with the founder's gain: start every new learner from their real history",
+       "f": 15,
+       "a": 22,
+       "r": 22,
+       "p": true
+      },
+      {
+       "t": "02:33",
+       "s": "Merge pull request #55 from vindicainc/feat/site-reorg",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:38",
+       "s": "Merge origin/main (site reorganisation, #55) into feat/starter-kit [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:40",
+       "s": "Remove the \"we'll publish the contract\" promise from the reorganised pages [skip]",
+       "f": 8,
+       "a": 23,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "02:56",
+       "s": "Starter Kit pages join the shared site header and footer [skip]",
+       "f": 11,
+       "a": 181,
+       "r": 72,
+       "p": true
+      },
+      {
+       "t": "02:57",
+       "s": "site-chrome.css check ignores line endings (Windows checkouts) [skip]",
+       "f": 2,
+       "a": 3,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "09:38",
+       "s": "Point the new site sections at the Starter Kit [skip]",
+       "f": 41,
+       "a": 196,
+       "r": 44,
+       "p": true
+      },
+      {
+       "t": "09:44",
+       "s": "Merge pull request #53 from vindicainc/feat/starter-kit",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:26",
+       "s": "Link Vindica's LinkedIn company page",
+       "f": 40,
+       "a": 45,
+       "r": 45,
+       "p": true
+      },
+      {
+       "t": "10:28",
+       "s": "Merge pull request #56 from vindicainc/feat/linkedin-sameas",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 9,
+     "from": "02:03",
+     "to": "10:37",
+     "files": 23,
+     "added": 363,
+     "removed": 139,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "02:03",
+       "s": "Fix Boundary Bridge chip overflow and strip answer letters from game explanations",
+       "f": 10,
+       "a": 197,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "02:15",
+       "s": "Refresh two Boundary Bridge explanations the bank has since repaired",
+       "f": 2,
+       "a": 4,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "02:34",
+       "s": "Refresh sec-3-057 explanation after its bank repair",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "02:36",
+       "s": "Refresh sec-3-058 explanation after its bank repair",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "09:38",
+       "s": "Merge pull request #1 from vindicainc/claude/bridge-label-and-why-fix",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "09:47",
+       "s": "Keep the text right after the gap in Boundary Bridge and Transition Ward rounds",
+       "f": 4,
+       "a": 57,
+       "r": 22,
+       "p": true
+      },
+      {
+       "t": "10:21",
+       "s": "Merge pull request #2 from vindicainc/claude/bridge-right-side-trim",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:33",
+       "s": "Refresh four Boundary Bridge explanations after their bank repair",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "10:37",
+       "s": "Footer: link Seneca by Vindica from every FORGE page",
+       "f": 101,
+       "a": 102,
+       "r": 102,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "maro_interview",
+     "ko": "maro_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 8,
+     "from": "01:42",
+     "to": "02:43",
+     "files": 31,
+     "added": 1233,
+     "removed": 168,
+     "unpushed": 8,
+     "tech": [
+      {
+       "t": "01:42",
+       "s": "Merge claude/promptfoo-evals: promptfoo regression evals for the grading prompt",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "01:46",
+       "s": "Redesign: the room (dark interview surface, sun light on the speaker), report head + jump nav + folded answers, home start strip + history list",
+       "f": 9,
+       "a": 363,
+       "r": 149,
+       "p": false
+      },
+      {
+       "t": "01:47",
+       "s": "Grading prompt: never quote the [말소리 없음] placeholder",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "01:56",
+       "s": "Seneca connection, first slice: connect, opt-in sharing of practice activity",
+       "f": 13,
+       "a": 839,
+       "r": 4,
+       "p": false
+      },
+      {
+       "t": "01:57",
+       "s": "Interviewer portraits: AI-generated fictional 40s Korean interviewers, face follows the seat voice",
+       "f": 7,
+       "a": 12,
+       "r": 5,
+       "p": false
+      },
+      {
+       "t": "02:13",
+       "s": "Portraits: three per gender, picked per session (hashed from the session id), cropped to the same face size",
+       "f": 11,
+       "a": 10,
+       "r": 7,
+       "p": false
+      },
+      {
+       "t": "02:33",
+       "s": "Merge master (redesign + portraits) into seneca-connect",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "02:43",
+       "s": "Seneca card: match the redesign's section header; fake Seneca resets per test run",
+       "f": 3,
+       "a": 8,
+       "r": 3,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "01:44",
+     "to": "02:53",
+     "files": 32,
+     "added": 2770,
+     "removed": 452,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "01:44",
+       "s": "Review Seneca connection and hosted ASR PRs 19 and 20",
+       "f": 7,
+       "a": 514,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "02:03",
+       "s": "Seneca link: consent, disconnect, account binding, delivery and storage fixes (review S1-S5, S7)",
+       "f": 5,
+       "a": 732,
+       "r": 267,
+       "p": true
+      },
+      {
+       "t": "02:06",
+       "s": "Seneca connection page: pause anchor, visible errors, honest pilot copy (review S6, S8, S9)",
+       "f": 5,
+       "a": 189,
+       "r": 86,
+       "p": true
+      },
+      {
+       "t": "02:19",
+       "s": "Hosted transcription: disclosure, clip transport, edge auth, accurate data flow (review H1-H4)",
+       "f": 14,
+       "a": 409,
+       "r": 96,
+       "p": true
+      },
+      {
+       "t": "02:25",
+       "s": "Worker calls never follow redirects by themselves (redirect: manual), even with an injected transport (review H2)",
+       "f": 1,
+       "a": 4,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "02:53",
+       "s": "Reverify PRs 19 and 20 and reproduce remaining consent races",
+       "f": 11,
+       "a": 922,
+       "r": 0,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "02:10",
+     "to": "02:43",
+     "files": 23,
+     "added": 9553,
+     "removed": 7,
+     "unpushed": 4,
+     "tech": [
+      {
+       "t": "02:10",
+       "s": "Baseline: Interview Room as deployed 2026-09-26",
+       "f": 42,
+       "a": 8769,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "02:17",
+       "s": "Seneca connection, first slice (same design as 마로 면접)",
+       "f": 11,
+       "a": 769,
+       "r": 6,
+       "p": false
+      },
+      {
+       "t": "02:19",
+       "s": "README: Seneca connection",
+       "f": 1,
+       "a": 9,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "02:43",
+       "s": "Fake Seneca resets per test run",
+       "f": 2,
+       "a": 6,
+       "r": 1,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "suneung_lab",
+     "ko": "수능 연구소",
+     "note": "수능 대비 사이트",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "09:39",
+     "to": "10:23",
+     "files": 12,
+     "added": 222,
+     "removed": 36,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:39",
+       "s": "해설 렌더: 마크다운(###·**·목록) + $$ 수식 — SolutionText 한 곳에서",
+       "f": 9,
+       "a": 215,
+       "r": 34,
+       "p": true
+      },
+      {
+       "t": "09:44",
+       "s": "Merge pull request #1 from vindicainc/claude/solution-markdown",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:23",
+       "s": "CDN 캐시 키에 쿼리 포함: /api/q (id) · /api/search (q) · /api/leaderboard (exam)",
+       "f": 3,
+       "a": 7,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "10:23",
+       "s": "Merge pull request #2 from vindicainc/claude/q-cache-vary",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "daniellabsat",
+     "ko": "다니엘랩 SAT",
+     "note": "학원 학생들이 쓰는 학습 사이트",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "01:42",
+     "to": "10:38",
+     "files": 23,
+     "added": 2388,
+     "removed": 373,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "01:42",
+       "s": "[wip] SSAT Middle Level test engine with a sample form",
+       "f": 5,
+       "a": 1192,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "01:59",
+       "s": "[wip] SSAT paper mode: printable booklet and answer sheet, typed answer entry",
+       "f": 10,
+       "a": 1124,
+       "r": 301,
+       "p": false
+      },
+      {
+       "t": "10:38",
+       "s": "Footer: link Seneca (vindicaseneca.com) from VindicaOS pages",
+       "f": 72,
+       "a": 72,
+       "r": 72,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_maro",
+     "ko": "세네카 학습 앱",
+     "note": "인적성 · 토익스피킹 · 글쓰기",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "10:24",
+     "to": "10:39",
+     "files": 6,
+     "added": 46,
+     "removed": 28,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "10:24",
+       "s": "fix(home): stop the homepage overflowing sideways on phones",
+       "f": 1,
+       "a": 20,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "10:30",
+       "s": "fix(home): stop the homepage overflowing sideways on phones (#2)",
+       "f": 1,
+       "a": 20,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "10:39",
+       "s": "Footers: link Seneca to vindicaseneca.com (TOS, 인적성/KAAT, MaroPrep)",
+       "f": 6,
+       "a": 6,
+       "r": 6,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "01:37",
+     "to": "10:05",
+     "files": 12,
+     "added": 948,
+     "removed": 20,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:37",
+       "s": "ingest: 낙서 becomes a connected Seneca limb; hosted transcription on Modal (09-26 → 09-29)",
+       "f": 5,
+       "a": 211,
+       "r": 14,
+       "p": true
+      },
+      {
+       "t": "10:05",
+       "s": "docs: Hindsight Seneca evaluation in Korean for Sungwon",
+       "f": 10,
+       "a": 737,
+       "r": 6,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "01:47",
+     "to": "01:48",
+     "files": 10,
+     "added": 341,
+     "removed": 2,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:47",
+       "s": "feat: Catius × Seneca pilot — a private developer sandbox",
+       "f": 10,
+       "a": 340,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "01:48",
+       "s": "fix: escape the apostrophe on the sandbox page (lint)",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 166,
+     "from": "01:31",
+     "to": "10:14",
+     "files": 166,
+     "types": [
+      [
+       ".png",
+       100
+      ],
+      [
+       ".mjs",
+       27
+      ],
+      [
+       ".tsx",
+       23
+      ],
+      [
+       ".wav",
+       11
+      ],
+      [
+       ".md",
+       4
+      ],
+      [
+       ".jpg",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 16,
+     "from": "01:45",
+     "to": "19:14",
+     "files": 16,
+     "types": [
+      [
+       ".md",
+       4
+      ],
+      [
+       ".json",
+       2
+      ],
+      [
+       ".mp3",
+       2
+      ],
+      [
+       ".png",
+       2
+      ],
+      [
+       ".mp4",
+       2
+      ],
+      [
+       ".pdf",
+       2
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "marolab",
+     "ko": "마로랩 브랜드 작업",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "10:39",
+     "to": "10:39",
+     "files": 1,
+     "types": [
+      [
+       ".html",
        1
       ]
      ]
