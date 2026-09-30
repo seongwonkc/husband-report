@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-09-29 19:58",
+ "generated": "2026-09-30 19:58",
  "days": [
   {
    "date": "2026-08-07",
@@ -20196,22 +20196,22 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 58,
-    "projects": 13,
-    "files": 400,
-    "file_work_dirs": 3,
-    "added": 21900,
-    "removed": 2627,
+    "commits": 67,
+    "projects": 14,
+    "files": 512,
+    "file_work_dirs": 4,
+    "added": 24594,
+    "removed": 2783,
     "first": "01:19",
-    "last": "19:14",
-    "unpushed": 16
+    "last": "21:46",
+    "unpushed": 20
    },
    "effort": {
-    "minutes": 365,
-    "hours": 6.1,
-    "level": 3,
-    "name": "아주 많이",
-    "blurb": "하루를 통째로",
+    "minutes": 517,
+    "hours": 8.6,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
     "sessions": 3
    },
    "times": [
@@ -20455,7 +20455,101 @@ window.REPORT = {
     "10:38",
     "10:39",
     "10:39",
-    "19:14"
+    "19:14",
+    "20:03",
+    "20:23",
+    "20:23",
+    "20:23",
+    "20:26",
+    "20:29",
+    "20:34",
+    "20:34",
+    "20:34",
+    "20:34",
+    "20:34",
+    "20:34",
+    "20:34",
+    "20:34",
+    "20:34",
+    "20:35",
+    "20:35",
+    "20:35",
+    "20:35",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:36",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:37",
+    "20:38",
+    "20:38",
+    "20:38",
+    "20:38",
+    "20:38",
+    "20:38",
+    "20:38",
+    "20:39",
+    "20:39",
+    "20:39",
+    "20:39",
+    "20:39",
+    "20:39",
+    "20:40",
+    "20:41",
+    "20:42",
+    "20:42",
+    "20:42",
+    "20:43",
+    "20:43",
+    "20:43",
+    "20:44",
+    "20:45",
+    "20:45",
+    "20:45",
+    "20:48",
+    "20:51",
+    "20:56",
+    "20:57",
+    "20:57",
+    "20:58",
+    "20:58",
+    "20:58",
+    "20:58",
+    "20:58",
+    "20:59",
+    "20:59",
+    "20:59",
+    "20:59",
+    "20:59",
+    "20:59",
+    "20:59",
+    "20:59",
+    "20:59",
+    "21:02",
+    "21:02",
+    "21:05",
+    "21:15",
+    "21:16",
+    "21:18",
+    "21:39",
+    "21:41",
+    "21:46",
+    "21:46"
    ],
    "projects": [
     {
@@ -20613,17 +20707,130 @@ window.REPORT = {
     },
     {
      "kind": "git",
+     "repo": "maro_interview",
+     "ko": "maro_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 12,
+     "from": "01:42",
+     "to": "21:41",
+     "files": 53,
+     "added": 2640,
+     "removed": 290,
+     "unpushed": 12,
+     "tech": [
+      {
+       "t": "01:42",
+       "s": "Merge claude/promptfoo-evals: promptfoo regression evals for the grading prompt",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "01:46",
+       "s": "Redesign: the room (dark interview surface, sun light on the speaker), report head + jump nav + folded answers, home start strip + history list",
+       "f": 9,
+       "a": 363,
+       "r": 149,
+       "p": false
+      },
+      {
+       "t": "01:47",
+       "s": "Grading prompt: never quote the [말소리 없음] placeholder",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "01:56",
+       "s": "Seneca connection, first slice: connect, opt-in sharing of practice activity",
+       "f": 13,
+       "a": 839,
+       "r": 4,
+       "p": false
+      },
+      {
+       "t": "01:57",
+       "s": "Interviewer portraits: AI-generated fictional 40s Korean interviewers, face follows the seat voice",
+       "f": 7,
+       "a": 12,
+       "r": 5,
+       "p": false
+      },
+      {
+       "t": "02:13",
+       "s": "Portraits: three per gender, picked per session (hashed from the session id), cropped to the same face size",
+       "f": 11,
+       "a": 10,
+       "r": 7,
+       "p": false
+      },
+      {
+       "t": "02:33",
+       "s": "Merge master (redesign + portraits) into seneca-connect",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "02:43",
+       "s": "Seneca card: match the redesign's section header; fake Seneca resets per test run",
+       "f": 3,
+       "a": 8,
+       "r": 3,
+       "p": false
+      },
+      {
+       "t": "20:35",
+       "s": "Evals for the follow-up and TRY fact-check prompts",
+       "f": 14,
+       "a": 732,
+       "r": 62,
+       "p": false
+      },
+      {
+       "t": "21:05",
+       "s": "Evals for the 자소서 reading and 역질문 prompts",
+       "f": 15,
+       "a": 630,
+       "r": 43,
+       "p": false
+      },
+      {
+       "t": "21:16",
+       "s": "역질문 guard: allow the company's confirmed process words",
+       "f": 5,
+       "a": 15,
+       "r": 7,
+       "p": false
+      },
+      {
+       "t": "21:41",
+       "s": "자소서 reading: missing information is not a weakness",
+       "f": 2,
+       "a": 30,
+       "r": 10,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
      "repo": "ocean_vector",
      "ko": "포지 SAT",
      "note": "학생용 무료 SAT 사이트 · forgesat.com",
      "summary": "",
      "bullets": [],
-     "count": 9,
+     "count": 11,
      "from": "02:03",
-     "to": "10:37",
+     "to": "20:29",
      "files": 23,
-     "added": 363,
-     "removed": 139,
+     "added": 364,
+     "removed": 140,
      "unpushed": 0,
      "tech": [
       {
@@ -20697,87 +20904,22 @@ window.REPORT = {
        "a": 102,
        "r": 102,
        "p": true
-      }
-     ]
-    },
-    {
-     "kind": "git",
-     "repo": "maro_interview",
-     "ko": "maro_interview",
-     "note": "",
-     "summary": "",
-     "bullets": [],
-     "count": 8,
-     "from": "01:42",
-     "to": "02:43",
-     "files": 31,
-     "added": 1233,
-     "removed": 168,
-     "unpushed": 8,
-     "tech": [
+      },
       {
-       "t": "01:42",
-       "s": "Merge claude/promptfoo-evals: promptfoo regression evals for the grading prompt",
+       "t": "20:26",
+       "s": "Merge pull request #3 from vindicainc/claude/bridge-four-explanations",
        "f": 0,
        "a": 0,
        "r": 0,
-       "p": false
+       "p": true
       },
       {
-       "t": "01:46",
-       "s": "Redesign: the room (dark interview surface, sun light on the speaker), report head + jump nav + folded answers, home start strip + history list",
-       "f": 9,
-       "a": 363,
-       "r": 149,
-       "p": false
-      },
-      {
-       "t": "01:47",
-       "s": "Grading prompt: never quote the [말소리 없음] placeholder",
+       "t": "20:29",
+       "s": "Use \"however\" in the sec-c-058 Boundary Bridge round",
        "f": 1,
        "a": 1,
-       "r": 0,
-       "p": false
-      },
-      {
-       "t": "01:56",
-       "s": "Seneca connection, first slice: connect, opt-in sharing of practice activity",
-       "f": 13,
-       "a": 839,
-       "r": 4,
-       "p": false
-      },
-      {
-       "t": "01:57",
-       "s": "Interviewer portraits: AI-generated fictional 40s Korean interviewers, face follows the seat voice",
-       "f": 7,
-       "a": 12,
-       "r": 5,
-       "p": false
-      },
-      {
-       "t": "02:13",
-       "s": "Portraits: three per gender, picked per session (hashed from the session id), cropped to the same face size",
-       "f": 11,
-       "a": 10,
-       "r": 7,
-       "p": false
-      },
-      {
-       "t": "02:33",
-       "s": "Merge master (redesign + portraits) into seneca-connect",
-       "f": 0,
-       "a": 0,
-       "r": 0,
-       "p": false
-      },
-      {
-       "t": "02:43",
-       "s": "Seneca card: match the redesign's section header; fake Seneca resets per test run",
-       "f": 3,
-       "a": 8,
-       "r": 3,
-       "p": false
+       "r": 1,
+       "p": true
       }
      ]
     },
@@ -20788,12 +20930,12 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 6,
+     "count": 7,
      "from": "01:44",
-     "to": "02:53",
-     "files": 32,
-     "added": 2770,
-     "removed": 452,
+     "to": "21:46",
+     "files": 37,
+     "added": 3916,
+     "removed": 453,
      "unpushed": 2,
      "tech": [
       {
@@ -20843,6 +20985,79 @@ window.REPORT = {
        "a": 922,
        "r": 0,
        "p": false
+      },
+      {
+       "t": "21:46",
+       "s": "Solo study village (내 마을): a doodle village built from verified study",
+       "f": 8,
+       "a": 1146,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "suneung_lab",
+     "ko": "수능 연구소",
+     "note": "수능 대비 사이트",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "09:39",
+     "to": "21:46",
+     "files": 13,
+     "added": 362,
+     "removed": 68,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:39",
+       "s": "해설 렌더: 마크다운(###·**·목록) + $$ 수식 — SolutionText 한 곳에서",
+       "f": 9,
+       "a": 215,
+       "r": 34,
+       "p": true
+      },
+      {
+       "t": "09:44",
+       "s": "Merge pull request #1 from vindicainc/claude/solution-markdown",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:23",
+       "s": "CDN 캐시 키에 쿼리 포함: /api/q (id) · /api/search (q) · /api/leaderboard (exam)",
+       "f": 3,
+       "a": 7,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "10:23",
+       "s": "Merge pull request #2 from vindicainc/claude/q-cache-vary",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:39",
+       "s": "parser(en): cut 발문/지문 at the stem terminator; recover group 지시문 as stem (09-10 fix)",
+       "f": 1,
+       "a": 43,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "21:46",
+       "s": "parser(en): single blanks, clean choices, [3점] in the stem",
+       "f": 1,
+       "a": 97,
+       "r": 16,
+       "p": true
       }
      ]
     },
@@ -20892,55 +21107,6 @@ window.REPORT = {
        "a": 6,
        "r": 1,
        "p": false
-      }
-     ]
-    },
-    {
-     "kind": "git",
-     "repo": "suneung_lab",
-     "ko": "수능 연구소",
-     "note": "수능 대비 사이트",
-     "summary": "",
-     "bullets": [],
-     "count": 4,
-     "from": "09:39",
-     "to": "10:23",
-     "files": 12,
-     "added": 222,
-     "removed": 36,
-     "unpushed": 0,
-     "tech": [
-      {
-       "t": "09:39",
-       "s": "해설 렌더: 마크다운(###·**·목록) + $$ 수식 — SolutionText 한 곳에서",
-       "f": 9,
-       "a": 215,
-       "r": 34,
-       "p": true
-      },
-      {
-       "t": "09:44",
-       "s": "Merge pull request #1 from vindicainc/claude/solution-markdown",
-       "f": 0,
-       "a": 0,
-       "r": 0,
-       "p": true
-      },
-      {
-       "t": "10:23",
-       "s": "CDN 캐시 키에 쿼리 포함: /api/q (id) · /api/search (q) · /api/leaderboard (exam)",
-       "f": 3,
-       "a": 7,
-       "r": 2,
-       "p": true
-      },
-      {
-       "t": "10:23",
-       "s": "Merge pull request #2 from vindicainc/claude/q-cache-vary",
-       "f": 0,
-       "a": 0,
-       "r": 0,
-       "p": true
       }
      ]
     },
@@ -21099,26 +21265,26 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 166,
+     "count": 247,
      "from": "01:31",
-     "to": "10:14",
-     "files": 166,
+     "to": "21:18",
+     "files": 247,
      "types": [
       [
        ".png",
-       100
+       146
       ],
       [
        ".mjs",
-       27
+       41
       ],
       [
        ".tsx",
-       23
+       37
       ],
       [
        ".wav",
-       11
+       18
       ],
       [
        ".md",
@@ -21170,6 +21336,24 @@ window.REPORT = {
     },
     {
      "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "20:03",
+     "to": "20:23",
+     "files": 4,
+     "types": [
+      [
+       ".md",
+       4
+      ]
+     ]
+    },
+    {
+     "kind": "files",
      "repo": "marolab",
      "ko": "마로랩 브랜드 작업",
      "note": "",
@@ -21183,6 +21367,486 @@ window.REPORT = {
       [
        ".html",
        1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-09-30",
+   "weekday": "수요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 21,
+    "projects": 8,
+    "files": 174,
+    "file_work_dirs": 2,
+    "added": 7937,
+    "removed": 1307,
+    "first": "00:58",
+    "last": "19:16",
+    "unpushed": 9
+   },
+   "effort": {
+    "minutes": 344,
+    "hours": 5.7,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 3
+   },
+   "times": [
+    "00:58",
+    "00:59",
+    "01:10",
+    "01:36",
+    "01:37",
+    "01:52",
+    "01:55",
+    "01:59",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:04",
+    "02:07",
+    "02:09",
+    "02:09",
+    "02:14",
+    "02:15",
+    "02:18",
+    "02:24",
+    "02:30",
+    "02:30",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:14",
+    "03:15",
+    "03:15",
+    "03:15",
+    "03:15",
+    "03:15",
+    "03:15",
+    "03:15",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:16",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:17",
+    "03:18",
+    "03:18",
+    "03:19",
+    "03:19",
+    "03:19",
+    "03:19",
+    "03:19",
+    "03:19",
+    "03:20",
+    "03:20",
+    "03:23",
+    "03:24",
+    "03:26",
+    "03:27",
+    "03:27",
+    "03:29",
+    "03:30",
+    "03:30",
+    "03:31",
+    "03:31",
+    "03:32",
+    "03:32",
+    "03:33",
+    "03:33",
+    "03:33",
+    "03:37",
+    "03:38",
+    "03:39",
+    "03:42",
+    "11:13",
+    "19:16"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 7,
+     "from": "01:10",
+     "to": "03:19",
+     "files": 22,
+     "added": 4222,
+     "removed": 480,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "01:10",
+       "s": "Class village (반 마을): join by code, build together, weekly nickname board",
+       "f": 20,
+       "a": 1705,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "01:52",
+       "s": "Review village PRs 21 and 22 with independent reproductions",
+       "f": 4,
+       "a": 664,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "02:07",
+       "s": "Village fixes from Codex review (V1–V5): real study only, minute identities, tab-safe writes",
+       "f": 5,
+       "a": 348,
+       "r": 114,
+       "p": true
+      },
+      {
+       "t": "02:09",
+       "s": "Merge claude/village (V1–V5 fixes) into class village; class reports by Korean day from minute records (C10)",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:24",
+       "s": "Class village fixes from Codex review (C1–C10)",
+       "f": 18,
+       "a": 1458,
+       "r": 326,
+       "p": true
+      },
+      {
+       "t": "02:30",
+       "s": "Docs: village browser suite count on the class branch is 21",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "03:19",
+       "s": "Class server: edge rate-limit binding in the Worker; deployment record (owner-only pilot)",
+       "f": 3,
+       "a": 46,
+       "r": 20,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "maro_interview",
+     "ko": "maro_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "00:58",
+     "to": "02:18",
+     "files": 20,
+     "added": 706,
+     "removed": 62,
+     "unpushed": 6,
+     "tech": [
+      {
+       "t": "00:58",
+       "s": "Evals for the 질문 판독기 prompt",
+       "f": 11,
+       "a": 239,
+       "r": 16,
+       "p": false
+      },
+      {
+       "t": "00:59",
+       "s": "README: classify expectations and the two known keyword false positives",
+       "f": 1,
+       "a": 6,
+       "r": 1,
+       "p": false
+      },
+      {
+       "t": "01:37",
+       "s": "Keyword guard: stop flagging innocent wording",
+       "f": 7,
+       "a": 172,
+       "r": 12,
+       "p": false
+      },
+      {
+       "t": "01:59",
+       "s": "Follow-up evals at level 3 (임원 압박)",
+       "f": 4,
+       "a": 149,
+       "r": 1,
+       "p": false
+      },
+      {
+       "t": "02:09",
+       "s": "Level 3 follow-ups: 한 문장, 삼십오 자 안팎, 길어도 사십 자",
+       "f": 2,
+       "a": 14,
+       "r": 12,
+       "p": false
+      },
+      {
+       "t": "02:18",
+       "s": "Follow-ups: retry once when the question is over the length limit",
+       "f": 6,
+       "a": 126,
+       "r": 20,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "suneung_lab",
+     "ko": "수능 연구소",
+     "note": "수능 대비 사이트",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "01:36",
+     "to": "02:14",
+     "files": 7,
+     "added": 140,
+     "removed": 27,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:36",
+       "s": "parser(en): pick 36/37/43 strategy from the stem, not the slot",
+       "f": 1,
+       "a": 8,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:04",
+       "s": "parser(en): dashed blanks, x-ordered blanks, stray-blank cleanup; resync script",
+       "f": 2,
+       "a": 117,
+       "r": 20,
+       "p": true
+      },
+      {
+       "t": "02:14",
+       "s": "render <u> in English 발문; resync counts stray and group blanks",
+       "f": 6,
+       "a": 15,
+       "r": 7,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "01:55",
+     "to": "02:15",
+     "files": 4,
+     "added": 298,
+     "removed": 28,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "01:55",
+       "s": "Merge pull request #4 from vindicainc/claude/c058-however",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:15",
+       "s": "Give each wrong Boundary Bridge joint feedback that names its actual error",
+       "f": 4,
+       "a": 298,
+       "r": 28,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "11:13",
+     "to": "19:16",
+     "files": 8,
+     "added": 141,
+     "removed": 18,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "11:13",
+       "s": "Andover: its three required interview questions in every Andover interview",
+       "f": 4,
+       "a": 55,
+       "r": 4,
+       "p": false
+      },
+      {
+       "t": "19:16",
+       "s": "Interviewer reacts to each answer before the next question",
+       "f": 4,
+       "a": 86,
+       "r": 14,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "coya-poc",
+     "ko": "코야",
+     "note": "인생 시뮬레이션 게임 (개인 실험작)",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "02:30",
+     "to": "02:30",
+     "files": 9,
+     "added": 2430,
+     "removed": 692,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "02:30",
+       "s": "Rebuild play as a sequence of life-stage decisions, 14 to retirement",
+       "f": 9,
+       "a": 2430,
+       "r": 692,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 73,
+     "from": "03:14",
+     "to": "03:42",
+     "files": 73,
+     "types": [
+      [
+       ".png",
+       37
+      ],
+      [
+       ".mjs",
+       14
+      ],
+      [
+       ".tsx",
+       14
+      ],
+      [
+       ".wav",
+       7
+      ],
+      [
+       ".json",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "suneung_corpus",
+     "ko": "수능 기출 자료",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 35,
+     "from": "02:04",
+     "to": "02:04",
+     "files": 35,
+     "types": [
+      [
+       ".json",
+       35
       ]
      ]
     }
