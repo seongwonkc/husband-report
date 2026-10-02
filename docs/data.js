@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-01 19:57",
+ "generated": "2026-10-02 22:49",
  "days": [
   {
    "date": "2026-08-07",
@@ -21881,22 +21881,22 @@ window.REPORT = {
    "note": "",
    "stats": {
     "commits": 1,
-    "projects": 2,
-    "files": 94,
-    "file_work_dirs": 1,
+    "projects": 3,
+    "files": 99,
+    "file_work_dirs": 2,
     "added": 13,
     "removed": 720,
     "first": "03:39",
-    "last": "04:11",
+    "last": "20:08",
     "unpushed": 0
    },
    "effort": {
-    "minutes": 92,
-    "hours": 1.5,
-    "level": 1,
-    "name": "살짝",
-    "blurb": "짬짬이 조금",
-    "sessions": 1
+    "minutes": 157,
+    "hours": 2.6,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
    },
    "times": [
     "03:39",
@@ -21985,7 +21985,12 @@ window.REPORT = {
     "04:03",
     "04:06",
     "04:08",
-    "04:11"
+    "04:11",
+    "20:03",
+    "20:03",
+    "20:04",
+    "20:08",
+    "20:08"
    ],
    "projects": [
     {
@@ -22047,6 +22052,231 @@ window.REPORT = {
       ],
       [
        ".css",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 5,
+     "from": "20:03",
+     "to": "20:08",
+     "files": 5,
+     "types": [
+      [
+       ".md",
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 5,
+    "projects": 3,
+    "files": 76,
+    "file_work_dirs": 1,
+    "added": 919,
+    "removed": 155,
+    "first": "16:42",
+    "last": "17:47",
+    "unpushed": 3
+   },
+   "effort": {
+    "minutes": 125,
+    "hours": 2.1,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 1
+   },
+   "times": [
+    "16:42",
+    "16:45",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:48",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:49",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:50",
+    "16:51",
+    "16:51",
+    "16:52",
+    "16:52",
+    "16:52",
+    "16:54",
+    "16:54",
+    "16:55",
+    "16:55",
+    "16:58",
+    "17:00",
+    "17:00",
+    "17:00",
+    "17:01",
+    "17:03",
+    "17:05",
+    "17:05",
+    "17:06",
+    "17:09",
+    "17:09",
+    "17:10",
+    "17:13",
+    "17:15",
+    "17:27",
+    "17:47"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "16:42",
+     "to": "17:13",
+     "files": 5,
+     "added": 135,
+     "removed": 49,
+     "unpushed": 3,
+     "tech": [
+      {
+       "t": "16:42",
+       "s": "Share with parents: a link to one interview's recordings and feedback",
+       "f": 4,
+       "a": 101,
+       "r": 24,
+       "p": false
+      },
+      {
+       "t": "16:45",
+       "s": "Parent link: one-click copy from the interview list and report; no AI wording",
+       "f": 3,
+       "a": 23,
+       "r": 20,
+       "p": false
+      },
+      {
+       "t": "17:13",
+       "s": "Parent link: quick double clicks no longer hand out a dead link",
+       "f": 3,
+       "a": 11,
+       "r": 5,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "coya-poc",
+     "ko": "코야",
+     "note": "인생 시뮬레이션 게임 (개인 실험작)",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "17:27",
+     "to": "17:47",
+     "files": 6,
+     "added": 784,
+     "removed": 106,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "17:27",
+       "s": "Put the context on every decision card",
+       "f": 6,
+       "a": 744,
+       "r": 105,
+       "p": true
+      },
+      {
+       "t": "17:47",
+       "s": "Resume lives saved by older versions instead of freezing",
+       "f": 1,
+       "a": 40,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 65,
+     "from": "16:48",
+     "to": "17:15",
+     "files": 65,
+     "types": [
+      [
+       ".png",
+       29
+      ],
+      [
+       ".mjs",
+       14
+      ],
+      [
+       ".tsx",
+       14
+      ],
+      [
+       ".wav",
+       7
+      ],
+      [
+       ".json",
        1
       ]
      ]
