@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-02 22:49",
+ "generated": "2026-10-05 19:57",
  "days": [
   {
    "date": "2026-08-07",
@@ -22277,6 +22277,313 @@ window.REPORT = {
       ],
       [
        ".json",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-04",
+   "weekday": "일요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 2,
+    "projects": 3,
+    "files": 76,
+    "file_work_dirs": 2,
+    "added": 677,
+    "removed": 63,
+    "first": "19:10",
+    "last": "21:54",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 224,
+    "hours": 3.7,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 1
+   },
+   "times": [
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:10",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:11",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:12",
+    "19:13",
+    "19:14",
+    "19:14",
+    "19:16",
+    "19:19",
+    "19:21",
+    "19:21",
+    "19:22",
+    "19:22",
+    "19:24",
+    "19:24",
+    "19:25",
+    "19:26",
+    "19:28",
+    "19:28",
+    "19:29",
+    "19:29",
+    "19:30",
+    "19:31",
+    "19:31",
+    "19:43",
+    "19:44",
+    "19:48",
+    "19:49",
+    "19:49",
+    "20:05",
+    "20:05",
+    "20:05",
+    "20:09",
+    "20:16",
+    "21:03",
+    "21:54"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "daniellabsat",
+     "ko": "다니엘랩 SAT",
+     "note": "학원 학생들이 쓰는 학습 사이트",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "19:12",
+     "to": "19:28",
+     "files": 6,
+     "added": 677,
+     "removed": 63,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "19:12",
+       "s": "Walkthrough form: screen and tag leads instead of trusting the browser check alone",
+       "f": 6,
+       "a": 677,
+       "r": 63,
+       "p": true
+      },
+      {
+       "t": "19:28",
+       "s": "Merge pull request #3 from vindicainc/claude/walkthrough-form-hardening",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 66,
+     "from": "19:10",
+     "to": "21:54",
+     "files": 66,
+     "types": [
+      [
+       ".png",
+       29
+      ],
+      [
+       ".mjs",
+       16
+      ],
+      [
+       ".tsx",
+       14
+      ],
+      [
+       ".wav",
+       7
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "20:05",
+     "to": "20:09",
+     "files": 4,
+     "types": [
+      [
+       ".md",
+       4
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "weekday": "월요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 1,
+    "projects": 2,
+    "files": 34,
+    "file_work_dirs": 1,
+    "added": 11,
+    "removed": 2,
+    "first": "19:41",
+    "last": "19:57",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 76,
+    "hours": 1.3,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
+   },
+   "times": [
+    "19:41",
+    "19:41",
+    "19:41",
+    "19:41",
+    "19:41",
+    "19:41",
+    "19:41",
+    "19:41",
+    "19:43",
+    "19:43",
+    "19:45",
+    "19:46",
+    "19:46",
+    "19:47",
+    "19:47",
+    "19:49",
+    "19:49",
+    "19:50",
+    "19:51",
+    "19:52",
+    "19:52",
+    "19:52",
+    "19:53",
+    "19:54",
+    "19:54",
+    "19:54",
+    "19:54",
+    "19:55",
+    "19:56",
+    "19:56",
+    "19:57",
+    "19:57",
+    "19:57"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "19:45",
+     "to": "19:45",
+     "files": 2,
+     "added": 11,
+     "removed": 2,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "19:45",
+       "s": "Study pack: a short lecture outlined one passage per topic keeps those topics instead of failing",
+       "f": 2,
+       "a": 11,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "rejoin",
+     "ko": "rejoin",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 32,
+     "from": "19:41",
+     "to": "19:57",
+     "files": 32,
+     "types": [
+      [
+       ".ts",
+       18
+      ],
+      [
+       ".tsx",
+       6
+      ],
+      [
+       ".json",
+       3
+      ],
+      [
+       ".toml",
+       1
+      ],
+      [
+       "(없음)",
+       1
+      ],
+      [
+       ".example",
        1
       ]
      ]
