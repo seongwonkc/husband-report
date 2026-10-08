@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-07 00:19",
+ "generated": "2026-10-08 21:05",
  "days": [
   {
    "date": "2026-08-07",
@@ -22598,17 +22598,17 @@ window.REPORT = {
    "stats": {
     "commits": 5,
     "projects": 4,
-    "files": 446,
+    "files": 410,
     "file_work_dirs": 2,
     "added": 3666,
     "removed": 575,
     "first": "01:54",
     "last": "16:47",
-    "unpushed": 2
+    "unpushed": 0
    },
    "effort": {
-    "minutes": 551,
-    "hours": 9.2,
+    "minutes": 549,
+    "hours": 9.1,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
@@ -22653,15 +22653,12 @@ window.REPORT = {
     "02:16",
     "02:16",
     "02:16",
-    "02:16",
-    "02:16",
     "02:17",
     "02:17",
     "02:17",
     "02:17",
     "02:17",
     "02:17",
-    "02:18",
     "02:18",
     "02:18",
     "02:18",
@@ -22688,28 +22685,18 @@ window.REPORT = {
     "02:26",
     "02:26",
     "02:28",
-    "02:30",
     "02:31",
     "02:31",
-    "02:31",
-    "02:33",
     "02:33",
     "02:33",
     "02:35",
     "02:36",
     "02:36",
-    "02:37",
-    "02:38",
-    "02:38",
     "02:38",
     "02:38",
     "02:40",
-    "02:40",
     "02:41",
     "02:41",
-    "02:43",
-    "09:17",
-    "09:17",
     "09:17",
     "09:18",
     "09:18",
@@ -22786,7 +22773,6 @@ window.REPORT = {
     "10:24",
     "10:24",
     "10:24",
-    "10:24",
     "10:25",
     "10:25",
     "10:25",
@@ -22796,22 +22782,13 @@ window.REPORT = {
     "10:26",
     "10:26",
     "10:27",
-    "10:27",
     "10:28",
     "10:28",
-    "10:28",
     "10:29",
     "10:29",
     "10:29",
     "10:29",
     "10:29",
-    "10:29",
-    "10:29",
-    "10:29",
-    "10:29",
-    "10:30",
-    "10:30",
-    "10:30",
     "10:30",
     "10:30",
     "10:30",
@@ -22841,7 +22818,6 @@ window.REPORT = {
     "10:32",
     "10:32",
     "10:32",
-    "10:32",
     "10:33",
     "10:33",
     "10:33",
@@ -22861,8 +22837,6 @@ window.REPORT = {
     "10:34",
     "10:34",
     "10:34",
-    "10:35",
-    "10:35",
     "10:35",
     "10:35",
     "10:35",
@@ -22874,8 +22848,6 @@ window.REPORT = {
     "10:37",
     "10:38",
     "10:38",
-    "10:38",
-    "10:39",
     "10:39",
     "10:39",
     "10:39",
@@ -22884,9 +22856,6 @@ window.REPORT = {
     "10:41",
     "10:41",
     "10:41",
-    "10:42",
-    "10:42",
-    "10:42",
     "10:42",
     "10:42",
     "10:43",
@@ -22899,11 +22868,6 @@ window.REPORT = {
     "10:44",
     "10:44",
     "10:44",
-    "10:46",
-    "10:47",
-    "10:47",
-    "10:51",
-    "10:51",
     "10:51",
     "10:51",
     "10:55",
@@ -23038,7 +23002,7 @@ window.REPORT = {
      "files": 21,
      "added": 1492,
      "removed": 84,
-     "unpushed": 2,
+     "unpushed": 0,
      "tech": [
       {
        "t": "01:55",
@@ -23054,7 +23018,7 @@ window.REPORT = {
        "f": 20,
        "a": 690,
        "r": 31,
-       "p": false
+       "p": true
       },
       {
        "t": "10:35",
@@ -23062,7 +23026,7 @@ window.REPORT = {
        "f": 18,
        "a": 668,
        "r": 31,
-       "p": false
+       "p": true
       }
      ]
     },
@@ -23144,25 +23108,21 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 73,
+     "count": 37,
      "from": "01:54",
      "to": "10:51",
-     "files": 73,
+     "files": 37,
      "types": [
       [
        ".ts",
-       37
+       19
       ],
       [
        ".tsx",
-       21
+       8
       ],
       [
        ".json",
-       3
-      ],
-      [
-       ".md",
        3
       ],
       [
@@ -23172,6 +23132,10 @@ window.REPORT = {
       [
        ".sql",
        2
+      ],
+      [
+       ".pdf",
+       1
       ]
      ]
     }
@@ -23183,23 +23147,23 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 0,
-    "projects": 2,
-    "files": 9,
-    "file_work_dirs": 2,
-    "added": 0,
-    "removed": 0,
+    "commits": 16,
+    "projects": 6,
+    "files": 120,
+    "file_work_dirs": 3,
+    "added": 2773,
+    "removed": 299,
     "first": "00:12",
-    "last": "00:19",
-    "unpushed": 0
+    "last": "16:30",
+    "unpushed": 4
    },
    "effort": {
-    "minutes": 67,
-    "hours": 1.1,
-    "level": 1,
-    "name": "살짝",
-    "blurb": "짬짬이 조금",
-    "sessions": 1
+    "minutes": 456,
+    "hours": 7.6,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 3
    },
    "times": [
     "00:12",
@@ -23208,26 +23172,303 @@ window.REPORT = {
     "00:13",
     "00:13",
     "00:14",
-    "00:17",
-    "00:17",
-    "00:19"
+    "00:19",
+    "00:21",
+    "00:31",
+    "01:29",
+    "01:35",
+    "01:37",
+    "01:42",
+    "01:42",
+    "01:47",
+    "01:48",
+    "01:48",
+    "01:50",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:55",
+    "01:56",
+    "01:57",
+    "02:00",
+    "02:03",
+    "02:04",
+    "02:14",
+    "08:17",
+    "08:17",
+    "08:17",
+    "08:17",
+    "08:17",
+    "08:17",
+    "08:17",
+    "08:19",
+    "08:19",
+    "08:19",
+    "08:19",
+    "08:19",
+    "08:20",
+    "14:00",
+    "14:00",
+    "14:00",
+    "14:00",
+    "14:01",
+    "15:05",
+    "15:05",
+    "15:05",
+    "15:08",
+    "15:10",
+    "15:23",
+    "15:47",
+    "15:48",
+    "15:48",
+    "15:48",
+    "15:48",
+    "15:49",
+    "15:49",
+    "15:49",
+    "15:49",
+    "15:50",
+    "15:51",
+    "15:52",
+    "15:52",
+    "15:52",
+    "15:52",
+    "15:53",
+    "15:56",
+    "15:56",
+    "16:07",
+    "16:07",
+    "16:18",
+    "16:18",
+    "16:18",
+    "16:18",
+    "16:18",
+    "16:18",
+    "16:22",
+    "16:24",
+    "16:24",
+    "16:26",
+    "16:27",
+    "16:29",
+    "16:30",
+    "16:30"
    ],
    "projects": [
     {
-     "kind": "files",
-     "repo": "seneca_marketing_x",
-     "ko": "세네카 홍보 자료",
-     "note": "SNS 문구·이미지",
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
      "summary": "",
      "bullets": [],
-     "count": 5,
-     "from": "00:13",
-     "to": "00:14",
-     "files": 5,
+     "count": 12,
+     "from": "01:48",
+     "to": "16:30",
+     "files": 28,
+     "added": 2480,
+     "removed": 231,
+     "unpushed": 3,
+     "tech": [
+      {
+       "t": "01:48",
+       "s": "Review hosted fixes and UX PRs 24 and 25 with independent reproductions",
+       "f": 6,
+       "a": 478,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "02:03",
+       "s": "Hosted: fixes for the second review of #24 (R24-01 to R24-07)",
+       "f": 17,
+       "a": 644,
+       "r": 87,
+       "p": true
+      },
+      {
+       "t": "02:04",
+       "s": "Merge claude/hosted-fixes (second review fixes for #24) into claude/hosted-ux",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:14",
+       "s": "Hosted UX: fixes for the second review of #25 (U25-01 to U25-03)",
+       "f": 5,
+       "a": 152,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "15:23",
+       "s": "Reverify hosted PR fixes and document remaining lifecycle defects",
+       "f": 3,
+       "a": 280,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "15:52",
+       "s": "Hosted: fixes for the re-verification of #24 (RV1-RV3)",
+       "f": 7,
+       "a": 358,
+       "r": 83,
+       "p": true
+      },
+      {
+       "t": "15:52",
+       "s": "Merge claude/hosted-fixes (re-verification fixes RV1-RV3) into claude/hosted-ux",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:56",
+       "s": "Hosted sign-in: always confirm adopted tokens (covers a revoke landing between exchange and adoption)",
+       "f": 4,
+       "a": 57,
+       "r": 47,
+       "p": true
+      },
+      {
+       "t": "15:56",
+       "s": "Merge claude/hosted-fixes (adoption confirmation) into claude/hosted-ux",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:27",
+       "s": "Review hosted RV fixes and reproduce pre-dispatch reconnect race",
+       "f": 4,
+       "a": 369,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "16:30",
+       "s": "Seneca link: a disconnect is a tracked lifecycle operation from its first line (final RV3)",
+       "f": 3,
+       "a": 142,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "16:30",
+       "s": "Merge claude/hosted-fixes (final RV3 disconnect tracking) into claude/hosted-ux",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "01:29",
+     "to": "15:10",
+     "files": 11,
+     "added": 106,
+     "removed": 56,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "01:29",
+       "s": "UX: practice strands first, shelves folded; one arc per split digraph; bigger PDF taps",
+       "f": 6,
+       "a": 41,
+       "r": 34,
+       "p": true
+      },
+      {
+       "t": "01:37",
+       "s": "UX: subject tabs on the practice index",
+       "f": 6,
+       "a": 55,
+       "r": 17,
+       "p": true
+      },
+      {
+       "t": "15:10",
+       "s": "Nav: 연습지 in the top switch; 한글 tab and 다음 lead to sheets",
+       "f": 5,
+       "a": 10,
+       "r": 5,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "16:26",
+     "to": "16:26",
+     "files": 10,
+     "added": 187,
+     "removed": 12,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "16:26",
+       "s": "Open the first screen to everyone: browser language, provider order by locale",
+       "f": 10,
+       "a": 187,
+       "r": 12,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "rejoin",
+     "ko": "rejoin",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 51,
+     "from": "01:35",
+     "to": "16:07",
+     "files": 51,
      "types": [
       [
+       ".ts",
+       29
+      ],
+      [
+       ".tsx",
+       14
+      ],
+      [
        ".md",
-       5
+       4
+      ],
+      [
+       ".css",
+       1
+      ],
+      [
+       ".sql",
+       1
+      ],
+      [
+       ".vars",
+       1
       ]
      ]
     },
@@ -23238,22 +23479,75 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 4,
+     "count": 14,
      "from": "00:12",
-     "to": "00:19",
-     "files": 4,
+     "to": "16:29",
+     "files": 14,
      "types": [
       [
        ".mjs",
-       3
+       5
+      ],
+      [
+       ".png",
+       5
       ],
       [
        ".wav",
-       1
+       2
+      ],
+      [
+       ".tsx",
+       2
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "00:13",
+     "to": "14:01",
+     "files": 6,
+     "types": [
+      [
+       ".md",
+       6
       ]
      ]
     }
    ]
+  },
+  {
+   "date": "2026-10-08",
+   "weekday": "목요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 0,
+    "projects": 0,
+    "files": 0,
+    "file_work_dirs": 0,
+    "added": 0,
+    "removed": 0,
+    "first": null,
+    "last": null,
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 0,
+    "hours": 0.0,
+    "level": 0,
+    "name": "쉬는 날",
+    "blurb": "오늘은 푹 쉬었어요",
+    "sessions": 0
+   },
+   "times": [],
+   "projects": []
   }
  ]
 };
