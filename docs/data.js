@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-08 21:05",
+ "generated": "2026-10-09 22:00",
  "days": [
   {
    "date": "2026-08-07",
@@ -23529,25 +23529,276 @@ window.REPORT = {
    "note": "",
    "stats": {
     "commits": 0,
-    "projects": 0,
-    "files": 0,
-    "file_work_dirs": 0,
+    "projects": 2,
+    "files": 12,
+    "file_work_dirs": 2,
     "added": 0,
     "removed": 0,
-    "first": null,
-    "last": null,
+    "first": "21:07",
+    "last": "21:43",
     "unpushed": 0
    },
    "effort": {
-    "minutes": 0,
-    "hours": 0.0,
-    "level": 0,
-    "name": "쉬는 날",
-    "blurb": "오늘은 푹 쉬었어요",
-    "sessions": 0
+    "minutes": 96,
+    "hours": 1.6,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
    },
-   "times": [],
-   "projects": []
+   "times": [
+    "21:07",
+    "21:13",
+    "21:36",
+    "21:36",
+    "21:36",
+    "21:36",
+    "21:36",
+    "21:37",
+    "21:37",
+    "21:37",
+    "21:39",
+    "21:43"
+   ],
+   "projects": [
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 11,
+     "from": "21:07",
+     "to": "21:43",
+     "files": 11,
+     "types": [
+      [
+       ".png",
+       5
+      ],
+      [
+       ".mjs",
+       3
+      ],
+      [
+       ".tsx",
+       2
+      ],
+      [
+       ".wav",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "21:13",
+     "to": "21:13",
+     "files": 1,
+     "types": [
+      [
+       ".md",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 1,
+    "projects": 4,
+    "files": 61,
+    "file_work_dirs": 3,
+    "added": 4,
+    "removed": 1,
+    "first": "14:40",
+    "last": "21:56",
+    "unpushed": 1
+   },
+   "effort": {
+    "minutes": 217,
+    "hours": 3.6,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "14:40",
+    "14:48",
+    "14:49",
+    "14:51",
+    "15:00",
+    "15:18",
+    "15:27",
+    "15:27",
+    "15:32",
+    "15:43",
+    "15:44",
+    "15:44",
+    "15:44",
+    "15:45",
+    "15:45",
+    "15:46",
+    "15:46",
+    "15:48",
+    "15:48",
+    "15:49",
+    "15:49",
+    "15:49",
+    "15:53",
+    "15:54",
+    "15:54",
+    "15:54",
+    "15:54",
+    "15:54",
+    "15:56",
+    "15:58",
+    "15:58",
+    "15:59",
+    "15:59",
+    "16:00",
+    "16:01",
+    "16:02",
+    "16:04",
+    "16:05",
+    "16:05",
+    "16:06",
+    "16:07",
+    "16:08",
+    "16:08",
+    "16:08",
+    "16:08",
+    "16:08",
+    "16:08",
+    "16:09",
+    "16:09",
+    "16:09",
+    "16:09",
+    "16:09",
+    "16:13",
+    "16:15",
+    "16:15",
+    "16:15",
+    "16:15",
+    "16:15",
+    "21:54",
+    "21:55",
+    "21:56"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "14:51",
+     "to": "14:51",
+     "files": 1,
+     "added": 4,
+     "removed": 1,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "14:51",
+       "s": "Application reading ignores counselors' template samples",
+       "f": 1,
+       "a": 4,
+       "r": 1,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "rejoin",
+     "ko": "rejoin",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 51,
+     "from": "14:40",
+     "to": "16:15",
+     "files": 51,
+     "types": [
+      [
+       ".ts",
+       26
+      ],
+      [
+       ".tsx",
+       16
+      ],
+      [
+       ".md",
+       4
+      ],
+      [
+       ".sql",
+       3
+      ],
+      [
+       ".jsonc",
+       1
+      ],
+      [
+       ".css",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "forge-shorts",
+     "ko": "forge-shorts",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "15:27",
+     "to": "21:55",
+     "files": 6,
+     "types": [
+      [
+       ".tsx",
+       6
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "15:00",
+     "to": "21:56",
+     "files": 3,
+     "types": [
+      [
+       ".md",
+       3
+      ]
+     ]
+    }
+   ]
   }
  ]
 };
