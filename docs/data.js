@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-09 22:00",
+ "generated": "2026-10-10 19:58",
  "days": [
   {
    "date": "2026-08-07",
@@ -23617,19 +23617,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 1,
-    "projects": 4,
-    "files": 61,
+    "commits": 3,
+    "projects": 6,
+    "files": 65,
     "file_work_dirs": 3,
-    "added": 4,
-    "removed": 1,
+    "added": 2211,
+    "removed": 14,
     "first": "14:40",
-    "last": "21:56",
+    "last": "22:16",
     "unpushed": 1
    },
    "effort": {
-    "minutes": 217,
-    "hours": 3.6,
+    "minutes": 237,
+    "hours": 3.9,
     "level": 2,
     "name": "열심히",
     "blurb": "제대로 붙잡고",
@@ -23637,66 +23637,48 @@ window.REPORT = {
    },
    "times": [
     "14:40",
-    "14:48",
     "14:49",
     "14:51",
     "15:00",
     "15:18",
     "15:27",
     "15:27",
-    "15:32",
     "15:43",
     "15:44",
     "15:44",
-    "15:44",
-    "15:45",
     "15:45",
     "15:46",
     "15:46",
-    "15:48",
-    "15:48",
-    "15:49",
-    "15:49",
-    "15:49",
-    "15:53",
-    "15:54",
-    "15:54",
-    "15:54",
     "15:54",
     "15:54",
     "15:56",
-    "15:58",
-    "15:58",
     "15:59",
     "15:59",
-    "16:00",
     "16:01",
-    "16:02",
     "16:04",
-    "16:05",
-    "16:05",
     "16:06",
-    "16:07",
     "16:08",
     "16:08",
-    "16:08",
-    "16:08",
-    "16:08",
-    "16:08",
-    "16:09",
-    "16:09",
-    "16:09",
-    "16:09",
-    "16:09",
     "16:13",
-    "16:15",
-    "16:15",
-    "16:15",
     "16:15",
     "16:15",
     "21:54",
     "21:55",
-    "21:56"
+    "21:56",
+    "22:03",
+    "22:03",
+    "22:06",
+    "22:06",
+    "22:06",
+    "22:06",
+    "22:07",
+    "22:08",
+    "22:08",
+    "22:13",
+    "22:13",
+    "22:15",
+    "22:16",
+    "22:16"
    ],
    "projects": [
     {
@@ -23725,39 +23707,89 @@ window.REPORT = {
      ]
     },
     {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "22:13",
+     "to": "22:13",
+     "files": 12,
+     "added": 1213,
+     "removed": 3,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "22:13",
+       "s": "continuity_context@v1: partner read of a learner's evidence across tools, learning-tools connection states, local two-tool stack",
+       "f": 17,
+       "a": 1213,
+       "r": 3,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "22:13",
+     "to": "22:13",
+     "files": 12,
+     "added": 994,
+     "removed": 10,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "22:13",
+       "s": "Partner evidence client: observable_event@v1 submit, receipts, continuity_context@v1 read",
+       "f": 29,
+       "a": 994,
+       "r": 10,
+       "p": true
+      }
+     ]
+    },
+    {
      "kind": "files",
      "repo": "rejoin",
      "ko": "rejoin",
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 51,
+     "count": 31,
      "from": "14:40",
-     "to": "16:15",
-     "files": 51,
+     "to": "22:16",
+     "files": 31,
      "types": [
       [
        ".ts",
-       26
-      ],
-      [
-       ".tsx",
-       16
+       13
       ],
       [
        ".md",
-       4
+       5
+      ],
+      [
+       ".tsx",
+       5
       ],
       [
        ".sql",
-       3
+       4
+      ],
+      [
+       ".json",
+       2
       ],
       [
        ".jsonc",
-       1
-      ],
-      [
-       ".css",
        1
       ]
      ]
@@ -23795,6 +23827,181 @@ window.REPORT = {
       [
        ".md",
        3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "weekday": "토요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 4,
+    "projects": 3,
+    "files": 51,
+    "file_work_dirs": 1,
+    "added": 105,
+    "removed": 18,
+    "first": "10:03",
+    "last": "17:25",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 315,
+    "hours": 5.2,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 2
+   },
+   "times": [
+    "10:03",
+    "10:04",
+    "14:11",
+    "14:11",
+    "15:43",
+    "15:43",
+    "15:43",
+    "15:43",
+    "15:43",
+    "15:44",
+    "15:45",
+    "16:19",
+    "16:19",
+    "16:19",
+    "16:21",
+    "16:23",
+    "16:25",
+    "16:25",
+    "16:30",
+    "17:02",
+    "17:05",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:07",
+    "17:09",
+    "17:09",
+    "17:13",
+    "17:13",
+    "17:15",
+    "17:16",
+    "17:16",
+    "17:16",
+    "17:16",
+    "17:20",
+    "17:20",
+    "17:20",
+    "17:20",
+    "17:22",
+    "17:22",
+    "17:22",
+    "17:25"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "10:03",
+     "to": "16:30",
+     "files": 5,
+     "added": 105,
+     "removed": 18,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "10:03",
+       "s": "Merge pull request #60 from vindicainc/feat/zipper-phase15",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:21",
+       "s": "Partner path: fix Codex review findings on continuity context and learning tools",
+       "f": 5,
+       "a": 105,
+       "r": 18,
+       "p": true
+      },
+      {
+       "t": "16:30",
+       "s": "Merge pull request #61 from vindicainc/fix/learning-tools-health",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "10:04",
+     "to": "10:04",
+     "files": 0,
+     "added": 0,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "10:04",
+       "s": "Merge origin/main (standards v1.1, partner client contract) into feat/zipper-phase15; rebuild dist",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "rejoin",
+     "ko": "rejoin",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 46,
+     "from": "14:11",
+     "to": "17:25",
+     "files": 46,
+     "types": [
+      [
+       ".ts",
+       26
+      ],
+      [
+       ".tsx",
+       14
+      ],
+      [
+       ".md",
+       5
+      ],
+      [
+       ".css",
+       1
       ]
      ]
     }
