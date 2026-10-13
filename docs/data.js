@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-10 19:58",
+ "generated": "2026-10-14 07:56",
  "days": [
   {
    "date": "2026-08-07",
@@ -24002,6 +24002,467 @@ window.REPORT = {
       [
        ".css",
        1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "weekday": "일요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 11,
+    "projects": 3,
+    "files": 60,
+    "file_work_dirs": 2,
+    "added": 36124,
+    "removed": 28,
+    "first": "17:54",
+    "last": "22:21",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 327,
+    "hours": 5.4,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 1
+   },
+   "times": [
+    "17:54",
+    "17:54",
+    "17:54",
+    "17:54",
+    "17:59",
+    "18:00",
+    "18:00",
+    "18:00",
+    "18:00",
+    "18:00",
+    "18:01",
+    "18:02",
+    "18:02",
+    "18:03",
+    "18:04",
+    "18:05",
+    "18:05",
+    "18:05",
+    "18:05",
+    "20:05",
+    "20:06",
+    "20:06",
+    "20:06",
+    "20:06",
+    "20:06",
+    "20:06",
+    "20:06",
+    "20:11",
+    "20:11",
+    "20:11",
+    "20:11",
+    "20:11",
+    "20:11",
+    "20:11",
+    "20:12",
+    "20:12",
+    "20:13",
+    "20:13",
+    "20:14",
+    "20:15",
+    "20:15",
+    "20:15",
+    "20:47",
+    "20:47",
+    "21:04",
+    "21:05",
+    "21:06",
+    "21:07",
+    "21:07",
+    "21:11",
+    "21:11",
+    "22:10",
+    "22:10",
+    "22:17",
+    "22:19",
+    "22:19",
+    "22:21"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 11,
+     "from": "21:04",
+     "to": "22:21",
+     "files": 14,
+     "added": 36124,
+     "removed": 28,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "21:04",
+       "s": "Zipper: initial commit for joint development",
+       "f": 149,
+       "a": 36084,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:05",
+       "s": "Handoff: repository URL, CI fetches the private SDK with a read token, protection notes",
+       "f": 3,
+       "a": 21,
+       "r": 13,
+       "p": true
+      },
+      {
+       "t": "21:06",
+       "s": "Merge pull request #1 from vindicainc/handoff-docs",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:07",
+       "s": "CI and handoff: the file: SDK dependency fails at the Worker type check, not at install",
+       "f": 3,
+       "a": 12,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "21:07",
+       "s": "Merge pull request #2 from vindicainc/ci-sdk-note",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:10",
+       "s": "Handoff: Sungwon's GitHub account confirmed; access already in place",
+       "f": 2,
+       "a": 2,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "22:10",
+       "s": "Merge pull request #3 from vindicainc/sungwon-access",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:17",
+       "s": "CI: allow manual runs",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:19",
+       "s": "Merge pull request #4 from vindicainc/ci-dispatch",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:19",
+       "s": "Handoff: CI green and required on main",
+       "f": 2,
+       "a": 4,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "22:21",
+       "s": "Merge pull request #5 from vindicainc/handoff-ci-green",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "rejoin",
+     "ko": "rejoin",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 44,
+     "from": "17:54",
+     "to": "20:47",
+     "files": 44,
+     "types": [
+      [
+       ".ts",
+       24
+      ],
+      [
+       ".tsx",
+       9
+      ],
+      [
+       ".md",
+       7
+      ],
+      [
+       ".jpg",
+       3
+      ],
+      [
+       ".css",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "21:11",
+     "to": "21:11",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-13",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 8,
+    "projects": 4,
+    "files": 48,
+    "file_work_dirs": 0,
+    "added": 15112,
+    "removed": 125,
+    "first": "08:44",
+    "last": "18:17",
+    "unpushed": 3
+   },
+   "effort": {
+    "minutes": 267,
+    "hours": 4.5,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 3
+   },
+   "times": [
+    "08:44",
+    "08:46",
+    "08:54",
+    "09:03",
+    "14:56",
+    "15:37",
+    "16:05",
+    "18:17"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "15:37",
+     "to": "18:17",
+     "files": 26,
+     "added": 10238,
+     "removed": 15,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:37",
+       "s": "docs: add Zipper foundation-repair engine handoff for Sungwon",
+       "f": 13,
+       "a": 934,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "16:05",
+       "s": "docs: clarify Zipper math scope through precalculus",
+       "f": 7,
+       "a": 46,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "18:17",
+       "s": "docs: map Zipper math prerequisites and diagnostic repair engine",
+       "f": 28,
+       "a": 9258,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "08:44",
+     "to": "08:46",
+     "files": 12,
+     "added": 1302,
+     "removed": 31,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "08:44",
+       "s": "Guided demo and sample navigation (12 October work), merged from the pre-repo folder",
+       "f": 23,
+       "a": 1302,
+       "r": 31,
+       "p": true
+      },
+      {
+       "t": "08:46",
+       "s": "Merge pull request #7 from vindicainc/guided-demo",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "crucible_quiz",
+     "ko": "crucible_quiz",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "08:54",
+     "to": "09:03",
+     "files": 5,
+     "added": 594,
+     "removed": 3,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "08:54",
+       "s": "Crucible Acts 3-4 quote quiz site",
+       "f": 5,
+       "a": 588,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "09:03",
+       "s": "Fix taps ignored after first quote of a round",
+       "f": 2,
+       "a": 6,
+       "r": 3,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "14:56",
+     "to": "14:56",
+     "files": 5,
+     "added": 2978,
+     "removed": 76,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "14:56",
+       "s": "More question variety: no-repeat selection and a deeper bank",
+       "f": 5,
+       "a": 2978,
+       "r": 76,
+       "p": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-14",
+   "weekday": "수요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 0,
+    "projects": 1,
+    "files": 2,
+    "file_work_dirs": 1,
+    "added": 0,
+    "removed": 0,
+    "first": "07:51",
+    "last": "07:51",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 60,
+    "hours": 1.0,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
+   },
+   "times": [
+    "07:51",
+    "07:51"
+   ],
+   "projects": [
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "07:51",
+     "to": "07:51",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
       ]
      ]
     }
