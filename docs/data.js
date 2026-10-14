@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-14 07:56",
+ "generated": "2026-10-14 23:32",
  "days": [
   {
    "date": "2026-08-07",
@@ -24425,29 +24425,261 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 0,
-    "projects": 1,
-    "files": 2,
-    "file_work_dirs": 1,
-    "added": 0,
-    "removed": 0,
-    "first": "07:51",
-    "last": "07:51",
-    "unpushed": 0
+    "commits": 16,
+    "projects": 7,
+    "files": 72,
+    "file_work_dirs": 2,
+    "added": 5990,
+    "removed": 230,
+    "first": "08:07",
+    "last": "23:31",
+    "unpushed": 3
    },
    "effort": {
-    "minutes": 60,
-    "hours": 1.0,
-    "level": 1,
-    "name": "살짝",
-    "blurb": "짬짬이 조금",
-    "sessions": 1
+    "minutes": 439,
+    "hours": 7.3,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 4
    },
    "times": [
-    "07:51",
-    "07:51"
+    "08:07",
+    "11:03",
+    "11:03",
+    "11:54",
+    "15:23",
+    "15:46",
+    "16:20",
+    "16:38",
+    "17:15",
+    "17:17",
+    "17:23",
+    "17:24",
+    "17:33",
+    "17:33",
+    "17:37",
+    "17:40",
+    "17:42",
+    "17:46",
+    "17:48",
+    "23:28",
+    "23:31"
    ],
    "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 9,
+     "from": "15:46",
+     "to": "17:42",
+     "files": 38,
+     "added": 4328,
+     "removed": 127,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:46",
+       "s": "Photo readings of a mathematics page: transcription records, fixtures, reader route, Eedi slice",
+       "f": 25,
+       "a": 2093,
+       "r": 24,
+       "p": true
+      },
+      {
+       "t": "16:20",
+       "s": "Photographed pages on screen: confirm the reading, mark the step, repair history and parent note",
+       "f": 23,
+       "a": 1117,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "16:38",
+       "s": "Merge pull request #8 from vindicainc/photo-algebra",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:15",
+       "s": "Renewed support that takes leads to the fresh attempt; malformed uncertainty never passes as clear",
+       "f": 9,
+       "a": 375,
+       "r": 52,
+       "p": true
+      },
+      {
+       "t": "17:17",
+       "s": "Merge pull request #9 from vindicainc/review-fixes",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:23",
+       "s": "A fresh attempt after renewed support counts only when finished and passed",
+       "f": 5,
+       "a": 104,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "17:24",
+       "s": "Merge pull request #10 from vindicainc/fresh-outcome",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:40",
+       "s": "Check outcomes under one policy; later-check cycles; the university pilot package",
+       "f": 14,
+       "a": 639,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "17:42",
+       "s": "Merge pull request #11 from vindicainc/pilot-package",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "17:33",
+     "to": "17:46",
+     "files": 10,
+     "added": 311,
+     "removed": 14,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "17:33",
+       "s": "Sign-in notice v5: the pilot is for 만 18세 이상 only (university beta)",
+       "f": 4,
+       "a": 10,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "17:33",
+       "s": "Merge claude/hosted-fixes (notice v5, 18+) into claude/hosted-ux",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:37",
+       "s": "Accept hosted beta fixes after final RV3 verification",
+       "f": 1,
+       "a": 37,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "17:46",
+       "s": "Closed beta: invitation gate (INVITE_CODES) and the launch plan",
+       "f": 6,
+       "a": 264,
+       "r": 10,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "crucible_quiz",
+     "ko": "crucible_quiz",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "08:07",
+     "to": "08:07",
+     "files": 3,
+     "added": 63,
+     "removed": 43,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "08:07",
+       "s": "Study guide mode: tag the 37 study-guide quotes, add missing ones, All/Study guide switch",
+       "f": 3,
+       "a": 63,
+       "r": 43,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_maro",
+     "ko": "세네카 학습 앱",
+     "note": "인적성 · 토익스피킹 · 글쓰기",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "11:54",
+     "to": "11:54",
+     "files": 4,
+     "added": 1002,
+     "removed": 25,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:54",
+       "s": "feat(maro): Crucible timed-write guide with one-click timed writes on the class rubric",
+       "f": 4,
+       "a": 1002,
+       "r": 25,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "17:48",
+     "to": "17:48",
+     "files": 12,
+     "added": 286,
+     "removed": 21,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "17:48",
+       "s": "Beta prep: daily photo cap, privacy policy page, metrics query, review packet",
+       "f": 19,
+       "a": 286,
+       "r": 21,
+       "p": false
+      }
+     ]
+    },
     {
      "kind": "files",
      "repo": "seneca_marketing_x",
@@ -24455,14 +24687,32 @@ window.REPORT = {
      "note": "SNS 문구·이미지",
      "summary": "",
      "bullets": [],
-     "count": 2,
-     "from": "07:51",
-     "to": "07:51",
-     "files": 2,
+     "count": 4,
+     "from": "11:03",
+     "to": "23:31",
+     "files": 4,
      "types": [
       [
        ".md",
-       2
+       4
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "rejoin",
+     "ko": "rejoin",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "15:23",
+     "to": "15:23",
+     "files": 1,
+     "types": [
+      [
+       ".md",
+       1
       ]
      ]
     }
