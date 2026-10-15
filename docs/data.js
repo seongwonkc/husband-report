@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-14 23:32",
+ "generated": "2026-10-15 21:01",
  "days": [
   {
    "date": "2026-08-07",
@@ -24425,19 +24425,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 16,
+    "commits": 18,
     "projects": 7,
-    "files": 72,
+    "files": 83,
     "file_work_dirs": 2,
-    "added": 5990,
-    "removed": 230,
+    "added": 6746,
+    "removed": 255,
     "first": "08:07",
-    "last": "23:31",
+    "last": "23:35",
     "unpushed": 3
    },
    "effort": {
-    "minutes": 439,
-    "hours": 7.3,
+    "minutes": 443,
+    "hours": 7.4,
     "level": 3,
     "name": "아주 많이",
     "blurb": "하루를 통째로",
@@ -24464,7 +24464,9 @@ window.REPORT = {
     "17:46",
     "17:48",
     "23:28",
-    "23:31"
+    "23:31",
+    "23:33",
+    "23:35"
    ],
    "projects": [
     {
@@ -24563,13 +24565,13 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 4,
+     "count": 5,
      "from": "17:33",
-     "to": "17:46",
-     "files": 10,
-     "added": 311,
+     "to": "23:35",
+     "files": 13,
+     "added": 492,
      "removed": 14,
-     "unpushed": 1,
+     "unpushed": 2,
      "tech": [
       {
        "t": "17:33",
@@ -24601,6 +24603,47 @@ window.REPORT = {
        "f": 6,
        "a": 264,
        "r": 10,
+       "p": true
+      },
+      {
+       "t": "23:35",
+       "s": "Review PR26 invitation gate and reproduce unsafe rollback and input boundaries",
+       "f": 3,
+       "a": 181,
+       "r": 0,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "17:48",
+     "to": "23:33",
+     "files": 20,
+     "added": 861,
+     "removed": 46,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "17:48",
+       "s": "Beta prep: daily photo cap, privacy policy page, metrics query, review packet",
+       "f": 19,
+       "a": 286,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "23:33",
+       "s": "한글 읽기: a 한글 떼기 track on the science of reading",
+       "f": 18,
+       "a": 575,
+       "r": 25,
        "p": true
       }
      ]
@@ -24656,31 +24699,6 @@ window.REPORT = {
      ]
     },
     {
-     "kind": "git",
-     "repo": "naite",
-     "ko": "naite",
-     "note": "",
-     "summary": "",
-     "bullets": [],
-     "count": 1,
-     "from": "17:48",
-     "to": "17:48",
-     "files": 12,
-     "added": 286,
-     "removed": 21,
-     "unpushed": 1,
-     "tech": [
-      {
-       "t": "17:48",
-       "s": "Beta prep: daily photo cap, privacy policy page, metrics query, review packet",
-       "f": 19,
-       "a": 286,
-       "r": 21,
-       "p": false
-      }
-     ]
-    },
-    {
      "kind": "files",
      "repo": "seneca_marketing_x",
      "ko": "세네카 홍보 자료",
@@ -24714,6 +24732,284 @@ window.REPORT = {
        ".md",
        1
       ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "weekday": "목요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 22,
+    "projects": 3,
+    "files": 54,
+    "file_work_dirs": 0,
+    "added": 2103,
+    "removed": 238,
+    "first": "09:33",
+    "last": "18:52",
+    "unpushed": 3
+   },
+   "effort": {
+    "minutes": 344,
+    "hours": 5.7,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 3
+   },
+   "times": [
+    "09:33",
+    "09:36",
+    "09:36",
+    "09:36",
+    "13:49",
+    "14:00",
+    "14:01",
+    "14:11",
+    "14:29",
+    "14:33",
+    "14:33",
+    "14:36",
+    "14:38",
+    "14:45",
+    "17:08",
+    "17:14",
+    "17:40",
+    "17:44",
+    "17:47",
+    "17:53",
+    "18:50",
+    "18:52"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 14,
+     "from": "09:33",
+     "to": "18:52",
+     "files": 20,
+     "added": 500,
+     "removed": 98,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "09:33",
+       "s": "Legal and policy groundwork for the pilot: FERPA, COPPA, accessibility, provider terms, Korea",
+       "f": 3,
+       "a": 136,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:49",
+       "s": "Legal groundwork, revised after review: open assessments, not conclusions",
+       "f": 7,
+       "a": 106,
+       "r": 82,
+       "p": true
+      },
+      {
+       "t": "14:00",
+       "s": "Merge branch 'main' into legal-groundwork",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:01",
+       "s": "Merge pull request #13 from vindicainc/legal-groundwork",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:11",
+       "s": "Record episode deployment intake and default-off gate triage",
+       "f": 1,
+       "a": 33,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "14:33",
+       "s": "Release guard: deploy one reviewed commit, never a moving main",
+       "f": 8,
+       "a": 95,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "14:33",
+       "s": "release guard: resolve the sha without cmd.exe escaping",
+       "f": 1,
+       "a": 7,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "14:36",
+       "s": "Merge pull request #14 from vindicainc/release-guard",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:38",
+       "s": "Record release 176a0360 (main 2d4b92c)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:08",
+       "s": "Episode engine: the review gate covers resume and answers; foundation status reads the question asked",
+       "f": 6,
+       "a": 121,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "17:40",
+       "s": "Merge pull request #16 from vindicainc/episode-gate-and-status",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:44",
+       "s": "Record release 9d12e825 (main 33773bf)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:50",
+       "s": "Merge remote-tracking branch 'origin/main' into release-log",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:52",
+       "s": "Merge pull request #15 from vindicainc/release-log-176a0360",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "naite",
+     "ko": "naite",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "09:36",
+     "to": "14:45",
+     "files": 18,
+     "added": 645,
+     "removed": 25,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:36",
+       "s": "Extractor pk-2.11.0: read-aloud sheets are filed from the parent's marks",
+       "f": 7,
+       "a": 253,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "09:36",
+       "s": "Landing: a 한글·영어 읽기 card (books printed from taught letters)",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "14:29",
+       "s": "Pilot kit: one-page guide with QR, first-week routine and where to start by age",
+       "f": 3,
+       "a": 146,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:45",
+       "s": "한글 1분 읽기 + pk-2.12.0: built syllables graded in code",
+       "f": 13,
+       "a": 245,
+       "r": 21,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "09:36",
+     "to": "17:53",
+     "files": 16,
+     "added": 958,
+     "removed": 115,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "09:36",
+       "s": "Fix #26 review R26-01..04: closed-site release instead of rollback; one bounded invite format",
+       "f": 10,
+       "a": 390,
+       "r": 86,
+       "p": true
+      },
+      {
+       "t": "17:14",
+       "s": "Reverify PR26 maintenance and invite fixes with remaining config and recovery findings",
+       "f": 3,
+       "a": 251,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "17:47",
+       "s": "Fix #26 re-verification: supplied blank invite config fails closed; accurate recovery guidance",
+       "f": 5,
+       "a": 95,
+       "r": 29,
+       "p": true
+      },
+      {
+       "t": "17:53",
+       "s": "Accept PR26 after final invite configuration and recovery verification",
+       "f": 3,
+       "a": 222,
+       "r": 0,
+       "p": false
+      }
      ]
     }
    ]
