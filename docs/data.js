@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-15 21:01",
+ "generated": "2026-10-17 20:34",
  "days": [
   {
    "date": "2026-08-07",
@@ -25010,6 +25010,174 @@ window.REPORT = {
        "r": 0,
        "p": false
       }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 4,
+    "projects": 3,
+    "files": 8,
+    "file_work_dirs": 1,
+    "added": 556,
+    "removed": 29,
+    "first": "10:12",
+    "last": "16:47",
+    "unpushed": 4
+   },
+   "effort": {
+    "minutes": 206,
+    "hours": 3.4,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "10:12",
+    "10:38",
+    "11:06",
+    "11:06",
+    "11:38",
+    "16:47"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "crucible_quiz",
+     "ko": "crucible_quiz",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "10:12",
+     "to": "11:38",
+     "files": 5,
+     "added": 548,
+     "removed": 26,
+     "unpushed": 3,
+     "tech": [
+      {
+       "t": "10:12",
+       "s": "Essay prep tab (two sample prompts, thesis feedback, evidence plans) + Acts 1-2 study-guide quotes",
+       "f": 4,
+       "a": 232,
+       "r": 8,
+       "p": false
+      },
+      {
+       "t": "10:38",
+       "s": "Essay tab: third prompt (resentment timed write) with model thesis and body paragraphs",
+       "f": 3,
+       "a": 47,
+       "r": 2,
+       "p": false
+      },
+      {
+       "t": "11:38",
+       "s": "Outlines tab: 16 model essay outlines across the concept list, characters, and quotation prompts",
+       "f": 4,
+       "a": 269,
+       "r": 16,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "16:47",
+     "to": "16:47",
+     "files": 1,
+     "added": 8,
+     "removed": 3,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "16:47",
+       "s": "Teacher can upload a student's application",
+       "f": 1,
+       "a": 8,
+       "r": 3,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "11:06",
+     "to": "11:06",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "weekday": "토요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 0,
+    "projects": 1,
+    "files": 2,
+    "file_work_dirs": 1,
+    "added": 0,
+    "removed": 0,
+    "first": "07:09",
+    "last": "07:09",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 60,
+    "hours": 1.0,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
+   },
+   "times": [
+    "07:09",
+    "07:09"
+   ],
+   "projects": [
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "07:09",
+     "to": "07:09",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
      ]
     }
    ]
