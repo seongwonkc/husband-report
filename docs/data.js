@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-17 20:34",
+ "generated": "2026-10-18 19:58",
  "days": [
   {
    "date": "2026-08-07",
@@ -25178,6 +25178,61 @@ window.REPORT = {
        ".md",
        2
       ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-18",
+   "weekday": "일요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 1,
+    "projects": 1,
+    "files": 1,
+    "file_work_dirs": 0,
+    "added": 308,
+    "removed": 0,
+    "first": "11:20",
+    "last": "11:20",
+    "unpushed": 1
+   },
+   "effort": {
+    "minutes": 60,
+    "hours": 1.0,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
+   },
+   "times": [
+    "11:20"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "11:20",
+     "to": "11:20",
+     "files": 1,
+     "added": 308,
+     "removed": 0,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "11:20",
+       "s": "Add Brooks and Suffield (facts verified on each school's own site, 2026-10-18)",
+       "f": 1,
+       "a": 308,
+       "r": 0,
+       "p": false
+      }
      ]
     }
    ]
