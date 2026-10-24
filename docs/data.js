@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-21 19:58",
+ "generated": "2026-10-24 09:14",
  "days": [
   {
    "date": "2026-08-07",
@@ -29128,6 +29128,283 @@ window.REPORT = {
        ".py",
        1
       ],
+      [
+       ".json",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 7,
+    "projects": 4,
+    "files": 53,
+    "file_work_dirs": 2,
+    "added": 38210,
+    "removed": 88,
+    "first": "00:05",
+    "last": "18:33",
+    "unpushed": 2
+   },
+   "effort": {
+    "minutes": 268,
+    "hours": 4.5,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "00:05",
+    "00:19",
+    "00:23",
+    "00:24",
+    "00:34",
+    "00:43",
+    "00:45",
+    "00:46",
+    "01:06",
+    "01:14",
+    "01:14",
+    "17:14",
+    "17:14",
+    "17:22",
+    "17:23",
+    "18:07",
+    "18:07",
+    "18:12",
+    "18:23",
+    "18:26",
+    "18:33"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "00:23",
+     "to": "18:33",
+     "files": 38,
+     "added": 38207,
+     "removed": 87,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "00:23",
+       "s": "Integrate local distribution checker with worksheet confirmation and routing",
+       "f": 22,
+       "a": 1303,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "00:24",
+       "s": "Fix Windows local judge launcher invocation",
+       "f": 1,
+       "a": 3,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:46",
+       "s": "Connect local distribution checker to teacher preview",
+       "f": 12,
+       "a": 453,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "01:14",
+       "s": "Add adaptive local distribution teaching loop",
+       "f": 12,
+       "a": 410,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "17:22",
+       "s": "Connect local equation teaching to distribution and multiplication detours",
+       "f": 12,
+       "a": 1396,
+       "r": 23,
+       "p": true
+      },
+      {
+       "t": "18:33",
+       "s": "Train and integrate local graph-aware teaching-action selector",
+       "f": 21,
+       "a": 34642,
+       "r": 23,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "18:23",
+     "to": "18:23",
+     "files": 1,
+     "added": 3,
+     "removed": 1,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "18:23",
+       "s": "Pin the Worker to Seoul: HKG edge made Gemini refuse grading (User location is not supported)",
+       "f": 1,
+       "a": 3,
+       "r": 1,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "zipper-curriculum-release-notes",
+     "ko": "zipper-curriculum-release-notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 12,
+     "from": "00:05",
+     "to": "18:26",
+     "files": 12,
+     "types": [
+      [
+       ".json",
+       6
+      ],
+      [
+       ".png",
+       5
+      ],
+      [
+       ".txt",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "18:07",
+     "to": "18:07",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "weekday": "토요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 1,
+    "projects": 3,
+    "files": 9,
+    "file_work_dirs": 2,
+    "added": 87,
+    "removed": 7,
+    "first": "09:05",
+    "last": "09:09",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 64,
+    "hours": 1.1,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
+   },
+   "times": [
+    "09:05",
+    "09:07",
+    "09:09"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "09:09",
+     "to": "09:09",
+     "files": 7,
+     "added": 87,
+     "removed": 7,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:09",
+       "s": "docs: publish Seneca self-binding deployment and approval status",
+       "f": 7,
+       "a": 87,
+       "r": 7,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "09:05",
+     "to": "09:05",
+     "files": 1,
+     "types": [
+      [
+       ".md",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "zipper-curriculum-release-notes",
+     "ko": "zipper-curriculum-release-notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "09:07",
+     "to": "09:07",
+     "files": 1,
+     "types": [
       [
        ".json",
        1
