@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-24 09:14",
+ "generated": "2026-10-25 15:42",
  "days": [
   {
    "date": "2026-08-07",
@@ -29326,30 +29326,273 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 1,
-    "projects": 3,
-    "files": 9,
+    "commits": 21,
+    "projects": 4,
+    "files": 101,
     "file_work_dirs": 2,
-    "added": 87,
-    "removed": 7,
+    "added": 4122,
+    "removed": 260,
     "first": "09:05",
-    "last": "09:09",
+    "last": "12:04",
     "unpushed": 0
    },
    "effort": {
-    "minutes": 64,
-    "hours": 1.1,
-    "level": 1,
-    "name": "살짝",
-    "blurb": "짬짬이 조금",
+    "minutes": 239,
+    "hours": 4.0,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
     "sessions": 1
    },
    "times": [
     "09:05",
     "09:07",
-    "09:09"
+    "09:09",
+    "09:39",
+    "09:40",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:41",
+    "09:43",
+    "09:52",
+    "09:53",
+    "09:55",
+    "10:06",
+    "10:06",
+    "10:07",
+    "10:09",
+    "10:14",
+    "10:14",
+    "10:15",
+    "10:16",
+    "10:20",
+    "10:31",
+    "10:36",
+    "10:38",
+    "10:43",
+    "10:45",
+    "11:05",
+    "11:08",
+    "11:08",
+    "11:10",
+    "11:11",
+    "11:12",
+    "11:14",
+    "11:14",
+    "11:16",
+    "11:17",
+    "11:20",
+    "11:21",
+    "11:23",
+    "11:25",
+    "11:34",
+    "11:34",
+    "11:37",
+    "11:42",
+    "11:44",
+    "11:44",
+    "11:45",
+    "11:45",
+    "11:46",
+    "11:47",
+    "11:51",
+    "11:52",
+    "11:53",
+    "11:53",
+    "11:56",
+    "11:59",
+    "12:02",
+    "12:04"
    ],
    "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 20,
+     "from": "09:39",
+     "to": "12:04",
+     "files": 46,
+     "added": 4035,
+     "removed": 253,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:39",
+       "s": "Add local controlled distribution teaching comparison",
+       "f": 13,
+       "a": 464,
+       "r": 14,
+       "p": true
+      },
+      {
+       "t": "10:06",
+       "s": "Connect branded teaching preview to bounded production Worker API",
+       "f": 21,
+       "a": 800,
+       "r": 71,
+       "p": true
+      },
+      {
+       "t": "10:09",
+       "s": "Merge pull request #34 from vindicainc/codex/production-teaching-ui-20261024",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:14",
+       "s": "Record connected teaching release and public verification",
+       "f": 2,
+       "a": 21,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:16",
+       "s": "Record connected teaching release and public verification (#35)",
+       "f": 2,
+       "a": 21,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:11",
+       "s": "Connect uploaded worksheet teaching to resumable learner accounts",
+       "f": 35,
+       "a": 1732,
+       "r": 147,
+       "p": true
+      },
+      {
+       "t": "11:14",
+       "s": "Recover worksheet saves when network responses stall",
+       "f": 2,
+       "a": 32,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:14",
+       "s": "Keep account save failures visible beside the worksheet",
+       "f": 1,
+       "a": 3,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "11:16",
+       "s": "Merge pull request #36 from vindicainc/codex/worksheet-teaching-resume-20261024",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:23",
+       "s": "Record worksheet resume release and usability verification",
+       "f": 2,
+       "a": 15,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:25",
+       "s": "Merge pull request #37 from vindicainc/codex/record-worksheet-resume-release-20261024",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:34",
+       "s": "Fix identity login gateway version contract",
+       "f": 3,
+       "a": 82,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "11:37",
+       "s": "Fix identity login gateway version contract (#38)",
+       "f": 3,
+       "a": 82,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "11:42",
+       "s": "docs: record identity contract hotfix release",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:45",
+       "s": "docs: record identity contract hotfix release (#39)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:45",
+       "s": "Add private resumable worksheet assignment handoffs",
+       "f": 12,
+       "a": 683,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "11:52",
+       "s": "Verify isolated handoff resume and bounded template retention",
+       "f": 8,
+       "a": 89,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "11:56",
+       "s": "Merge pull request #40 from vindicainc/codex/worksheet-handoff-20261024",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:02",
+       "s": "Record worksheet handoff release and live verification",
+       "f": 2,
+       "a": 9,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:04",
+       "s": "Merge pull request #41 from vindicainc/codex/record-handoff-release-20261024",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
     {
      "kind": "git",
      "repo": "seneca_wiki",
@@ -29377,6 +29620,44 @@ window.REPORT = {
     },
     {
      "kind": "files",
+     "repo": "zipper-curriculum-release-notes",
+     "ko": "zipper-curriculum-release-notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 47,
+     "from": "09:07",
+     "to": "11:59",
+     "files": 47,
+     "types": [
+      [
+       ".txt",
+       16
+      ],
+      [
+       ".json",
+       13
+      ],
+      [
+       ".log",
+       5
+      ],
+      [
+       ".png",
+       4
+      ],
+      [
+       ".tsx",
+       3
+      ],
+      [
+       ".css",
+       2
+      ]
+     ]
+    },
+    {
+     "kind": "files",
      "repo": "seneca_marketing_x",
      "ko": "세네카 홍보 자료",
      "note": "SNS 문구·이미지",
@@ -29392,26 +29673,35 @@ window.REPORT = {
        1
       ]
      ]
-    },
-    {
-     "kind": "files",
-     "repo": "zipper-curriculum-release-notes",
-     "ko": "zipper-curriculum-release-notes",
-     "note": "",
-     "summary": "",
-     "bullets": [],
-     "count": 1,
-     "from": "09:07",
-     "to": "09:07",
-     "files": 1,
-     "types": [
-      [
-       ".json",
-       1
-      ]
-     ]
     }
    ]
+  },
+  {
+   "date": "2026-10-25",
+   "weekday": "일요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 0,
+    "projects": 0,
+    "files": 0,
+    "file_work_dirs": 0,
+    "added": 0,
+    "removed": 0,
+    "first": null,
+    "last": null,
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 0,
+    "hours": 0.0,
+    "level": 0,
+    "name": "쉬는 날",
+    "blurb": "오늘은 푹 쉬었어요",
+    "sessions": 0
+   },
+   "times": [],
+   "projects": []
   }
  ]
 };
