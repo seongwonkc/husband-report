@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-25 15:42",
+ "generated": "2026-10-25 22:09",
  "days": [
   {
    "date": "2026-08-07",
@@ -29683,25 +29683,46 @@ window.REPORT = {
    "note": "",
    "stats": {
     "commits": 0,
-    "projects": 0,
-    "files": 0,
-    "file_work_dirs": 0,
+    "projects": 1,
+    "files": 1,
+    "file_work_dirs": 1,
     "added": 0,
     "removed": 0,
-    "first": null,
-    "last": null,
+    "first": "22:07",
+    "last": "22:07",
     "unpushed": 0
    },
    "effort": {
-    "minutes": 0,
-    "hours": 0.0,
-    "level": 0,
-    "name": "쉬는 날",
-    "blurb": "오늘은 푹 쉬었어요",
-    "sessions": 0
+    "minutes": 60,
+    "hours": 1.0,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
    },
-   "times": [],
-   "projects": []
+   "times": [
+    "22:07"
+   ],
+   "projects": [
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "22:07",
+     "to": "22:07",
+     "files": 1,
+     "types": [
+      [
+       ".md",
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 };
