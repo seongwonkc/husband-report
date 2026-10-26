@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-25 22:09",
+ "generated": "2026-10-26 22:13",
  "days": [
   {
    "date": "2026-08-07",
@@ -29718,6 +29718,280 @@ window.REPORT = {
      "types": [
       [
        ".md",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "weekday": "월요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 8,
+    "projects": 6,
+    "files": 72,
+    "file_work_dirs": 2,
+    "added": 3340,
+    "removed": 496,
+    "first": "10:12",
+    "last": "18:10",
+    "unpushed": 2
+   },
+   "effort": {
+    "minutes": 330,
+    "hours": 5.5,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 3
+   },
+   "times": [
+    "10:12",
+    "10:16",
+    "12:19",
+    "12:19",
+    "12:19",
+    "12:19",
+    "12:26",
+    "12:28",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:33",
+    "12:40",
+    "12:53",
+    "12:53",
+    "12:53",
+    "12:53",
+    "12:53",
+    "12:54",
+    "13:03",
+    "13:03",
+    "13:08",
+    "16:33",
+    "16:33",
+    "16:33",
+    "16:33",
+    "16:34",
+    "16:34",
+    "18:00",
+    "18:00",
+    "18:05",
+    "18:06",
+    "18:09",
+    "18:09",
+    "18:09",
+    "18:10"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "argosyfinal",
+     "ko": "아르고시 (최종본)",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "12:28",
+     "to": "13:08",
+     "files": 24,
+     "added": 3222,
+     "removed": 477,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "12:28",
+       "s": "Dedupe Ethan Yang reposts, NIE page draft, bio, jellyfish draft, 500+ readers note",
+       "f": 23,
+       "a": 258,
+       "r": 459,
+       "p": true
+      },
+      {
+       "t": "13:03",
+       "s": "Launch Newspaper in Education: 21 worksheets, workbook, PDFs",
+       "f": 54,
+       "a": 2950,
+       "r": 17,
+       "p": true
+      },
+      {
+       "t": "13:08",
+       "s": "Add Ethan Yang's foreword to the NIE workbook",
+       "f": 3,
+       "a": 14,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "10:12",
+     "to": "10:16",
+     "files": 3,
+     "added": 57,
+     "removed": 9,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "10:12",
+       "s": "Interview page can't hang: time limits on audio wake-up (Safari), stalled clips, and answer uploads",
+       "f": 1,
+       "a": 15,
+       "r": 5,
+       "p": false
+      },
+      {
+       "t": "10:16",
+       "s": "iPad audio: serve interviewer clips with byte ranges (206) and unlock sound on the Start tap",
+       "f": 3,
+       "a": 42,
+       "r": 4,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "jellyfishtracker",
+     "ko": "해파리 추적기",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "18:05",
+     "to": "18:10",
+     "files": 4,
+     "added": 56,
+     "removed": 7,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "18:05",
+       "s": "Add Ethan's founder video to the homepage",
+       "f": 4,
+       "a": 53,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "18:10",
+       "s": "Correct founder video wording: presented, not published",
+       "f": 2,
+       "a": 3,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "herbartkita",
+     "ko": "herbartkita",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "13:03",
+     "to": "13:03",
+     "files": 4,
+     "added": 5,
+     "removed": 3,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "13:03",
+       "s": "Mention The Argosy's Newspaper in Education workbooks",
+       "f": 4,
+       "a": 5,
+       "r": 3,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "jellyfix",
+     "ko": "jellyfix",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 31,
+     "from": "12:19",
+     "to": "18:09",
+     "files": 31,
+     "types": [
+      [
+       ".webp",
+       17
+      ],
+      [
+       ".png",
+       4
+      ],
+      [
+       ".json",
+       2
+      ],
+      [
+       ".toml",
+       1
+      ],
+      [
+       ".jpg",
+       1
+      ],
+      [
+       "(없음)",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "laptop_lessons",
+     "ko": "laptop_lessons",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "16:33",
+     "to": "16:34",
+     "files": 6,
+     "types": [
+      [
+       ".html",
+       2
+      ],
+      [
+       ".js",
+       2
+      ],
+      [
+       ".md",
+       1
+      ],
+      [
+       ".zip",
        1
       ]
      ]
