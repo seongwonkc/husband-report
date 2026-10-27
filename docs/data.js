@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-26 22:13",
+ "generated": "2026-10-27 19:58",
  "days": [
   {
    "date": "2026-08-07",
@@ -29730,23 +29730,23 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 8,
-    "projects": 6,
-    "files": 72,
-    "file_work_dirs": 2,
-    "added": 3340,
+    "commits": 9,
+    "projects": 7,
+    "files": 87,
+    "file_work_dirs": 3,
+    "added": 4839,
     "removed": 496,
     "first": "10:12",
-    "last": "18:10",
+    "last": "23:14",
     "unpushed": 2
    },
    "effort": {
-    "minutes": 330,
-    "hours": 5.5,
+    "minutes": 449,
+    "hours": 7.5,
     "level": 3,
     "name": "아주 많이",
     "blurb": "하루를 통째로",
-    "sessions": 3
+    "sessions": 4
    },
    "times": [
     "10:12",
@@ -29793,7 +29793,11 @@ window.REPORT = {
     "18:09",
     "18:09",
     "18:09",
-    "18:10"
+    "18:10",
+    "22:15",
+    "22:15",
+    "22:16",
+    "23:14"
    ],
    "projects": [
     {
@@ -29803,11 +29807,11 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 3,
+     "count": 4,
      "from": "12:28",
-     "to": "13:08",
-     "files": 24,
-     "added": 3222,
+     "to": "23:14",
+     "files": 36,
+     "added": 4721,
      "removed": 477,
      "unpushed": 0,
      "tech": [
@@ -29833,6 +29837,14 @@ window.REPORT = {
        "f": 3,
        "a": 14,
        "r": 1,
+       "p": true
+      },
+      {
+       "t": "23:14",
+       "s": "Add 27 articles for September-October 2026, three per writer",
+       "f": 54,
+       "a": 1499,
+       "r": 0,
        "p": true
       }
      ]
@@ -29994,6 +30006,346 @@ window.REPORT = {
        ".zip",
        1
       ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "22:15",
+     "to": "22:16",
+     "files": 3,
+     "types": [
+      [
+       ".md",
+       3
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 25,
+    "projects": 4,
+    "files": 91,
+    "file_work_dirs": 0,
+    "added": 26138,
+    "removed": 877,
+    "first": "09:48",
+    "last": "19:50",
+    "unpushed": 2
+   },
+   "effort": {
+    "minutes": 316,
+    "hours": 5.3,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 2
+   },
+   "times": [
+    "09:48",
+    "09:49",
+    "11:10",
+    "11:13",
+    "11:19",
+    "11:20",
+    "11:25",
+    "18:10",
+    "18:26",
+    "18:27",
+    "18:30",
+    "18:33",
+    "18:33",
+    "18:37",
+    "18:39",
+    "18:41",
+    "18:50",
+    "18:50",
+    "19:03",
+    "19:05",
+    "19:44",
+    "19:46",
+    "19:46",
+    "19:49",
+    "19:50"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 20,
+     "from": "11:10",
+     "to": "19:50",
+     "files": 66,
+     "added": 4719,
+     "removed": 316,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "11:10",
+       "s": "feat: demonstrate shared teaching engine through local agent tools",
+       "f": 5,
+       "a": 357,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:13",
+       "s": "Add local teaching-outcome data readiness audit",
+       "f": 8,
+       "a": 982,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:19",
+       "s": "test: bind numbered photo budget parameters in Node SQLite",
+       "f": 1,
+       "a": 3,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:20",
+       "s": "docs: define product integration tracks and Claude UX work order",
+       "f": 3,
+       "a": 146,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:27",
+       "s": "Lead college prospects to instructor demo and explain free first trial",
+       "f": 9,
+       "a": 76,
+       "r": 29,
+       "p": true
+      },
+      {
+       "t": "18:30",
+       "s": "Lead college prospects to instructor demo and explain free first trial (#53)",
+       "f": 9,
+       "a": 76,
+       "r": 29,
+       "p": true
+      },
+      {
+       "t": "18:33",
+       "s": "Record college demo production release 63587a9",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:33",
+       "s": "Collect consented worksheet teaching outcomes with resumable progress",
+       "f": 13,
+       "a": 1404,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "18:37",
+       "s": "Try page and teaching journey: sample first, target levels, visible return",
+       "f": 79,
+       "a": 1361,
+       "r": 170,
+       "p": true
+      },
+      {
+       "t": "18:39",
+       "s": "Merge remote-tracking branch 'origin/main' into claude/zipper-ui-journey-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "18:41",
+       "s": "Remove side-tab accent on saved items; square the balance pans",
+       "f": 2,
+       "a": 2,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "18:50",
+       "s": "Content brief: Geometry, Algebra II, Precalculus, Calculus II starter families",
+       "f": 1,
+       "a": 52,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:50",
+       "s": "Merge commit '92c472b' into claude/zipper-ui-journey-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "19:03",
+       "s": "Connect worksheet UI to optional outcome collection (PR #54)",
+       "f": 19,
+       "a": 251,
+       "r": 75,
+       "p": true
+      },
+      {
+       "t": "19:05",
+       "s": "Replace side stripes on storage notice and replace-work warning with full outlines",
+       "f": 1,
+       "a": 5,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "19:44",
+       "s": "Merge branch 'main' into codex/zipper-agent-demo-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:46",
+       "s": "Merge pull request #52 from vindicainc/codex/zipper-agent-demo-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:46",
+       "s": "Merge branch 'main' into codex/worksheet-outcome-collection-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:49",
+       "s": "Merge pull request #54 from vindicainc/codex/worksheet-outcome-collection-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:50",
+       "s": "Keep #53 college routing (For colleges, instructor view, free first group) on the redesigned try page",
+       "f": 1,
+       "a": 3,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "09:48",
+     "to": "09:49",
+     "files": 12,
+     "added": 20382,
+     "removed": 206,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:48",
+       "s": "docs: update Sungwon engine handoff and outcome-learning roadmap",
+       "f": 35,
+       "a": 10191,
+       "r": 103,
+       "p": true
+      },
+      {
+       "t": "09:49",
+       "s": "docs: update Sungwon engine handoff and outcome-learning roadmap (#1)",
+       "f": 35,
+       "a": 10191,
+       "r": 103,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "argosyfinal",
+     "ko": "아르고시 (최종본)",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "18:10",
+     "to": "18:26",
+     "files": 9,
+     "added": 945,
+     "removed": 353,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "18:10",
+       "s": "Add newsletter signup to the footer",
+       "f": 3,
+       "a": 55,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:26",
+       "s": "Redesign: NYT-style front page, masthead, section fronts and articles",
+       "f": 7,
+       "a": 890,
+       "r": 353,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "herbartkita",
+     "ko": "herbartkita",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "11:25",
+     "to": "11:25",
+     "files": 5,
+     "added": 92,
+     "removed": 2,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:25",
+       "s": "Add poetry anthology page (spring and fall editions, submissions open)",
+       "f": 5,
+       "a": 92,
+       "r": 2,
+       "p": true
+      }
      ]
     }
    ]
