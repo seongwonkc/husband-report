@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-27 19:58",
+ "generated": "2026-10-28 19:59",
  "days": [
   {
    "date": "2026-08-07",
@@ -30034,22 +30034,22 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 25,
-    "projects": 4,
-    "files": 91,
-    "file_work_dirs": 0,
-    "added": 26138,
-    "removed": 877,
+    "commits": 37,
+    "projects": 6,
+    "files": 131,
+    "file_work_dirs": 1,
+    "added": 31094,
+    "removed": 987,
     "first": "09:48",
-    "last": "19:50",
+    "last": "22:58",
     "unpushed": 2
    },
    "effort": {
-    "minutes": 316,
-    "hours": 5.3,
-    "level": 3,
-    "name": "아주 많이",
-    "blurb": "하루를 통째로",
+    "minutes": 504,
+    "hours": 8.4,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
     "sessions": 2
    },
    "times": [
@@ -30059,6 +30059,7 @@ window.REPORT = {
     "11:13",
     "11:19",
     "11:20",
+    "11:25",
     "11:25",
     "18:10",
     "18:26",
@@ -30077,7 +30078,20 @@ window.REPORT = {
     "19:46",
     "19:46",
     "19:49",
-    "19:50"
+    "19:50",
+    "19:54",
+    "20:03",
+    "20:05",
+    "20:05",
+    "20:05",
+    "20:11",
+    "20:49",
+    "22:26",
+    "22:30",
+    "22:35",
+    "22:38",
+    "22:46",
+    "22:58"
    ],
    "projects": [
     {
@@ -30087,12 +30101,12 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 20,
+     "count": 27,
      "from": "11:10",
-     "to": "19:50",
-     "files": 66,
-     "added": 4719,
-     "removed": 316,
+     "to": "22:38",
+     "files": 75,
+     "added": 5383,
+     "removed": 343,
      "unpushed": 2,
      "tech": [
       {
@@ -30254,6 +30268,144 @@ window.REPORT = {
        "a": 3,
        "r": 2,
        "p": true
+      },
+      {
+       "t": "19:54",
+       "s": "Merge pull request #55 from vindicainc/claude/zipper-ui-journey-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:03",
+       "s": "Record release 8a28c33 (Worker d8903c17): try-page journey, outcome collection off, migration 0013",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:05",
+       "s": "Merge pull request #56 from vindicainc/claude/release-log-8a28c33",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:26",
+       "s": "Bring Zippy's foundation journey and state map to the homepage",
+       "f": 10,
+       "a": 662,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "22:30",
+       "s": "Merge pull request #57 from vindicainc/codex/zippy-floorboards-homepage-20261027",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:35",
+       "s": "Record Zippy homepage release 70a7710",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:38",
+       "s": "Merge pull request #58 from vindicainc/codex/record-zippy-home-release-70a7710",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "herbartkita",
+     "ko": "herbartkita",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "11:25",
+     "to": "20:49",
+     "files": 25,
+     "added": 2797,
+     "removed": 54,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:25",
+       "s": "Add poetry anthology page (spring and fall editions, submissions open)",
+       "f": 5,
+       "a": 92,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "11:25",
+       "s": "Deploy 4556e44",
+       "f": 26,
+       "a": 2593,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:49",
+       "s": "Polish: \"To be announced\" text, Programs page, slimmer menu, home stat",
+       "f": 12,
+       "a": 112,
+       "r": 52,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "argosyfinal",
+     "ko": "아르고시 (최종본)",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "18:10",
+     "to": "20:11",
+     "files": 9,
+     "added": 996,
+     "removed": 383,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "18:10",
+       "s": "Add newsletter signup to the footer",
+       "f": 3,
+       "a": 55,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:26",
+       "s": "Redesign: NYT-style front page, masthead, section fronts and articles",
+       "f": 7,
+       "a": 890,
+       "r": 353,
+       "p": true
+      },
+      {
+       "t": "20:11",
+       "s": "Balance the front page's desk rows",
+       "f": 3,
+       "a": 51,
+       "r": 30,
+       "p": true
       }
      ]
     },
@@ -30292,60 +30444,425 @@ window.REPORT = {
     },
     {
      "kind": "git",
-     "repo": "argosyfinal",
-     "ko": "아르고시 (최종본)",
+     "repo": "vindica-game-studio",
+     "ko": "vindica-game-studio",
      "note": "",
      "summary": "",
      "bullets": [],
      "count": 2,
-     "from": "18:10",
-     "to": "18:26",
-     "files": 9,
-     "added": 945,
-     "removed": 353,
+     "from": "22:46",
+     "to": "22:58",
+     "files": 12,
+     "added": 1536,
+     "removed": 1,
      "unpushed": 0,
      "tech": [
       {
-       "t": "18:10",
-       "s": "Add newsletter signup to the footer",
-       "f": 3,
-       "a": 55,
+       "t": "22:46",
+       "s": "Initialize private game studio repository",
+       "f": 1,
+       "a": 3,
        "r": 0,
        "p": true
       },
       {
-       "t": "18:26",
-       "s": "Redesign: NYT-style front page, masthead, section fronts and articles",
-       "f": 7,
-       "a": 890,
-       "r": 353,
+       "t": "22:58",
+       "s": "Establish portable mobile 3D technical prototype and verified setup workflow",
+       "f": 26,
+       "a": 1533,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "20:05",
+     "to": "20:05",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "weekday": "수요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 30,
+    "projects": 3,
+    "files": 97,
+    "file_work_dirs": 1,
+    "added": 11703,
+    "removed": 805,
+    "first": "00:32",
+    "last": "19:32",
+    "unpushed": 1
+   },
+   "effort": {
+    "minutes": 577,
+    "hours": 9.6,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 4
+   },
+   "times": [
+    "00:32",
+    "00:35",
+    "00:40",
+    "00:45",
+    "01:04",
+    "01:07",
+    "01:14",
+    "01:16",
+    "02:03",
+    "02:05",
+    "02:07",
+    "02:12",
+    "02:14",
+    "02:28",
+    "11:04",
+    "12:33",
+    "13:07",
+    "13:09",
+    "13:16",
+    "15:23",
+    "15:26",
+    "15:32",
+    "15:34",
+    "16:01",
+    "16:16",
+    "16:25",
+    "16:29",
+    "16:34",
+    "16:37",
+    "19:18",
+    "19:18",
+    "19:18",
+    "19:18",
+    "19:19",
+    "19:32"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 22,
+     "from": "00:32",
+     "to": "19:32",
+     "files": 49,
+     "added": 6028,
+     "removed": 352,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:32",
+       "s": "Add a connected Precalculus starter for real learners",
+       "f": 10,
+       "a": 1251,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "00:35",
+       "s": "Merge pull request #59 from vindicainc/codex/precalculus-starter-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:40",
+       "s": "Record Precalculus starter release and live verification",
+       "f": 2,
+       "a": 8,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:45",
+       "s": "Merge pull request #60 from vindicainc/codex/record-precalculus-release-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:04",
+       "s": "Add scratch paper and teacher-controlled lesson calculator",
+       "f": 21,
+       "a": 1433,
+       "r": 36,
+       "p": true
+      },
+      {
+       "t": "01:07",
+       "s": "Merge pull request #61 from vindicainc/codex/lesson-scratch-calculator-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:14",
+       "s": "Record verified lesson tools production release",
+       "f": 2,
+       "a": 9,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:16",
+       "s": "Merge pull request #62 from vindicainc/codex/lesson-tools-release-record-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:05",
+       "s": "Focus goal learning on one step with collapsible context and Zippy art",
+       "f": 8,
+       "a": 495,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "02:07",
+       "s": "Merge pull request #63 from vindicainc/codex/calculus-focus-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:12",
+       "s": "Record focused calculus release and live verification",
+       "f": 2,
+       "a": 11,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:14",
+       "s": "Merge pull request #64 from vindicainc/codex/calculus-focus-release-record-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:23",
+       "s": "Teach the calculus goal through connected resumable steps",
+       "f": 14,
+       "a": 1219,
+       "r": 47,
+       "p": true
+      },
+      {
+       "t": "15:26",
+       "s": "Merge pull request #65 from vindicainc/codex/calculus-teaching-queue-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:32",
+       "s": "Record calculus teaching release and live verification",
+       "f": 2,
+       "a": 15,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "15:34",
+       "s": "Merge pull request #66 from vindicainc/codex/calculus-release-record-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:16",
+       "s": "Unify learner entry and expose saved worksheet teaching outcomes",
+       "f": 18,
+       "a": 926,
+       "r": 85,
+       "p": true
+      },
+      {
+       "t": "16:25",
+       "s": "Keep worksheet scratch paper and calculator within immediate reach",
+       "f": 4,
+       "a": 285,
+       "r": 27,
+       "p": true
+      },
+      {
+       "t": "16:29",
+       "s": "Merge pull request #67 from vindicainc/codex/unified-worksheet-outcomes-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:34",
+       "s": "Record unified worksheet release and public verification",
+       "f": 2,
+       "a": 9,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:37",
+       "s": "Merge pull request #68 from vindicainc/codex/unified-flow-release-record-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:32",
+       "s": "Focus worksheet learning around the question and next action",
+       "f": 10,
+       "a": 367,
+       "r": 139,
        "p": true
       }
      ]
     },
     {
      "kind": "git",
-     "repo": "herbartkita",
-     "ko": "herbartkita",
+     "repo": "vindica-game-studio",
+     "ko": "vindica-game-studio",
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 1,
-     "from": "11:25",
-     "to": "11:25",
-     "files": 5,
-     "added": 92,
-     "removed": 2,
-     "unpushed": 0,
+     "count": 8,
+     "from": "02:03",
+     "to": "16:01",
+     "files": 43,
+     "added": 5675,
+     "removed": 453,
+     "unpushed": 1,
      "tech": [
       {
-       "t": "11:25",
-       "s": "Add poetry anthology page (spring and fall editions, submissions open)",
-       "f": 5,
-       "a": 92,
+       "t": "02:03",
+       "s": "feat: add playable city with free assets and mobile controls",
+       "f": 37,
+       "a": 736,
+       "r": 133,
+       "p": true
+      },
+      {
+       "t": "02:28",
+       "s": "feat: detail city storefronts and smooth rigged character movement",
+       "f": 27,
+       "a": 613,
+       "r": 75,
+       "p": true
+      },
+      {
+       "t": "11:04",
+       "s": "feat: add playable physics garden and history archive",
+       "f": 25,
+       "a": 910,
+       "r": 76,
+       "p": true
+      },
+      {
+       "t": "12:33",
+       "s": "feat: deepen physics and archive exploration",
+       "f": 45,
+       "a": 2721,
+       "r": 145,
+       "p": true
+      },
+      {
+       "t": "13:07",
+       "s": "perf: refine district rendering and verify touch journeys",
+       "f": 35,
+       "a": 562,
+       "r": 22,
+       "p": true
+      },
+      {
+       "t": "13:09",
+       "s": "build: normalize packaged text for reproducible output",
+       "f": 1,
+       "a": 3,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:16",
+       "s": "docs: record verified subject-area build and handoff",
+       "f": 6,
+       "a": 118,
        "r": 2,
        "p": true
+      },
+      {
+       "t": "16:01",
+       "s": "docs: make teacher workload a cardinal design constraint",
+       "f": 2,
+       "a": 12,
+       "r": 0,
+       "p": false
       }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "letter_hunters",
+     "ko": "letter_hunters",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 5,
+     "from": "19:18",
+     "to": "19:19",
+     "files": 5,
+     "types": [
+      [
+       ".js",
+       1
+      ],
+      [
+       ".jsonc",
+       1
+      ],
+      [
+       "(없음)",
+       1
+      ],
+      [
+       ".html",
+       1
+      ],
+      [
+       ".md",
+       1
+      ]
      ]
     }
    ]
