@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-28 19:59",
+ "generated": "2026-10-29 21:14",
  "days": [
   {
    "date": "2026-08-07",
@@ -30501,19 +30501,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 30,
-    "projects": 3,
-    "files": 97,
-    "file_work_dirs": 1,
-    "added": 11703,
-    "removed": 805,
+    "commits": 47,
+    "projects": 4,
+    "files": 145,
+    "file_work_dirs": 2,
+    "added": 15187,
+    "removed": 1320,
     "first": "00:32",
-    "last": "19:32",
-    "unpushed": 1
+    "last": "23:02",
+    "unpushed": 4
    },
    "effort": {
-    "minutes": 577,
-    "hours": 9.6,
+    "minutes": 787,
+    "hours": 13.1,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
@@ -30554,7 +30554,26 @@ window.REPORT = {
     "19:18",
     "19:18",
     "19:19",
-    "19:32"
+    "19:32",
+    "20:02",
+    "20:02",
+    "20:10",
+    "20:14",
+    "20:17",
+    "20:55",
+    "20:59",
+    "21:07",
+    "21:10",
+    "21:24",
+    "21:40",
+    "21:40",
+    "21:47",
+    "22:11",
+    "22:18",
+    "22:19",
+    "22:37",
+    "22:38",
+    "23:02"
    ],
    "projects": [
     {
@@ -30564,12 +30583,12 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 22,
+     "count": 36,
      "from": "00:32",
-     "to": "19:32",
-     "files": 49,
-     "added": 6028,
-     "removed": 352,
+     "to": "22:38",
+     "files": 76,
+     "added": 7590,
+     "removed": 599,
      "unpushed": 0,
      "tech": [
       {
@@ -30747,6 +30766,118 @@ window.REPORT = {
        "a": 367,
        "r": 139,
        "p": true
+      },
+      {
+       "t": "20:10",
+       "s": "Focus worksheet learning around the question and next action (#69)",
+       "f": 10,
+       "a": 367,
+       "r": 139,
+       "p": true
+      },
+      {
+       "t": "20:14",
+       "s": "Record focused learning UI release",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:17",
+       "s": "Record focused learning UI release (#70)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:55",
+       "s": "Resolve friction found in fresh learner and teacher walkthroughs",
+       "f": 13,
+       "a": 119,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "20:59",
+       "s": "Resolve friction found in fresh learner and teacher walkthroughs (#71)",
+       "f": 13,
+       "a": 119,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "21:07",
+       "s": "docs: record first-time usability repair release",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:10",
+       "s": "docs: record first-time usability repair release (#76)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:40",
+       "s": "Add draft-safe whole-expansion choice to distribution teaching UI",
+       "f": 2,
+       "a": 118,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "21:40",
+       "s": "Allow a whole distribution attempt before component practice",
+       "f": 7,
+       "a": 185,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "21:47",
+       "s": "Record integrated whole-expansion validation",
+       "f": 1,
+       "a": 18,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "22:18",
+       "s": "Merge remote-tracking branch 'origin/main' into codex/distribution-whole-attempt-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:19",
+       "s": "Merge remote-tracking branch 'origin/csw/2026-10-28-parser-fixes' into codex/distribution-whole-attempt-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:37",
+       "s": "Preserve worksheet work in read-only parser recovery UI",
+       "f": 3,
+       "a": 315,
+       "r": 18,
+       "p": true
+      },
+      {
+       "t": "22:38",
+       "s": "Preserve historical work across the corrected math parser",
+       "f": 24,
+       "a": 317,
+       "r": 23,
+       "p": true
       }
      ]
     },
@@ -30757,13 +30888,13 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 8,
+     "count": 11,
      "from": "02:03",
-     "to": "16:01",
-     "files": 43,
-     "added": 5675,
-     "removed": 453,
-     "unpushed": 1,
+     "to": "23:02",
+     "files": 62,
+     "added": 7597,
+     "removed": 721,
+     "unpushed": 4,
      "tech": [
       {
        "t": "02:03",
@@ -30828,6 +30959,30 @@ window.REPORT = {
        "a": 12,
        "r": 0,
        "p": false
+      },
+      {
+       "t": "21:24",
+       "s": "Build local FDR history episode with oral assessment and teacher review",
+       "f": 21,
+       "a": 1142,
+       "r": 9,
+       "p": false
+      },
+      {
+       "t": "22:11",
+       "s": "Redesign game journal and use local WhisperX with teacher-only review",
+       "f": 24,
+       "a": 314,
+       "r": 174,
+       "p": false
+      },
+      {
+       "t": "23:02",
+       "s": "Give the field kit a distinct Pip companion and local typography",
+       "f": 23,
+       "a": 466,
+       "r": 85,
+       "p": false
       }
      ]
     },
@@ -30859,6 +31014,303 @@ window.REPORT = {
        ".html",
        1
       ],
+      [
+       ".md",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "20:02",
+     "to": "20:02",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-29",
+   "weekday": "목요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 20,
+    "projects": 4,
+    "files": 80,
+    "file_work_dirs": 1,
+    "added": 10294,
+    "removed": 1113,
+    "first": "02:07",
+    "last": "21:11",
+    "unpushed": 6
+   },
+   "effort": {
+    "minutes": 403,
+    "hours": 6.7,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 4
+   },
+   "times": [
+    "02:07",
+    "02:15",
+    "02:18",
+    "02:36",
+    "02:39",
+    "03:04",
+    "03:26",
+    "09:50",
+    "09:53",
+    "09:57",
+    "10:01",
+    "10:04",
+    "10:16",
+    "10:39",
+    "10:43",
+    "11:05",
+    "11:07",
+    "15:13",
+    "15:20",
+    "15:20",
+    "21:11"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 14,
+     "from": "02:07",
+     "to": "15:20",
+     "files": 30,
+     "added": 1199,
+     "removed": 570,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "02:07",
+       "s": "Record browser verification of saved-work recovery",
+       "f": 1,
+       "a": 9,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "02:15",
+       "s": "Reconcile historical replay fixtures with versioned recovery and immutable evidence",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:18",
+       "s": "Merge pull request #77 from vindicainc/codex/distribution-whole-attempt-20261028",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:36",
+       "s": "docs: record production release 28b87f3",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:39",
+       "s": "Merge pull request #79 from vindicainc/codex/release-ledger-28b87f3",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "03:04",
+       "s": "Allow whole-equation attempts with fresh-check and saved-work safeguards",
+       "f": 9,
+       "a": 451,
+       "r": 22,
+       "p": true
+      },
+      {
+       "t": "09:57",
+       "s": "Merge pull request #80 from vindicainc/codex/whole-equation-attempt-20261029",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:01",
+       "s": "docs: record production release 631dc19",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:04",
+       "s": "Merge pull request #81 from vindicainc/codex/release-ledger-631dc19",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:39",
+       "s": "Add staff-first buyer demo and durable inquiry receipts",
+       "f": 21,
+       "a": 424,
+       "r": 34,
+       "p": true
+      },
+      {
+       "t": "10:43",
+       "s": "Keep college report limitations consistent with student wording",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:05",
+       "s": "Use direct email contact without an email-sending service",
+       "f": 14,
+       "a": 48,
+       "r": 347,
+       "p": true
+      },
+      {
+       "t": "15:13",
+       "s": "Show staff value first and let buyers email Kevin directly (#82)",
+       "f": 14,
+       "a": 253,
+       "r": 162,
+       "p": true
+      },
+      {
+       "t": "15:20",
+       "s": "Record verified staff demo production release",
+       "f": 2,
+       "a": 11,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "vindica-game-studio",
+     "ko": "vindica-game-studio",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "03:26",
+     "to": "15:20",
+     "files": 28,
+     "added": 1481,
+     "removed": 247,
+     "unpushed": 3,
+     "tech": [
+      {
+       "t": "03:26",
+       "s": "Make history scene-first and add a playable pixel-art episode",
+       "f": 38,
+       "a": 806,
+       "r": 85,
+       "p": false
+      },
+      {
+       "t": "11:07",
+       "s": "Add evidence-driven history mystery and PixelLab storefronts",
+       "f": 18,
+       "a": 414,
+       "r": 25,
+       "p": false
+      },
+      {
+       "t": "15:20",
+       "s": "Restyle history mystery as a bright handheld pixel town",
+       "f": 20,
+       "a": 261,
+       "r": 137,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "happiness-engineered",
+     "ko": "happiness-engineered",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "09:50",
+     "to": "10:16",
+     "files": 23,
+     "added": 7614,
+     "removed": 296,
+     "unpushed": 3,
+     "tech": [
+      {
+       "t": "09:50",
+       "s": "Happiness, Engineered: scrapbook zine site",
+       "f": 49,
+       "a": 6227,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "09:53",
+       "s": "Margin notes: pen arrow instead of side border",
+       "f": 1,
+       "a": 3,
+       "r": 2,
+       "p": false
+      },
+      {
+       "t": "10:16",
+       "s": "Turn the home page into a book you scroll through",
+       "f": 14,
+       "a": 1384,
+       "r": 294,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "21:11",
+     "to": "21:11",
+     "files": 1,
+     "types": [
       [
        ".md",
        1
