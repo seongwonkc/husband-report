@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-10-29 21:14",
+ "generated": "2026-10-30 21:11",
  "days": [
   {
    "date": "2026-08-07",
@@ -31046,19 +31046,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 20,
-    "projects": 4,
-    "files": 80,
+    "commits": 22,
+    "projects": 5,
+    "files": 92,
     "file_work_dirs": 1,
-    "added": 10294,
-    "removed": 1113,
+    "added": 11232,
+    "removed": 1126,
     "first": "02:07",
-    "last": "21:11",
+    "last": "21:31",
     "unpushed": 6
    },
    "effort": {
-    "minutes": 403,
-    "hours": 6.7,
+    "minutes": 430,
+    "hours": 7.2,
     "level": 3,
     "name": "아주 많이",
     "blurb": "하루를 통째로",
@@ -31085,7 +31085,9 @@ window.REPORT = {
     "15:13",
     "15:20",
     "15:20",
-    "21:11"
+    "15:28",
+    "21:11",
+    "21:31"
    ],
    "projects": [
     {
@@ -31095,12 +31097,12 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 14,
+     "count": 15,
      "from": "02:07",
-     "to": "15:20",
+     "to": "15:28",
      "files": 30,
-     "added": 1199,
-     "removed": 570,
+     "added": 1210,
+     "removed": 572,
      "unpushed": 0,
      "tech": [
       {
@@ -31214,6 +31216,14 @@ window.REPORT = {
        "a": 11,
        "r": 2,
        "p": true
+      },
+      {
+       "t": "15:28",
+       "s": "Record verified staff demo production release (#83)",
+       "f": 2,
+       "a": 11,
+       "r": 2,
+       "p": true
       }
      ]
     },
@@ -31300,6 +31310,31 @@ window.REPORT = {
      ]
     },
     {
+     "kind": "git",
+     "repo": "joyinads",
+     "ko": "조이인애즈",
+     "note": "블로그 · 홈페이지",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "21:31",
+     "to": "21:31",
+     "files": 12,
+     "added": 927,
+     "removed": 11,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "21:31",
+       "s": "Replace PaperMod with a custom editorial theme",
+       "f": 23,
+       "a": 927,
+       "r": 11,
+       "p": true
+      }
+     ]
+    },
+    {
      "kind": "files",
      "repo": "seneca_marketing_x",
      "ko": "세네카 홍보 자료",
@@ -31315,6 +31350,291 @@ window.REPORT = {
        ".md",
        1
       ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 19,
+    "projects": 5,
+    "files": 113,
+    "file_work_dirs": 0,
+    "added": 18163,
+    "removed": 3836,
+    "first": "00:26",
+    "last": "17:06",
+    "unpushed": 8
+   },
+   "effort": {
+    "minutes": 521,
+    "hours": 8.7,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 3
+   },
+   "times": [
+    "00:26",
+    "01:05",
+    "09:52",
+    "09:57",
+    "10:01",
+    "11:37",
+    "13:48",
+    "14:38",
+    "15:17",
+    "15:32",
+    "15:34",
+    "16:10",
+    "16:11",
+    "16:16",
+    "16:19",
+    "16:28",
+    "16:39",
+    "17:06",
+    "17:06"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "vindica-game-studio",
+     "ko": "vindica-game-studio",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 7,
+     "from": "00:26",
+     "to": "16:39",
+     "files": 54,
+     "added": 2446,
+     "removed": 201,
+     "unpushed": 7,
+     "tech": [
+      {
+       "t": "00:26",
+       "s": "Populate history town with furnished interiors and dialogue portraits",
+       "f": 19,
+       "a": 331,
+       "r": 37,
+       "p": false
+      },
+      {
+       "t": "01:05",
+       "s": "Clarify grocer progression and improve pixel movement response",
+       "f": 11,
+       "a": 140,
+       "r": 18,
+       "p": false
+      },
+      {
+       "t": "11:37",
+       "s": "Add playable chemistry conservatory with reaction-driven mechanisms",
+       "f": 14,
+       "a": 457,
+       "r": 16,
+       "p": false
+      },
+      {
+       "t": "13:48",
+       "s": "Build movable chemistry bench with reusable reactions",
+       "f": 11,
+       "a": 421,
+       "r": 10,
+       "p": false
+      },
+      {
+       "t": "14:38",
+       "s": "Build playable Articles bargaining and supply network prototype",
+       "f": 11,
+       "a": 427,
+       "r": 2,
+       "p": false
+      },
+      {
+       "t": "16:10",
+       "s": "Build 3D Articles compensation negotiation prototype",
+       "f": 12,
+       "a": 425,
+       "r": 3,
+       "p": false
+      },
+      {
+       "t": "16:39",
+       "s": "Add linked historical bargaining with promises and consequences",
+       "f": 9,
+       "a": 245,
+       "r": 115,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 7,
+     "from": "09:52",
+     "to": "16:28",
+     "files": 26,
+     "added": 7022,
+     "removed": 2007,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:52",
+       "s": "Redesign demos around immediate teacher evidence",
+       "f": 11,
+       "a": 1679,
+       "r": 294,
+       "p": true
+      },
+      {
+       "t": "09:57",
+       "s": "Redesign demos around immediate teacher evidence (#84)",
+       "f": 11,
+       "a": 1679,
+       "r": 294,
+       "p": true
+      },
+      {
+       "t": "10:01",
+       "s": "Record teacher demo redesign deployment",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:11",
+       "s": "Make student assignments and family workspaces clear and actionable",
+       "f": 48,
+       "a": 1820,
+       "r": 708,
+       "p": true
+      },
+      {
+       "t": "16:16",
+       "s": "Keep standards details in printed reports",
+       "f": 4,
+       "a": 9,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "16:19",
+       "s": "Make student assignments and family workspaces clear and actionable (#85)",
+       "f": 49,
+       "a": 1827,
+       "r": 708,
+       "p": true
+      },
+      {
+       "t": "16:28",
+       "s": "Record verified student workspace production release",
+       "f": 2,
+       "a": 7,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "joyinads",
+     "ko": "조이인애즈",
+     "note": "블로그 · 홈페이지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "15:17",
+     "to": "17:06",
+     "files": 14,
+     "added": 861,
+     "removed": 255,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:17",
+       "s": "Replace five dead YouTube embeds with working uploads",
+       "f": 6,
+       "a": 7,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "17:06",
+       "s": "Revise 15 essays and add 8 new ones",
+       "f": 23,
+       "a": 854,
+       "r": 248,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "invasive-urchin-tracker",
+     "ko": "성게 추적기",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "15:34",
+     "to": "17:06",
+     "files": 14,
+     "added": 2266,
+     "removed": 1373,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:34",
+       "s": "Rebuild as Urchin Tracker with full GBIF coverage, field log, and TROPICA links",
+       "f": 23,
+       "a": 2263,
+       "r": 1370,
+       "p": true
+      },
+      {
+       "t": "17:06",
+       "s": "Swap body font from Inter to Instrument Sans",
+       "f": 3,
+       "a": 3,
+       "r": 3,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "tropica-eats",
+     "ko": "tropica-eats",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "15:32",
+     "to": "15:32",
+     "files": 12,
+     "added": 5568,
+     "removed": 0,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "15:32",
+       "s": "TROPICA online recipe book",
+       "f": 17,
+       "a": 5568,
+       "r": 0,
+       "p": false
+      }
      ]
     }
    ]
