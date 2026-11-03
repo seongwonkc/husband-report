@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-01 20:00",
+ "generated": "2026-11-03 21:04",
  "days": [
   {
    "date": "2026-08-07",
@@ -34580,6 +34580,794 @@ window.REPORT = {
       [
        ".jpg",
        1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-02",
+   "weekday": "월요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 47,
+    "projects": 9,
+    "files": 186,
+    "file_work_dirs": 1,
+    "added": 14930,
+    "removed": 1426,
+    "first": "09:59",
+    "last": "16:26",
+    "unpushed": 3
+   },
+   "effort": {
+    "minutes": 447,
+    "hours": 7.4,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 1
+   },
+   "times": [
+    "09:59",
+    "10:40",
+    "11:49",
+    "11:56",
+    "12:06",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:11",
+    "12:13",
+    "12:19",
+    "12:21",
+    "12:24",
+    "12:25",
+    "12:27",
+    "12:27",
+    "12:27",
+    "12:29",
+    "12:30",
+    "12:31",
+    "12:31",
+    "12:33",
+    "12:37",
+    "12:47",
+    "12:48",
+    "13:27",
+    "13:28",
+    "13:30",
+    "13:31",
+    "13:35",
+    "13:42",
+    "13:42",
+    "13:43",
+    "13:53",
+    "14:03",
+    "14:15",
+    "14:21",
+    "14:26",
+    "14:27",
+    "14:43",
+    "14:44",
+    "14:45",
+    "14:53",
+    "14:53",
+    "15:25",
+    "15:27",
+    "15:27",
+    "15:41",
+    "15:49",
+    "15:55",
+    "15:58",
+    "16:26"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 14,
+     "from": "09:59",
+     "to": "15:55",
+     "files": 47,
+     "added": 4307,
+     "removed": 163,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "09:59",
+       "s": "Explain differentials from algebra with a visible alternate route",
+       "f": 9,
+       "a": 153,
+       "r": 44,
+       "p": true
+      },
+      {
+       "t": "10:40",
+       "s": "Fix differentials teaching gaps found in the first browser walkthrough",
+       "f": 6,
+       "a": 124,
+       "r": 55,
+       "p": true
+      },
+      {
+       "t": "11:56",
+       "s": "Add hosted units: run the check loop around a host's own teaching",
+       "f": 10,
+       "a": 575,
+       "r": 35,
+       "p": true
+      },
+      {
+       "t": "12:06",
+       "s": "Export unit sessions as Seneca v1.1 teaching evidence",
+       "f": 5,
+       "a": 294,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "12:21",
+       "s": "Serve zipper_check@v1: the host-facing agent API on the Worker",
+       "f": 7,
+       "a": 663,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:27",
+       "s": "Serve the agent tools over MCP at /mcp",
+       "f": 6,
+       "a": 289,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "12:47",
+       "s": "Add /try/agent, where a person plays the host, and the partner contract",
+       "f": 10,
+       "a": 464,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "13:43",
+       "s": "docs: IM 1st-edition crosswalk for ranker repair facets (unreviewed)",
+       "f": 2,
+       "a": 108,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:53",
+       "s": "docs: record OUR 1st-edition hosting as read in browser",
+       "f": 1,
+       "a": 4,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "14:03",
+       "s": "docs: OUR offers a per-grade bulk download of 6-8 Math 1st ed. behind login",
+       "f": 1,
+       "a": 2,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "14:27",
+       "s": "docs: OUR General File is gated behind educator verification in practice",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "14:53",
+       "s": "Add the foundations unit: one draft repair lesson per ranker facet (unreviewed)",
+       "f": 18,
+       "a": 1587,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "15:41",
+       "s": "Walk all twenty foundations entries; answer-box hint follows the item kind",
+       "f": 4,
+       "a": 5,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "15:55",
+       "s": "Publish the hosted-unit limits in the contract",
+       "f": 2,
+       "a": 38,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 12,
+     "from": "11:49",
+     "to": "14:44",
+     "files": 20,
+     "added": 1271,
+     "removed": 30,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:49",
+       "s": "Record November 2–8 production and sales checklist",
+       "f": 5,
+       "a": 220,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "12:13",
+       "s": "Correct Zipper offering scope and preserve nonprofit free offer",
+       "f": 7,
+       "a": 91,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "12:25",
+       "s": "Ingest day-1 execution record: Zipper hosted journey PASS, Studios hosting fix, Seneca AI inventory, sales drafts",
+       "f": 7,
+       "a": 303,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "12:27",
+       "s": "Ingest seneca_engine repository and reproduce instructions for Sungwon",
+       "f": 5,
+       "a": 69,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "12:31",
+       "s": "Record Seneca Studios hosted deployment (seneca-studios.netlify.app)",
+       "f": 4,
+       "a": 9,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "12:37",
+       "s": "Record Seneca AI local two-tool stack run and the revoked MCP grant cause",
+       "f": 7,
+       "a": 530,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "12:48",
+       "s": "Record live Seneca MCP read on the bridges-only grant",
+       "f": 3,
+       "a": 8,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "13:28",
+       "s": "Record CIMD consent defect and seneca_ai PR #68",
+       "f": 3,
+       "a": 8,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "13:31",
+       "s": "Record seneca_ai PR #68 merge and production deploy",
+       "f": 3,
+       "a": 7,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "13:35",
+       "s": "Record live Seneca record-connector read on the deployed CIMD fix",
+       "f": 4,
+       "a": 13,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "13:42",
+       "s": "Record the synthetic demo learner (seneca_ai PR #69)",
+       "f": 3,
+       "a": 8,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "14:44",
+       "s": "Record seneca_ai PR #69 merge",
+       "f": 2,
+       "a": 5,
+       "r": 1,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 9,
+     "from": "13:27",
+     "to": "15:25",
+     "files": 25,
+     "added": 5616,
+     "removed": 1165,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "13:27",
+       "s": "Record a client row when a CIMD document is accepted so consent can be stored",
+       "f": 4,
+       "a": 164,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "13:30",
+       "s": "Merge pull request #68 from vindicainc/fix/cimd-client-row",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:42",
+       "s": "Add a synthetic demo learner for sales demonstrations [skip]",
+       "f": 5,
+       "a": 4241,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:15",
+       "s": "Site: add Zipper and Seneca Studios; restyle the interactive demo in Zipper's grayscale system",
+       "f": 42,
+       "a": 488,
+       "r": 503,
+       "p": true
+      },
+      {
+       "t": "14:21",
+       "s": "Demo: one linear path — drop the hub map and legend, one Next per step, nav cut to Demo and Pilot",
+       "f": 2,
+       "a": 58,
+       "r": 90,
+       "p": true
+      },
+      {
+       "t": "14:26",
+       "s": "Home: put Zipper in front — Zipper hero, how it works, who it is for; Seneca sections follow a 'Zipper runs on Seneca' bridge",
+       "f": 42,
+       "a": 183,
+       "r": 106,
+       "p": true
+      },
+      {
+       "t": "14:43",
+       "s": "Merge pull request #69 from vindicainc/examples/demo-learner",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:53",
+       "s": "Site type → Source Serif 4 + Inter; interactive demo retold around Zipper",
+       "f": 37,
+       "a": 478,
+       "r": 452,
+       "p": true
+      },
+      {
+       "t": "15:25",
+       "s": "Zipper scope on the site: mathematics and reading only",
+       "f": 4,
+       "a": 4,
+       "r": 4,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "14:45",
+     "to": "15:58",
+     "files": 16,
+     "added": 2098,
+     "removed": 49,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "14:45",
+       "s": "Run the next-move prescription on Zipper's loop (Forge as a zipper_check@v1 host)",
+       "f": 16,
+       "a": 1844,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "15:27",
+       "s": "Send Zipper 15 fresh items: its hosted-unit floor rose from 8",
+       "f": 5,
+       "a": 41,
+       "r": 34,
+       "p": true
+      },
+      {
+       "t": "15:49",
+       "s": "Follow Zipper's fresh-item floor at runtime instead of assuming it",
+       "f": 7,
+       "a": 104,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "15:58",
+       "s": "Prescribe from the learner's whole history of open misses",
+       "f": 5,
+       "a": 109,
+       "r": 4,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "vindica-game-studio",
+     "ko": "vindica-game-studio",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "12:19",
+     "to": "12:30",
+     "files": 3,
+     "added": 103,
+     "removed": 13,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "12:19",
+       "s": "Let the 1933 debrief and teacher report run on static hosting",
+       "f": 1,
+       "a": 12,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "12:24",
+       "s": "Add the one-page teacher setup sheet for the March 1933 module",
+       "f": 1,
+       "a": 86,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:30",
+       "s": "Record the hosted address for the March 1933 module",
+       "f": 2,
+       "a": 5,
+       "r": 4,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "tropica-eats",
+     "ko": "tropica-eats",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "12:29",
+     "to": "12:33",
+     "files": 5,
+     "added": 112,
+     "removed": 4,
+     "unpushed": 3,
+     "tech": [
+      {
+       "t": "12:29",
+       "s": "Add David's Isles of Shoals photos to From the Author",
+       "f": 4,
+       "a": 51,
+       "r": 0,
+       "p": false
+      },
+      {
+       "t": "12:31",
+       "s": "Add the Shoals group photo to From the Author",
+       "f": 3,
+       "a": 8,
+       "r": 2,
+       "p": false
+      },
+      {
+       "t": "12:33",
+       "s": "Label David in the Shoals group photo",
+       "f": 2,
+       "a": 53,
+       "r": 2,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_engine",
+     "ko": "seneca_engine",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "12:27",
+     "to": "12:27",
+     "files": 1,
+     "added": 13,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "12:27",
+       "s": "Record two known misses as limitations in the README",
+       "f": 1,
+       "a": 13,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_lookback",
+     "ko": "seneca_lookback",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "16:26",
+     "to": "16:26",
+     "files": 12,
+     "added": 1410,
+     "removed": 2,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "16:26",
+       "s": "Fit the SAT map on all of Forge's attempts under a recorded train_ok authorization",
+       "f": 13,
+       "a": 1410,
+       "r": 2,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "limits-integration-evidence",
+     "ko": "limits-integration-evidence",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 58,
+     "from": "12:11",
+     "to": "15:27",
+     "files": 58,
+     "types": [
+      [
+       ".png",
+       57
+      ],
+      [
+       ".txt",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 4,
+    "projects": 3,
+    "files": 27,
+    "file_work_dirs": 1,
+    "added": 278,
+    "removed": 112,
+    "first": "12:21",
+    "last": "21:03",
+    "unpushed": 1
+   },
+   "effort": {
+    "minutes": 126,
+    "hours": 2.1,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 2
+   },
+   "times": [
+    "12:21",
+    "20:57",
+    "21:00",
+    "21:00",
+    "21:00",
+    "21:02",
+    "21:03"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "12:21",
+     "to": "21:02",
+     "files": 12,
+     "added": 202,
+     "removed": 29,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "12:21",
+       "s": "Raise the hosted fresh-item floor to 15 after engine simulation",
+       "f": 15,
+       "a": 182,
+       "r": 29,
+       "p": true
+      },
+      {
+       "t": "20:57",
+       "s": "Write the step 6 release runbook",
+       "f": 1,
+       "a": 20,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:02",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/agent-hosted-unit",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "21:03",
+     "to": "21:03",
+     "files": 12,
+     "added": 76,
+     "removed": 83,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "21:03",
+       "s": "Products: FORGE, VindicaOS, Naite, Nakseo/Elmlet and Zipper; counters refreshed",
+       "f": 41,
+       "a": 76,
+       "r": 83,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 3,
+     "from": "21:00",
+     "to": "21:00",
+     "files": 3,
+     "types": [
+      [
+       ".md",
+       3
       ]
      ]
     }
