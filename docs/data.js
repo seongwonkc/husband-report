@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-03 21:04",
+ "generated": "2026-11-04 20:00",
  "days": [
   {
    "date": "2026-08-07",
@@ -35259,19 +35259,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 4,
-    "projects": 3,
-    "files": 27,
-    "file_work_dirs": 1,
-    "added": 278,
-    "removed": 112,
+    "commits": 70,
+    "projects": 8,
+    "files": 157,
+    "file_work_dirs": 2,
+    "added": 21347,
+    "removed": 6617,
     "first": "12:21",
-    "last": "21:03",
-    "unpushed": 1
+    "last": "23:57",
+    "unpushed": 0
    },
    "effort": {
-    "minutes": 126,
-    "hours": 2.1,
+    "minutes": 299,
+    "hours": 5.0,
     "level": 2,
     "name": "열심히",
     "blurb": "제대로 붙잡고",
@@ -35284,7 +35284,75 @@ window.REPORT = {
     "21:00",
     "21:00",
     "21:02",
-    "21:03"
+    "21:03",
+    "21:05",
+    "21:07",
+    "21:14",
+    "21:14",
+    "21:16",
+    "21:16",
+    "21:17",
+    "21:17",
+    "21:18",
+    "21:18",
+    "21:24",
+    "21:27",
+    "21:30",
+    "21:31",
+    "21:31",
+    "21:31",
+    "21:32",
+    "21:32",
+    "21:33",
+    "21:37",
+    "21:37",
+    "21:37",
+    "21:39",
+    "21:44",
+    "21:44",
+    "21:51",
+    "21:53",
+    "21:54",
+    "21:56",
+    "21:56",
+    "21:57",
+    "21:58",
+    "21:59",
+    "21:59",
+    "22:03",
+    "22:04",
+    "22:05",
+    "22:09",
+    "22:09",
+    "22:09",
+    "22:22",
+    "22:27",
+    "22:29",
+    "22:29",
+    "22:31",
+    "22:59",
+    "22:59",
+    "23:03",
+    "23:06",
+    "23:07",
+    "23:09",
+    "23:11",
+    "23:24",
+    "23:34",
+    "23:34",
+    "23:45",
+    "23:46",
+    "23:46",
+    "23:47",
+    "23:48",
+    "23:49",
+    "23:50",
+    "23:51",
+    "23:54",
+    "23:55",
+    "23:55",
+    "23:56",
+    "23:57"
    ],
    "projects": [
     {
@@ -35294,12 +35362,12 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 3,
+     "count": 25,
      "from": "12:21",
-     "to": "21:02",
-     "files": 12,
-     "added": 202,
-     "removed": 29,
+     "to": "23:55",
+     "files": 38,
+     "added": 1340,
+     "removed": 183,
      "unpushed": 0,
      "tech": [
       {
@@ -35325,6 +35393,480 @@ window.REPORT = {
        "a": 0,
        "r": 0,
        "p": true
+      },
+      {
+       "t": "21:07",
+       "s": "Zipper as agent: hosted units, evidence, zipper_check@v1 API, MCP, /try/agent (#109)",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:14",
+       "s": "Record release 0155f383 (main 0693abe)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:16",
+       "s": "Merge origin/main into docs/im-facet-crosswalk",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:17",
+       "s": "Merge pull request #113 from vindicainc/release/record-0693abe",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:18",
+       "s": "Merge remote-tracking branch 'origin/main' into docs/im-facet-crosswalk",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:24",
+       "s": "Merge pull request #110 from vindicainc/docs/im-facet-crosswalk",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:33",
+       "s": "Tap a symbol, Zippy explains it, in the hosted limits lesson",
+       "f": 21,
+       "a": 708,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "21:37",
+       "s": "Wire ranked repair facets to the foundations lessons",
+       "f": 7,
+       "a": 125,
+       "r": 32,
+       "p": true
+      },
+      {
+       "t": "21:44",
+       "s": "Merge pull request #115 from vindicainc/feat/foundations-gateway",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:56",
+       "s": "Record release ec471282 (main 6044e93)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:56",
+       "s": "Record release c2249783 (main c97a5c6), folded from PR #102",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:59",
+       "s": "Merge pull request #116 from vindicainc/release/record-6044e93",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:03",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/symbol-help-20261103",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:09",
+       "s": "Merge pull request #114 from vindicainc/feat/symbol-help-20261103",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:09",
+       "s": "docs: Modal deploy source is vindicainc/seneca_engine at tag modal-d6932b14",
+       "f": 2,
+       "a": 6,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "22:22",
+       "s": "Merge pull request #117 from vindicainc/docs/modal-source-tag",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:27",
+       "s": "Record releases 6893ea2, 6fc5303, 921ec89, 474ccd0, 7eecf13 (folded from PRs #86, #90, #100, #104)",
+       "f": 1,
+       "a": 5,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:07",
+       "s": "Merge pull request #118 from vindicainc/release/record-ledger-fold",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:45",
+       "s": "Make the foundations unit visible: home CTA, FAQ, and first choice on /try",
+       "f": 2,
+       "a": 6,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "23:50",
+       "s": "Merge origin/main into feat/foundations-visible",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:51",
+       "s": "Make /try/agent a guided run: scripted learner, narration, loop rail, ledger, wire log",
+       "f": 3,
+       "a": 285,
+       "r": 105,
+       "p": true
+      },
+      {
+       "t": "23:55",
+       "s": "Merge pull request #122 from vindicainc/feat/foundations-visible",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 17,
+     "from": "21:17",
+     "to": "23:57",
+     "files": 29,
+     "added": 1175,
+     "removed": 29,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "21:17",
+       "s": "Day 2: Korean Zipper demo materials, Chromium clip-rectangle reader finding, Sungwon proposals",
+       "f": 6,
+       "a": 118,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "21:18",
+       "s": "Record Zipper free during beta (Kevin, 2026-11-03)",
+       "f": 5,
+       "a": 28,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "21:31",
+       "s": "Record Seneca Studios free pilot (Kevin, 2026-11-03)",
+       "f": 4,
+       "a": 26,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "21:31",
+       "s": "Record Seneca AI free pilot, paid annual (Kevin, 2026-11-03)",
+       "f": 4,
+       "a": 27,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "21:32",
+       "s": "Record Studios release module confirmation (Kevin, 2026-11-03)",
+       "f": 3,
+       "a": 27,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "21:37",
+       "s": "Draft Thursday observation sheets for the Studios and Zipper trials",
+       "f": 3,
+       "a": 162,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:39",
+       "s": "Record Thursday trials cut for this week (Kevin, 2026-11-03)",
+       "f": 3,
+       "a": 32,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "21:51",
+       "s": "File the 경문고 administrator conversation (Kevin, 2026-11-03)",
+       "f": 3,
+       "a": 45,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "21:57",
+       "s": "Draft the 경문고 Zipper proposal document (Korean, 사업계획서 양식)",
+       "f": 6,
+       "a": 158,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "21:58",
+       "s": "경문고 proposal: signatory 허지원 대표 (Kevin, 2026-11-03)",
+       "f": 3,
+       "a": 3,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "21:59",
+       "s": "Record the 경문고 proposal signatory decision",
+       "f": 2,
+       "a": 5,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "22:04",
+       "s": "Ranker accuracy is Sungwon's first priority; no educator review for now; loop live end to end",
+       "f": 5,
+       "a": 61,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "23:09",
+       "s": "raw: 2026-11-03 work order — review packet, Codex reading brief, decisions on Kevin's instruction, educator ask draft",
+       "f": 4,
+       "a": 283,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:11",
+       "s": "raw: 경문고 proposal — add the live foundations unit to 지원 범위; regenerate docx/pdf; README §6",
+       "f": 4,
+       "a": 5,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "23:34",
+       "s": "raw: Kevin confirmed the four 11-03 decisions (\"think so\")",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "23:49",
+       "s": "raw+wiki: day-3 execution (demo kit PR #72, free-beta PR #73, Studios arc recorded) and draft Friday scorecard",
+       "f": 4,
+       "a": 83,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "23:57",
+       "s": "raw: review of ocean_vector#14 SAT Math skill tags (read-only)",
+       "f": 1,
+       "a": 111,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 16,
+     "from": "21:14",
+     "to": "23:48",
+     "files": 57,
+     "added": 18039,
+     "removed": 6256,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "21:14",
+       "s": "Run the next-move prescription on Zipper's loop (Forge as a zipper_check@v1 host) (#13)",
+       "f": 17,
+       "a": 2054,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "21:16",
+       "s": "Prepare remaining SAT Math tags for review",
+       "f": 6,
+       "a": 11126,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "21:27",
+       "s": "Review flagged SAT Math tagging proposals",
+       "f": 4,
+       "a": 266,
+       "r": 108,
+       "p": true
+      },
+      {
+       "t": "21:30",
+       "s": "Document restored SAT Math grading key checks",
+       "f": 1,
+       "a": 34,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "21:37",
+       "s": "Zipper loop records: one row per step, excluded by the trigger's rule, loops close or resume a miss",
+       "f": 8,
+       "a": 80,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "21:44",
+       "s": "Zipper loop records: one row per step, excluded by the trigger's rule, loops close or resume a miss (#15)",
+       "f": 8,
+       "a": 80,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "21:53",
+       "s": "Zipper post: the products now talk in one direction; publish date Nov 3",
+       "f": 3,
+       "a": 7,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "21:54",
+       "s": "Blog: Introducing Zipper, our remedial learning engine (#8)",
+       "f": 3,
+       "a": 224,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "22:31",
+       "s": "Retire the five-dimension read; Forge is for the student whose score is stuck",
+       "f": 108,
+       "a": 863,
+       "r": 1515,
+       "p": true
+      },
+      {
+       "t": "22:59",
+       "s": "Retire the five-dimension read; Forge is for the student whose score is stuck (#16)",
+       "f": 108,
+       "a": 863,
+       "r": 1515,
+       "p": true
+      },
+      {
+       "t": "23:03",
+       "s": "Dashboard: the misses card's escaper was out of scope",
+       "f": 1,
+       "a": 2,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "23:06",
+       "s": "Dashboard: the misses card's escaper was out of scope (#17)",
+       "f": 1,
+       "a": 2,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "23:24",
+       "s": "Retire the five-dimension read from practice, reviews, games, the translator and the background writes (PR 2 of 3)",
+       "f": 35,
+       "a": 1130,
+       "r": 1436,
+       "p": true
+      },
+      {
+       "t": "23:34",
+       "s": "Retire the five-dimension read from practice, reviews, games, the translator and the background writes (PR 2 of 3) (#18)",
+       "f": 35,
+       "a": 1130,
+       "r": 1436,
+       "p": true
+      },
+      {
+       "t": "23:47",
+       "s": "Blog: retire the five-dimension vocabulary across 41 posts (PR 3 of 3)",
+       "f": 41,
+       "a": 89,
+       "r": 88,
+       "p": true
+      },
+      {
+       "t": "23:48",
+       "s": "Blog: retire the five-dimension vocabulary across 41 posts (PR 3 of 3) (#19)",
+       "f": 41,
+       "a": 89,
+       "r": 88,
+       "p": true
       }
      ]
     },
@@ -35335,13 +35877,13 @@ window.REPORT = {
      "note": "학습 분석 엔진",
      "summary": "",
      "bullets": [],
-     "count": 1,
+     "count": 10,
      "from": "21:03",
-     "to": "21:03",
-     "files": 12,
-     "added": 76,
-     "removed": 83,
-     "unpushed": 1,
+     "to": "23:56",
+     "files": 21,
+     "added": 563,
+     "removed": 100,
+     "unpushed": 0,
      "tech": [
       {
        "t": "21:03",
@@ -35349,7 +35891,129 @@ window.REPORT = {
        "f": 41,
        "a": 76,
        "r": 83,
-       "p": false
+       "p": true
+      },
+      {
+       "t": "21:32",
+       "s": "Traction counter: learners = learner accounts, not accounts with graded evidence",
+       "f": 4,
+       "a": 41,
+       "r": 13,
+       "p": true
+      },
+      {
+       "t": "22:29",
+       "s": "Register Naite and Elmlet as instruments; regenerate site-chrome.css [skip]",
+       "f": 2,
+       "a": 15,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "22:29",
+       "s": "Merge origin/main into site/zipper-studios-demo [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "22:59",
+       "s": "Merge pull request #70 from vindicainc/site/zipper-studios-demo",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:46",
+       "s": "Partner kit: pilot demo page and captured synthetic sample outputs [skip]",
+       "f": 4,
+       "a": 429,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:46",
+       "s": "Home: Zipper is free while in beta (EN + KO)",
+       "f": 2,
+       "a": 2,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "23:54",
+       "s": "Merge pull request #72 from vindicainc/docs/pilot-demo-kit",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:55",
+       "s": "Merge origin/main into site/zipper-free-beta [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:56",
+       "s": "Merge pull request #73 from vindicainc/site/zipper-free-beta",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "vindica-game-studio",
+     "ko": "vindica-game-studio",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "21:31",
+     "to": "21:31",
+     "files": 1,
+     "added": 2,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "21:31",
+       "s": "Teacher sheet: the pilot is free",
+       "f": 1,
+       "a": 2,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_engine",
+     "ko": "seneca_engine",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "22:09",
+     "to": "22:09",
+     "files": 6,
+     "added": 228,
+     "removed": 49,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "22:09",
+       "s": "Port scope policy 2026-11-01.2 adapter into deployment_v1",
+       "f": 6,
+       "a": 228,
+       "r": 49,
+       "p": true
       }
      ]
     },
@@ -35369,6 +36033,777 @@ window.REPORT = {
        ".md",
        3
       ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "limits-integration-evidence",
+     "ko": "limits-integration-evidence",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "21:05",
+     "to": "22:05",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-04",
+   "weekday": "수요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 71,
+    "projects": 5,
+    "files": 108,
+    "file_work_dirs": 0,
+    "added": 4707,
+    "removed": 520,
+    "first": "00:02",
+    "last": "19:51",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 635,
+    "hours": 10.6,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 3
+   },
+   "times": [
+    "00:02",
+    "00:07",
+    "00:08",
+    "00:09",
+    "00:20",
+    "00:37",
+    "00:37",
+    "00:41",
+    "00:46",
+    "00:53",
+    "01:10",
+    "01:22",
+    "01:22",
+    "01:29",
+    "11:22",
+    "11:22",
+    "11:24",
+    "11:25",
+    "11:25",
+    "11:29",
+    "11:29",
+    "11:29",
+    "11:29",
+    "11:33",
+    "11:36",
+    "11:36",
+    "11:39",
+    "11:41",
+    "11:45",
+    "11:52",
+    "12:07",
+    "12:12",
+    "12:13",
+    "12:19",
+    "12:35",
+    "12:36",
+    "13:20",
+    "13:20",
+    "13:26",
+    "13:36",
+    "14:28",
+    "14:38",
+    "14:39",
+    "14:47",
+    "14:47",
+    "14:49",
+    "14:52",
+    "14:57",
+    "15:00",
+    "15:04",
+    "15:09",
+    "15:11",
+    "15:12",
+    "15:16",
+    "15:17",
+    "15:24",
+    "15:31",
+    "15:36",
+    "15:44",
+    "15:48",
+    "16:16",
+    "16:21",
+    "16:53",
+    "17:04",
+    "17:14",
+    "17:15",
+    "17:18",
+    "17:19",
+    "17:25",
+    "17:30",
+    "19:51"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 56,
+     "from": "00:02",
+     "to": "19:51",
+     "files": 61,
+     "added": 2606,
+     "removed": 185,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:02",
+       "s": "Point the guided demo at the arithmetic underneath Sam's slip",
+       "f": 4,
+       "a": 32,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "00:08",
+       "s": "Add an LTI 1.3 tool: launch Zipper's check loop as an LMS assignment",
+       "f": 14,
+       "a": 1047,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "00:09",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/demo-foundations-beat",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:20",
+       "s": "Record release 89c99403 (main 24b8dae): foundations unit visible on home and /try",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:46",
+       "s": "Look-back shadow: item identity, unknown help, real probe budget and set, selector comparison; enable shadow",
+       "f": 10,
+       "a": 333,
+       "r": 42,
+       "p": true
+      },
+      {
+       "t": "00:53",
+       "s": "Merge pull request #129 from vindicainc/feat/lookback-evidence-boundaries",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:22",
+       "s": "Look-back shadow: foundations items as probes, ranker facet as a calibrated clue",
+       "f": 13,
+       "a": 355,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "01:29",
+       "s": "Agent test 2 pre-registration and readout; gated teaching-move outcome learning; test 3 design",
+       "f": 9,
+       "a": 319,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:22",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/demo-foundations-beat",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:22",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/agent-demo-guided",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:24",
+       "s": "Merge pull request #130 from vindicainc/feat/lookback-ranker-and-foundations",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:25",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/agent-test2-readout",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:25",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/demo-foundations-beat",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:29",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/agent-demo-guided",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:29",
+       "s": "Merge pull request #131 from vindicainc/feat/agent-test2-readout",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:29",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/agent-demo-guided",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:29",
+       "s": "Merge remote-tracking branch 'origin/main' into release/record-24b8dae",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:33",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/demo-foundations-beat",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:36",
+       "s": "Merge pull request #128 from vindicainc/release/record-24b8dae",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:36",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/agent-demo-guided",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:39",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/demo-foundations-beat",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:41",
+       "s": "Merge pull request #124 from vindicainc/feat/agent-demo-guided",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:45",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/demo-foundations-beat",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:52",
+       "s": "Merge pull request #126 from vindicainc/feat/demo-foundations-beat",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:07",
+       "s": "Record release 4eac1610 (main 81891ad)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:12",
+       "s": "Merge pull request #132 from vindicainc/release/record-81891ad",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:13",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/lti-13",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:19",
+       "s": "Merge pull request #127 from vindicainc/feat/lti-13",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:35",
+       "s": "Record release 81ebad69 (main 0f64392)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:36",
+       "s": "LTI: register and redirect on the public origin, not the request's",
+       "f": 5,
+       "a": 35,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "13:20",
+       "s": "Merge pull request #133 from vindicainc/release/record-0f64392",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:20",
+       "s": "Merge remote-tracking branch 'origin/main' into fix/lti-public-origin",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:26",
+       "s": "Merge pull request #134 from vindicainc/fix/lti-public-origin",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:36",
+       "s": "Record release f394a2cb (main f05857b)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:28",
+       "s": "Merge pull request #135 from vindicainc/release/record-f05857b",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:38",
+       "s": "Home: show the product, not only the idea",
+       "f": 2,
+       "a": 49,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "14:47",
+       "s": "Pin the ranker model version to modal-3dc73477, the candidate seneca_engine PR #1 asks to deploy",
+       "f": 2,
+       "a": 4,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "14:47",
+       "s": "/standards: compare how the largest states place the same math ideas",
+       "f": 6,
+       "a": 231,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "14:49",
+       "s": "Merge pull request #136 from vindicainc/feat/home-show-the-product",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:52",
+       "s": "Merge remote-tracking branch 'origin/main' into csw/2026-11-03-modal-302878b8",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:57",
+       "s": "Record release a909e7bb (main 65cadc5)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:00",
+       "s": "Merge pull request #123 from vindicainc/csw/2026-11-03-modal-302878b8",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:04",
+       "s": "Merge remote-tracking branch 'origin/main' into release/record-65cadc5",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:09",
+       "s": "Merge pull request #138 from vindicainc/release/record-65cadc5",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:11",
+       "s": "Record release fb6b45bc (main d9896bc)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:17",
+       "s": "Merge remote-tracking branch 'origin/main' into release/record-d9896bc",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:24",
+       "s": "Merge pull request #139 from vindicainc/release/record-d9896bc",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:31",
+       "s": "Look-back shadow: calibrate the ranker clue on the delivered repair of the live model",
+       "f": 4,
+       "a": 38,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "15:36",
+       "s": "Merge pull request #140 from vindicainc/fix/lookback-calibration-delivered",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:44",
+       "s": "Record release f4e7d225 (main 05db217)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:48",
+       "s": "Merge pull request #141 from vindicainc/release/record-05db217",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:14",
+       "s": "Remove draft and not-reviewed labels from learner, family and teacher pages",
+       "f": 18,
+       "a": 30,
+       "r": 37,
+       "p": true
+      },
+      {
+       "t": "17:19",
+       "s": "Merge remote-tracking branch 'origin/feat/standards-compare' into feat/home-audiences",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:25",
+       "s": "Home: one story, then ways in; the standards map moves to /standards",
+       "f": 4,
+       "a": 125,
+       "r": 46,
+       "p": true
+      },
+      {
+       "t": "17:30",
+       "s": "Merge pull request #143 from vindicainc/feat/home-audiences",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:51",
+       "s": "Record release f4efc93e (main 844c0f0)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 8,
+     "from": "00:07",
+     "to": "17:18",
+     "files": 12,
+     "added": 360,
+     "removed": 170,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:07",
+       "s": "raw+wiki: PRs #72/#73 merged, free-while-in-beta live on EN+KO home; Zipper By-Friday P1 closed",
+       "f": 3,
+       "a": 13,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "15:12",
+       "s": "raw+compile: ranker candidate modal-3dc73477 live; facet → lesson link fires for the first time (Kevin 11-04)",
+       "f": 5,
+       "a": 55,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "16:16",
+       "s": "경문고 proposal: students log in with tutor-issued code (not sent; login not built)",
+       "f": 5,
+       "a": 24,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "16:21",
+       "s": "경문고 proposal: students sign in with their own Seneca accounts + class code (not sent)",
+       "f": 4,
+       "a": 5,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "16:53",
+       "s": "경문고 proposal: short interest piece ending in a 30-minute demo invite (not sent)",
+       "f": 5,
+       "a": 58,
+       "r": 75,
+       "p": true
+      },
+      {
+       "t": "17:04",
+       "s": "Research note: Korean school plan format, 학습지원대상학생 terms, 학운위 rule for learning software",
+       "f": 2,
+       "a": 55,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:15",
+       "s": "경문고 proposal: school 운영 계획 format, 학습지원대상학생, Zipper as complement (not sent)",
+       "f": 5,
+       "a": 123,
+       "r": 71,
+       "p": true
+      },
+      {
+       "t": "17:18",
+       "s": "경문고 proposal: Korean-worksheet demo screens with Korean captions (not sent)",
+       "f": 4,
+       "a": 27,
+       "r": 7,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_lookback",
+     "ko": "seneca_lookback",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 5,
+     "from": "00:37",
+     "to": "01:22",
+     "files": 23,
+     "added": 1642,
+     "removed": 66,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:37",
+       "s": "Evidence and probe boundaries: item identity, explicit oversize, available probes, information selector",
+       "f": 14,
+       "a": 298,
+       "r": 33,
+       "p": true
+      },
+      {
+       "t": "00:37",
+       "s": "Merge pull request #1 from vindicainc/feat/evidence-and-probe-boundaries",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:41",
+       "s": "ts: remove the unused hops() helper left by the oversize rewrite (noUnusedLocals in Zipper)",
+       "f": 1,
+       "a": 0,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "01:10",
+       "s": "Soft diagnosis evidence: the ranker naming a gap enters the posterior as a calibrated likelihood",
+       "f": 13,
+       "a": 84,
+       "r": 28,
+       "p": true
+      },
+      {
+       "t": "01:22",
+       "s": "Forge Math at the SAT-skill level with the general factor (lookback_forge_math_v2)",
+       "f": 9,
+       "a": 1260,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "14:39",
+     "to": "14:39",
+     "files": 12,
+     "added": 99,
+     "removed": 99,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "14:39",
+       "s": "Site: link Zipper at zipper.vindicaseneca.com, not the workers.dev address",
+       "f": 42,
+       "a": 99,
+       "r": 99,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_engine",
+     "ko": "seneca_engine",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "15:16",
+     "to": "15:16",
+     "files": 0,
+     "added": 0,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "15:16",
+       "s": "Merge pull request #1 from vindicainc/csw/2026-11-03-ranker-accuracy",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
      ]
     }
    ]
