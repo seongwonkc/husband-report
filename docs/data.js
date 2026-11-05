@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-04 20:00",
+ "generated": "2026-11-05 23:25",
  "days": [
   {
    "date": "2026-08-07",
@@ -36061,23 +36061,23 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 71,
+    "commits": 84,
     "projects": 5,
-    "files": 108,
+    "files": 135,
     "file_work_dirs": 0,
-    "added": 4707,
-    "removed": 520,
+    "added": 8345,
+    "removed": 971,
     "first": "00:02",
-    "last": "19:51",
+    "last": "23:54",
     "unpushed": 0
    },
    "effort": {
-    "minutes": 635,
-    "hours": 10.6,
+    "minutes": 783,
+    "hours": 13.0,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
-    "sessions": 3
+    "sessions": 4
    },
    "times": [
     "00:02",
@@ -36150,7 +36150,20 @@ window.REPORT = {
     "17:19",
     "17:25",
     "17:30",
-    "19:51"
+    "19:51",
+    "19:56",
+    "20:08",
+    "20:12",
+    "20:18",
+    "20:23",
+    "20:31",
+    "20:38",
+    "23:14",
+    "23:16",
+    "23:37",
+    "23:43",
+    "23:50",
+    "23:54"
    ],
    "projects": [
     {
@@ -36160,12 +36173,12 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 56,
+     "count": 69,
      "from": "00:02",
-     "to": "19:51",
-     "files": 61,
-     "added": 2606,
-     "removed": 185,
+     "to": "23:54",
+     "files": 88,
+     "added": 6244,
+     "removed": 636,
      "unpushed": 0,
      "tech": [
       {
@@ -36615,6 +36628,110 @@ window.REPORT = {
        "a": 1,
        "r": 0,
        "p": true
+      },
+      {
+       "t": "19:56",
+       "s": "Merge pull request #144 from vindicainc/release/record-844c0f0",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:08",
+       "s": "Add a Korean version of the student /try flow at /ko/try",
+       "f": 44,
+       "a": 3529,
+       "r": 413,
+       "p": true
+      },
+      {
+       "t": "20:12",
+       "s": "Merge origin/main: English pages drop the draft banner (7fd8894); Korean keeps 교사 검토 전 초안",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:18",
+       "s": "Calculator per skill: free where it cannot do the work; exponent checks test meaning",
+       "f": 20,
+       "a": 94,
+       "r": 25,
+       "p": true
+      },
+      {
+       "t": "20:23",
+       "s": "Merge pull request #146 from vindicainc/feat/calculator-per-skill",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:31",
+       "s": "Record release 41789815 (main 3cbc77b)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "20:38",
+       "s": "Merge pull request #147 from vindicainc/release/record-3cbc77b",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:14",
+       "s": "Worksheet calculator: allowed by default; the publisher unticks to turn it off",
+       "f": 6,
+       "a": 13,
+       "r": 13,
+       "p": true
+      },
+      {
+       "t": "23:16",
+       "s": "Merge origin/main: per-skill calculator; Korean for the new exponent items and calculator policy sentences",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:37",
+       "s": "Merge pull request #148 from vindicainc/feat/worksheet-calculator-default",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:43",
+       "s": "Record release 81cba024 (main 572d7ca)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:50",
+       "s": "Merge pull request #149 from vindicainc/release/record-572d7ca",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:54",
+       "s": "Merge origin/main: worksheet calculator default; Korean for the reworded calculator-off sentence",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
       }
      ]
     },
@@ -36804,6 +36921,393 @@ window.REPORT = {
        "r": 0,
        "p": true
       }
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-05",
+   "weekday": "목요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 26,
+    "projects": 6,
+    "files": 59,
+    "file_work_dirs": 2,
+    "added": 50857,
+    "removed": 217,
+    "first": "11:54",
+    "last": "23:21",
+    "unpushed": 2
+   },
+   "effort": {
+    "minutes": 307,
+    "hours": 5.1,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 2
+   },
+   "times": [
+    "11:54",
+    "12:02",
+    "12:07",
+    "12:11",
+    "12:19",
+    "12:27",
+    "12:32",
+    "13:37",
+    "13:54",
+    "13:57",
+    "14:08",
+    "14:09",
+    "14:13",
+    "14:18",
+    "14:27",
+    "14:28",
+    "14:28",
+    "14:28",
+    "14:28",
+    "14:30",
+    "14:31",
+    "14:31",
+    "14:37",
+    "14:42",
+    "14:48",
+    "14:48",
+    "14:50",
+    "14:51",
+    "14:56",
+    "14:56",
+    "15:00",
+    "23:20",
+    "23:20",
+    "23:21"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 21,
+     "from": "11:54",
+     "to": "23:21",
+     "files": 28,
+     "added": 1229,
+     "removed": 177,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:54",
+       "s": "Merge pull request #145 from vindicainc/feat/korean-try-20261104",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:02",
+       "s": "Record release cac0380b (main fade3b8)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:07",
+       "s": "Merge pull request #150 from vindicainc/release/record-fade3b8",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:11",
+       "s": "Korean pages: no draft label, matching English",
+       "f": 4,
+       "a": 2,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "12:19",
+       "s": "Merge pull request #151 from vindicainc/fix/ko-no-draft-label",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:27",
+       "s": "Record release e89874ca (main a283ccd)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:32",
+       "s": "Merge pull request #152 from vindicainc/release/record-a283ccd",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:54",
+       "s": "Korean Zipper: 2022 개정 교육과정 concept map and textbook terminology",
+       "f": 20,
+       "a": 771,
+       "r": 111,
+       "p": true
+      },
+      {
+       "t": "14:08",
+       "s": "Merge pull request #153 from vindicainc/feat/korean-curriculum-map-20261105",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:09",
+       "s": "Instructor view: one student by default, a class view to pick one",
+       "f": 5,
+       "a": 296,
+       "r": 31,
+       "p": true
+      },
+      {
+       "t": "14:13",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/staff-demo-one-student",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:18",
+       "s": "Merge pull request #154 from vindicainc/feat/staff-demo-one-student",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:27",
+       "s": "Record release e03eeba9 (main 3b8dd48)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:31",
+       "s": "Instructor view: Zippy back in",
+       "f": 7,
+       "a": 20,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "14:31",
+       "s": "Merge pull request #155 from vindicainc/release/record-3b8dd48",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:37",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/staff-demo-zippy",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:42",
+       "s": "Merge pull request #156 from vindicainc/feat/staff-demo-zippy",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:48",
+       "s": "Instructor view: the student's place on the standards map",
+       "f": 6,
+       "a": 136,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "14:51",
+       "s": "Record release a79df909 (main fedd8d2)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:56",
+       "s": "Merge pull request #158 from vindicainc/release/record-fedd8d2",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:21",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/staff-demo-map",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "14:48",
+     "to": "14:50",
+     "files": 8,
+     "added": 171,
+     "removed": 10,
+     "unpushed": 2,
+     "tech": [
+      {
+       "t": "14:48",
+       "s": "Switch AI calls to Claude when ANTHROPIC_API_KEY is set (Gemini prepaid credits ran out)",
+       "f": 7,
+       "a": 164,
+       "r": 6,
+       "p": false
+      },
+      {
+       "t": "14:50",
+       "s": "Interview Room on Claude Haiku 5.5 for every call (Kevin 11-05); no refusal fallback on Haiku",
+       "f": 2,
+       "a": 7,
+       "r": 4,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "14:56",
+     "to": "15:00",
+     "files": 10,
+     "added": 49434,
+     "removed": 19,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "14:56",
+       "s": "SAT Math tags: convert the remaining-items review package into applier input",
+       "f": 5,
+       "a": 49187,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "15:00",
+       "s": "Zipper loop: draw a Math question's fresh checks from its testing point",
+       "f": 5,
+       "a": 247,
+       "r": 14,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "13:37",
+     "to": "13:37",
+     "files": 5,
+     "added": 23,
+     "removed": 11,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "13:37",
+       "s": "경문고 proposal: screenshots from live Korean Zipper, scope lines updated (not sent)",
+       "f": 5,
+       "a": 23,
+       "r": 11,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "zipper-teacher-mock",
+     "ko": "zipper-teacher-mock",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 6,
+     "from": "13:57",
+     "to": "14:30",
+     "files": 6,
+     "types": [
+      [
+       ".webp",
+       3
+      ],
+      [
+       ".json",
+       1
+      ],
+      [
+       ".png",
+       1
+      ],
+      [
+       ".html",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "23:20",
+     "to": "23:20",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
+      ]
      ]
     }
    ]
