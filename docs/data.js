@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-05 23:25",
+ "generated": "2026-11-06 23:53",
  "days": [
   {
    "date": "2026-08-07",
@@ -36931,19 +36931,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 26,
+    "commits": 38,
     "projects": 6,
-    "files": 59,
+    "files": 75,
     "file_work_dirs": 2,
-    "added": 50857,
-    "removed": 217,
+    "added": 52131,
+    "removed": 367,
     "first": "11:54",
-    "last": "23:21",
+    "last": "23:59",
     "unpushed": 2
    },
    "effort": {
-    "minutes": 307,
-    "hours": 5.1,
+    "minutes": 345,
+    "hours": 5.8,
     "level": 3,
     "name": "아주 많이",
     "blurb": "하루를 통째로",
@@ -36983,7 +36983,19 @@ window.REPORT = {
     "15:00",
     "23:20",
     "23:20",
-    "23:21"
+    "23:21",
+    "23:26",
+    "23:27",
+    "23:27",
+    "23:30",
+    "23:34",
+    "23:40",
+    "23:57",
+    "23:58",
+    "23:58",
+    "23:58",
+    "23:58",
+    "23:59"
    ],
    "projects": [
     {
@@ -36993,11 +37005,11 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 21,
+     "count": 25,
      "from": "11:54",
-     "to": "23:21",
-     "files": 28,
-     "added": 1229,
+     "to": "23:58",
+     "files": 29,
+     "added": 1311,
      "removed": 177,
      "unpushed": 0,
      "tech": [
@@ -37168,6 +37180,135 @@ window.REPORT = {
        "a": 0,
        "r": 0,
        "p": true
+      },
+      {
+       "t": "23:26",
+       "s": "Merge pull request #157 from vindicainc/feat/staff-demo-map",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:34",
+       "s": "Record release b7672269 (main 80207e3)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:40",
+       "s": "Merge pull request #159 from vindicainc/release/record-80207e3",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:58",
+       "s": "Spec: the teacher loop (set the goal, see, act, check)",
+       "f": 1,
+       "a": 81,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 10,
+     "from": "14:56",
+     "to": "23:59",
+     "files": 25,
+     "added": 50626,
+     "removed": 169,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "14:56",
+       "s": "SAT Math tags: convert the remaining-items review package into applier input",
+       "f": 5,
+       "a": 49187,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "15:00",
+       "s": "Zipper loop: draw a Math question's fresh checks from its testing point",
+       "f": 5,
+       "a": 247,
+       "r": 14,
+       "p": true
+      },
+      {
+       "t": "23:27",
+       "s": "Merge main into ai/claude-provider",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:27",
+       "s": "Claude path: no sampling parameters, room for thinking, refusal and truncation handled",
+       "f": 8,
+       "a": 118,
+       "r": 25,
+       "p": true
+      },
+      {
+       "t": "23:30",
+       "s": "Record the 2026-11-05 application of the remaining SAT Math tags",
+       "f": 1,
+       "a": 3,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "23:57",
+       "s": "Anthropic as the runtime AI provider behind FORGE_AI_PROVIDER; AI disclosure and COPPA statement (#11)",
+       "f": 21,
+       "a": 803,
+       "r": 110,
+       "p": true
+      },
+      {
+       "t": "23:58",
+       "s": "Keep the SAT Math tagging records off the public site",
+       "f": 1,
+       "a": 21,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:58",
+       "s": "Convert the remaining SAT Math tags into applier input (#21)",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:58",
+       "s": "SAT Math testing-point tags for the remaining bank items (#14) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:59",
+       "s": "Zipper loop: draw a Math question's fresh checks from its testing point (#20)",
+       "f": 5,
+       "a": 247,
+       "r": 14,
+       "p": true
       }
      ]
     },
@@ -37201,39 +37342,6 @@ window.REPORT = {
        "a": 7,
        "r": 4,
        "p": false
-      }
-     ]
-    },
-    {
-     "kind": "git",
-     "repo": "ocean_vector",
-     "ko": "포지 SAT",
-     "note": "학생용 무료 SAT 사이트 · forgesat.com",
-     "summary": "",
-     "bullets": [],
-     "count": 2,
-     "from": "14:56",
-     "to": "15:00",
-     "files": 10,
-     "added": 49434,
-     "removed": 19,
-     "unpushed": 0,
-     "tech": [
-      {
-       "t": "14:56",
-       "s": "SAT Math tags: convert the remaining-items review package into applier input",
-       "f": 5,
-       "a": 49187,
-       "r": 5,
-       "p": true
-      },
-      {
-       "t": "15:00",
-       "s": "Zipper loop: draw a Math question's fresh checks from its testing point",
-       "f": 5,
-       "a": 247,
-       "r": 14,
-       "p": true
       }
      ]
     },
@@ -37307,6 +37415,1056 @@ window.REPORT = {
       [
        ".md",
        2
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "weekday": "금요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 92,
+    "projects": 5,
+    "files": 247,
+    "file_work_dirs": 2,
+    "added": 224694,
+    "removed": 797,
+    "first": "00:34",
+    "last": "23:50",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 521,
+    "hours": 8.7,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 4
+   },
+   "times": [
+    "00:34",
+    "00:37",
+    "00:38",
+    "00:38",
+    "00:40",
+    "00:40",
+    "00:41",
+    "00:46",
+    "00:47",
+    "00:48",
+    "00:49",
+    "00:54",
+    "00:57",
+    "01:02",
+    "01:04",
+    "01:06",
+    "01:09",
+    "01:10",
+    "01:15",
+    "01:16",
+    "01:21",
+    "01:21",
+    "01:22",
+    "01:24",
+    "01:24",
+    "01:25",
+    "10:09",
+    "10:10",
+    "10:10",
+    "10:10",
+    "10:11",
+    "10:15",
+    "10:16",
+    "10:17",
+    "10:17",
+    "10:24",
+    "10:24",
+    "10:25",
+    "10:29",
+    "10:32",
+    "10:32",
+    "10:37",
+    "10:38",
+    "10:38",
+    "10:38",
+    "10:39",
+    "10:39",
+    "10:42",
+    "10:49",
+    "10:50",
+    "10:51",
+    "10:51",
+    "10:57",
+    "10:58",
+    "11:03",
+    "11:03",
+    "11:03",
+    "11:04",
+    "11:04",
+    "11:04",
+    "11:05",
+    "11:06",
+    "11:11",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:16",
+    "11:17",
+    "11:18",
+    "11:18",
+    "11:19",
+    "11:21",
+    "11:25",
+    "11:30",
+    "11:34",
+    "11:34",
+    "11:36",
+    "11:41",
+    "11:46",
+    "11:47",
+    "11:52",
+    "14:26",
+    "14:29",
+    "14:33",
+    "14:39",
+    "14:41",
+    "14:42",
+    "14:42",
+    "14:44",
+    "14:45",
+    "14:45",
+    "14:46",
+    "14:46",
+    "14:47",
+    "14:47",
+    "14:47",
+    "14:47",
+    "14:47",
+    "14:48",
+    "14:48",
+    "14:48",
+    "14:49",
+    "14:52",
+    "14:52",
+    "14:55",
+    "14:55",
+    "14:57",
+    "14:57",
+    "14:58",
+    "14:58",
+    "14:58",
+    "14:59",
+    "14:59",
+    "14:59",
+    "14:59",
+    "14:59",
+    "15:00",
+    "15:00",
+    "15:00",
+    "15:01",
+    "15:01",
+    "15:01",
+    "15:01",
+    "15:02",
+    "15:03",
+    "15:03",
+    "15:03",
+    "15:04",
+    "15:08",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:09",
+    "15:10",
+    "15:10",
+    "15:11",
+    "15:11",
+    "15:12",
+    "15:12",
+    "15:13",
+    "15:13",
+    "15:16",
+    "15:16",
+    "15:25",
+    "15:25",
+    "15:33",
+    "15:56",
+    "16:04",
+    "16:25",
+    "16:34",
+    "23:50"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 73,
+     "from": "00:40",
+     "to": "23:50",
+     "files": 137,
+     "added": 207404,
+     "removed": 705,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:40",
+       "s": "Foundations: repair garbled text in the like-terms lesson",
+       "f": 1,
+       "a": 6,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "00:40",
+       "s": "Integrate 50-state standards reference through the Seneca SDK",
+       "f": 10,
+       "a": 209,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "00:41",
+       "s": "Lessons save to the learner's account (teacher loop, piece 1)",
+       "f": 9,
+       "a": 327,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "00:47",
+       "s": "Pin corrected SDK Node declaration package",
+       "f": 2,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:49",
+       "s": "Piece 1: one saved lesson per unit entry",
+       "f": 7,
+       "a": 126,
+       "r": 76,
+       "p": true
+      },
+      {
+       "t": "00:54",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/50-state-standards-20261105",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:57",
+       "s": "Add the algebra readiness unit: fourteen draft repairs between arithmetic and algebra (unreviewed)",
+       "f": 14,
+       "a": 1332,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:02",
+       "s": "Integrate verified 50-state standards lookup through Seneca SDK (#162)",
+       "f": 10,
+       "a": 209,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "01:04",
+       "s": "Hosted look-back: a host's question can step back into Zipper's own lessons underneath it",
+       "f": 6,
+       "a": 300,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "01:10",
+       "s": "Classes: join codes, class home, real instructor view, two actions (teacher loop, pieces 2-5)",
+       "f": 19,
+       "a": 1307,
+       "r": 14,
+       "p": true
+      },
+      {
+       "t": "01:15",
+       "s": "Classes: a one-time rejoin link for a student on a new device",
+       "f": 9,
+       "a": 103,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "01:16",
+       "s": "Spec: status after the overnight build (pieces 1-5 in #163 and #166)",
+       "f": 1,
+       "a": 6,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:21",
+       "s": "Readiness: apply the independent review, rotate choice keys, add five lessons (nineteen in all)",
+       "f": 12,
+       "a": 420,
+       "r": 42,
+       "p": true
+      },
+      {
+       "t": "01:21",
+       "s": "Merge branch 'feat/sat-math-readiness' into feat/hosted-look-back",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:22",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/unit-session-sync",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:24",
+       "s": "Look-back: every Digital SAT Math testing point now has a lesson underneath it",
+       "f": 2,
+       "a": 11,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "01:25",
+       "s": "Merge branch 'feat/unit-session-sync' into feat/classes",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:10",
+       "s": "Merge pull request #166 from vindicainc/feat/classes",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:10",
+       "s": "Foundations ko: follow the corrected English keys (and the same formula fix)",
+       "f": 1,
+       "a": 6,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "10:10",
+       "s": "Merge remote-tracking branch 'origin/main' into fix/foundations-like-terms-text",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:11",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/sat-math-readiness",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:15",
+       "s": "Merge branch 'feat/sat-math-readiness' into feat/hosted-look-back",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:16",
+       "s": "Merge pull request #161 from vindicainc/fix/foundations-like-terms-text",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:17",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/sat-math-readiness",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:17",
+       "s": "Merge branch 'feat/sat-math-readiness' into feat/hosted-look-back",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:24",
+       "s": "Merge pull request #164 from vindicainc/feat/sat-math-readiness",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:24",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/hosted-look-back",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:25",
+       "s": "Record release 894d6b4d (main 61cc62d)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:29",
+       "s": "Merge pull request #165 from vindicainc/feat/hosted-look-back",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:32",
+       "s": "Merge remote-tracking branch 'origin/main' into release/record-61cc62d",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:32",
+       "s": "Foundations: the correct choice is no longer always A",
+       "f": 5,
+       "a": 38,
+       "r": 25,
+       "p": true
+      },
+      {
+       "t": "10:37",
+       "s": "Merge pull request #167 from vindicainc/release/record-61cc62d",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:38",
+       "s": "Finish the public 50-state standards browser and task handoff",
+       "f": 10,
+       "a": 326,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "10:38",
+       "s": "Record release 20f6cdaa (main add8e58)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:39",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/standards-browser-20261106",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:42",
+       "s": "Preserve currency text and tighten exact-standard result handling",
+       "f": 3,
+       "a": 22,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "10:49",
+       "s": "Distribute the math renderer license with the public assets",
+       "f": 2,
+       "a": 28,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:51",
+       "s": "Merge remote-tracking branch 'origin/main' into release/record-add8e58",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:51",
+       "s": "Merge remote-tracking branch 'origin/main' into fix/foundations-choice-positions",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:57",
+       "s": "Finish public 50-state standards browsing and lesson links (#169)",
+       "f": 12,
+       "a": 372,
+       "r": 26,
+       "p": true
+      },
+      {
+       "t": "10:58",
+       "s": "Merge remote-tracking branch 'origin/main' into fix/foundations-choice-positions",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:05",
+       "s": "Record the 50-state standards browser release",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:06",
+       "s": "Merge pull request #168 from vindicainc/fix/foundations-choice-positions",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:11",
+       "s": "Save OCR development experiments and full-document comparison",
+       "f": 192,
+       "a": 176303,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:16",
+       "s": "Reduce standards sorting work within the Worker CPU budget",
+       "f": 1,
+       "a": 8,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "11:21",
+       "s": "Reduce standards sorting work within the Worker CPU budget (#172)",
+       "f": 1,
+       "a": 8,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "11:30",
+       "s": "Record the standards browser release and CPU-budget fix",
+       "f": 1,
+       "a": 2,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:34",
+       "s": "Record release 7ad42568 (main ff9b9c1)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:34",
+       "s": "Merge remote-tracking branch 'origin/release/record-add8e58' into release/record-ff9b9c1",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:36",
+       "s": "Record the standards browser release and CPU-budget fix (#173)",
+       "f": 1,
+       "a": 2,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:41",
+       "s": "Merge remote-tracking branch 'origin/main' into release/record-ff9b9c1",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:46",
+       "s": "Fix full-worksheet question splitting and preserve development evidence",
+       "f": 10,
+       "a": 1994,
+       "r": 41,
+       "p": true
+      },
+      {
+       "t": "11:47",
+       "s": "Merge pull request #174 from vindicainc/release/record-ff9b9c1",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:52",
+       "s": "Agent curriculum v1: 40 lessons, Common Core and Korean 2022 look-back",
+       "f": 15,
+       "a": 533,
+       "r": 23,
+       "p": true
+      },
+      {
+       "t": "14:26",
+       "s": "Agent curriculum: Korean math lessons, subjects, English brief, 국어 plan",
+       "f": 12,
+       "a": 1443,
+       "r": 22,
+       "p": true
+      },
+      {
+       "t": "14:33",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/agent-curriculum-v1",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:39",
+       "s": "Merge pull request #175 from vindicainc/feat/agent-curriculum-v1",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:42",
+       "s": "Add eight authored repairs and connect standards to lesson entries",
+       "f": 21,
+       "a": 1785,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "14:42",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/standards-lessons-20261106",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:46",
+       "s": "Record release 0e20497c (main c71db06)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:49",
+       "s": "Include current main lessons and pin the reviewed SDK facet catalog",
+       "f": 6,
+       "a": 29,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "14:52",
+       "s": "Merge pull request #176 from vindicainc/release/record-c71db06",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:55",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/standards-lessons-20261106",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:02",
+       "s": "Add eight math repair lessons and connect authored lessons to state standards (#177)",
+       "f": 21,
+       "a": 1798,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "15:11",
+       "s": "Set up handwritten student-work end-to-end development test",
+       "f": 14,
+       "a": 1424,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:11",
+       "s": "Record the authored standards lessons production release",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:16",
+       "s": "Record the authored standards lessons production release (#178)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:33",
+       "s": "Add original English agent lessons and look-back frameworks",
+       "f": 21,
+       "a": 622,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "15:56",
+       "s": "Apply ELA reference-only source policy and strengthen independent checks",
+       "f": 17,
+       "a": 6933,
+       "r": 220,
+       "p": true
+      },
+      {
+       "t": "16:04",
+       "s": "Use English lesson labels in the local and hosted preview",
+       "f": 4,
+       "a": 23,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "16:25",
+       "s": "Add ten original English lessons to agent Zipper (#179)",
+       "f": 27,
+       "a": 7362,
+       "r": 28,
+       "p": true
+      },
+      {
+       "t": "16:34",
+       "s": "Record English agent curriculum production release",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "23:50",
+       "s": "Prepare guarded Claude OCR backend and save handwritten comparison",
+       "f": 13,
+       "a": 1978,
+       "r": 10,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "",
+     "bullets": [],
+     "count": 10,
+     "from": "00:37",
+     "to": "14:48",
+     "files": 31,
+     "added": 16454,
+     "removed": 68,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:37",
+       "s": "Add verified 50-state mathematics reference catalog and portable SDK client",
+       "f": 79,
+       "a": 7936,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "00:38",
+       "s": "Exclude local Python bytecode from the reference package",
+       "f": 3,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:38",
+       "s": "Correct reference bytecode ignore rule",
+       "f": 1,
+       "a": 2,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:46",
+       "s": "Keep Node reference declarations aligned with its runtime exports",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:48",
+       "s": "Add 50-state mathematics reference catalog with verified portable lookup (#10)",
+       "f": 78,
+       "a": 7938,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "14:29",
+       "s": "Resolve named authored math facets against exact state standards",
+       "f": 18,
+       "a": 264,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "14:41",
+       "s": "Resolve named authored math facets against exact state standards (#11)",
+       "f": 18,
+       "a": 264,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "14:44",
+       "s": "Connect the newly authored signed-subtraction lesson",
+       "f": 11,
+       "a": 15,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "14:46",
+       "s": "Require an actual standard link for every authored facet",
+       "f": 5,
+       "a": 10,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "14:48",
+       "s": "Connect signed subtraction and require real links for every authored facet (#12)",
+       "f": 13,
+       "a": 23,
+       "r": 13,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "ocean_vector",
+     "ko": "포지 SAT",
+     "note": "학생용 무료 SAT 사이트 · forgesat.com",
+     "summary": "",
+     "bullets": [],
+     "count": 9,
+     "from": "00:34",
+     "to": "11:25",
+     "files": 8,
+     "added": 836,
+     "removed": 24,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:34",
+       "s": "QA audit: send the item's table and figure to the model",
+       "f": 2,
+       "a": 104,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "01:06",
+       "s": "Zipper loop: look back into Zipper's own lessons under a Math question (behind ZIPPER_LOOKBACK) [wip]",
+       "f": 5,
+       "a": 203,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "01:09",
+       "s": "Local smoke for the look-back loop against a Zipper Worker built from zipper#165 [wip]",
+       "f": 1,
+       "a": 107,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "01:24",
+       "s": "Look-back smoke: answer Zipper's choices by text (its choice positions rotate) [wip]",
+       "f": 1,
+       "a": 3,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "10:09",
+       "s": "QA audit: send the item's table and figure to the model (#22)",
+       "f": 2,
+       "a": 104,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "10:38",
+       "s": "Merge remote-tracking branch 'origin/main' into feat/zipper-look-back",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:39",
+       "s": "Zipper loop: look back into Zipper's own lessons under a Math question (behind ZIPPER_LOOKBACK) (#23)",
+       "f": 6,
+       "a": 311,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "10:50",
+       "s": "Deploy the look-back loop from #23",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:25",
+       "s": "Zipper loop page: style Zipper's look-back lesson apart from Forge's explanation",
+       "f": 1,
+       "a": 4,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "zipper-ela-materials",
+     "ko": "zipper-ela-materials",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 52,
+     "from": "14:45",
+     "to": "15:25",
+     "files": 52,
+     "types": [
+      [
+       ".pdf",
+       36
+      ],
+      [
+       ".txt",
+       10
+      ],
+      [
+       ".md",
+       5
+      ],
+      [
+       ".html",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "classin-materials",
+     "ko": "classin-materials",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 22,
+     "from": "11:03",
+     "to": "11:19",
+     "files": 22,
+     "types": [
+      [
+       ".png",
+       10
+      ],
+      [
+       ".txt",
+       4
+      ],
+      [
+       ".json",
+       3
+      ],
+      [
+       ".md",
+       3
+      ],
+      [
+       ".html",
+       1
+      ],
+      [
+       ".jpg",
+       1
       ]
      ]
     }
