@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-06 23:53",
+ "generated": "2026-11-07 20:06",
  "days": [
   {
    "date": "2026-08-07",
@@ -38465,6 +38465,436 @@ window.REPORT = {
       [
        ".jpg",
        1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-07",
+   "weekday": "토요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 34,
+    "projects": 4,
+    "files": 139,
+    "file_work_dirs": 1,
+    "added": 1285236,
+    "removed": 2441,
+    "first": "00:15",
+    "last": "19:45",
+    "unpushed": 2
+   },
+   "effort": {
+    "minutes": 614,
+    "hours": 10.2,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 4
+   },
+   "times": [
+    "00:15",
+    "00:16",
+    "00:33",
+    "00:34",
+    "00:36",
+    "00:42",
+    "00:44",
+    "00:48",
+    "00:51",
+    "00:51",
+    "00:53",
+    "00:54",
+    "01:08",
+    "01:22",
+    "01:50",
+    "02:14",
+    "02:22",
+    "02:32",
+    "02:35",
+    "02:40",
+    "03:49",
+    "03:57",
+    "04:05",
+    "09:59",
+    "10:00",
+    "10:00",
+    "10:00",
+    "10:04",
+    "10:04",
+    "10:11",
+    "10:11",
+    "10:14",
+    "10:15",
+    "10:17",
+    "10:17",
+    "10:19",
+    "10:19",
+    "10:30",
+    "10:37",
+    "10:55",
+    "11:02",
+    "11:13",
+    "13:16",
+    "13:22",
+    "13:23",
+    "13:24",
+    "13:25",
+    "13:26",
+    "13:26",
+    "13:27",
+    "13:28",
+    "13:28",
+    "13:30",
+    "13:30",
+    "13:31",
+    "13:31",
+    "13:32",
+    "13:37",
+    "14:27",
+    "19:45"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 28,
+     "from": "00:15",
+     "to": "19:45",
+     "files": 96,
+     "added": 1096245,
+     "removed": 1009,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "00:15",
+       "s": "Record English agent curriculum production release (#180)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "00:16",
+       "s": "Use existing Anthropic API key and record secure worker configuration",
+       "f": 6,
+       "a": 14,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "00:33",
+       "s": "Shared Zipper design system: warm tokens, one header, footer and page states",
+       "f": 85,
+       "a": 1115,
+       "r": 226,
+       "p": true
+      },
+      {
+       "t": "00:34",
+       "s": "Add page-by-page Claude OCR review and bounded development pilot",
+       "f": 9,
+       "a": 575,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "00:42",
+       "s": "Add source enlargement and use verified Node pilot transport",
+       "f": 3,
+       "a": 22,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "00:44",
+       "s": "Remove colour-as-meaning from controls and status; warm neutrals everywhere",
+       "f": 29,
+       "a": 206,
+       "r": 163,
+       "p": true
+      },
+      {
+       "t": "00:48",
+       "s": "Add assignment evidence-writing flow with recoverable synced drafts",
+       "f": 17,
+       "a": 673,
+       "r": 7,
+       "p": false
+      },
+      {
+       "t": "00:51",
+       "s": "DESIGN.md: one warm system; last error panels and Zippy colours tidied",
+       "f": 5,
+       "a": 72,
+       "r": 31,
+       "p": true
+      },
+      {
+       "t": "00:53",
+       "s": "Record deployed Claude review pilot and measured credit usage",
+       "f": 5,
+       "a": 341,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "01:50",
+       "s": "Deliver complete original publisher math library and verified state links",
+       "f": 8972,
+       "a": 1074756,
+       "r": 71,
+       "p": true
+      },
+      {
+       "t": "02:14",
+       "s": "Include canonical license links for every versioned figure credit",
+       "f": 4,
+       "a": 242,
+       "r": 223,
+       "p": true
+      },
+      {
+       "t": "02:22",
+       "s": "Merge pull request #183 from vindicainc/feat/our-source-curriculum-20261106",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:32",
+       "s": "Preserve explicit image rights across byte-identical publisher copies",
+       "f": 4,
+       "a": 94,
+       "r": 30,
+       "p": true
+      },
+      {
+       "t": "02:35",
+       "s": "Retain all source credit receipts when image files are deduplicated",
+       "f": 3,
+       "a": 25,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "02:40",
+       "s": "Merge pull request #184 from vindicainc/fix/publisher-figure-credit-reuse-20261107",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "03:49",
+       "s": "Prepare verified standards responses before requests to fit host CPU limits",
+       "f": 12,
+       "a": 12157,
+       "r": 53,
+       "p": true
+      },
+      {
+       "t": "03:57",
+       "s": "Bound record verification and preserve equivalent search under CPU limits",
+       "f": 7,
+       "a": 137,
+       "r": 111,
+       "p": true
+      },
+      {
+       "t": "04:05",
+       "s": "Merge pull request #185 from vindicainc/fix/publisher-standards-cpu",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "10:00",
+       "s": "Evaluate literal OCR prompts and native training without promotion",
+       "f": 23,
+       "a": 3232,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "10:30",
+       "s": "Connect reviewed Claude OCR to Zipper worksheet sessions",
+       "f": 27,
+       "a": 1257,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "10:37",
+       "s": "Connect reviewed Claude OCR to Zipper worksheet sessions (#186)",
+       "f": 27,
+       "a": 1257,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "10:55",
+       "s": "Accept Zipper's configured public origin for Claude OCR",
+       "f": 6,
+       "a": 28,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:02",
+       "s": "Accept Zipper's configured public origin for Claude OCR (#187)",
+       "f": 6,
+       "a": 28,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "11:13",
+       "s": "Record reviewed OCR integration deployment and live checks",
+       "f": 2,
+       "a": 7,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:16",
+       "s": "Merge remote-tracking branch 'origin/main' into design/unify-ui-20261107",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:27",
+       "s": "Bring main's publisher library, source lessons and page reader into the shared system",
+       "f": 3,
+       "a": 5,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "13:37",
+       "s": "Merge pull request #182 from vindicainc/design/unify-ui-20261107",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:45",
+       "s": "Record release 3b4ba4c (Worker 5423b833)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_sdk",
+     "ko": "세네카 개발 도구",
+     "note": "다른 앱들이 갖다 쓰는 공용 부품",
+     "summary": "",
+     "bullets": [],
+     "count": 5,
+     "from": "00:36",
+     "to": "01:22",
+     "files": 17,
+     "added": 188990,
+     "removed": 1431,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "00:36",
+       "s": "Add verified publisher curriculum source links for all 50 states",
+       "f": 72,
+       "a": 187310,
+       "r": 9,
+       "p": true
+      },
+      {
+       "t": "00:51",
+       "s": "Make publisher package byte reproducible across Windows and Linux",
+       "f": 56,
+       "a": 200,
+       "r": 193,
+       "p": true
+      },
+      {
+       "t": "00:54",
+       "s": "Retain publisher accessibility labels in course metadata",
+       "f": 55,
+       "a": 206,
+       "r": 205,
+       "p": true
+      },
+      {
+       "t": "01:08",
+       "s": "Preserve publisher extension labels and matching exercise content",
+       "f": 54,
+       "a": 1274,
+       "r": 1024,
+       "p": true
+      },
+      {
+       "t": "01:22",
+       "s": "Merge pull request #13 from seongwonkc/feat/publisher-standards-links-20261106",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "mock_interview",
+     "ko": "mock_interview",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "14:27",
+     "to": "14:27",
+     "files": 1,
+     "added": 1,
+     "removed": 1,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "14:27",
+       "s": "Grading: max_tokens 64k (a 24-answer interview's grading was cut off at 32k on Haiku)",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "daniellab-ssat-vocab-book",
+     "ko": "daniellab-ssat-vocab-book",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 26,
+     "from": "09:59",
+     "to": "13:32",
+     "files": 26,
+     "types": [
+      [
+       ".md",
+       26
       ]
      ]
     }
