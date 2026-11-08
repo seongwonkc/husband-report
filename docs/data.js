@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-07 20:06",
+ "generated": "2026-11-08 23:43",
  "days": [
   {
    "date": "2026-08-07",
@@ -38476,19 +38476,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 34,
+    "commits": 36,
     "projects": 4,
-    "files": 139,
+    "files": 140,
     "file_work_dirs": 1,
-    "added": 1285236,
+    "added": 1285275,
     "removed": 2441,
     "first": "00:15",
-    "last": "19:45",
+    "last": "21:12",
     "unpushed": 2
    },
    "effort": {
-    "minutes": 614,
-    "hours": 10.2,
+    "minutes": 701,
+    "hours": 11.7,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
@@ -38554,7 +38554,9 @@ window.REPORT = {
     "13:32",
     "13:37",
     "14:27",
-    "19:45"
+    "19:45",
+    "19:53",
+    "21:12"
    ],
    "projects": [
     {
@@ -38564,11 +38566,11 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 28,
+     "count": 30,
      "from": "00:15",
-     "to": "19:45",
-     "files": 96,
-     "added": 1096245,
+     "to": "21:12",
+     "files": 97,
+     "added": 1096284,
      "removed": 1009,
      "unpushed": 1,
      "tech": [
@@ -38795,6 +38797,22 @@ window.REPORT = {
        "a": 1,
        "r": 0,
        "p": true
+      },
+      {
+       "t": "19:53",
+       "s": "Merge pull request #188 from vindicainc/release/record-3b4ba4c",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "21:12",
+       "s": "Record real handwritten OCR-to-help flow and observed failures",
+       "f": 1,
+       "a": 39,
+       "r": 0,
+       "p": true
       }
      ]
     },
@@ -38899,6 +38917,33 @@ window.REPORT = {
      ]
     }
    ]
+  },
+  {
+   "date": "2026-11-08",
+   "weekday": "일요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 0,
+    "projects": 0,
+    "files": 0,
+    "file_work_dirs": 0,
+    "added": 0,
+    "removed": 0,
+    "first": null,
+    "last": null,
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 0,
+    "hours": 0.0,
+    "level": 0,
+    "name": "쉬는 날",
+    "blurb": "오늘은 푹 쉬었어요",
+    "sessions": 0
+   },
+   "times": [],
+   "projects": []
   }
  ]
 };
