@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-08 23:43",
+ "generated": "2026-11-09 20:04",
  "days": [
   {
    "date": "2026-08-07",
@@ -38944,6 +38944,894 @@ window.REPORT = {
    },
    "times": [],
    "projects": []
+  },
+  {
+   "date": "2026-11-09",
+   "weekday": "월요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 67,
+    "projects": 7,
+    "files": 243,
+    "file_work_dirs": 3,
+    "added": 25788,
+    "removed": 2238,
+    "first": "01:31",
+    "last": "19:54",
+    "unpushed": 1
+   },
+   "effort": {
+    "minutes": 695,
+    "hours": 11.6,
+    "level": 4,
+    "name": "폭주",
+    "blurb": "이건 좀 너무했어요",
+    "sessions": 2
+   },
+   "times": [
+    "01:31",
+    "02:32",
+    "02:39",
+    "02:47",
+    "02:49",
+    "02:50",
+    "02:53",
+    "11:42",
+    "11:50",
+    "12:31",
+    "13:31",
+    "13:34",
+    "13:37",
+    "13:43",
+    "13:44",
+    "13:44",
+    "13:45",
+    "13:45",
+    "13:46",
+    "13:48",
+    "13:48",
+    "13:48",
+    "13:50",
+    "13:50",
+    "13:51",
+    "13:51",
+    "13:52",
+    "13:53",
+    "14:00",
+    "14:00",
+    "14:01",
+    "14:02",
+    "14:02",
+    "14:02",
+    "14:06",
+    "14:08",
+    "14:08",
+    "14:09",
+    "14:09",
+    "14:13",
+    "14:13",
+    "14:14",
+    "14:14",
+    "14:14",
+    "14:15",
+    "14:15",
+    "14:16",
+    "14:16",
+    "14:16",
+    "14:16",
+    "14:16",
+    "14:22",
+    "14:22",
+    "14:56",
+    "14:56",
+    "15:10",
+    "15:11",
+    "15:13",
+    "15:18",
+    "15:21",
+    "15:27",
+    "15:32",
+    "15:33",
+    "15:36",
+    "15:36",
+    "15:36",
+    "15:36",
+    "15:36",
+    "15:36",
+    "15:36",
+    "15:36",
+    "15:37",
+    "15:37",
+    "15:37",
+    "15:37",
+    "15:37",
+    "15:37",
+    "15:38",
+    "15:38",
+    "15:38",
+    "15:38",
+    "15:39",
+    "15:44",
+    "15:44",
+    "15:44",
+    "15:44",
+    "15:44",
+    "15:49",
+    "15:57",
+    "16:15",
+    "16:15",
+    "16:19",
+    "16:27",
+    "16:30",
+    "16:32",
+    "16:33",
+    "16:33",
+    "16:34",
+    "16:39",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:40",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:41",
+    "16:42",
+    "16:42",
+    "16:42",
+    "16:42",
+    "16:45",
+    "16:46",
+    "16:47",
+    "16:49",
+    "17:12",
+    "17:14",
+    "17:16",
+    "17:19",
+    "17:32",
+    "17:33",
+    "17:46",
+    "17:46",
+    "17:46",
+    "17:52",
+    "17:56",
+    "17:56",
+    "17:57",
+    "17:59",
+    "19:30",
+    "19:33",
+    "19:34",
+    "19:35",
+    "19:36",
+    "19:36",
+    "19:37",
+    "19:54",
+    "19:54"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 45,
+     "from": "01:31",
+     "to": "19:30",
+     "files": 88,
+     "added": 22520,
+     "removed": 1217,
+     "unpushed": 1,
+     "tech": [
+      {
+       "t": "01:31",
+       "s": "Add Seneca Careers pilot with private xAPI capture and scoped employer sharing",
+       "f": 28,
+       "a": 7027,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "02:32",
+       "s": "Prepare restricted Careers runtime role and verify privileges",
+       "f": 2,
+       "a": 42,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:39",
+       "s": "Merge pull request #78 from vindicainc/codex/seneca-careers-xapi-pilot",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:47",
+       "s": "Bundle public database CA for Careers verified TLS",
+       "f": 4,
+       "a": 28,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "02:49",
+       "s": "Merge pull request #79 from vindicainc/codex/careers-production-tls",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "02:50",
+       "s": "Allow controlled sharing verification without general enablement",
+       "f": 3,
+       "a": 22,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "02:53",
+       "s": "Merge pull request #80 from vindicainc/codex/careers-controlled-sharing",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:42",
+       "s": "Harden Careers sharing checks and reduce record payloads",
+       "f": 7,
+       "a": 476,
+       "r": 147,
+       "p": true
+      },
+      {
+       "t": "11:50",
+       "s": "Merge pull request #81 from vindicainc/codex/careers-red-team-hardening",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:31",
+       "s": "Careers: drive the real request handler in tests",
+       "f": 3,
+       "a": 334,
+       "r": 117,
+       "p": true
+      },
+      {
+       "t": "13:31",
+       "s": "Careers: require operator-verified employers",
+       "f": 7,
+       "a": 564,
+       "r": 65,
+       "p": true
+      },
+      {
+       "t": "13:34",
+       "s": "Careers: make enrollment invite-only",
+       "f": 9,
+       "a": 481,
+       "r": 36,
+       "p": true
+      },
+      {
+       "t": "13:37",
+       "s": "Careers: cap role posting per company and messages per sender",
+       "f": 8,
+       "a": 449,
+       "r": 35,
+       "p": true
+      },
+      {
+       "t": "13:43",
+       "s": "Careers: preview and redact before a record is disclosed",
+       "f": 9,
+       "a": 952,
+       "r": 93,
+       "p": true
+      },
+      {
+       "t": "13:45",
+       "s": "Careers: document the pilot controls",
+       "f": 4,
+       "a": 55,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "14:02",
+       "s": "Merge pull request #82 from vindicainc/feat/careers-pilot-controls",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:22",
+       "s": "Careers: bring records in from the learner's own Seneca record",
+       "f": 8,
+       "a": 772,
+       "r": 81,
+       "p": true
+      },
+      {
+       "t": "14:22",
+       "s": "Importer: an event is a moment, with a stable id and learner-only evidence",
+       "f": 6,
+       "a": 631,
+       "r": 76,
+       "p": true
+      },
+      {
+       "t": "14:56",
+       "s": "Importer: relocate disturbed quotes onto the transcript, and fix voting",
+       "f": 3,
+       "a": 273,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "14:56",
+       "s": "Goldens: report agreement per moment, add voting and replay, record 11-09 results",
+       "f": 5,
+       "a": 236,
+       "r": 10,
+       "p": true
+      },
+      {
+       "t": "15:13",
+       "s": "Extraction: the live extractor reads ordinary chat only",
+       "f": 3,
+       "a": 182,
+       "r": 5,
+       "p": true
+      },
+      {
+       "t": "15:18",
+       "s": "Importer: an AI-gate refusal is decided at upload and closes the batch in the drain",
+       "f": 7,
+       "a": 395,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "15:21",
+       "s": "Importer upload: cap messages and conversations, bound timestamps, validate counters",
+       "f": 3,
+       "a": 371,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "15:27",
+       "s": "Importer upload: admit and count each request atomically",
+       "f": 4,
+       "a": 1093,
+       "r": 84,
+       "p": true
+      },
+      {
+       "t": "15:32",
+       "s": "Importer drain: transient and auth failures are not strikes against a session",
+       "f": 5,
+       "a": 567,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "15:33",
+       "s": "Careers: account deletion removes Careers records [skip]",
+       "f": 11,
+       "a": 1266,
+       "r": 7,
+       "p": true
+      },
+      {
+       "t": "15:36",
+       "s": "Importer: accept follow-up uploads while a batch is extracting, reopen a done batch",
+       "f": 6,
+       "a": 348,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "15:38",
+       "s": "Importer: document the hardening in the spec, manifest and lessons",
+       "f": 4,
+       "a": 97,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "16:19",
+       "s": "Spec: record Kevin's confirmation of relocation, the v2 event id and timestamps",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "16:27",
+       "s": "Port the learner-state shadow migration production already runs [skip]",
+       "f": 3,
+       "a": 1084,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:32",
+       "s": "Merge pull request #83 from vindicainc/feat/careers-import-bridge",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:33",
+       "s": "Merge remote-tracking branch 'origin/feat/careers-import-bridge' into fix/importer-redteam-hardening",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:33",
+       "s": "Extraction: stamping carries the same source filter as the loader",
+       "f": 3,
+       "a": 56,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "16:34",
+       "s": "Importer drain: do not read the word \"network\" as an outage",
+       "f": 2,
+       "a": 20,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "16:39",
+       "s": "Careers deletion: review fixes [skip]",
+       "f": 8,
+       "a": 446,
+       "r": 71,
+       "p": true
+      },
+      {
+       "t": "16:42",
+       "s": "Port the model-identity migration production already runs [skip]",
+       "f": 3,
+       "a": 837,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:42",
+       "s": "Importer upload: review fixes for the drift alarm, weekly cap, reading budget, re-uploads and reopen",
+       "f": 6,
+       "a": 1120,
+       "r": 255,
+       "p": true
+      },
+      {
+       "t": "16:45",
+       "s": "Importer drain: write batch state key by key, not as a whole object",
+       "f": 4,
+       "a": 381,
+       "r": 12,
+       "p": true
+      },
+      {
+       "t": "16:46",
+       "s": "CI: run the import upload migration test on a real database",
+       "f": 3,
+       "a": 69,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "16:47",
+       "s": "Importer: bring the spec, manifest and lessons in line with the review fixes",
+       "f": 3,
+       "a": 59,
+       "r": 21,
+       "p": true
+      },
+      {
+       "t": "16:49",
+       "s": "Import migration test: give the server its own socket directory off Windows",
+       "f": 1,
+       "a": 15,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "17:46",
+       "s": "Import deletion: withdraw what the conversation did to the profile and to Careers",
+       "f": 2,
+       "a": 252,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "17:46",
+       "s": "Transcripts become server-written: drop the unused learner write policies",
+       "f": 3,
+       "a": 302,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "17:46",
+       "s": "Docs: deletion that undoes, server-written transcripts, and what the day taught",
+       "f": 3,
+       "a": 50,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "19:30",
+       "s": "Goldens: separate in-prompt from held-out, add a held-out set, cut long conversations like the drain",
+       "f": 16,
+       "a": 1167,
+       "r": 19,
+       "p": false
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 19,
+     "from": "13:48",
+     "to": "19:54",
+     "files": 51,
+     "added": 3045,
+     "removed": 1020,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "13:48",
+       "s": "Merge main into csw/2026-11-06-modal-c17",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:01",
+       "s": "Merge pull request #181 from vindicainc/csw/2026-11-06-modal-c17",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:16",
+       "s": "Record release 95166ed (Worker 562c93ff): ranker candidate 17 modal-4acbe259",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:10",
+       "s": "Merge pull request #193 from vindicainc/release/record-95166ed",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "15:49",
+       "s": "/try/agent: one story, a made-up tutor app and Zipper side by side",
+       "f": 11,
+       "a": 448,
+       "r": 364,
+       "p": true
+      },
+      {
+       "t": "15:57",
+       "s": "Merge pull request #194 from vindicainc/feat/agent-demo-story",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:15",
+       "s": "Record release 78b2c69 (Worker 34bca643): /try/agent story rebuild",
+       "f": 1,
+       "a": 2,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "16:15",
+       "s": "Remove the duplicated 78b2c69 release row",
+       "f": 1,
+       "a": 0,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "16:30",
+       "s": "Merge pull request #195 from vindicainc/release/record-78b2c69",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:12",
+       "s": "Record an English golden corpus for worksheet teaching before i18n",
+       "f": 2,
+       "a": 126,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:14",
+       "s": "Teaching moves: English and Korean text tables, locale parameter",
+       "f": 2,
+       "a": 136,
+       "r": 52,
+       "p": true
+      },
+      {
+       "t": "17:16",
+       "s": "Distribution teaching: text tables, Korean, feedback message beside English",
+       "f": 1,
+       "a": 146,
+       "r": 41,
+       "p": true
+      },
+      {
+       "t": "17:19",
+       "s": "Multiplication teaching: Korean lines and feedback keys beside English",
+       "f": 2,
+       "a": 256,
+       "r": 41,
+       "p": true
+      },
+      {
+       "t": "17:32",
+       "s": "Connected teaching speaks Korean; English, decisions and replays unchanged",
+       "f": 5,
+       "a": 246,
+       "r": 68,
+       "p": true
+      },
+      {
+       "t": "17:33",
+       "s": "Korean teaching coverage: no English words, same decisions as English",
+       "f": 3,
+       "a": 137,
+       "r": 94,
+       "p": true
+      },
+      {
+       "t": "17:52",
+       "s": "Korean for the worksheet session layer: notices, checks, observations, path units",
+       "f": 6,
+       "a": 322,
+       "r": 6,
+       "p": true
+      },
+      {
+       "t": "19:33",
+       "s": "Korean worksheet UI (part 1): route, entry, teaching panel, loop, record",
+       "f": 12,
+       "a": 1032,
+       "r": 275,
+       "p": true
+      },
+      {
+       "t": "19:54",
+       "s": "Korean worksheet UI (part 2): teaching frame, step controls, pictures, saving",
+       "f": 12,
+       "a": 193,
+       "r": 78,
+       "p": true
+      },
+      {
+       "t": "19:54",
+       "s": "Korean equation path: screenshots for the PR",
+       "f": 4,
+       "a": 0,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_wiki",
+     "ko": "세네카 기록실",
+     "note": "사내 문서 · 위키",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "14:08",
+     "to": "14:08",
+     "files": 4,
+     "added": 73,
+     "removed": 1,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "14:08",
+       "s": "raw+compile: Kevin's decisions after candidate 17 (next candidate, -3-5 by goal, option b blocked on consent, deploy Action PR #4)",
+       "f": 3,
+       "a": 67,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "14:08",
+       "s": "log: 2026-11-09 ingest",
+       "f": 1,
+       "a": 6,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "seneca_engine",
+     "ko": "seneca_engine",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "14:06",
+     "to": "14:06",
+     "files": 2,
+     "added": 150,
+     "removed": 0,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "14:06",
+       "s": "Add a tag-only Modal deploy workflow behind Kevin's approval",
+       "f": 2,
+       "a": 150,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "classin-materials",
+     "ko": "classin-materials",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 59,
+     "from": "15:36",
+     "to": "16:42",
+     "files": 59,
+     "types": [
+      [
+       ".png",
+       26
+      ],
+      [
+       ".jpg",
+       18
+      ],
+      [
+       ".md",
+       5
+      ],
+      [
+       ".html",
+       4
+      ],
+      [
+       ".pdf",
+       3
+      ],
+      [
+       ".json",
+       2
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "daniellab-ssat-vocab-book",
+     "ko": "daniellab-ssat-vocab-book",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 30,
+     "from": "13:44",
+     "to": "15:11",
+     "files": 30,
+     "types": [
+      [
+       ".md",
+       30
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "marimba-simulator",
+     "ko": "marimba-simulator",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 9,
+     "from": "17:56",
+     "to": "19:37",
+     "files": 9,
+     "types": [
+      [
+       ".js",
+       5
+      ],
+      [
+       ".py",
+       1
+      ],
+      [
+       ".json",
+       1
+      ],
+      [
+       ".html",
+       1
+      ],
+      [
+       ".jsonc",
+       1
+      ]
+     ]
+    }
+   ]
   }
  ]
 };
