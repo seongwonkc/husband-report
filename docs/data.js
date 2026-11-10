@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-09 20:04",
+ "generated": "2026-11-10 19:59",
  "days": [
   {
    "date": "2026-08-07",
@@ -38951,19 +38951,19 @@ window.REPORT = {
    "headline": "",
    "note": "",
    "stats": {
-    "commits": 67,
-    "projects": 7,
-    "files": 243,
-    "file_work_dirs": 3,
-    "added": 25788,
-    "removed": 2238,
+    "commits": 69,
+    "projects": 8,
+    "files": 248,
+    "file_work_dirs": 4,
+    "added": 25903,
+    "removed": 2250,
     "first": "01:31",
-    "last": "19:54",
-    "unpushed": 1
+    "last": "21:20",
+    "unpushed": 0
    },
    "effort": {
-    "minutes": 695,
-    "hours": 11.6,
+    "minutes": 780,
+    "hours": 13.0,
     "level": 4,
     "name": "폭주",
     "blurb": "이건 좀 너무했어요",
@@ -39128,13 +39128,20 @@ window.REPORT = {
     "17:59",
     "19:30",
     "19:33",
-    "19:34",
     "19:35",
     "19:36",
-    "19:36",
-    "19:37",
     "19:54",
-    "19:54"
+    "19:54",
+    "20:07",
+    "20:08",
+    "20:08",
+    "21:17",
+    "21:17",
+    "21:17",
+    "21:17",
+    "21:18",
+    "21:19",
+    "21:20"
    ],
    "projects": [
     {
@@ -39144,13 +39151,13 @@ window.REPORT = {
      "note": "학습 분석 엔진",
      "summary": "",
      "bullets": [],
-     "count": 45,
+     "count": 47,
      "from": "01:31",
-     "to": "19:30",
+     "to": "20:08",
      "files": 88,
-     "added": 22520,
-     "removed": 1217,
-     "unpushed": 1,
+     "added": 22635,
+     "removed": 1229,
+     "unpushed": 0,
      "tech": [
       {
        "t": "01:31",
@@ -39510,7 +39517,23 @@ window.REPORT = {
        "f": 16,
        "a": 1167,
        "r": 19,
-       "p": false
+       "p": true
+      },
+      {
+       "t": "20:08",
+       "s": "Importer: relocate quotes across any non-ASCII symbol, not only dashes",
+       "f": 2,
+       "a": 77,
+       "r": 11,
+       "p": true
+      },
+      {
+       "t": "20:08",
+       "s": "Spec: held-out measurement, 2026-11-09",
+       "f": 1,
+       "a": 38,
+       "r": 1,
+       "p": true
       }
      ]
     },
@@ -39804,14 +39827,14 @@ window.REPORT = {
      "note": "",
      "summary": "",
      "bullets": [],
-     "count": 9,
+     "count": 13,
      "from": "17:56",
-     "to": "19:37",
-     "files": 9,
+     "to": "21:20",
+     "files": 13,
      "types": [
       [
        ".js",
-       5
+       7
       ],
       [
        ".py",
@@ -39822,11 +39845,523 @@ window.REPORT = {
        1
       ],
       [
-       ".html",
+       ".sql",
        1
       ],
       [
        ".jsonc",
+       1
+      ],
+      [
+       ".mjs",
+       1
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "20:07",
+     "to": "20:07",
+     "files": 1,
+     "types": [
+      [
+       ".md",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "weekday": "화요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 41,
+    "projects": 5,
+    "files": 70,
+    "file_work_dirs": 2,
+    "added": 4021,
+    "removed": 520,
+    "first": "11:47",
+    "last": "18:09",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 347,
+    "hours": 5.8,
+    "level": 3,
+    "name": "아주 많이",
+    "blurb": "하루를 통째로",
+    "sessions": 2
+   },
+   "times": [
+    "11:47",
+    "11:49",
+    "11:52",
+    "11:52",
+    "11:54",
+    "12:03",
+    "12:11",
+    "12:39",
+    "12:54",
+    "12:54",
+    "13:02",
+    "13:12",
+    "13:12",
+    "13:14",
+    "13:14",
+    "13:15",
+    "13:15",
+    "13:15",
+    "13:17",
+    "13:17",
+    "13:17",
+    "13:20",
+    "13:20",
+    "13:23",
+    "13:30",
+    "13:31",
+    "13:33",
+    "13:39",
+    "13:59",
+    "14:12",
+    "14:13",
+    "14:14",
+    "14:20",
+    "14:22",
+    "14:22",
+    "14:22",
+    "14:29",
+    "14:35",
+    "14:44",
+    "17:19",
+    "17:19",
+    "17:28",
+    "17:36",
+    "17:46",
+    "17:54",
+    "18:09"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 26,
+     "from": "11:49",
+     "to": "17:19",
+     "files": 33,
+     "added": 1426,
+     "removed": 233,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:49",
+       "s": "Merge main into fix/importer-redteam-hardening before merging #85 [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:52",
+       "s": "Importer hardening: fix the six highest-severity red-team findings (#85) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:52",
+       "s": "Merge main into fix/import-integrity-holes before merging #88 [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "11:54",
+       "s": "Close the remaining import holes: deletion that undoes, server-written transcripts, held-out tests (#88)",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:39",
+       "s": "Careers: learners can be open to roles; verified employers find and invite them",
+       "f": 11,
+       "a": 829,
+       "r": 70,
+       "p": true
+      },
+      {
+       "t": "12:54",
+       "s": "Elmlet + College bridge: product spec, and a return path from the bridge page to Elmlet [skip]",
+       "f": 7,
+       "a": 180,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "13:02",
+       "s": "Careers open-to-roles: review fixes",
+       "f": 6,
+       "a": 238,
+       "r": 125,
+       "p": true
+      },
+      {
+       "t": "13:12",
+       "s": "Merge main into fix/port-learner-state-shadow-migration before merging #86 [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:12",
+       "s": "Merge main into fix/port-model-identity-migration before merging #87 [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:14",
+       "s": "Elmlet spec: record the seven decisions as taken 2026-11-10 [skip]",
+       "f": 1,
+       "a": 14,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:14",
+       "s": "Careers: employer verification procedure, first-cohort applicant guide; SQL headers say what is applied [skip]",
+       "f": 6,
+       "a": 78,
+       "r": 4,
+       "p": true
+      },
+      {
+       "t": "13:15",
+       "s": "Merge main into feat/careers-account-deletion [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:15",
+       "s": "Port the learner-state shadow migration production already runs (#86) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:15",
+       "s": "Merge main into fix/port-model-identity-migration before merging #87 [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:17",
+       "s": "Merge main into feat/careers-account-deletion [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:17",
+       "s": "Port the model-identity migration production already runs (#87) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:17",
+       "s": "Merge main into feat/elmlet-bridge-one-product before merging #90 [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:20",
+       "s": "Elmlet + College bridge: one-product spec and a return path from the bridge page (#90) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:20",
+       "s": "Careers deletion: the shadow cascade is on main now [skip]",
+       "f": 4,
+       "a": 8,
+       "r": 8,
+       "p": true
+      },
+      {
+       "t": "13:23",
+       "s": "Merge main into feat/careers-account-deletion [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:30",
+       "s": "Careers: account deletion removes Careers records (#84) [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:31",
+       "s": "Merge main into feat/careers-open-to-roles before merging #89 [skip]",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:33",
+       "s": "Careers deletion tests cover invitations (twelfth table, removed by foreign key) [skip]",
+       "f": 3,
+       "a": 16,
+       "r": 3,
+       "p": true
+      },
+      {
+       "t": "13:59",
+       "s": "Careers: open to roles — consented discovery and invitations (#89)",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:13",
+       "s": "Elmlet address is elmlet.vindicaseneca.com, not a new domain [skip]",
+       "f": 4,
+       "a": 24,
+       "r": 16,
+       "p": true
+      },
+      {
+       "t": "17:19",
+       "s": "[skip] ci: test workflows run on main pushes and ready PRs only",
+       "f": 5,
+       "a": 39,
+       "r": 6,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "zipper",
+     "ko": "zipper",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 13,
+     "from": "11:47",
+     "to": "18:09",
+     "files": 16,
+     "added": 1217,
+     "removed": 103,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "11:47",
+       "s": "Merge pull request #196 from vindicainc/feat/korean-equation-teaching",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:03",
+       "s": "Record release b00dc6f (Worker 3df30d79): Korean equation worksheet path",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "12:11",
+       "s": "Merge pull request #198 from vindicainc/release/record-b00dc6f",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "13:39",
+       "s": "Move worksheet teaching policy and prerequisite PageRank to the server",
+       "f": 38,
+       "a": 1150,
+       "r": 99,
+       "p": true
+      },
+      {
+       "t": "14:12",
+       "s": "Merge pull request #199 from vindicainc/feat/server-side-teaching-policy",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:35",
+       "s": "Record production release adbf4eb (Worker 369b9bd9)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "14:44",
+       "s": "Merge pull request #200 from vindicainc/release/record-adbf4eb",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:19",
+       "s": "ci: spend fewer Actions minutes [skip ci]",
+       "f": 1,
+       "a": 14,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "17:28",
+       "s": "Merge pull request #201 from vindicainc/ci/fewer-action-minutes",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:36",
+       "s": "Fix worksheet question rendering twice after a wrong answer",
+       "f": 3,
+       "a": 50,
+       "r": 2,
+       "p": true
+      },
+      {
+       "t": "17:46",
+       "s": "Merge remote-tracking branch 'origin/main' into fix/worksheet-duplicate-question",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:54",
+       "s": "Merge pull request #202 from vindicainc/fix/worksheet-duplicate-question",
+       "f": 0,
+       "a": 0,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:09",
+       "s": "Record production release 68af0ee (Worker 66430cd4)",
+       "f": 1,
+       "a": 1,
+       "r": 0,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "git",
+     "repo": "nakseo",
+     "ko": "nakseo",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "12:54",
+     "to": "14:14",
+     "files": 16,
+     "added": 1378,
+     "removed": 184,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "12:54",
+       "s": "Elmlet shell: ko/en i18n for the hosted app, and \"Bring your course\" reading the shared Seneca college bridge",
+       "f": 16,
+       "a": 1287,
+       "r": 178,
+       "p": true
+      },
+      {
+       "t": "14:14",
+       "s": "Elmlet address: elmlet.vindicaseneca.com through a Netlify proxy site (no new domain)",
+       "f": 5,
+       "a": 91,
+       "r": 6,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "research_notes",
+     "ko": "research_notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 4,
+     "from": "14:20",
+     "to": "14:22",
+     "files": 4,
+     "types": [
+      [
+       ".md",
+       4
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 1,
+     "from": "14:29",
+     "to": "14:29",
+     "files": 1,
+     "types": [
+      [
+       ".md",
        1
       ]
      ]
