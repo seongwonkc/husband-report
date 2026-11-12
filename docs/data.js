@@ -1,5 +1,5 @@
 window.REPORT = {
- "generated": "2026-11-10 19:59",
+ "generated": "2026-11-12 10:15",
  "days": [
   {
    "date": "2026-08-07",
@@ -40363,6 +40363,259 @@ window.REPORT = {
       [
        ".md",
        1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-11",
+   "weekday": "수요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 8,
+    "projects": 3,
+    "files": 46,
+    "file_work_dirs": 2,
+    "added": 7483,
+    "removed": 66,
+    "first": "14:53",
+    "last": "18:06",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 253,
+    "hours": 4.2,
+    "level": 2,
+    "name": "열심히",
+    "blurb": "제대로 붙잡고",
+    "sessions": 1
+   },
+   "times": [
+    "14:53",
+    "15:00",
+    "15:00",
+    "15:01",
+    "15:04",
+    "15:06",
+    "15:14",
+    "15:59",
+    "16:00",
+    "16:03",
+    "16:15",
+    "16:38",
+    "17:00",
+    "17:15",
+    "17:29",
+    "17:30",
+    "17:38",
+    "17:56",
+    "18:06"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 8,
+     "from": "16:38",
+     "to": "18:06",
+     "files": 35,
+     "added": 7483,
+     "removed": 66,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "16:38",
+       "s": "[skip ci] docs: Careers practice unit spec (Zipper loop on job content, adults, 3d/14d rechecks)",
+       "f": 1,
+       "a": 101,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:00",
+       "s": "Careers practice units: host Zipper's check loop on job content for adult candidates",
+       "f": 23,
+       "a": 2027,
+       "r": 15,
+       "p": true
+      },
+      {
+       "t": "17:15",
+       "s": "[skip ci] docs: park the Careers practice unit (Careers reads evidence, never administers assessments)",
+       "f": 1,
+       "a": 1,
+       "r": 1,
+       "p": true
+      },
+      {
+       "t": "17:29",
+       "s": "[skip ci] docs: cold-start onboarding spec (import, connect, verify; engine compatibility)",
+       "f": 1,
+       "a": 103,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:30",
+       "s": "[skip ci] content (parked): Careers practice units v1 (spreadsheet, bug hunt; en, ko)",
+       "f": 7,
+       "a": 4844,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "17:38",
+       "s": "Importer: close four known gaps (drain trigger host, gateway outages, triage copy, funnel keys)",
+       "f": 7,
+       "a": 153,
+       "r": 19,
+       "p": true
+      },
+      {
+       "t": "17:56",
+       "s": "docs: importer goldens re-measured 2026-11-11 (spec §11g)",
+       "f": 1,
+       "a": 22,
+       "r": 0,
+       "p": true
+      },
+      {
+       "t": "18:06",
+       "s": "Onboarding: first-run setup is context, bring your history, connect your AI; the survey is optional",
+       "f": 8,
+       "a": 232,
+       "r": 31,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "research_notes",
+     "ko": "research_notes",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 9,
+     "from": "14:53",
+     "to": "16:03",
+     "files": 9,
+     "types": [
+      [
+       ".md",
+       9
+      ]
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "reports",
+     "ko": "학생 리포트",
+     "note": "",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "15:14",
+     "to": "16:15",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       1
+      ],
+      [
+       ".html",
+       1
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "weekday": "목요일",
+   "headline": "",
+   "note": "",
+   "stats": {
+    "commits": 2,
+    "projects": 2,
+    "files": 14,
+    "file_work_dirs": 1,
+    "added": 170,
+    "removed": 30,
+    "first": "10:08",
+    "last": "10:10",
+    "unpushed": 0
+   },
+   "effort": {
+    "minutes": 62,
+    "hours": 1.0,
+    "level": 1,
+    "name": "살짝",
+    "blurb": "짬짬이 조금",
+    "sessions": 1
+   },
+   "times": [
+    "10:08",
+    "10:08",
+    "10:10",
+    "10:10"
+   ],
+   "projects": [
+    {
+     "kind": "git",
+     "repo": "seneca_ai",
+     "ko": "세네카 본체",
+     "note": "학습 분석 엔진",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "10:10",
+     "to": "10:10",
+     "files": 12,
+     "added": 170,
+     "removed": 30,
+     "unpushed": 0,
+     "tech": [
+      {
+       "t": "10:10",
+       "s": "Connector: a third address, /mcp/record/write, is the one consent that lets an AI add sessions",
+       "f": 10,
+       "a": 153,
+       "r": 23,
+       "p": true
+      },
+      {
+       "t": "10:10",
+       "s": "Onboarding: the connect step offers the write address third, with the hold stated",
+       "f": 4,
+       "a": 17,
+       "r": 7,
+       "p": true
+      }
+     ]
+    },
+    {
+     "kind": "files",
+     "repo": "seneca_marketing_x",
+     "ko": "세네카 홍보 자료",
+     "note": "SNS 문구·이미지",
+     "summary": "",
+     "bullets": [],
+     "count": 2,
+     "from": "10:08",
+     "to": "10:08",
+     "files": 2,
+     "types": [
+      [
+       ".md",
+       2
       ]
      ]
     }
